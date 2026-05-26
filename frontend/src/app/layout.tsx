@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const geist = Geist({ subsets: ["latin"], variable: "--font-geist" });
+const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono" });
 
 export const metadata: Metadata = {
   title: "Meridian — SA Government Data Pipeline",
@@ -17,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-black text-white antialiased`}>
+      <body className={`${geist.variable} ${geistMono.variable} font-[family-name:var(--font-geist)] bg-[#f5f0e8] text-[#0a0a0a] antialiased`}>
         {children}
       </body>
     </html>

@@ -16,20 +16,20 @@ export default function Navbar() {
   return (
     <nav
       className={cn(
-        "sticky top-0 z-50 border-b border-white/10 bg-black/80 backdrop-blur-md"
+        "sticky top-0 z-50 border-b border-black/10 bg-[#f5f0e8]/90 backdrop-blur-md"
       )}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-14 items-center justify-between">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <span className="flex h-7 w-7 items-center justify-center rounded-md bg-white">
+            <span className="flex h-7 w-7 items-center justify-center rounded-md bg-black">
               <svg
                 width="16"
                 height="16"
                 viewBox="0 0 16 16"
                 fill="none"
-                className="text-black"
+                className="text-[#f5f0e8]"
               >
                 <circle cx="8" cy="8" r="3" fill="currentColor" />
                 <path
@@ -40,7 +40,7 @@ export default function Navbar() {
                 />
               </svg>
             </span>
-            <span className="text-sm font-semibold text-white">Meridian</span>
+            <span className="text-sm font-semibold tracking-tight text-[#0a0a0a]">Meridian</span>
           </div>
 
           {/* Nav links — desktop */}
@@ -49,7 +49,7 @@ export default function Navbar() {
               <a
                 key={link.label}
                 href={link.href}
-                className="rounded-md px-3 py-1.5 text-sm text-neutral-400 transition-colors hover:bg-white/5 hover:text-white"
+                className="rounded-md px-3 py-1.5 text-sm text-neutral-500 transition-colors hover:bg-black/5 hover:text-black"
               >
                 {link.label}
               </a>
@@ -60,7 +60,7 @@ export default function Navbar() {
           <div className="flex items-center gap-3">
             <a
               href="#datasets"
-              className="hidden rounded-md bg-white px-3.5 py-1.5 text-sm font-medium text-black transition hover:bg-neutral-200 md:block"
+              className="hidden rounded-md bg-black px-3.5 py-1.5 text-sm font-medium text-[#f5f0e8] transition hover:bg-neutral-800 md:block"
             >
               Get Datasets
             </a>
@@ -70,21 +70,21 @@ export default function Navbar() {
               onClick={() => setMobileOpen(!mobileOpen)}
               aria-label="Toggle menu"
             >
-              <span className="block h-0.5 w-5 bg-white" />
-              <span className="block h-0.5 w-5 bg-white" />
-              <span className="block h-0.5 w-5 bg-white" />
+              <span className="block h-0.5 w-5 bg-black" />
+              <span className="block h-0.5 w-5 bg-black" />
+              <span className="block h-0.5 w-5 bg-black" />
             </button>
           </div>
         </div>
 
         {/* Mobile menu */}
         {mobileOpen && (
-          <div className="border-t border-white/10 pb-3 pt-2 md:hidden">
+          <div className="border-t border-black/10 pb-3 pt-2 md:hidden">
             {navLinks.map((link) => (
               <a
                 key={link.label}
                 href={link.href}
-                className="block rounded-md px-3 py-2 text-sm text-neutral-400 hover:bg-white/5 hover:text-white"
+                className="block rounded-md px-3 py-2 text-sm text-neutral-500 hover:bg-black/5 hover:text-black"
                 onClick={() => setMobileOpen(false)}
               >
                 {link.label}
@@ -92,7 +92,7 @@ export default function Navbar() {
             ))}
             <a
               href="#datasets"
-              className="mt-2 block rounded-md bg-white px-3 py-2 text-center text-sm font-medium text-black"
+              className="mt-2 block rounded-md bg-black px-3 py-2 text-center text-sm font-medium text-[#f5f0e8]"
               onClick={() => setMobileOpen(false)}
             >
               Get Datasets

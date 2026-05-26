@@ -3,10 +3,10 @@ import { MacbookScroll } from "@/components/ui/macbook-scroll";
 
 export default function MacBookSection() {
   return (
-    <div className="overflow-hidden dark:bg-[#0B0B0F] bg-white w-full">
+    <div className="w-full overflow-hidden bg-[#f5f0e8]">
       <MacbookScroll
         title={
-          <span>
+          <span className="text-[#0a0a0a]">
             Explore South Africa&apos;s data <br /> in your Power BI dashboard.
           </span>
         }

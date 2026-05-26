@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #000000;
-  --foreground: #ffffff;
+  --background: #f5f0e8;
+  --foreground: #0a0a0a;
 }
 
 body {
@@ -13,3 +13,14 @@ body {
 * {
   box-sizing: border-box;
 }
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* GPU-accelerate scroll-driven animations */
+.will-change-transform {
+  will-change: transform;
+}
+
