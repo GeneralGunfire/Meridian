@@ -72,18 +72,6 @@
 |-- scripts
     |-- seed-data.js
 |-- server.ts
-|-- src
-    |-- App.tsx
-    |-- components
-        |-- AnimatedText.tsx
-        |-- ParallaxSection.tsx
-        |-- ScrollTrigger3D.tsx
-    |-- compositions
-        |-- DataViz.tsx
-    |-- index.css
-    |-- main.tsx
-    |-- pages
-        |-- Landing.tsx
 |-- start-dev.ps1
 |-- tsconfig.json
 |-- vite.config.ts
