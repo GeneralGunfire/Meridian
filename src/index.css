@@ -11,29 +11,26 @@ html {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #0f172a;
-  color: #f1f5f9;
+  background: #faf8f3;
+  color: #000;
 }
 
-/* Scrollbar styling */
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #0f172a;
+  background: #faf8f3;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, #06b6d4, #22c55e);
-  border-radius: 6px;
+  background: #000;
+  border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(to bottom, #0891b2, #16a34a);
+  background: #333;
 }
