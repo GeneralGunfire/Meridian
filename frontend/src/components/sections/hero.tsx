@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "motion/react";
-import { ArrowRight } from "lucide-react";
 import VerticalCutReveal from "@/components/fancy/vertical-cut-reveal";
 import { StarsBackground } from "@/components/animate-ui/stars-background";
 
@@ -42,20 +41,6 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-4xl">
-        {/* Badge */}
-        <motion.a
-          href="#"
-          variants={fadeUp}
-          initial="hidden"
-          animate="show"
-          custom={0}
-          className="group mb-8 inline-flex items-center gap-1.5 rounded-full border border-black/15 bg-black/5 px-4 py-1.5 text-xs font-medium text-neutral-600 backdrop-blur-sm transition hover:border-black/25 hover:bg-black/10"
-        >
-          <span className="h-1.5 w-1.5 rounded-full bg-emerald-600" />
-          New — Weekly SA Data Updates
-          <ArrowRight className="ml-0.5 h-3 w-3 transition-transform group-hover:translate-x-0.5" />
-        </motion.a>
-
         {/* Headline — VerticalCutReveal word-by-word */}
         <h1 className="text-balance text-5xl font-bold leading-[1.1] tracking-[-0.03em] text-[#0a0a0a] sm:text-6xl lg:text-7xl">
           <VerticalCutReveal

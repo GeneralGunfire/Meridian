@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { motion, useMotionValue, useSpring } from "motion/react";
 
 export function CursorProvider({ children }: { children: React.ReactNode }) {
@@ -9,61 +9,68 @@ export function CursorProvider({ children }: { children: React.ReactNode }) {
   const springY = useSpring(cursorY, { stiffness: 400, damping: 35, bounce: 0 });
   const [hovered, setHovered] = useState(false);
   const [visible, setVisible] = useState(false);
+  // Use ref so event listeners always read fresh value
+  const visibleRef = useRef(false);
 
   useEffect(() => {
     const move = (e: MouseEvent) => {
       cursorX.set(e.clientX);
       cursorY.set(e.clientY);
-      if (!visible) setVisible(true);
+      if (!visibleRef.current) {
+        visibleRef.current = true;
+        setVisible(true);
+      }
     };
     const over = (e: MouseEvent) => {
       const t = e.target as HTMLElement;
       if (t.closest("a,button,[data-cursor-hover]")) setHovered(true);
+      else setHovered(false);
     };
-    const out = () => setHovered(false);
-    const leave = () => setVisible(false);
+    const leave = () => {
+      visibleRef.current = false;
+      setVisible(false);
+    };
+
     window.addEventListener("mousemove", move);
     window.addEventListener("mouseover", over);
-    window.addEventListener("mouseout", out);
     document.documentElement.addEventListener("mouseleave", leave);
     return () => {
       window.removeEventListener("mousemove", move);
       window.removeEventListener("mouseover", over);
-      window.removeEventListener("mouseout", out);
       document.documentElement.removeEventListener("mouseleave", leave);
     };
-  }, [cursorX, cursorY, visible]);
+  }, [cursorX, cursorY]);
 
   return (
     <>
-      {/* Inject cursor:none globally */}
-      <style>{`* { cursor: none !important; }`}</style>
+      <style>{`html, html * { cursor: none !important; }`}</style>
 
-      {/* Dot — follows exactly */}
+      {/* Dot — snaps to cursor */}
       <motion.div
-        className="pointer-events-none fixed z-[9999] h-2.5 w-2.5 rounded-full bg-[#0a0a0a]"
+        className="pointer-events-none fixed top-0 left-0 z-9999 h-2.5 w-2.5 rounded-full bg-[#0a0a0a]"
         style={{
           x: cursorX,
           y: cursorY,
           translateX: "-50%",
           translateY: "-50%",
-          opacity: visible ? 1 : 0,
         }}
+        animate={{ opacity: visible ? 1 : 0 }}
+        transition={{ duration: 0.15 }}
       />
 
       {/* Ring — spring lag */}
       <motion.div
-        className="pointer-events-none fixed z-[9998] rounded-full border border-[#0a0a0a]/50"
+        className="pointer-events-none fixed top-0 left-0 z-9998 rounded-full border border-[#0a0a0a]/40"
         style={{
           x: springX,
           y: springY,
           translateX: "-50%",
           translateY: "-50%",
-          opacity: visible ? 1 : 0,
         }}
         animate={{
-          width: hovered ? 52 : 36,
-          height: hovered ? 52 : 36,
+          opacity: visible ? 1 : 0,
+          width: hovered ? 52 : 34,
+          height: hovered ? 52 : 34,
         }}
         transition={{ type: "spring", stiffness: 300, damping: 28 }}
       />

@@ -4,7 +4,7 @@ import MacBook from "@/components/sections/macbook";
 import StatsBar from "@/components/sections/stats-bar";
 import Features from "@/components/sections/features";
 import HowItWorks from "@/components/sections/how-it-works";
-import LatestUpdates from "@/components/sections/latest-updates";
+import Footer from "@/components/sections/footer";
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
       <StatsBar />
       <Features />
       <HowItWorks />
-      <LatestUpdates />
+      <Footer />
     </main>
   );
 }

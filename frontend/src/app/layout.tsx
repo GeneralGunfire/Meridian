@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { CursorProvider } from "@/components/animate-ui/cursor";
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-geist" });
 const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono" });
@@ -19,7 +20,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geist.variable} ${geistMono.variable} font-[family-name:var(--font-geist)] bg-[#f5f0e8] text-[#0a0a0a] antialiased`}>
-        {children}
+        <CursorProvider>
+          {children}
+        </CursorProvider>
       </body>
     </html>
   );
