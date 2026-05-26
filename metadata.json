@@ -1,0 +1,6 @@
+{
+  "name": "Meridian Data",
+  "description": "Premium data aggregation platform for South African government statistics and infrastructure insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

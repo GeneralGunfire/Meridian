@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-05-26T15:52:21.665Z",
+  "results": {
+    "crime_stats": {
+      "success": true,
+      "error": null
+    },
+    "eskom": {
+      "success": true,
+      "error": null
+    },
+    "water": {
+      "success": true,
+      "error": null
+    },
+    "housing": {
+      "success": true,
+      "error": null
+    }
+  }
+}

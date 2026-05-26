@@ -1,3 +1,4 @@
+|-- .env.example
 |-- .eslintrc.json
 |-- .github
     |-- workflows
@@ -11,16 +12,29 @@
         |-- FEATURES.md
         |-- PITFALLS.md
         |-- STACK.md
+|-- assets
+    |-- .aistudio
+        |-- .gitignore
 |-- BACKEND.md
 |-- CLAUDE.md
+|-- data
+    |-- crime_stats_2026-w22.csv
+    |-- eskom_2026-w22.csv
+    |-- housing_2026-w22.csv
+    |-- status.json
+    |-- water_2026-w22.csv
+|-- index.html
 |-- meridian-data.zip
 |-- Meridian.code-workspace
+|-- metadata.json
 |-- next.config.js
 |-- package-lock.json
 |-- package.json
 |-- postcss.config.js
+|-- README.md
 |-- scripts
     |-- seed-data.js
+|-- server.ts
 |-- src
     |-- app
         |-- api
@@ -34,8 +48,28 @@
         |-- globals.css
         |-- layout.tsx
         |-- page.tsx
+    |-- App.tsx
+    |-- components
+        |-- AboutComponents.tsx
+        |-- DashboardCard.tsx
+        |-- DatasetCard.tsx
+        |-- DownloadTable.tsx
+        |-- Footer.tsx
+        |-- Hero.tsx
+        |-- Navbar.tsx
+        |-- StatusIndicator.tsx
+    |-- hooks
+        |-- useFiles.ts
+    |-- index.css
     |-- lib
         |-- file-handler.ts
+        |-- utils.ts
+    |-- main.tsx
+    |-- pages
+        |-- AboutPage.tsx
+        |-- DashboardsPage.tsx
+        |-- DownloadsPage.tsx
+        |-- LandingPage.tsx
     |-- scrapers
         |-- crime-scraper.ts
         |-- eskom-scraper.ts
@@ -45,5 +79,7 @@
         |-- water-scraper.ts
     |-- types
         |-- index.ts
+    |-- types.ts
 |-- tailwind.config.ts
 |-- tsconfig.json
+|-- vite.config.ts
