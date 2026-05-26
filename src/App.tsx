@@ -55,17 +55,17 @@ export default function App() {
     pointLight2.position.set(15, -10, -15);
     scene.add(pointLight2);
 
-    // Create enhanced 3D Matrix Data Structure with more complexity
+    // Create enhanced 3D Matrix Data Structure with INCREASED complexity
     const createDataMatrix = () => {
       const group = new THREE.Group();
-      const gridSize = 12;
-      const spacing = 0.6;
+      const gridSize = 16; // Increased from 12
+      const spacing = 0.5; // Decreased from 0.6 for more density
 
       // Create main grid with varying geometries
       for (let x = 0; x < gridSize; x++) {
         for (let y = 0; y < gridSize; y++) {
           for (let z = 0; z < gridSize; z++) {
-            const size = Math.random() * 0.25 + 0.1;
+            const size = Math.random() * 0.3 + 0.08; // Larger variance
             const geometry = new THREE.BoxGeometry(size, size, size);
 
             const isBlack = Math.random() > 0.4;
@@ -103,34 +103,34 @@ export default function App() {
     const dataMatrix = createDataMatrix();
     scene.add(dataMatrix);
 
-    // Create multiple layers of animated particles with different speeds
+    // Create ENHANCED particle system with more layers
     const createParticleSystem = () => {
       const layers = [];
 
-      for (let layer = 0; layer < 3; layer++) {
+      for (let layer = 0; layer < 4; layer++) { // Increased from 3
         const particlesGeometry = new THREE.BufferGeometry();
-        const particleCount = 800 - layer * 200;
+        const particleCount = 1000 - layer * 200; // More particles
         const positions = new Float32Array(particleCount * 3);
         const velocities = new Float32Array(particleCount * 3);
 
         for (let i = 0; i < particleCount * 3; i += 3) {
-          positions[i] = (Math.random() - 0.5) * (20 + layer * 5);
-          positions[i + 1] = (Math.random() - 0.5) * (20 + layer * 5);
-          positions[i + 2] = (Math.random() - 0.5) * (20 + layer * 5);
+          positions[i] = (Math.random() - 0.5) * (25 + layer * 5); // Larger spread
+          positions[i + 1] = (Math.random() - 0.5) * (25 + layer * 5);
+          positions[i + 2] = (Math.random() - 0.5) * (25 + layer * 5);
 
-          velocities[i] = (Math.random() - 0.5) * 0.02;
-          velocities[i + 1] = (Math.random() - 0.5) * 0.02;
-          velocities[i + 2] = (Math.random() - 0.5) * 0.02;
+          velocities[i] = (Math.random() - 0.5) * 0.025;
+          velocities[i + 1] = (Math.random() - 0.5) * 0.025;
+          velocities[i + 2] = (Math.random() - 0.5) * 0.025;
         }
 
         particlesGeometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
         (particlesGeometry as any).velocities = velocities;
 
         const particlesMaterial = new THREE.PointsMaterial({
-          size: 0.08 - layer * 0.02,
-          color: layer === 0 ? 0x000000 : 0xffffff,
+          size: 0.12 - layer * 0.02, // Larger particles
+          color: layer % 2 === 0 ? 0x000000 : 0xffffff,
           transparent: true,
-          opacity: 0.5 - layer * 0.1,
+          opacity: 0.6 - layer * 0.1,
           sizeAttenuation: true,
         });
 
@@ -144,19 +144,19 @@ export default function App() {
 
     const particleLayers = createParticleSystem();
 
-    // Create connecting lines for visual depth
+    // Create DENSER connecting lines for visual depth
     const createConnectingLines = () => {
       const group = new THREE.Group();
-      const lineCount = 150;
+      const lineCount = 250; // Increased from 150
 
       for (let i = 0; i < lineCount; i++) {
         const points = [];
         for (let j = 0; j < 3; j++) {
           points.push(
             new THREE.Vector3(
-              (Math.random() - 0.5) * 12,
-              (Math.random() - 0.5) * 12,
-              (Math.random() - 0.5) * 12
+              (Math.random() - 0.5) * 15, // Larger spread
+              (Math.random() - 0.5) * 15,
+              (Math.random() - 0.5) * 15
             )
           );
         }
@@ -165,7 +165,7 @@ export default function App() {
         const material = new THREE.LineBasicMaterial({
           color: Math.random() > 0.5 ? 0x000000 : 0xffffff,
           transparent: true,
-          opacity: 0.1 + Math.random() * 0.2,
+          opacity: 0.15 + Math.random() * 0.25, // More visible
           linewidth: 1,
         });
 
@@ -203,9 +203,10 @@ export default function App() {
           positions[i + 2] += velocities[i + 2];
 
           // Wrap around
-          if (Math.abs(positions[i]) > 15) velocities[i] *= -1;
-          if (Math.abs(positions[i + 1]) > 15) velocities[i + 1] *= -1;
-          if (Math.abs(positions[i + 2]) > 15) velocities[i + 2] *= -1;
+          const spread = 25 + (index * 5);
+          if (Math.abs(positions[i]) > spread) velocities[i] *= -1;
+          if (Math.abs(positions[i + 1]) > spread) velocities[i + 1] *= -1;
+          if (Math.abs(positions[i + 2]) > spread) velocities[i + 2] *= -1;
         }
 
         (particles.geometry.attributes.position as any).needsUpdate = true;
