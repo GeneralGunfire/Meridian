@@ -105,6 +105,11 @@
                 |-- macbook.tsx
                 |-- stats-bar.tsx
             |-- ui
+                |-- badge.tsx
+                |-- button.tsx
+                |-- card.tsx
+                |-- liquid-metal-bg.tsx
+                |-- logo-cloud.tsx
                 |-- macbook-scroll.tsx
                 |-- navbar.tsx
         |-- hooks

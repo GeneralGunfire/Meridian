@@ -1,104 +1,105 @@
 "use client";
 import { motion } from "motion/react";
-import { FlipCard } from "@/components/animate-ui/flip-card";
-import { Download, Database, BarChart2, Sparkles } from "lucide-react";
 
 const steps = [
   {
     number: "01",
     title: "Scrape",
-    icon: Download,
-    back: "GitHub Actions runs weekly scrapers pulling from SAPS, Eskom & StatsSA official sources.",
+    summary: "Automated. Every week.",
+    body: "GitHub Actions fires weekly scrapers against SAPS, Eskom and StatsSA. No manual intervention — if the source is up, the data lands.",
+    detail: "Crime stats, load-shedding stages, water access rates, housing survey figures.",
   },
   {
     number: "02",
     title: "Store",
-    icon: Database,
-    back: "Raw CSV & Excel files version-controlled in Git. Full history, always downloadable.",
+    summary: "Git-versioned raw files.",
+    body: "Every run appends a new dated CSV. Nothing is overwritten. Pull last week's numbers or the full two-year history — it's all there.",
+    detail: "ISO week naming: crime_stats_2026-W21.csv — consistent, sortable, predictable.",
   },
   {
     number: "03",
-    title: "Analyse",
-    icon: BarChart2,
-    back: "Connect your Power BI to the CSV endpoints. Pre-structured columns ready for DAX.",
+    title: "Connect",
+    summary: "Power BI in minutes.",
+    body: "Point Power BI at the CSV URL. Column names stay stable between runs — your DAX measures and relationships don't break on refresh.",
+    detail: "Same schema every week. Province, category, count, date. No surprises.",
   },
   {
     number: "04",
-    title: "Visualise",
-    icon: Sparkles,
-    back: "Animated Remotion video explainers of trends. Embed dashboards or share links.",
+    title: "Publish",
+    summary: "Tell the story.",
+    body: "Embed your dashboard or export a Remotion video explainer. The data is credible — official sources, cited and versioned.",
+    detail: "Share a link, embed in a report, or render an animated trend summary.",
   },
 ];
 
-const fadeUp = {
-  hidden: { opacity: 0, y: 20 },
-  show: (delay = 0) => ({
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.5, ease: "easeOut" as const, delay },
-  }),
-};
-
 export default function HowItWorks() {
   return (
-    <section className="relative px-4 py-24">
-      <div className="mx-auto max-w-5xl">
+    <section className="px-4 py-28">
+      <div className="mx-auto max-w-6xl">
+
         {/* Heading */}
         <motion.div
-          variants={fadeUp}
-          initial="hidden"
-          whileInView="show"
+          initial={{ opacity: 0, y: 16 }}
+          whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          custom={0}
-          className="mb-14 text-center"
+          transition={{ duration: 0.5, ease: "easeOut" }}
+          className="mb-20 grid grid-cols-1 gap-6 md:grid-cols-2 md:items-end"
         >
-          <h2 className="text-3xl font-bold tracking-tight text-[#0a0a0a] sm:text-4xl">
-            How it works
-          </h2>
-          <p className="mt-3 text-base text-neutral-500">
-            Four steps from raw government data to polished insights.
+          <div>
+            <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-neutral-400">Process</p>
+            <h2 className="text-4xl font-bold tracking-[-0.03em] text-[#0a0a0a] sm:text-5xl leading-[1.05]">
+              From government<br />portal to dashboard.
+            </h2>
+          </div>
+          <p className="text-base text-neutral-500 leading-relaxed md:max-w-sm md:text-right md:ml-auto">
+            Four steps. Fully automated after setup. You focus on the analysis — the pipeline handles the rest.
           </p>
         </motion.div>
 
-        {/* Cards grid */}
-        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
-          {steps.map((step, i) => {
-            const Icon = step.icon;
-            return (
-              <motion.div
-                key={step.number}
-                variants={fadeUp}
-                initial="hidden"
-                whileInView="show"
-                viewport={{ once: true }}
-                custom={0.1 + i * 0.1}
-              >
-                <FlipCard
-                  front={
-                    <div className="flex h-full flex-col justify-between">
-                      <span className="text-xs font-semibold tracking-widest text-neutral-400 uppercase">
-                        {step.number}
-                      </span>
-                      <div>
-                        <Icon className="mb-3 h-7 w-7 text-neutral-700" strokeWidth={1.5} />
-                        <p className="text-xl font-semibold text-[#0a0a0a]">{step.title}</p>
-                        <p className="mt-1 text-xs text-neutral-400">Hover to learn more</p>
-                      </div>
-                    </div>
-                  }
-                  back={
-                    <div className="flex h-full flex-col justify-between">
-                      <span className="text-xs font-semibold tracking-widest text-neutral-500 uppercase">
-                        {step.number}
-                      </span>
-                      <p className="text-sm leading-relaxed text-neutral-300">{step.back}</p>
-                    </div>
-                  }
-                />
-              </motion.div>
-            );
-          })}
+        {/* Steps */}
+        <div className="space-y-0">
+          {steps.map((step, i) => (
+            <motion.div
+              key={step.number}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-40px" }}
+              transition={{ duration: 0.45, ease: "easeOut", delay: i * 0.06 }}
+              className="group grid grid-cols-1 gap-6 border-t border-black/8 py-10 md:grid-cols-[80px_1fr_1fr] md:gap-12 md:items-start hover:bg-white/20 transition-colors duration-300 rounded-xl px-2 md:px-4"
+            >
+              {/* Number */}
+              <div className="flex items-center gap-4 md:block">
+                <span className="text-4xl font-bold tracking-tighter text-black/10 select-none leading-none">
+                  {step.number}
+                </span>
+                <span className="text-lg font-bold tracking-tight text-[#0a0a0a] md:hidden">
+                  {step.title}
+                </span>
+              </div>
+
+              {/* Left col */}
+              <div>
+                <p className="hidden text-xl font-bold tracking-tight text-[#0a0a0a] md:block mb-2">
+                  {step.title}
+                </p>
+                <p className="text-sm font-semibold text-neutral-400 mb-3">{step.summary}</p>
+                <p className="text-sm leading-relaxed text-neutral-600">{step.body}</p>
+              </div>
+
+              {/* Right col — detail chip */}
+              <div className="flex items-start md:justify-end">
+                <div className="inline-block rounded-lg border border-black/8 bg-white/60 px-4 py-3 text-xs leading-relaxed text-neutral-500 backdrop-blur-sm max-w-xs">
+                  <span className="block font-semibold text-[#0a0a0a] mb-1 uppercase tracking-wide text-[10px]">Example</span>
+                  {step.detail}
+                </div>
+              </div>
+            </motion.div>
+          ))}
+
+          {/* Closing border */}
+          <div className="border-t border-black/8" />
         </div>
+
       </div>
     </section>
   );

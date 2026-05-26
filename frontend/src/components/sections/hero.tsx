@@ -1,148 +1,86 @@
 "use client";
-
 import { motion } from "motion/react";
-import VerticalCutReveal from "@/components/fancy/vertical-cut-reveal";
-import { StarsBackground } from "@/components/animate-ui/stars-background";
+import dynamic from "next/dynamic";
 
-const avatarColors = [
-  "bg-stone-800",
-  "bg-stone-700",
-  "bg-stone-600",
-  "bg-stone-500",
-  "bg-stone-400",
-];
-
-const avatarInitials = ["TM", "KN", "SP", "LB", "RD"];
-
-const fadeUp = {
-  hidden: { opacity: 0, y: 16 },
-  show: (delay = 0) => ({
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.5, ease: "easeOut" as const, delay },
-  }),
-};
+const LiquidMetalBg = dynamic(
+  () => import("@/components/ui/liquid-metal-bg").then((m) => ({ default: m.LiquidMetalBg })),
+  { ssr: false }
+);
 
 export default function Hero() {
   return (
-    <section className="relative flex min-h-[calc(100vh-3.5rem)] flex-col items-center justify-center overflow-hidden px-4 py-24 text-center">
-      {/* Animated stars background */}
-      <StarsBackground count={80} starColor="rgba(0,0,0,0.15)" className="opacity-60" />
-
-      {/* Subtle dot grid */}
-      <div
-        className="pointer-events-none absolute inset-0"
-        style={{
-          backgroundImage:
-            "radial-gradient(circle, rgba(0,0,0,0.08) 1px, transparent 1px)",
-          backgroundSize: "32px 32px",
-        }}
-      />
+    <section className="relative flex min-h-[90vh] flex-col items-center justify-center overflow-hidden bg-[#f5f0e8] px-4 text-center">
+      <LiquidMetalBg />
 
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-4xl">
-        {/* Headline — VerticalCutReveal word-by-word */}
-        <h1 className="text-balance text-5xl font-bold leading-[1.1] tracking-[-0.03em] text-[#0a0a0a] sm:text-6xl lg:text-7xl">
-          <VerticalCutReveal
-            splitBy="words"
-            staggerDuration={0.1}
-            staggerFrom="first"
-            transition={{ type: "spring", stiffness: 200, damping: 24 }}
-            containerClassName="justify-center gap-x-[0.25em]"
-            wordLevelClassName="overflow-hidden"
-            elementLevelClassName="text-[#0a0a0a]"
-          >
-            Make sense of
-          </VerticalCutReveal>
-          <span className="block mt-1">
-            <VerticalCutReveal
-              splitBy="words"
-              staggerDuration={0.1}
-              staggerFrom="first"
-              transition={{
-                type: "spring",
-                stiffness: 200,
-                damping: 24,
-                delay: 0.35,
-              }}
-              containerClassName="justify-center gap-x-[0.25em]"
-              wordLevelClassName="overflow-hidden"
-              elementLevelClassName="bg-linear-to-b from-[#0a0a0a] to-neutral-500 bg-clip-text text-transparent"
-            >
-              South Africa&apos;s data.
-            </VerticalCutReveal>
-          </span>
-        </h1>
-
-        {/* Subtext */}
-        <motion.p
-          variants={fadeUp}
-          initial="hidden"
-          animate="show"
-          custom={0.6}
-          className="mx-auto mt-6 max-w-2xl text-balance text-base leading-relaxed text-neutral-500 sm:text-lg"
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
         >
-          Weekly scraped government datasets — crime, Eskom load-shedding, water
-          access, housing. Download CSVs, explore trends, power your Power BI
-          dashboards.
+          <span className="mb-6 inline-block rounded-full border border-black/10 bg-white/60 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-neutral-500 backdrop-blur-sm">
+            SA Government Data — Weekly Updates
+          </span>
+        </motion.div>
+
+        <motion.h1
+          initial={{ opacity: 0, y: 24 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, ease: "easeOut", delay: 0.08 }}
+          className="mb-6 text-5xl font-bold tracking-[-0.04em] text-[#0a0a0a] sm:text-6xl lg:text-7xl xl:text-8xl"
+        >
+          South Africa&apos;s data,<br />
+          <span className="text-neutral-400">clean and ready.</span>
+        </motion.h1>
+
+        <motion.p
+          initial={{ opacity: 0, y: 16 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: "easeOut", delay: 0.16 }}
+          className="mx-auto mb-10 max-w-2xl text-lg text-neutral-500 leading-relaxed"
+        >
+          Crime statistics, Eskom load-shedding, water access, and housing data — scraped weekly from official government sources and served as clean CSVs ready for Power BI.
         </motion.p>
 
-        {/* CTA buttons */}
         <motion.div
-          variants={fadeUp}
-          initial="hidden"
-          animate="show"
-          custom={0.75}
-          className="mt-10 flex flex-wrap items-center justify-center gap-3"
+          initial={{ opacity: 0, y: 12 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, ease: "easeOut", delay: 0.24 }}
+          className="flex flex-wrap items-center justify-center gap-4"
         >
           <a
             href="#datasets"
-            className="rounded-lg bg-[#0a0a0a] px-5 py-2.5 text-sm font-medium text-[#f5f0e8] shadow-[0px_0px_10px_0px_rgba(0,0,0,0.15)_inset] ring ring-black/20 ring-offset-2 ring-offset-[#f5f0e8] transition-all hover:shadow-[0px_0px_20px_0px_rgba(0,0,0,0.25)_inset] hover:ring-black/40 active:scale-[0.98]"
+            className="rounded-lg bg-[#0a0a0a] px-8 py-3.5 text-sm font-semibold text-[#f5f0e8] shadow-sm transition-all hover:bg-neutral-800 active:scale-[0.98]"
           >
             Browse Datasets
           </a>
           <a
-            href="#dashboards"
-            className="rounded-lg border border-black/15 bg-white/60 px-5 py-2.5 text-sm font-medium text-[#0a0a0a] backdrop-blur-sm transition-all hover:border-black/30 hover:bg-white/80 active:scale-[0.98]"
+            href="#"
+            className="rounded-lg border border-black/15 bg-white/60 px-8 py-3.5 text-sm font-semibold text-[#0a0a0a] backdrop-blur-sm transition-all hover:bg-white/90 active:scale-[0.98]"
           >
-            View Dashboards
+            View on GitHub
           </a>
         </motion.div>
 
-        {/* Social proof */}
+        {/* Stat row */}
         <motion.div
-          variants={fadeUp}
-          initial="hidden"
-          animate="show"
-          custom={0.9}
-          className="mt-12 flex flex-col items-center gap-3"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.8, ease: "easeOut", delay: 0.4 }}
+          className="mt-16 flex flex-wrap items-center justify-center gap-8 border-t border-black/8 pt-10"
         >
-          <div className="flex items-center -space-x-2">
-            {avatarInitials.map((initials, i) => (
-              <div
-                key={initials}
-                className={`flex h-8 w-8 items-center justify-center rounded-full border-2 border-[#f5f0e8] text-xs font-semibold text-white ${avatarColors[i]}`}
-              >
-                {initials}
-              </div>
-            ))}
-          </div>
-          <div className="flex flex-col items-center gap-1">
-            <div className="flex items-center gap-0.5">
-              {[...Array(5)].map((_, i) => (
-                <svg
-                  key={i}
-                  className="h-3.5 w-3.5 fill-amber-500 text-amber-500"
-                  viewBox="0 0 20 20"
-                >
-                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                </svg>
-              ))}
+          {[
+            { value: "4", label: "Datasets" },
+            { value: "Weekly", label: "Auto-refresh" },
+            { value: "CSV + Excel", label: "Formats" },
+            { value: "Free", label: "Always" },
+          ].map((stat) => (
+            <div key={stat.label} className="text-center">
+              <p className="text-2xl font-bold tracking-tight text-[#0a0a0a]">{stat.value}</p>
+              <p className="mt-0.5 text-xs font-medium text-neutral-400 uppercase tracking-widest">{stat.label}</p>
             </div>
-            <p className="text-xs text-neutral-400">
-              Trusted by data analysts across South Africa
-            </p>
-          </div>
+          ))}
         </motion.div>
       </div>
     </section>
