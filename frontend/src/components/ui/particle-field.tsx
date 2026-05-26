@@ -99,11 +99,11 @@ export function ParticleField() {
 
       // Particle density: one per ~3500px² in each zone
       const zoneArea = zoneW * H;
-      const perSide = Math.max(18, Math.floor(zoneArea / 3500));
+      const perSide = Math.max(8, Math.floor(zoneArea / 9000));
 
       function spawnZone(xMin: number, xMax: number) {
         for (let i = 0; i < perSide; i++) {
-          const size = Math.random() * 2.5 + 1.2; // 1.2 – 3.7 px — noticeable dots
+          const size = Math.random() * 1.4 + 0.8; // 0.8 – 2.2 px — crisp constellation nodes
           const x = Math.random() * (xMax - xMin) + xMin;
           const y = Math.random() * H;
           const speed = 0.18 + Math.random() * 0.22;
@@ -130,7 +130,7 @@ export function ParticleField() {
       const W = canvas!.width;
       // Only draw lines within each zone — don't cross the centre
       const zoneW = W * 0.26;
-      const maxDistSq = (zoneW * 0.55) * (zoneW * 0.55); // connect within ~55% of zone width
+      const maxDistSq = (zoneW * 0.38) * (zoneW * 0.38); // connect within ~38% of zone width
 
       for (let a = 0; a < particles.length; a++) {
         for (let b = a + 1; b < particles.length; b++) {
@@ -143,7 +143,7 @@ export function ParticleField() {
 
           if (distSq < maxDistSq) {
             const t = 1 - distSq / maxDistSq;
-            const opacity = t * t * 0.55; // quadratic falloff, max 0.55
+            const opacity = t * t * 0.35; // quadratic falloff, max 0.35
 
             // Brighten lines near mouse
             let finalOpacity = opacity;
