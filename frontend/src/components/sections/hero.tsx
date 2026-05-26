@@ -29,7 +29,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: "easeOut", delay: 0.08 }}
-          className="mb-6 font-(family-name:--font-bebas) text-[5rem] uppercase leading-[0.92] tracking-[0.04em] text-[#0a0a0a] sm:text-[7rem] lg:text-[9rem] xl:text-[11rem]"
+          className="mb-6 text-5xl font-semibold tracking-[-0.035em] leading-[1.05] text-[#0a0a0a] sm:text-6xl lg:text-7xl xl:text-[5.5rem]"
         >
           South Africa&apos;s data,<br />
           <span className="text-neutral-400">clean and ready.</span>
