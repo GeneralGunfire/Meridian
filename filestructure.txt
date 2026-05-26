@@ -17,6 +17,43 @@
         |-- .gitignore
 |-- BACKEND.md
 |-- CLAUDE.md
+|-- code
+    |-- .env.example
+    |-- .gitignore
+    |-- assets
+        |-- .aistudio
+            |-- .gitignore
+    |-- index.html
+    |-- metadata.json
+    |-- package-lock.json
+    |-- package.json
+    |-- README.md
+    |-- server.ts
+    |-- src
+        |-- App.tsx
+        |-- components
+            |-- AboutComponents.tsx
+            |-- DashboardCard.tsx
+            |-- DatasetCard.tsx
+            |-- DownloadTable.tsx
+            |-- Footer.tsx
+            |-- Hero.tsx
+            |-- Navbar.tsx
+            |-- StatusIndicator.tsx
+        |-- hooks
+            |-- useFiles.ts
+        |-- index.css
+        |-- lib
+            |-- utils.ts
+        |-- main.tsx
+        |-- pages
+            |-- AboutPage.tsx
+            |-- DashboardsPage.tsx
+            |-- DownloadsPage.tsx
+            |-- LandingPage.tsx
+        |-- types.ts
+    |-- tsconfig.json
+    |-- vite.config.ts
 |-- data
     |-- crime_stats_2026-w22.csv
     |-- eskom_2026-w22.csv
@@ -24,63 +61,29 @@
     |-- status.json
     |-- water_2026-w22.csv
 |-- index.html
-|-- meridian-data.zip
+|-- LOCAL_SETUP.md
 |-- Meridian.code-workspace
 |-- metadata.json
-|-- next.config.js
+|-- next.config.mjs
 |-- package-lock.json
 |-- package.json
-|-- postcss.config.js
+|-- PROJECT_STATUS.md
 |-- README.md
 |-- scripts
     |-- seed-data.js
 |-- server.ts
 |-- src
-    |-- app
-        |-- api
-            |-- download
-                |-- [filename]
-                    |-- route.ts
-            |-- files
-                |-- route.ts
-            |-- status
-                |-- route.ts
-        |-- globals.css
-        |-- layout.tsx
-        |-- page.tsx
     |-- App.tsx
     |-- components
-        |-- AboutComponents.tsx
-        |-- DashboardCard.tsx
-        |-- DatasetCard.tsx
-        |-- DownloadTable.tsx
-        |-- Footer.tsx
-        |-- Hero.tsx
-        |-- Navbar.tsx
-        |-- StatusIndicator.tsx
-    |-- hooks
-        |-- useFiles.ts
+        |-- AnimatedText.tsx
+        |-- ParallaxSection.tsx
+        |-- ScrollTrigger3D.tsx
+    |-- compositions
+        |-- DataViz.tsx
     |-- index.css
-    |-- lib
-        |-- file-handler.ts
-        |-- utils.ts
     |-- main.tsx
     |-- pages
-        |-- AboutPage.tsx
-        |-- DashboardsPage.tsx
-        |-- DownloadsPage.tsx
-        |-- LandingPage.tsx
-    |-- scrapers
-        |-- crime-scraper.ts
-        |-- eskom-scraper.ts
-        |-- housing-scraper.ts
-        |-- scrape-all.ts
-        |-- utils.ts
-        |-- water-scraper.ts
-    |-- types
-        |-- index.ts
-    |-- types.ts
+        |-- Landing.tsx
 |-- start-dev.ps1
-|-- tailwind.config.ts
 |-- tsconfig.json
 |-- vite.config.ts
