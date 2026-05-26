@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 
 const features = [
   {
@@ -10,7 +10,7 @@ const features = [
       </svg>
     ),
     title: "Crime Statistics",
-    description: "SAPS-sourced crime data by province and category. Quarterly updates covering murder, robbery, assault, and more — structured and ready for Power BI.",
+    description: "SAPS-sourced crime data by province and category. Quarterly updates covering murder, robbery, assault, and more — structured for Power BI.",
     badge: "Quarterly",
   },
   {
@@ -30,7 +30,7 @@ const features = [
       </svg>
     ),
     title: "Water & Sanitation",
-    description: "Municipal access rates from StatsSA General Household Surveys. Track water supply coverage and sanitation access across South Africa.",
+    description: "Municipal access rates from StatsSA General Household Surveys. Track water supply and sanitation coverage across South Africa.",
     badge: "Annual",
   },
   {
@@ -49,26 +49,25 @@ export default function Features() {
   return (
     <section id="datasets" className="px-4 py-24">
       <div className="mx-auto max-w-7xl">
-        {/* Heading */}
+
         <motion.div
-          className="mb-12 text-center"
+          className="mb-14 text-center"
           initial={{ opacity: 0, y: 16 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-60px" }}
-          transition={{ duration: 0.5, ease: "easeOut" as const }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
         >
-          <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-neutral-400">
+          <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-neutral-500">
             Datasets
           </p>
           <h2 className="text-3xl font-bold tracking-[-0.02em] text-[#0a0a0a] sm:text-4xl">
             Everything you need, scraped weekly.
           </h2>
-          <p className="mt-3 text-neutral-500">
+          <p className="mt-3 text-base text-neutral-600">
             Official government sources. Clean CSVs. Ready for analysis.
           </p>
         </motion.div>
 
-        {/* Card grid */}
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {features.map((feature, i) => (
             <motion.div
@@ -76,31 +75,26 @@ export default function Features() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-40px" }}
-              transition={{ duration: 0.45, ease: "easeOut" as const, delay: i * 0.08 }}
-              className="group relative rounded-xl border border-black/10 bg-white/70 p-6 backdrop-blur-sm transition-all duration-300 hover:border-black/20 hover:bg-white/90 hover:shadow-[0_4px_24px_rgba(0,0,0,0.08)]"
+              transition={{ duration: 0.45, ease: "easeOut", delay: i * 0.08 }}
+              className="group relative rounded-xl border border-black/12 bg-white/80 p-6 shadow-sm backdrop-blur-sm transition-all duration-300 hover:border-black/25 hover:bg-white hover:shadow-[0_6px_28px_rgba(0,0,0,0.1)]"
             >
-              {/* Icon */}
-              <div className="mb-4 inline-flex rounded-lg border border-black/10 bg-black/5 p-2.5 text-[#0a0a0a]">
+              <div className="mb-4 inline-flex rounded-lg border border-black/10 bg-black/6 p-2.5 text-[#0a0a0a]">
                 {feature.icon}
               </div>
 
-              {/* Badge */}
-              <span className="absolute right-4 top-4 rounded-full border border-black/10 bg-black/5 px-2 py-0.5 text-[10px] font-medium text-neutral-500">
+              <span className="absolute right-4 top-4 rounded-full border border-black/12 bg-black/5 px-2 py-0.5 text-[10px] font-semibold text-neutral-600">
                 {feature.badge}
               </span>
 
-              {/* Title */}
-              <h3 className="mb-2 text-sm font-semibold text-[#0a0a0a]">
+              <h3 className="mb-2 text-sm font-bold text-[#0a0a0a]">
                 {feature.title}
               </h3>
 
-              {/* Description */}
-              <p className="text-xs leading-relaxed text-neutral-500">
+              <p className="text-xs leading-relaxed text-neutral-600">
                 {feature.description}
               </p>
 
-              {/* Download link */}
-              <div className="mt-5 flex items-center gap-1 text-xs text-neutral-400 transition-colors group-hover:text-neutral-600">
+              <div className="mt-5 flex items-center gap-1.5 text-xs font-medium text-neutral-500 transition-colors group-hover:text-[#0a0a0a]">
                 <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                 </svg>

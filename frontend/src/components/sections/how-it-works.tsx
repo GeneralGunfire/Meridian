@@ -51,7 +51,7 @@ export default function HowItWorks() {
               From government<br />portal to dashboard.
             </h2>
           </div>
-          <p className="text-base text-neutral-500 leading-relaxed md:max-w-sm md:text-right md:ml-auto">
+          <p className="text-base text-neutral-600 leading-relaxed md:max-w-sm md:text-right md:ml-auto">
             Four steps. Fully automated after setup. You focus on the analysis — the pipeline handles the rest.
           </p>
         </motion.div>
@@ -69,7 +69,7 @@ export default function HowItWorks() {
             >
               {/* Number */}
               <div className="flex items-center gap-4 md:block">
-                <span className="text-4xl font-bold tracking-tighter text-black/10 select-none leading-none">
+                <span className="text-4xl font-bold tracking-tighter text-black/20 select-none leading-none">
                   {step.number}
                 </span>
                 <span className="text-lg font-bold tracking-tight text-[#0a0a0a] md:hidden">
@@ -82,13 +82,13 @@ export default function HowItWorks() {
                 <p className="hidden text-xl font-bold tracking-tight text-[#0a0a0a] md:block mb-2">
                   {step.title}
                 </p>
-                <p className="text-sm font-semibold text-neutral-400 mb-3">{step.summary}</p>
-                <p className="text-sm leading-relaxed text-neutral-600">{step.body}</p>
+                <p className="text-sm font-semibold text-neutral-600 mb-3">{step.summary}</p>
+                <p className="text-sm leading-relaxed text-neutral-700">{step.body}</p>
               </div>
 
               {/* Right col — detail chip */}
               <div className="flex items-start md:justify-end">
-                <div className="inline-block rounded-lg border border-black/8 bg-white/60 px-4 py-3 text-xs leading-relaxed text-neutral-500 backdrop-blur-sm max-w-xs">
+                <div className="inline-block rounded-lg border border-black/8 bg-white/60 px-4 py-3 text-xs leading-relaxed text-neutral-700 backdrop-blur-sm max-w-xs">
                   <span className="block font-semibold text-[#0a0a0a] mb-1 uppercase tracking-wide text-[10px]">Example</span>
                   {step.detail}
                 </div>

@@ -41,7 +41,7 @@ function StatItem({
         )}
         <span>{suffix}</span>
       </p>
-      <p className="text-sm font-medium text-neutral-500 uppercase tracking-widest">
+      <p className="text-sm font-semibold text-neutral-600 uppercase tracking-widest">
         {label}
       </p>
     </div>
