@@ -1,7 +1,9 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { ArrowRight } from "lucide-react";
+import VerticalCutReveal from "@/components/fancy/vertical-cut-reveal";
+import { StarsBackground } from "@/components/animate-ui/stars-background";
 
 const avatarColors = [
   "bg-stone-800",
@@ -25,7 +27,10 @@ const fadeUp = {
 export default function Hero() {
   return (
     <section className="relative flex min-h-[calc(100vh-3.5rem)] flex-col items-center justify-center overflow-hidden px-4 py-24 text-center">
-      {/* Subtle dot grid — beige-tinted */}
+      {/* Animated stars background */}
+      <StarsBackground count={80} starColor="rgba(0,0,0,0.15)" className="opacity-60" />
+
+      {/* Subtle dot grid */}
       <div
         className="pointer-events-none absolute inset-0"
         style={{
@@ -34,9 +39,6 @@ export default function Hero() {
           backgroundSize: "32px 32px",
         }}
       />
-
-      {/* Radial vignette — fades dots toward edges */}
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_70%_60%_at_50%_50%,transparent_40%,#f5f0e8_100%)]" />
 
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-4xl">
@@ -54,26 +56,45 @@ export default function Hero() {
           <ArrowRight className="ml-0.5 h-3 w-3 transition-transform group-hover:translate-x-0.5" />
         </motion.a>
 
-        {/* Headline */}
-        <motion.h1
-          variants={fadeUp}
-          initial="hidden"
-          animate="show"
-          custom={0.1}
-          className="text-balance text-5xl font-bold leading-[1.1] tracking-[-0.03em] text-[#0a0a0a] sm:text-6xl lg:text-7xl"
-        >
-          Make sense of{" "}
-          <span className="bg-linear-to-b from-[#0a0a0a] to-neutral-500 bg-clip-text text-transparent">
-            South Africa&apos;s data.
+        {/* Headline — VerticalCutReveal word-by-word */}
+        <h1 className="text-balance text-5xl font-bold leading-[1.1] tracking-[-0.03em] text-[#0a0a0a] sm:text-6xl lg:text-7xl">
+          <VerticalCutReveal
+            splitBy="words"
+            staggerDuration={0.1}
+            staggerFrom="first"
+            transition={{ type: "spring", stiffness: 200, damping: 24 }}
+            containerClassName="justify-center gap-x-[0.25em]"
+            wordLevelClassName="overflow-hidden"
+            elementLevelClassName="text-[#0a0a0a]"
+          >
+            Make sense of
+          </VerticalCutReveal>
+          <span className="block mt-1">
+            <VerticalCutReveal
+              splitBy="words"
+              staggerDuration={0.1}
+              staggerFrom="first"
+              transition={{
+                type: "spring",
+                stiffness: 200,
+                damping: 24,
+                delay: 0.35,
+              }}
+              containerClassName="justify-center gap-x-[0.25em]"
+              wordLevelClassName="overflow-hidden"
+              elementLevelClassName="bg-linear-to-b from-[#0a0a0a] to-neutral-500 bg-clip-text text-transparent"
+            >
+              South Africa&apos;s data.
+            </VerticalCutReveal>
           </span>
-        </motion.h1>
+        </h1>
 
         {/* Subtext */}
         <motion.p
           variants={fadeUp}
           initial="hidden"
           animate="show"
-          custom={0.2}
+          custom={0.6}
           className="mx-auto mt-6 max-w-2xl text-balance text-base leading-relaxed text-neutral-500 sm:text-lg"
         >
           Weekly scraped government datasets — crime, Eskom load-shedding, water
@@ -86,17 +107,15 @@ export default function Hero() {
           variants={fadeUp}
           initial="hidden"
           animate="show"
-          custom={0.3}
+          custom={0.75}
           className="mt-10 flex flex-wrap items-center justify-center gap-3"
         >
-          {/* Primary */}
           <a
             href="#datasets"
             className="rounded-lg bg-[#0a0a0a] px-5 py-2.5 text-sm font-medium text-[#f5f0e8] shadow-[0px_0px_10px_0px_rgba(0,0,0,0.15)_inset] ring ring-black/20 ring-offset-2 ring-offset-[#f5f0e8] transition-all hover:shadow-[0px_0px_20px_0px_rgba(0,0,0,0.25)_inset] hover:ring-black/40 active:scale-[0.98]"
           >
             Browse Datasets
           </a>
-          {/* Secondary */}
           <a
             href="#dashboards"
             className="rounded-lg border border-black/15 bg-white/60 px-5 py-2.5 text-sm font-medium text-[#0a0a0a] backdrop-blur-sm transition-all hover:border-black/30 hover:bg-white/80 active:scale-[0.98]"
@@ -110,7 +129,7 @@ export default function Hero() {
           variants={fadeUp}
           initial="hidden"
           animate="show"
-          custom={0.45}
+          custom={0.9}
           className="mt-12 flex flex-col items-center gap-3"
         >
           <div className="flex items-center -space-x-2">
@@ -123,7 +142,6 @@ export default function Hero() {
               </div>
             ))}
           </div>
-
           <div className="flex flex-col items-center gap-1">
             <div className="flex items-center gap-0.5">
               {[...Array(5)].map((_, i) => (

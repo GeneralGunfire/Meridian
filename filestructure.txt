@@ -84,13 +84,26 @@
             |-- layout.tsx
             |-- page.tsx
         |-- components
+            |-- animate-ui
+                |-- flip-card.tsx
+                |-- liquid-button.tsx
+                |-- stars-background.tsx
+            |-- fancy
+                |-- basic-number-ticker.tsx
+                |-- pixel-trail.tsx
+                |-- scramble-in.tsx
+                |-- vertical-cut-reveal.tsx
             |-- sections
+                |-- data-ticker.tsx
                 |-- features.tsx
                 |-- hero.tsx
+                |-- how-it-works.tsx
                 |-- macbook.tsx
+                |-- stats-bar.tsx
             |-- ui
                 |-- macbook-scroll.tsx
                 |-- navbar.tsx
+        |-- hooks
         |-- lib
             |-- utils.ts
     |-- tsconfig.json
