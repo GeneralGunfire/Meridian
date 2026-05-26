@@ -1,0 +1,49 @@
+|-- .eslintrc.json
+|-- .github
+    |-- workflows
+        |-- scrape-data.yml
+|-- .gitignore
+|-- .planning
+    |-- config.json
+    |-- PROJECT.md
+    |-- research
+        |-- ARCHITECTURE.md
+        |-- FEATURES.md
+        |-- PITFALLS.md
+        |-- STACK.md
+|-- BACKEND.md
+|-- CLAUDE.md
+|-- meridian-data.zip
+|-- Meridian.code-workspace
+|-- next.config.js
+|-- package-lock.json
+|-- package.json
+|-- postcss.config.js
+|-- scripts
+    |-- seed-data.js
+|-- src
+    |-- app
+        |-- api
+            |-- download
+                |-- [filename]
+                    |-- route.ts
+            |-- files
+                |-- route.ts
+            |-- status
+                |-- route.ts
+        |-- globals.css
+        |-- layout.tsx
+        |-- page.tsx
+    |-- lib
+        |-- file-handler.ts
+    |-- scrapers
+        |-- crime-scraper.ts
+        |-- eskom-scraper.ts
+        |-- housing-scraper.ts
+        |-- scrape-all.ts
+        |-- utils.ts
+        |-- water-scraper.ts
+    |-- types
+        |-- index.ts
+|-- tailwind.config.ts
+|-- tsconfig.json

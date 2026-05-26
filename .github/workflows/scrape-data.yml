@@ -1,0 +1,40 @@
+name: Weekly Data Scrape
+
+on:
+  schedule:
+    # Run every Monday at 9:00 AM UTC
+    - cron: '0 9 * * 1'
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build TypeScript
+        run: npx tsc src/scrapers/scrape-all.ts --outDir dist --module commonjs --target es2020 --lib es2020
+
+      - name: Run scrapers
+        run: node dist/scrapers/scrape-all.js
+
+      - name: Commit and push data files
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add data/
+          git commit -m "data: weekly scrape $(date +%Y-%m-%d)" --allow-empty
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
