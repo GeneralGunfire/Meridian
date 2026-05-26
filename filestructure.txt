@@ -72,6 +72,11 @@
 |-- scripts
     |-- seed-data.js
 |-- server.ts
+|-- src
+    |-- App.css
+    |-- App.tsx
+    |-- index.css
+    |-- main.tsx
 |-- start-dev.ps1
 |-- tsconfig.json
 |-- vite.config.ts
