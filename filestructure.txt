@@ -80,6 +80,7 @@
     |-- types
         |-- index.ts
     |-- types.ts
+|-- start-dev.ps1
 |-- tailwind.config.ts
 |-- tsconfig.json
 |-- vite.config.ts
