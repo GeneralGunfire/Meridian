@@ -1,10 +1,15 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Bebas_Neue } from "next/font/google";
 import "./globals.css";
 import { CursorProvider } from "@/components/animate-ui/cursor";
 
 const geist = Geist({ subsets: ["latin"], variable: "--font-geist" });
 const geistMono = Geist_Mono({ subsets: ["latin"], variable: "--font-geist-mono" });
+const bebasNeue = Bebas_Neue({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-bebas",
+});
 
 export const metadata: Metadata = {
   title: "Meridian — SA Government Data Pipeline",
@@ -19,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${geist.variable} ${geistMono.variable} font-[family-name:var(--font-geist)] bg-[#f5f0e8] text-[#0a0a0a] antialiased`}>
+      <body className={`${geist.variable} ${geistMono.variable} ${bebasNeue.variable} font-(family-name:--font-geist) bg-[#f5f0e8] text-[#0a0a0a] antialiased`}>
         <CursorProvider>
           {children}
         </CursorProvider>

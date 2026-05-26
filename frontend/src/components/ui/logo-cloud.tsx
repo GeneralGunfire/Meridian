@@ -1,36 +1,82 @@
+"use client";
+
 import { PlusIcon } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-type Logo = { src: string; alt: string; width?: number; height?: number };
+type Logo = { src: string; alt: string };
 type LogoCloudProps = React.ComponentProps<"div">;
+
+/**
+ * Tool logos used in the Meridian stack.
+ * Using CDN-stable SVG URLs — simple monochrome marks or wordmarks.
+ */
+const logos: (Logo & { wide?: boolean })[] = [
+  {
+    alt: "GitHub",
+    src: "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg",
+  },
+  {
+    alt: "Vercel",
+    src: "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/vercel.svg",
+  },
+  {
+    alt: "Python",
+    src: "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/python.svg",
+  },
+  {
+    alt: "Power BI",
+    src: "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/powerbi.svg",
+  },
+  {
+    alt: "Next.js",
+    src: "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/nextdotjs.svg",
+  },
+  {
+    alt: "Tailwind CSS",
+    src: "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/tailwindcss.svg",
+  },
+  {
+    alt: "GitHub Actions",
+    src: "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/githubactions.svg",
+  },
+  {
+    alt: "PostgreSQL",
+    src: "https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/postgresql.svg",
+  },
+];
 
 export function LogoCloud({ className, ...props }: LogoCloudProps) {
   return (
-    <div className={cn("relative grid grid-cols-2 border-x border-black/10 md:grid-cols-4", className)} {...props}>
-      <div className="-translate-x-1/2 -top-px pointer-events-none absolute left-1/2 w-screen border-t border-black/10" />
-
-      <LogoCard className="relative border-r border-b border-black/10 bg-black/3" logo={{ src: "https://svgl.app/library/github_wordmark_light.svg", alt: "GitHub" }}>
-        <PlusIcon className="-right-[12.5px] -bottom-[12.5px] absolute z-10 size-6 text-black/20" strokeWidth={1} />
-      </LogoCard>
-
-      <LogoCard className="border-b border-black/10" logo={{ src: "https://svgl.app/library/vercel_wordmark.svg", alt: "Vercel" }} />
-
-      <LogoCard className="relative border-r border-b border-black/10 bg-black/3" logo={{ src: "https://svgl.app/library/supabase_wordmark_light.svg", alt: "Supabase" }}>
-        <PlusIcon className="-right-[12.5px] -bottom-[12.5px] absolute z-10 size-6 text-black/20 hidden md:block" strokeWidth={1} />
-        <PlusIcon className="-bottom-[12.5px] -left-[12.5px] absolute z-10 size-6 text-black/20 hidden md:block" strokeWidth={1} />
-      </LogoCard>
-
-      <LogoCard className="border-b border-black/10" logo={{ src: "https://svgl.app/library/microsoft_power_bi.svg", alt: "Power BI" }} />
-
-      <LogoCard className="border-r border-black/10" logo={{ src: "https://svgl.app/library/python-wordmark.svg", alt: "Python" }} />
-
-      <LogoCard className="bg-black/3" logo={{ src: "https://svgl.app/library/notion_wordmark.svg", alt: "Notion" }} />
-
-      <LogoCard className="border-r border-black/10" logo={{ src: "https://svgl.app/library/nextjs_wordmark_light.svg", alt: "Next.js" }} />
-
-      <LogoCard className="bg-black/3" logo={{ src: "https://svgl.app/library/tailwindcss_wordmark.svg", alt: "Tailwind CSS" }} />
-
-      <div className="-translate-x-1/2 -bottom-px pointer-events-none absolute left-1/2 w-screen border-b border-black/10" />
+    <div
+      className={cn(
+        "relative grid grid-cols-4 border border-black/12 rounded-xl overflow-hidden",
+        className
+      )}
+      {...props}
+    >
+      {logos.map((logo, i) => {
+        const isLastRow = i >= logos.length - 4;
+        const isRightEdge = (i + 1) % 4 === 0;
+        return (
+          <LogoCard
+            key={logo.alt}
+            logo={logo}
+            className={cn(
+              !isRightEdge && "border-r border-black/10",
+              !isLastRow && "border-b border-black/10",
+              i % 2 === 0 ? "bg-black/2" : "bg-transparent"
+            )}
+          >
+            {/* Plus corners on interior intersections */}
+            {!isRightEdge && !isLastRow && (
+              <PlusIcon
+                className="absolute -right-3 -bottom-3 z-10 size-6 text-black/15"
+                strokeWidth={1}
+              />
+            )}
+          </LogoCard>
+        );
+      })}
     </div>
   );
 }
@@ -39,14 +85,25 @@ type LogoCardProps = React.ComponentProps<"div"> & { logo: Logo };
 
 function LogoCard({ logo, className, children, ...props }: LogoCardProps) {
   return (
-    <div className={cn("flex items-center justify-center bg-[#f5f0e8] px-4 py-8 md:p-8", className)} {...props}>
+    <div
+      className={cn(
+        "relative flex flex-col items-center justify-center gap-2.5 px-6 py-8",
+        className
+      )}
+      {...props}
+    >
+      {/* Icon */}
       <img
         alt={logo.alt}
-        className="pointer-events-none h-5 select-none opacity-40 grayscale md:h-6"
         src={logo.src}
-        width="auto"
-        height="auto"
+        className="h-7 w-7 select-none opacity-60 grayscale"
+        width={28}
+        height={28}
       />
+      {/* Label */}
+      <span className="text-[10px] font-semibold uppercase tracking-widest text-neutral-500">
+        {logo.alt}
+      </span>
       {children}
     </div>
   );

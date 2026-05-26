@@ -2,15 +2,16 @@
 import { motion } from "motion/react";
 import dynamic from "next/dynamic";
 
-const LiquidMetalBg = dynamic(
-  () => import("@/components/ui/liquid-metal-bg").then((m) => ({ default: m.LiquidMetalBg })),
+const ParticleField = dynamic(
+  () => import("@/components/ui/particle-field").then((m) => ({ default: m.ParticleField })),
   { ssr: false }
 );
 
 export default function Hero() {
   return (
     <section className="relative flex min-h-[90vh] flex-col items-center justify-center overflow-hidden bg-[#f5f0e8] px-4 text-center">
-      <LiquidMetalBg />
+      {/* Particle canvas — fills section, beige bg, warm amber particles */}
+      <ParticleField />
 
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-4xl">
@@ -28,7 +29,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: "easeOut", delay: 0.08 }}
-          className="mb-6 text-5xl font-bold tracking-[-0.04em] text-[#0a0a0a] sm:text-6xl lg:text-7xl xl:text-8xl"
+          className="mb-6 font-(family-name:--font-bebas) text-[5rem] uppercase leading-[0.92] tracking-[0.04em] text-[#0a0a0a] sm:text-[7rem] lg:text-[9rem] xl:text-[11rem]"
         >
           South Africa&apos;s data,<br />
           <span className="text-neutral-400">clean and ready.</span>
