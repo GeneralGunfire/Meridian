@@ -112,6 +112,7 @@
                 |-- logo-cloud.tsx
                 |-- macbook-scroll.tsx
                 |-- navbar.tsx
+                |-- scroll-reveal-3d.tsx
         |-- hooks
         |-- lib
             |-- utils.ts
