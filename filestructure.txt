@@ -73,6 +73,8 @@
     |-- public
         |-- file.svg
         |-- globe.svg
+        |-- images
+            |-- power.PNG
         |-- next.svg
         |-- vercel.svg
         |-- window.svg
