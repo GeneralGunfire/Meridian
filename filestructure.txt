@@ -85,8 +85,10 @@
             |-- page.tsx
         |-- components
             |-- animate-ui
+                |-- cursor.tsx
                 |-- flip-card.tsx
                 |-- liquid-button.tsx
+                |-- notification-list.tsx
                 |-- stars-background.tsx
             |-- fancy
                 |-- basic-number-ticker.tsx
@@ -98,6 +100,7 @@
                 |-- features.tsx
                 |-- hero.tsx
                 |-- how-it-works.tsx
+                |-- latest-updates.tsx
                 |-- macbook.tsx
                 |-- stats-bar.tsx
             |-- ui
