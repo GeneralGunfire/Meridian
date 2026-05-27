@@ -1,82 +1,82 @@
 {
-  "generatedAt": "2026-05-27T13:49:37.056Z",
+  "generatedAt": "2026-05-27T14:01:40.803Z",
   "datasets": {
     "crime_stats": {
-      "success": true,
-      "last_updated": "2026-05-27",
-      "error": null,
-      "skipped": false
+      "success": false,
+      "last_updated": null,
+      "error": "Scraper not yet implemented",
+      "skipped": true
     },
     "eskom_power": {
-      "success": true,
-      "last_updated": "2026-05-27",
-      "error": null,
-      "skipped": false
+      "success": false,
+      "last_updated": null,
+      "error": "Scraper not yet implemented",
+      "skipped": true
     },
     "water": {
-      "success": true,
-      "last_updated": "2026-05-27",
-      "error": null,
-      "skipped": false
+      "success": false,
+      "last_updated": null,
+      "error": "Scraper not yet implemented",
+      "skipped": true
     },
     "housing": {
-      "success": true,
-      "last_updated": "2026-05-27",
-      "error": null,
-      "skipped": false
+      "success": false,
+      "last_updated": null,
+      "error": "Scraper not yet implemented",
+      "skipped": true
     },
     "unemployment": {
-      "success": true,
-      "last_updated": "2026-05-27",
-      "error": null,
-      "skipped": false
+      "success": false,
+      "last_updated": null,
+      "error": "Scraper not yet implemented",
+      "skipped": true
     },
     "sarb_monetary": {
-      "success": true,
-      "last_updated": "2026-05-27",
-      "error": null,
+      "success": false,
+      "last_updated": null,
+      "error": "SARB API scraper not yet implemented — will be built in Phase 4",
       "skipped": false
     },
     "gdp_macro": {
-      "success": true,
-      "last_updated": "2026-05-27",
-      "error": null,
-      "skipped": false
+      "success": false,
+      "last_updated": null,
+      "error": "Scraper not yet implemented",
+      "skipped": true
     },
     "tax_revenue": {
-      "success": true,
-      "last_updated": "2026-05-27",
-      "error": null,
-      "skipped": false
+      "success": false,
+      "last_updated": null,
+      "error": "Scraper not yet implemented",
+      "skipped": true
     },
     "budget_spending": {
-      "success": true,
-      "last_updated": "2026-05-27",
-      "error": null,
-      "skipped": false
+      "success": false,
+      "last_updated": null,
+      "error": "Scraper not yet implemented",
+      "skipped": true
     },
     "municipal_finance": {
-      "success": true,
-      "last_updated": "2026-05-27",
-      "error": null,
-      "skipped": false
+      "success": false,
+      "last_updated": null,
+      "error": "Scraper not yet implemented",
+      "skipped": true
     },
     "eskom_infrastructure": {
-      "success": true,
-      "last_updated": "2026-05-27",
-      "error": null,
-      "skipped": false
+      "success": false,
+      "last_updated": null,
+      "error": "Scraper not yet implemented",
+      "skipped": true
     },
     "eskom_spending": {
       "success": false,
       "last_updated": null,
-      "error": null,
+      "error": "Scraper not yet implemented",
       "skipped": true
     },
     "eskom_revenue": {
       "success": false,
       "last_updated": null,
-      "error": null,
+      "error": "Scraper not yet implemented",
       "skipped": true
     }
   }

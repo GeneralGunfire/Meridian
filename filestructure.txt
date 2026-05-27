@@ -123,6 +123,30 @@
     |-- tsconfig.tsbuildinfo
 |-- Meridian.code-workspace
 |-- metadata.json
+|-- pipeline
+    |-- .gitignore
+    |-- package-lock.json
+    |-- package.json
+    |-- src
+        |-- lib
+            |-- csv.ts
+            |-- logger.ts
+            |-- manifest.ts
+            |-- paths.ts
+            |-- status.ts
+            |-- week.ts
+        |-- manual-drop
+            |-- .gitkeep
+        |-- registry.ts
+        |-- scrape-all.ts
+        |-- scrapers
+            |-- economy
+                |-- sarb_monetary.ts
+            |-- energy
+            |-- safety
+            |-- social
+        |-- types.ts
+    |-- tsconfig.json
 |-- README.md
 |-- scripts
     |-- seed-data.js
