@@ -6,12 +6,13 @@ const features = [
   {
     icon: (
       <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
     ),
-    title: "Crime Statistics",
-    description: "SAPS-sourced crime data by province and category. Quarterly updates covering murder, robbery, assault, and more — structured for Power BI.",
-    badge: "Quarterly",
+    title: "Economy",
+    description: "Tax revenue (SARS), national budget & spending (Treasury), GDP and macro indicators (StatsSA), monetary data (SARB), and municipal finances.",
+    badge: "5 datasets",
+    count: 5,
   },
   {
     icon: (
@@ -19,29 +20,32 @@ const features = [
         <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
       </svg>
     ),
-    title: "Eskom Load-Shedding",
-    description: "Stage tracking from the official Eskom API. Historical patterns, duration breakdowns by province, and weekly trend data.",
-    badge: "Weekly",
+    title: "Energy",
+    description: "Eskom power supply & demand, generation infrastructure health (EAF), financial spending and revenue — national and provincial breakdowns.",
+    badge: "4 datasets",
+    count: 4,
   },
   {
     icon: (
       <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M3 10h.01M7 10h.01M11 10h.01M15 10h.01M19 10h.01M3 14h.01M7 14h.01M11 14h.01M15 14h.01M19 14h.01M3 6h18M3 18h18" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
       </svg>
     ),
-    title: "Water & Sanitation",
-    description: "Municipal access rates from StatsSA General Household Surveys. Track water supply and sanitation coverage across South Africa.",
-    badge: "Annual",
+    title: "Social",
+    description: "Water & sanitation access, housing and formal dwellings, unemployment and labour force participation — from StatsSA GHS and QLFS surveys.",
+    badge: "3 datasets",
+    count: 3,
   },
   {
     icon: (
       <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-        <path strokeLinecap="round" strokeLinejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
       </svg>
     ),
-    title: "Housing Data",
-    description: "GHS household survey data on formal dwellings, electricity access, and infrastructure. Yearly SA-wide coverage for trend analysis.",
-    badge: "Annual",
+    title: "Safety",
+    description: "SAPS-sourced crime data by province and police station — murder, assault, robbery, sexual offences, and more. Quarterly updates.",
+    badge: "3 datasets",
+    count: 3,
   },
 ];
 
@@ -58,13 +62,13 @@ export default function Features() {
           transition={{ duration: 0.5, ease: "easeOut" }}
         >
           <p className="mb-2 text-xs font-semibold uppercase tracking-widest text-neutral-500">
-            Datasets
+            15 Datasets · 4 Categories
           </p>
           <h2 className="text-3xl font-bold tracking-[-0.02em] text-[#0a0a0a] sm:text-4xl">
-            Everything you need, scraped weekly.
+            The most comprehensive SA<br className="hidden sm:block" /> government data collection.
           </h2>
           <p className="mt-3 text-base text-neutral-600">
-            Official government sources. Clean CSVs. Ready for analysis.
+            Official sources. Clean CSVs. Up to 15 years of history. Ready for Power BI.
           </p>
         </motion.div>
 
@@ -98,7 +102,7 @@ export default function Features() {
                 <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                 </svg>
-                Download CSV
+                View datasets →
               </div>
             </motion.div>
           ))}

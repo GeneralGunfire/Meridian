@@ -30,10 +30,10 @@ export default function DownloadHero() {
           className="mt-10 flex flex-wrap gap-6"
         >
           {[
-            { value: "4", label: "Datasets" },
-            { value: "Weekly", label: "Updated" },
+            { value: "15", label: "Datasets" },
+            { value: "4", label: "Categories" },
             { value: "CSV + Excel", label: "Formats" },
-            { value: "MIT", label: "License" },
+            { value: "~15yr", label: "History" },
           ].map((s) => (
             <div key={s.label} className="rounded-lg border border-black/10 bg-white/60 px-5 py-3 backdrop-blur-sm">
               <p className="text-lg font-bold tracking-tight text-[#0a0a0a]">{s.value}</p>
