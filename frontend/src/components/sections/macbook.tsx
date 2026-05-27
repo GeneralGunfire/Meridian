@@ -10,7 +10,7 @@ export default function MacBookSection() {
             Explore South Africa&apos;s data <br /> in your Power BI dashboard.
           </span>
         }
-        src="/images/power.PNG"
+        src="/images/newmacbook.png"
         showGradient={false}
       />
     </div>

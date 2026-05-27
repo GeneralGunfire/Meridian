@@ -1,6 +1,7 @@
 import Navbar from "@/components/ui/navbar";
 import Hero from "@/components/sections/hero";
 import MacBook from "@/components/sections/macbook";
+import WhatIsPowerBI from "@/components/sections/what-is-powerbi";
 import StatsBar from "@/components/sections/stats-bar";
 import Features from "@/components/sections/features";
 import HowItWorks from "@/components/sections/how-it-works";
@@ -17,6 +18,11 @@ export default function Home() {
 
       {/* MacBook — already has its own scroll-driven animation */}
       <MacBook />
+
+      {/* What is Power BI? */}
+      <ScrollReveal3D direction="up">
+        <WhatIsPowerBI />
+      </ScrollReveal3D>
 
       {/* StatsBar — 3D depth pop-up from below */}
       <ScrollReveal3D direction="up">

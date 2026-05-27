@@ -74,7 +74,9 @@
         |-- file.svg
         |-- globe.svg
         |-- images
-            |-- power.PNG
+            |-- newmacbook.png
+            |-- powerbi-features-bigdata.jpg
+            |-- powerbi-what.png
         |-- next.svg
         |-- vercel.svg
         |-- window.svg
@@ -106,6 +108,7 @@
                 |-- latest-updates.tsx
                 |-- macbook.tsx
                 |-- stats-bar.tsx
+                |-- what-is-powerbi.tsx
             |-- ui
                 |-- badge.tsx
                 |-- button.tsx
