@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T16:16:14.709Z",
+  "generatedAt": "2026-05-27T16:29:35.290Z",
   "datasets": {
     "crime_stats": {
       "files": [
@@ -9,7 +9,14 @@
           "rows": 6,
           "csv": "safety/crime_stats/crime_stats_2026-q1.csv"
         }
-      ]
+      ],
+      "history": {
+        "period": "history",
+        "date": "2026-05-27",
+        "rows": 272360,
+        "csv": "safety/crime_stats/crime_stats_history.csv"
+      },
+      "lastUpdated": "2026-05-27"
     },
     "eskom_power": {
       "files": [

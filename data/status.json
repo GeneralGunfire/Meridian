@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-05-27T16:16:14.712Z",
+  "generatedAt": "2026-05-27T16:29:35.292Z",
   "datasets": {
     "crime_stats": {
-      "success": false,
-      "last_updated": null,
-      "error": "Scraper not yet implemented",
-      "skipped": true
+      "success": true,
+      "last_updated": "2026-05-27",
+      "error": null,
+      "skipped": false
     },
     "eskom_power": {
       "success": false,
