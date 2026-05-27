@@ -13,15 +13,22 @@ export interface FileRelease {
   xlsx_url: string;      // same path but .xlsx — generated on the fly
 }
 
+export interface ColumnInfo {
+  name: string;
+  label: string;
+  unit: string;
+}
+
 export interface DatasetEntry {
   id: string;
   label: string;
   description: string;
+  grain: string;
   source: string;
   sourceUrl: string;
   method: "api" | "parse" | "scrape" | "manual";
   cadence: "weekly" | "monthly" | "quarterly" | "annual";
-  columns: string[];
+  columns: ColumnInfo[];
   color: string;
   badgeColor: string;
   files: FileRelease[];          // most recent first

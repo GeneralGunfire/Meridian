@@ -83,6 +83,7 @@ export async function GET(): Promise<NextResponse> {
           id: spec.id,
           label: spec.label,
           description: spec.description,
+          grain: spec.grain,
           source: spec.source,
           sourceUrl: spec.sourceUrl,
           method: spec.method,
