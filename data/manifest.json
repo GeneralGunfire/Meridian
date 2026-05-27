@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T21:11:27.535Z",
+  "generatedAt": "2026-05-27T21:44:47.744Z",
   "datasets": {
     "crime_stats": {
       "files": [
@@ -17,16 +17,6 @@
         "csv": "safety/crime_stats/crime_stats_history.csv"
       },
       "lastUpdated": "2026-05-27"
-    },
-    "eskom_power": {
-      "files": [
-        {
-          "period": "2026-w22",
-          "date": "2026-05-27",
-          "rows": 3,
-          "csv": "energy/eskom_power/eskom_power_2026-w22.csv"
-        }
-      ]
     },
     "unemployment": {
       "files": [
@@ -92,16 +82,6 @@
       },
       "lastUpdated": "2026-05-27"
     },
-    "eskom_infrastructure": {
-      "files": [
-        {
-          "period": "2026-w22",
-          "date": "2026-05-27",
-          "rows": 4,
-          "csv": "energy/eskom_infrastructure/eskom_infrastructure_2026-w22.csv"
-        }
-      ]
-    },
     "tax_revenue": {
       "files": [],
       "history": {
@@ -129,6 +109,26 @@
         "date": "2026-05-27",
         "rows": 384,
         "csv": "social/housing/housing_history.csv"
+      },
+      "lastUpdated": "2026-05-27"
+    },
+    "eskom_power": {
+      "files": [],
+      "history": {
+        "period": "history",
+        "date": "2026-05-27",
+        "rows": 412,
+        "csv": "energy/eskom_power/eskom_power_history.csv"
+      },
+      "lastUpdated": "2026-05-27"
+    },
+    "eskom_infrastructure": {
+      "files": [],
+      "history": {
+        "period": "history",
+        "date": "2026-05-27",
+        "rows": 130,
+        "csv": "energy/eskom_infrastructure/eskom_infrastructure_history.csv"
       },
       "lastUpdated": "2026-05-27"
     }

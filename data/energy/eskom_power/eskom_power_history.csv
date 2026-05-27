@@ -1,0 +1,413 @@
+Date,Metric,Value,Unit,Source_File
+2027-03-22,2025-26-Residual Energy Demand,3364.58,GWh,Weekly_Energy_Demand
+2027-03-22,2025-26-Residual Peak Demand,24369.00,MW,Weekly_Peak_Demand
+2027-03-22,2025-26-RSA Contracted Energy Demand,3692.55,GWh,Weekly_Energy_Demand
+2027-03-22,2025-26-RSA Contracted Peak Demand,27310.00,MW,Weekly_Peak_Demand
+2027-03-22,2026-27-Residual Energy Forecast,3263.47,GWh,Weekly_Energy_Demand
+2027-03-22,2026-27-Residual Peak Forecast,24077.00,MW,Weekly_Peak_Demand
+2027-03-15,2025-26-Residual Energy Demand,3431.67,GWh,Weekly_Energy_Demand
+2027-03-15,2025-26-Residual Peak Demand,25290.00,MW,Weekly_Peak_Demand
+2027-03-15,2025-26-RSA Contracted Energy Demand,3740.49,GWh,Weekly_Energy_Demand
+2027-03-15,2025-26-RSA Contracted Peak Demand,26944.00,MW,Weekly_Peak_Demand
+2027-03-15,2026-27-Residual Energy Forecast,3409.68,GWh,Weekly_Energy_Demand
+2027-03-15,2026-27-Residual Peak Forecast,23968.00,MW,Weekly_Peak_Demand
+2027-03-08,2025-26-Residual Energy Demand,3465.11,GWh,Weekly_Energy_Demand
+2027-03-08,2025-26-Residual Peak Demand,26500.00,MW,Weekly_Peak_Demand
+2027-03-08,2025-26-RSA Contracted Energy Demand,3784.01,GWh,Weekly_Energy_Demand
+2027-03-08,2025-26-RSA Contracted Peak Demand,27609.00,MW,Weekly_Peak_Demand
+2027-03-08,2026-27-Residual Energy Forecast,3447.37,GWh,Weekly_Energy_Demand
+2027-03-08,2026-27-Residual Peak Forecast,24061.00,MW,Weekly_Peak_Demand
+2027-03-01,2025-26-Residual Energy Demand,3414.09,GWh,Weekly_Energy_Demand
+2027-03-01,2025-26-Residual Peak Demand,25816.00,MW,Weekly_Peak_Demand
+2027-03-01,2025-26-RSA Contracted Energy Demand,3791.66,GWh,Weekly_Energy_Demand
+2027-03-01,2025-26-RSA Contracted Peak Demand,27126.00,MW,Weekly_Peak_Demand
+2027-03-01,2026-27-Residual Energy Forecast,3433.15,GWh,Weekly_Energy_Demand
+2027-03-01,2026-27-Residual Peak Forecast,24336.00,MW,Weekly_Peak_Demand
+2027-02-22,2025-26-Residual Energy Demand,3434.34,GWh,Weekly_Energy_Demand
+2027-02-22,2025-26-Residual Peak Demand,25161.00,MW,Weekly_Peak_Demand
+2027-02-22,2025-26-RSA Contracted Energy Demand,3796.13,GWh,Weekly_Energy_Demand
+2027-02-22,2025-26-RSA Contracted Peak Demand,26752.00,MW,Weekly_Peak_Demand
+2027-02-22,2026-27-Residual Energy Forecast,3338.82,GWh,Weekly_Energy_Demand
+2027-02-22,2026-27-Residual Peak Forecast,23689.00,MW,Weekly_Peak_Demand
+2027-02-15,2025-26-Residual Energy Demand,3476.96,GWh,Weekly_Energy_Demand
+2027-02-15,2025-26-Residual Peak Demand,25390.00,MW,Weekly_Peak_Demand
+2027-02-15,2025-26-RSA Contracted Energy Demand,3825.93,GWh,Weekly_Energy_Demand
+2027-02-15,2025-26-RSA Contracted Peak Demand,26926.00,MW,Weekly_Peak_Demand
+2027-02-15,2026-27-Residual Energy Forecast,3377.37,GWh,Weekly_Energy_Demand
+2027-02-15,2026-27-Residual Peak Forecast,23608.00,MW,Weekly_Peak_Demand
+2027-02-08,2025-26-Residual Energy Demand,3412.43,GWh,Weekly_Energy_Demand
+2027-02-08,2025-26-Residual Peak Demand,25119.00,MW,Weekly_Peak_Demand
+2027-02-08,2025-26-RSA Contracted Energy Demand,3862.49,GWh,Weekly_Energy_Demand
+2027-02-08,2025-26-RSA Contracted Peak Demand,27207.00,MW,Weekly_Peak_Demand
+2027-02-08,2026-27-Residual Energy Forecast,3344.15,GWh,Weekly_Energy_Demand
+2027-02-08,2026-27-Residual Peak Forecast,23130.00,MW,Weekly_Peak_Demand
+2027-02-01,2025-26-Residual Energy Demand,3477.28,GWh,Weekly_Energy_Demand
+2027-02-01,2025-26-Residual Peak Demand,25156.00,MW,Weekly_Peak_Demand
+2027-02-01,2025-26-RSA Contracted Energy Demand,3836.15,GWh,Weekly_Energy_Demand
+2027-02-01,2025-26-RSA Contracted Peak Demand,27045.00,MW,Weekly_Peak_Demand
+2027-02-01,2026-27-Residual Energy Forecast,3352.84,GWh,Weekly_Energy_Demand
+2027-02-01,2026-27-Residual Peak Forecast,23120.00,MW,Weekly_Peak_Demand
+2027-01-25,2025-26-Residual Energy Demand,3373.65,GWh,Weekly_Energy_Demand
+2027-01-25,2025-26-Residual Peak Demand,24300.00,MW,Weekly_Peak_Demand
+2027-01-25,2025-26-RSA Contracted Energy Demand,3786.52,GWh,Weekly_Energy_Demand
+2027-01-25,2025-26-RSA Contracted Peak Demand,26690.00,MW,Weekly_Peak_Demand
+2027-01-25,2026-27-Residual Energy Forecast,3292.08,GWh,Weekly_Energy_Demand
+2027-01-25,2026-27-Residual Peak Forecast,23283.00,MW,Weekly_Peak_Demand
+2027-01-18,2025-26-Residual Energy Demand,3309.88,GWh,Weekly_Energy_Demand
+2027-01-18,2025-26-Residual Peak Demand,23952.00,MW,Weekly_Peak_Demand
+2027-01-18,2025-26-RSA Contracted Energy Demand,3749.53,GWh,Weekly_Energy_Demand
+2027-01-18,2025-26-RSA Contracted Peak Demand,26323.00,MW,Weekly_Peak_Demand
+2027-01-18,2026-27-Residual Energy Forecast,3281.29,GWh,Weekly_Energy_Demand
+2027-01-18,2026-27-Residual Peak Forecast,22883.00,MW,Weekly_Peak_Demand
+2027-01-11,2025-26-Residual Energy Demand,3327.66,GWh,Weekly_Energy_Demand
+2027-01-11,2025-26-Residual Peak Demand,23723.00,MW,Weekly_Peak_Demand
+2027-01-11,2025-26-RSA Contracted Energy Demand,3760.27,GWh,Weekly_Energy_Demand
+2027-01-11,2025-26-RSA Contracted Peak Demand,26047.00,MW,Weekly_Peak_Demand
+2027-01-11,2026-27-Residual Energy Forecast,3242.16,GWh,Weekly_Energy_Demand
+2027-01-11,2026-27-Residual Peak Forecast,22562.00,MW,Weekly_Peak_Demand
+2027-01-04,2025-26-Residual Energy Demand,3150.19,GWh,Weekly_Energy_Demand
+2027-01-04,2025-26-Residual Peak Demand,22791.00,MW,Weekly_Peak_Demand
+2027-01-04,2025-26-RSA Contracted Energy Demand,3612.20,GWh,Weekly_Energy_Demand
+2027-01-04,2025-26-RSA Contracted Peak Demand,25353.00,MW,Weekly_Peak_Demand
+2027-01-04,2026-27-Residual Energy Forecast,3116.78,GWh,Weekly_Energy_Demand
+2027-01-04,2026-27-Residual Peak Forecast,21809.00,MW,Weekly_Peak_Demand
+2026-12-28,2025-26-Residual Energy Demand,2874.99,GWh,Weekly_Energy_Demand
+2026-12-28,2025-26-Residual Peak Demand,21144.00,MW,Weekly_Peak_Demand
+2026-12-28,2025-26-RSA Contracted Energy Demand,3300.19,GWh,Weekly_Energy_Demand
+2026-12-28,2025-26-RSA Contracted Peak Demand,23364.00,MW,Weekly_Peak_Demand
+2026-12-28,2026-27-Residual Energy Forecast,2855.80,GWh,Weekly_Energy_Demand
+2026-12-28,2026-27-Residual Peak Forecast,20346.00,MW,Weekly_Peak_Demand
+2026-12-21,2025-26-Residual Energy Demand,2908.89,GWh,Weekly_Energy_Demand
+2026-12-21,2025-26-Residual Peak Demand,22328.00,MW,Weekly_Peak_Demand
+2026-12-21,2025-26-RSA Contracted Energy Demand,3360.83,GWh,Weekly_Energy_Demand
+2026-12-21,2025-26-RSA Contracted Peak Demand,24406.00,MW,Weekly_Peak_Demand
+2026-12-21,2026-27-Residual Energy Forecast,2968.50,GWh,Weekly_Energy_Demand
+2026-12-21,2026-27-Residual Peak Forecast,21859.00,MW,Weekly_Peak_Demand
+2026-12-14,2025-26-Residual Energy Demand,3203.50,GWh,Weekly_Energy_Demand
+2026-12-14,2025-26-Residual Peak Demand,22748.00,MW,Weekly_Peak_Demand
+2026-12-14,2025-26-RSA Contracted Energy Demand,3630.19,GWh,Weekly_Energy_Demand
+2026-12-14,2025-26-RSA Contracted Peak Demand,25221.00,MW,Weekly_Peak_Demand
+2026-12-14,2026-27-Residual Energy Forecast,3160.92,GWh,Weekly_Energy_Demand
+2026-12-14,2026-27-Residual Peak Forecast,22893.00,MW,Weekly_Peak_Demand
+2026-12-07,2025-26-Residual Energy Demand,3351.16,GWh,Weekly_Energy_Demand
+2026-12-07,2025-26-Residual Peak Demand,24004.00,MW,Weekly_Peak_Demand
+2026-12-07,2025-26-RSA Contracted Energy Demand,3777.95,GWh,Weekly_Energy_Demand
+2026-12-07,2025-26-RSA Contracted Peak Demand,26515.00,MW,Weekly_Peak_Demand
+2026-12-07,2026-27-Residual Energy Forecast,3212.47,GWh,Weekly_Energy_Demand
+2026-12-07,2026-27-Residual Peak Forecast,23161.00,MW,Weekly_Peak_Demand
+2026-11-30,2025-26-Residual Energy Demand,3349.69,GWh,Weekly_Energy_Demand
+2026-11-30,2025-26-Residual Peak Demand,24699.00,MW,Weekly_Peak_Demand
+2026-11-30,2025-26-RSA Contracted Energy Demand,3750.96,GWh,Weekly_Energy_Demand
+2026-11-30,2025-26-RSA Contracted Peak Demand,26851.00,MW,Weekly_Peak_Demand
+2026-11-30,2026-27-Residual Energy Forecast,3253.56,GWh,Weekly_Energy_Demand
+2026-11-30,2026-27-Residual Peak Forecast,23437.00,MW,Weekly_Peak_Demand
+2026-11-23,2025-26-Residual Energy Demand,3450.69,GWh,Weekly_Energy_Demand
+2026-11-23,2025-26-Residual Peak Demand,25541.00,MW,Weekly_Peak_Demand
+2026-11-23,2025-26-RSA Contracted Energy Demand,3845.73,GWh,Weekly_Energy_Demand
+2026-11-23,2025-26-RSA Contracted Peak Demand,27204.00,MW,Weekly_Peak_Demand
+2026-11-23,2026-27-Residual Energy Forecast,3320.53,GWh,Weekly_Energy_Demand
+2026-11-23,2026-27-Residual Peak Forecast,23973.00,MW,Weekly_Peak_Demand
+2026-11-16,2025-26-Residual Energy Demand,3443.92,GWh,Weekly_Energy_Demand
+2026-11-16,2025-26-Residual Peak Demand,25680.00,MW,Weekly_Peak_Demand
+2026-11-16,2025-26-RSA Contracted Energy Demand,3857.39,GWh,Weekly_Energy_Demand
+2026-11-16,2025-26-RSA Contracted Peak Demand,28563.00,MW,Weekly_Peak_Demand
+2026-11-16,2026-27-Residual Energy Forecast,3375.82,GWh,Weekly_Energy_Demand
+2026-11-16,2026-27-Residual Peak Forecast,24265.00,MW,Weekly_Peak_Demand
+2026-11-09,2025-26-Residual Energy Demand,3502.41,GWh,Weekly_Energy_Demand
+2026-11-09,2025-26-Residual Peak Demand,26223.00,MW,Weekly_Peak_Demand
+2026-11-09,2025-26-RSA Contracted Energy Demand,3867.62,GWh,Weekly_Energy_Demand
+2026-11-09,2025-26-RSA Contracted Peak Demand,28047.00,MW,Weekly_Peak_Demand
+2026-11-09,2026-27-Residual Energy Forecast,3368.83,GWh,Weekly_Energy_Demand
+2026-11-09,2026-27-Residual Peak Forecast,24159.00,MW,Weekly_Peak_Demand
+2026-11-02,2025-26-Residual Energy Demand,3484.18,GWh,Weekly_Energy_Demand
+2026-11-02,2025-26-Residual Peak Demand,25417.00,MW,Weekly_Peak_Demand
+2026-11-02,2025-26-RSA Contracted Energy Demand,3849.03,GWh,Weekly_Energy_Demand
+2026-11-02,2025-26-RSA Contracted Peak Demand,28146.00,MW,Weekly_Peak_Demand
+2026-11-02,2026-27-Residual Energy Forecast,3343.29,GWh,Weekly_Energy_Demand
+2026-11-02,2026-27-Residual Peak Forecast,23831.00,MW,Weekly_Peak_Demand
+2026-10-26,2025-26-Residual Energy Demand,3480.78,GWh,Weekly_Energy_Demand
+2026-10-26,2025-26-Residual Peak Demand,25828.00,MW,Weekly_Peak_Demand
+2026-10-26,2025-26-RSA Contracted Energy Demand,3845.89,GWh,Weekly_Energy_Demand
+2026-10-26,2025-26-RSA Contracted Peak Demand,27761.00,MW,Weekly_Peak_Demand
+2026-10-26,2026-27-Residual Energy Forecast,3287.93,GWh,Weekly_Energy_Demand
+2026-10-26,2026-27-Residual Peak Forecast,24095.00,MW,Weekly_Peak_Demand
+2026-10-19,2025-26-Residual Energy Demand,3467.36,GWh,Weekly_Energy_Demand
+2026-10-19,2025-26-Residual Peak Demand,26822.00,MW,Weekly_Peak_Demand
+2026-10-19,2025-26-RSA Contracted Energy Demand,3845.17,GWh,Weekly_Energy_Demand
+2026-10-19,2025-26-RSA Contracted Peak Demand,29192.00,MW,Weekly_Peak_Demand
+2026-10-19,2026-27-Residual Energy Forecast,3300.18,GWh,Weekly_Energy_Demand
+2026-10-19,2026-27-Residual Peak Forecast,24523.00,MW,Weekly_Peak_Demand
+2026-10-12,2025-26-Residual Energy Demand,3437.10,GWh,Weekly_Energy_Demand
+2026-10-12,2025-26-Residual Peak Demand,25569.00,MW,Weekly_Peak_Demand
+2026-10-12,2025-26-RSA Contracted Energy Demand,3874.27,GWh,Weekly_Energy_Demand
+2026-10-12,2025-26-RSA Contracted Peak Demand,27622.00,MW,Weekly_Peak_Demand
+2026-10-12,2026-27-Residual Energy Forecast,3320.66,GWh,Weekly_Energy_Demand
+2026-10-12,2026-27-Residual Peak Forecast,24372.00,MW,Weekly_Peak_Demand
+2026-10-05,2025-26-Residual Energy Demand,3488.48,GWh,Weekly_Energy_Demand
+2026-10-05,2025-26-Residual Peak Demand,25729.00,MW,Weekly_Peak_Demand
+2026-10-05,2025-26-RSA Contracted Energy Demand,3824.50,GWh,Weekly_Energy_Demand
+2026-10-05,2025-26-RSA Contracted Peak Demand,27552.00,MW,Weekly_Peak_Demand
+2026-10-05,2026-27-Residual Energy Forecast,3299.02,GWh,Weekly_Energy_Demand
+2026-10-05,2026-27-Residual Peak Forecast,24339.00,MW,Weekly_Peak_Demand
+2026-09-28,2025-26-Residual Energy Demand,3356.80,GWh,Weekly_Energy_Demand
+2026-09-28,2025-26-Residual Peak Demand,25948.00,MW,Weekly_Peak_Demand
+2026-09-28,2025-26-RSA Contracted Energy Demand,3814.21,GWh,Weekly_Energy_Demand
+2026-09-28,2025-26-RSA Contracted Peak Demand,28298.00,MW,Weekly_Peak_Demand
+2026-09-28,2026-27-Residual Energy Forecast,3332.13,GWh,Weekly_Energy_Demand
+2026-09-28,2026-27-Residual Peak Forecast,24931.00,MW,Weekly_Peak_Demand
+2026-09-21,2025-26-Residual Energy Demand,3555.93,GWh,Weekly_Energy_Demand
+2026-09-21,2025-26-Residual Peak Demand,27158.00,MW,Weekly_Peak_Demand
+2026-09-21,2025-26-RSA Contracted Energy Demand,3882.26,GWh,Weekly_Energy_Demand
+2026-09-21,2025-26-RSA Contracted Peak Demand,28501.00,MW,Weekly_Peak_Demand
+2026-09-21,2026-27-Residual Energy Forecast,3307.41,GWh,Weekly_Energy_Demand
+2026-09-21,2026-27-Residual Peak Forecast,24427.00,MW,Weekly_Peak_Demand
+2026-09-14,2025-26-Residual Energy Demand,3528.03,GWh,Weekly_Energy_Demand
+2026-09-14,2025-26-Residual Peak Demand,27142.00,MW,Weekly_Peak_Demand
+2026-09-14,2025-26-RSA Contracted Energy Demand,3880.52,GWh,Weekly_Energy_Demand
+2026-09-14,2025-26-RSA Contracted Peak Demand,28447.00,MW,Weekly_Peak_Demand
+2026-09-14,2026-27-Residual Energy Forecast,3313.15,GWh,Weekly_Energy_Demand
+2026-09-14,2026-27-Residual Peak Forecast,24392.00,MW,Weekly_Peak_Demand
+2026-09-07,2025-26-Residual Energy Demand,3576.44,GWh,Weekly_Energy_Demand
+2026-09-07,2025-26-Residual Peak Demand,27502.00,MW,Weekly_Peak_Demand
+2026-09-07,2025-26-RSA Contracted Energy Demand,3882.90,GWh,Weekly_Energy_Demand
+2026-09-07,2025-26-RSA Contracted Peak Demand,28572.00,MW,Weekly_Peak_Demand
+2026-09-07,2026-27-Residual Energy Forecast,3286.84,GWh,Weekly_Energy_Demand
+2026-09-07,2026-27-Residual Peak Forecast,24636.00,MW,Weekly_Peak_Demand
+2026-08-31,2025-26-Residual Energy Demand,3561.38,GWh,Weekly_Energy_Demand
+2026-08-31,2025-26-Residual Peak Demand,27726.00,MW,Weekly_Peak_Demand
+2026-08-31,2025-26-RSA Contracted Energy Demand,3882.64,GWh,Weekly_Energy_Demand
+2026-08-31,2025-26-RSA Contracted Peak Demand,28529.00,MW,Weekly_Peak_Demand
+2026-08-31,2026-27-Residual Energy Forecast,3269.35,GWh,Weekly_Energy_Demand
+2026-08-31,2026-27-Residual Peak Forecast,24392.00,MW,Weekly_Peak_Demand
+2026-08-24,2025-26-Residual Energy Demand,3690.82,GWh,Weekly_Energy_Demand
+2026-08-24,2025-26-Residual Peak Demand,28155.00,MW,Weekly_Peak_Demand
+2026-08-24,2025-26-RSA Contracted Energy Demand,3934.68,GWh,Weekly_Energy_Demand
+2026-08-24,2025-26-RSA Contracted Peak Demand,29325.00,MW,Weekly_Peak_Demand
+2026-08-24,2026-27-Residual Energy Forecast,3339.68,GWh,Weekly_Energy_Demand
+2026-08-24,2026-27-Residual Peak Forecast,25064.00,MW,Weekly_Peak_Demand
+2026-08-17,2025-26-Residual Energy Demand,3615.77,GWh,Weekly_Energy_Demand
+2026-08-17,2025-26-Residual Peak Demand,28181.00,MW,Weekly_Peak_Demand
+2026-08-17,2025-26-RSA Contracted Energy Demand,3980.12,GWh,Weekly_Energy_Demand
+2026-08-17,2025-26-RSA Contracted Peak Demand,29507.00,MW,Weekly_Peak_Demand
+2026-08-17,2026-27-Residual Energy Forecast,3399.93,GWh,Weekly_Energy_Demand
+2026-08-17,2026-27-Residual Peak Forecast,25387.00,MW,Weekly_Peak_Demand
+2026-08-10,2025-26-Residual Energy Demand,3918.14,GWh,Weekly_Energy_Demand
+2026-08-10,2025-26-Residual Peak Demand,29688.00,MW,Weekly_Peak_Demand
+2026-08-10,2025-26-RSA Contracted Energy Demand,4156.73,GWh,Weekly_Energy_Demand
+2026-08-10,2025-26-RSA Contracted Peak Demand,30750.00,MW,Weekly_Peak_Demand
+2026-08-10,2026-27-Residual Energy Forecast,3462.89,GWh,Weekly_Energy_Demand
+2026-08-10,2026-27-Residual Peak Forecast,26816.00,MW,Weekly_Peak_Demand
+2026-08-03,2025-26-Residual Energy Demand,3860.14,GWh,Weekly_Energy_Demand
+2026-08-03,2025-26-Residual Peak Demand,30916.00,MW,Weekly_Peak_Demand
+2026-08-03,2025-26-RSA Contracted Energy Demand,4219.29,GWh,Weekly_Energy_Demand
+2026-08-03,2025-26-RSA Contracted Peak Demand,31694.00,MW,Weekly_Peak_Demand
+2026-08-03,2026-27-Residual Energy Forecast,3501.81,GWh,Weekly_Energy_Demand
+2026-08-03,2026-27-Residual Peak Forecast,26943.00,MW,Weekly_Peak_Demand
+2026-07-27,2025-26-Residual Energy Demand,3779.63,GWh,Weekly_Energy_Demand
+2026-07-27,2025-26-Residual Peak Demand,30011.00,MW,Weekly_Peak_Demand
+2026-07-27,2025-26-RSA Contracted Energy Demand,4230.15,GWh,Weekly_Energy_Demand
+2026-07-27,2025-26-RSA Contracted Peak Demand,31275.00,MW,Weekly_Peak_Demand
+2026-07-27,2026-27-Residual Energy Forecast,3510.49,GWh,Weekly_Energy_Demand
+2026-07-27,2026-27-Residual Peak Forecast,26934.00,MW,Weekly_Peak_Demand
+2026-07-20,2025-26-Residual Energy Demand,3914.44,GWh,Weekly_Energy_Demand
+2026-07-20,2025-26-Residual Peak Demand,30414.00,MW,Weekly_Peak_Demand
+2026-07-20,2025-26-RSA Contracted Energy Demand,4238.88,GWh,Weekly_Energy_Demand
+2026-07-20,2025-26-RSA Contracted Peak Demand,31233.00,MW,Weekly_Peak_Demand
+2026-07-20,2026-27-Residual Energy Forecast,3506.42,GWh,Weekly_Energy_Demand
+2026-07-20,2026-27-Residual Peak Forecast,27220.00,MW,Weekly_Peak_Demand
+2026-07-13,2025-26-Residual Energy Demand,3984.52,GWh,Weekly_Energy_Demand
+2026-07-13,2025-26-Residual Peak Demand,30763.00,MW,Weekly_Peak_Demand
+2026-07-13,2025-26-RSA Contracted Energy Demand,4247.38,GWh,Weekly_Energy_Demand
+2026-07-13,2025-26-RSA Contracted Peak Demand,31271.00,MW,Weekly_Peak_Demand
+2026-07-13,2026-27-Residual Energy Forecast,3517.52,GWh,Weekly_Energy_Demand
+2026-07-13,2026-27-Residual Peak Forecast,27203.00,MW,Weekly_Peak_Demand
+2026-07-06,2025-26-Residual Energy Demand,3943.78,GWh,Weekly_Energy_Demand
+2026-07-06,2025-26-Residual Peak Demand,31153.00,MW,Weekly_Peak_Demand
+2026-07-06,2025-26-RSA Contracted Energy Demand,4321.67,GWh,Weekly_Energy_Demand
+2026-07-06,2025-26-RSA Contracted Peak Demand,31902.00,MW,Weekly_Peak_Demand
+2026-07-06,2026-27-Residual Energy Forecast,3517.06,GWh,Weekly_Energy_Demand
+2026-07-06,2026-27-Residual Peak Forecast,26883.00,MW,Weekly_Peak_Demand
+2026-06-29,2025-26-Residual Energy Demand,3909.82,GWh,Weekly_Energy_Demand
+2026-06-29,2025-26-Residual Peak Demand,29838.00,MW,Weekly_Peak_Demand
+2026-06-29,2025-26-RSA Contracted Energy Demand,4318.25,GWh,Weekly_Energy_Demand
+2026-06-29,2025-26-RSA Contracted Peak Demand,31183.00,MW,Weekly_Peak_Demand
+2026-06-29,2026-27-Residual Energy Forecast,3538.46,GWh,Weekly_Energy_Demand
+2026-06-29,2026-27-Residual Peak Forecast,26776.00,MW,Weekly_Peak_Demand
+2026-06-22,2025-26-Residual Energy Demand,3983.61,GWh,Weekly_Energy_Demand
+2026-06-22,2025-26-Residual Peak Demand,29873.00,MW,Weekly_Peak_Demand
+2026-06-22,2025-26-RSA Contracted Energy Demand,4384.24,GWh,Weekly_Energy_Demand
+2026-06-22,2025-26-RSA Contracted Peak Demand,31786.00,MW,Weekly_Peak_Demand
+2026-06-22,2026-27-Residual Energy Forecast,3598.13,GWh,Weekly_Energy_Demand
+2026-06-22,2026-27-Residual Peak Forecast,28184.00,MW,Weekly_Peak_Demand
+2026-06-15,2025-26-Residual Energy Demand,3953.86,GWh,Weekly_Energy_Demand
+2026-06-15,2025-26-Residual Peak Demand,29892.00,MW,Weekly_Peak_Demand
+2026-06-15,2025-26-RSA Contracted Energy Demand,4329.39,GWh,Weekly_Energy_Demand
+2026-06-15,2025-26-RSA Contracted Peak Demand,31657.00,MW,Weekly_Peak_Demand
+2026-06-15,2026-27-Residual Energy Forecast,3534.80,GWh,Weekly_Energy_Demand
+2026-06-15,2026-27-Residual Peak Forecast,28308.00,MW,Weekly_Peak_Demand
+2026-06-08,2025-26-Residual Energy Demand,4054.92,GWh,Weekly_Energy_Demand
+2026-06-08,2025-26-Residual Peak Demand,30797.00,MW,Weekly_Peak_Demand
+2026-06-08,2025-26-RSA Contracted Energy Demand,4379.36,GWh,Weekly_Energy_Demand
+2026-06-08,2025-26-RSA Contracted Peak Demand,31752.00,MW,Weekly_Peak_Demand
+2026-06-08,2026-27-Residual Energy Forecast,3526.84,GWh,Weekly_Energy_Demand
+2026-06-08,2026-27-Residual Peak Forecast,28218.00,MW,Weekly_Peak_Demand
+2026-06-01,2025-26-Residual Energy Demand,3922.75,GWh,Weekly_Energy_Demand
+2026-06-01,2025-26-Residual Peak Demand,29858.00,MW,Weekly_Peak_Demand
+2026-06-01,2025-26-RSA Contracted Energy Demand,4250.69,GWh,Weekly_Energy_Demand
+2026-06-01,2025-26-RSA Contracted Peak Demand,31192.00,MW,Weekly_Peak_Demand
+2026-06-01,2026-27-Residual Energy Forecast,3500.40,GWh,Weekly_Energy_Demand
+2026-06-01,2026-27-Residual Peak Forecast,28297.00,MW,Weekly_Peak_Demand
+2026-05-25,2025-26-Residual Energy Demand,3894.77,GWh,Weekly_Energy_Demand
+2026-05-25,2025-26-Residual Peak Demand,29797.00,MW,Weekly_Peak_Demand
+2026-05-25,2025-26-RSA Contracted Energy Demand,4264.80,GWh,Weekly_Energy_Demand
+2026-05-25,2025-26-RSA Contracted Peak Demand,31825.00,MW,Weekly_Peak_Demand
+2026-05-25,2026-27-Residual Energy Forecast,3595.80,GWh,Weekly_Energy_Demand
+2026-05-25,2026-27-Residual Peak Forecast,28224.00,MW,Weekly_Peak_Demand
+2026-05-18,2025-26-Residual Energy Demand,3918.71,GWh,Weekly_Energy_Demand
+2026-05-18,2025-26-Residual Peak Demand,30685.00,MW,Weekly_Peak_Demand
+2026-05-18,2025-26-RSA Contracted Energy Demand,4283.21,GWh,Weekly_Energy_Demand
+2026-05-18,2025-26-RSA Contracted Peak Demand,31662.00,MW,Weekly_Peak_Demand
+2026-05-18,2026-27-Residual Energy Demand,3651.54,GWh,Weekly_Energy_Demand
+2026-05-18,2026-27-Residual Peak Demand,28201.00,MW,Weekly_Peak_Demand
+2026-05-18,2026-27-RSA Contracted Energy Demand,3887.42,GWh,Weekly_Energy_Demand
+2026-05-18,2026-27-RSA Contracted Peak Demand,29461.00,MW,Weekly_Peak_Demand
+2026-05-18,Unplanned_Outages_Avg_MW,9733,MW,Weekly_Unplanned_Outages
+2026-05-18,Unplanned_Outages_Max_MW,11433,MW,Weekly_Unplanned_Outages
+2026-05-18,Unplanned_Outages_Min_MW,8130,MW,Weekly_Unplanned_Outages
+2026-05-11,2025-26-Residual Energy Demand,3932.14,GWh,Weekly_Energy_Demand
+2026-05-11,2025-26-Residual Peak Demand,30522.00,MW,Weekly_Peak_Demand
+2026-05-11,2025-26-RSA Contracted Energy Demand,4195.58,GWh,Weekly_Energy_Demand
+2026-05-11,2025-26-RSA Contracted Peak Demand,31293.00,MW,Weekly_Peak_Demand
+2026-05-11,2026-27-Residual Energy Demand,3568.40,GWh,Weekly_Energy_Demand
+2026-05-11,2026-27-Residual Peak Demand,28390.00,MW,Weekly_Peak_Demand
+2026-05-11,2026-27-RSA Contracted Energy Demand,3809.66,GWh,Weekly_Energy_Demand
+2026-05-11,2026-27-RSA Contracted Peak Demand,29231.00,MW,Weekly_Peak_Demand
+2026-05-11,Unplanned_Outages_Avg_MW,9298,MW,Weekly_Unplanned_Outages
+2026-05-11,Unplanned_Outages_Max_MW,10505,MW,Weekly_Unplanned_Outages
+2026-05-11,Unplanned_Outages_Min_MW,7966,MW,Weekly_Unplanned_Outages
+2026-05-04,2025-26-Residual Energy Demand,3802.38,GWh,Weekly_Energy_Demand
+2026-05-04,2025-26-Residual Peak Demand,29636.00,MW,Weekly_Peak_Demand
+2026-05-04,2025-26-RSA Contracted Energy Demand,4111.80,GWh,Weekly_Energy_Demand
+2026-05-04,2025-26-RSA Contracted Peak Demand,30834.00,MW,Weekly_Peak_Demand
+2026-05-04,2026-27-Residual Energy Demand,3485.93,GWh,Weekly_Energy_Demand
+2026-05-04,2026-27-Residual Peak Demand,27687.00,MW,Weekly_Peak_Demand
+2026-05-04,2026-27-RSA Contracted Energy Demand,3764.28,GWh,Weekly_Energy_Demand
+2026-05-04,2026-27-RSA Contracted Peak Demand,28817.00,MW,Weekly_Peak_Demand
+2026-05-04,Unplanned_Outages_Avg_MW,11664,MW,Weekly_Unplanned_Outages
+2026-05-04,Unplanned_Outages_Max_MW,13529,MW,Weekly_Unplanned_Outages
+2026-05-04,Unplanned_Outages_Min_MW,9486,MW,Weekly_Unplanned_Outages
+2026-05,EAF_Pct,65.40,%,Monthly_Capacity_Breakdown
+2026-05,OCLF_Pct,0.40,%,Monthly_Capacity_Breakdown
+2026-05,PCLF_Pct,12.60,%,Monthly_Capacity_Breakdown
+2026-05,UCLF_Pct,21.60,%,Monthly_Capacity_Breakdown
+2026-04-27,2025-26-Residual Energy Demand,3660.89,GWh,Weekly_Energy_Demand
+2026-04-27,2025-26-Residual Peak Demand,28361.00,MW,Weekly_Peak_Demand
+2026-04-27,2025-26-RSA Contracted Energy Demand,3948.88,GWh,Weekly_Energy_Demand
+2026-04-27,2025-26-RSA Contracted Peak Demand,29204.00,MW,Weekly_Peak_Demand
+2026-04-27,2026-27-Residual Energy Demand,3279.47,GWh,Weekly_Energy_Demand
+2026-04-27,2026-27-Residual Peak Demand,26969.00,MW,Weekly_Peak_Demand
+2026-04-27,2026-27-RSA Contracted Energy Demand,3588.69,GWh,Weekly_Energy_Demand
+2026-04-27,2026-27-RSA Contracted Peak Demand,28185.00,MW,Weekly_Peak_Demand
+2026-04-27,Unplanned_Outages_Avg_MW,12017,MW,Weekly_Unplanned_Outages
+2026-04-27,Unplanned_Outages_Max_MW,13798,MW,Weekly_Unplanned_Outages
+2026-04-27,Unplanned_Outages_Min_MW,9813,MW,Weekly_Unplanned_Outages
+2026-04-20,2025-26-Residual Energy Demand,3768.51,GWh,Weekly_Energy_Demand
+2026-04-20,2025-26-Residual Peak Demand,29395.00,MW,Weekly_Peak_Demand
+2026-04-20,2025-26-RSA Contracted Energy Demand,4020.86,GWh,Weekly_Energy_Demand
+2026-04-20,2025-26-RSA Contracted Peak Demand,30243.00,MW,Weekly_Peak_Demand
+2026-04-20,2026-27-Residual Energy Demand,3350.24,GWh,Weekly_Energy_Demand
+2026-04-20,2026-27-Residual Peak Demand,25797.00,MW,Weekly_Peak_Demand
+2026-04-20,2026-27-RSA Contracted Energy Demand,3752.36,GWh,Weekly_Energy_Demand
+2026-04-20,2026-27-RSA Contracted Peak Demand,28124.00,MW,Weekly_Peak_Demand
+2026-04-20,Unplanned_Outages_Avg_MW,12713,MW,Weekly_Unplanned_Outages
+2026-04-20,Unplanned_Outages_Max_MW,14164,MW,Weekly_Unplanned_Outages
+2026-04-20,Unplanned_Outages_Min_MW,10969,MW,Weekly_Unplanned_Outages
+2026-04-13,2025-26-Residual Energy Demand,3696.66,GWh,Weekly_Energy_Demand
+2026-04-13,2025-26-Residual Peak Demand,28045.00,MW,Weekly_Peak_Demand
+2026-04-13,2025-26-RSA Contracted Energy Demand,3974.84,GWh,Weekly_Energy_Demand
+2026-04-13,2025-26-RSA Contracted Peak Demand,29563.00,MW,Weekly_Peak_Demand
+2026-04-13,2026-27-Residual Energy Demand,3346.52,GWh,Weekly_Energy_Demand
+2026-04-13,2026-27-Residual Peak Demand,26356.00,MW,Weekly_Peak_Demand
+2026-04-13,2026-27-RSA Contracted Energy Demand,3722.53,GWh,Weekly_Energy_Demand
+2026-04-13,2026-27-RSA Contracted Peak Demand,27530.00,MW,Weekly_Peak_Demand
+2026-04-13,Unplanned_Outages_Avg_MW,11825,MW,Weekly_Unplanned_Outages
+2026-04-13,Unplanned_Outages_Max_MW,13120,MW,Weekly_Unplanned_Outages
+2026-04-13,Unplanned_Outages_Min_MW,10581,MW,Weekly_Unplanned_Outages
+2026-04-06,2025-26-Residual Energy Demand,3780.72,GWh,Weekly_Energy_Demand
+2026-04-06,2025-26-Residual Peak Demand,28497.00,MW,Weekly_Peak_Demand
+2026-04-06,2025-26-RSA Contracted Energy Demand,4034.47,GWh,Weekly_Energy_Demand
+2026-04-06,2025-26-RSA Contracted Peak Demand,29416.00,MW,Weekly_Peak_Demand
+2026-04-06,2026-27-Residual Energy Demand,3295.42,GWh,Weekly_Energy_Demand
+2026-04-06,2026-27-Residual Peak Demand,25384.00,MW,Weekly_Peak_Demand
+2026-04-06,2026-27-RSA Contracted Energy Demand,3574.34,GWh,Weekly_Energy_Demand
+2026-04-06,2026-27-RSA Contracted Peak Demand,26698.00,MW,Weekly_Peak_Demand
+2026-04-06,Unplanned_Outages_Avg_MW,10159,MW,Weekly_Unplanned_Outages
+2026-04-06,Unplanned_Outages_Max_MW,12541,MW,Weekly_Unplanned_Outages
+2026-04-06,Unplanned_Outages_Min_MW,6422,MW,Weekly_Unplanned_Outages
+2026-04,EAF_Pct,59.90,%,Monthly_Capacity_Breakdown
+2026-04,OCLF_Pct,0.20,%,Monthly_Capacity_Breakdown
+2026-04,PCLF_Pct,16.00,%,Monthly_Capacity_Breakdown
+2026-04,UCLF_Pct,23.90,%,Monthly_Capacity_Breakdown
+2026-03-30,2025-26-Residual Energy Demand,3775.12,GWh,Weekly_Energy_Demand
+2026-03-30,2025-26-Residual Peak Demand,27292.00,MW,Weekly_Peak_Demand
+2026-03-30,2025-26-RSA Contracted Energy Demand,4056.36,GWh,Weekly_Energy_Demand
+2026-03-30,2025-26-RSA Contracted Peak Demand,29079.00,MW,Weekly_Peak_Demand
+2026-03-30,2026-27-Residual Energy Demand,3252.49,GWh,Weekly_Energy_Demand
+2026-03-30,2026-27-Residual Peak Demand,24623.00,MW,Weekly_Peak_Demand
+2026-03-30,2026-27-RSA Contracted Energy Demand,3511.83,GWh,Weekly_Energy_Demand
+2026-03-30,2026-27-RSA Contracted Peak Demand,26316.00,MW,Weekly_Peak_Demand
+2026-03-30,Unplanned_Outages_Avg_MW,9520,MW,Weekly_Unplanned_Outages
+2026-03-30,Unplanned_Outages_Max_MW,10733,MW,Weekly_Unplanned_Outages
+2026-03-30,Unplanned_Outages_Min_MW,8031,MW,Weekly_Unplanned_Outages
+2026-03,EAF_Pct,66.60,%,Monthly_Capacity_Breakdown
+2026-03,OCLF_Pct,0.30,%,Monthly_Capacity_Breakdown
+2026-03,PCLF_Pct,13.30,%,Monthly_Capacity_Breakdown
+2026-03,UCLF_Pct,19.80,%,Monthly_Capacity_Breakdown
+2026-02,EAF_Pct,68.30,%,Monthly_Capacity_Breakdown
+2026-02,OCLF_Pct,0.30,%,Monthly_Capacity_Breakdown
+2026-02,PCLF_Pct,10.70,%,Monthly_Capacity_Breakdown
+2026-02,UCLF_Pct,20.70,%,Monthly_Capacity_Breakdown
+2026-01,EAF_Pct,71.00,%,Monthly_Capacity_Breakdown
+2026-01,OCLF_Pct,0.40,%,Monthly_Capacity_Breakdown
+2026-01,PCLF_Pct,11.40,%,Monthly_Capacity_Breakdown
+2026-01,UCLF_Pct,17.20,%,Monthly_Capacity_Breakdown
+2025-12,EAF_Pct,68.90,%,Monthly_Capacity_Breakdown
+2025-12,OCLF_Pct,0.30,%,Monthly_Capacity_Breakdown
+2025-12,PCLF_Pct,10.90,%,Monthly_Capacity_Breakdown
+2025-12,UCLF_Pct,19.90,%,Monthly_Capacity_Breakdown
+2025-11,EAF_Pct,68.20,%,Monthly_Capacity_Breakdown
+2025-11,OCLF_Pct,0.30,%,Monthly_Capacity_Breakdown
+2025-11,PCLF_Pct,12.40,%,Monthly_Capacity_Breakdown
+2025-11,UCLF_Pct,19.10,%,Monthly_Capacity_Breakdown
+2025-10,EAF_Pct,65.70,%,Monthly_Capacity_Breakdown
+2025-10,OCLF_Pct,0.30,%,Monthly_Capacity_Breakdown
+2025-10,PCLF_Pct,12.10,%,Monthly_Capacity_Breakdown
+2025-10,UCLF_Pct,21.90,%,Monthly_Capacity_Breakdown
+2025-09,EAF_Pct,70.20,%,Monthly_Capacity_Breakdown
+2025-09,OCLF_Pct,0.60,%,Monthly_Capacity_Breakdown
+2025-09,PCLF_Pct,10.90,%,Monthly_Capacity_Breakdown
+2025-09,UCLF_Pct,18.30,%,Monthly_Capacity_Breakdown
+2025-08,EAF_Pct,66.20,%,Monthly_Capacity_Breakdown
+2025-08,OCLF_Pct,0.40,%,Monthly_Capacity_Breakdown
+2025-08,PCLF_Pct,12.10,%,Monthly_Capacity_Breakdown
+2025-08,UCLF_Pct,21.30,%,Monthly_Capacity_Breakdown
+2025-07,EAF_Pct,63.80,%,Monthly_Capacity_Breakdown
+2025-07,OCLF_Pct,0.40,%,Monthly_Capacity_Breakdown
+2025-07,PCLF_Pct,9.90,%,Monthly_Capacity_Breakdown
+2025-07,UCLF_Pct,25.90,%,Monthly_Capacity_Breakdown
+2025-06,EAF_Pct,60.20,%,Monthly_Capacity_Breakdown
+2025-06,OCLF_Pct,0.50,%,Monthly_Capacity_Breakdown
+2025-06,PCLF_Pct,8.10,%,Monthly_Capacity_Breakdown
+2025-06,UCLF_Pct,31.20,%,Monthly_Capacity_Breakdown
+2025-05,EAF_Pct,59.00,%,Monthly_Capacity_Breakdown
+2025-05,OCLF_Pct,0.50,%,Monthly_Capacity_Breakdown
+2025-05,PCLF_Pct,11.50,%,Monthly_Capacity_Breakdown
+2025-05,UCLF_Pct,29.00,%,Monthly_Capacity_Breakdown
+2025-04,EAF_Pct,56.10,%,Monthly_Capacity_Breakdown
+2025-04,OCLF_Pct,0.50,%,Monthly_Capacity_Breakdown
+2025-04,PCLF_Pct,14.80,%,Monthly_Capacity_Breakdown
+2025-04,UCLF_Pct,28.60,%,Monthly_Capacity_Breakdown
+2025-03,EAF_Pct,56.90,%,Monthly_Capacity_Breakdown
+2025-03,OCLF_Pct,0.60,%,Monthly_Capacity_Breakdown
+2025-03,PCLF_Pct,14.30,%,Monthly_Capacity_Breakdown
+2025-03,UCLF_Pct,28.20,%,Monthly_Capacity_Breakdown
