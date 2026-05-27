@@ -1,0 +1,705 @@
+GDP_Period,Year,Quarter,Series_Code,Sector,Amount_ZAR_Millions
+2025 Q4,2025,Q4,QNU1000,GDP at market prices,2003972.31
+2025 Q4,2025,Q4,QNU1001,"Agriculture, forestry and fishing",24596.43
+2025 Q4,2025,Q4,QNU1002,Mining and quarrying,148504.54
+2025 Q4,2025,Q4,QNU1003,Manufacturing,245655.74
+2025 Q4,2025,Q4,QNU1004,"Electricity, gas and water",62136.09
+2025 Q4,2025,Q4,QNU1005,Construction,38482.98
+2025 Q4,2025,Q4,QNU1006,"Trade, catering and accommodation",258091.30
+2025 Q4,2025,Q4,QNU1007,"Transport, storage and communication",148452.16
+2025 Q4,2025,Q4,QNU1008,"Finance, real estate and business services",432889.28
+2025 Q4,2025,Q4,QNU1009,General government services,155271.65
+2025 Q4,2025,Q4,QNU1010,Personal services,287276.12
+2025 Q3,2025,Q3,QNU1000,GDP at market prices,1938470.51
+2025 Q3,2025,Q3,QNU1001,"Agriculture, forestry and fishing",53379.97
+2025 Q3,2025,Q3,QNU1002,Mining and quarrying,127466.55
+2025 Q3,2025,Q3,QNU1003,Manufacturing,244667.88
+2025 Q3,2025,Q3,QNU1004,"Electricity, gas and water",74299.50
+2025 Q3,2025,Q3,QNU1005,Construction,37384.98
+2025 Q3,2025,Q3,QNU1006,"Trade, catering and accommodation",240263.20
+2025 Q3,2025,Q3,QNU1007,"Transport, storage and communication",138294.16
+2025 Q3,2025,Q3,QNU1008,"Finance, real estate and business services",409841.28
+2025 Q3,2025,Q3,QNU1009,General government services,151015.85
+2025 Q3,2025,Q3,QNU1010,Personal services,274465.13
+2025 Q2,2025,Q2,QNU1000,GDP at market prices,1900275.07
+2025 Q2,2025,Q2,QNU1001,"Agriculture, forestry and fishing",84090.56
+2025 Q2,2025,Q2,QNU1002,Mining and quarrying,106625.55
+2025 Q2,2025,Q2,QNU1003,Manufacturing,231246.20
+2025 Q2,2025,Q2,QNU1004,"Electricity, gas and water",76415.68
+2025 Q2,2025,Q2,QNU1005,Construction,41012.98
+2025 Q2,2025,Q2,QNU1006,"Trade, catering and accommodation",236690.57
+2025 Q2,2025,Q2,QNU1007,"Transport, storage and communication",134774.16
+2025 Q2,2025,Q2,QNU1008,"Finance, real estate and business services",386966.28
+2025 Q2,2025,Q2,QNU1009,General government services,146901.95
+2025 Q2,2025,Q2,QNU1010,Personal services,275797.13
+2025 Q1,2025,Q1,QNU1000,GDP at market prices,1799075.30
+2025 Q1,2025,Q1,QNU1001,"Agriculture, forestry and fishing",54014.89
+2025 Q1,2025,Q1,QNU1002,Mining and quarrying,94465.84
+2025 Q1,2025,Q1,QNU1003,Manufacturing,214894.55
+2025 Q1,2025,Q1,QNU1004,"Electricity, gas and water",59640.66
+2025 Q1,2025,Q1,QNU1005,Construction,38008.98
+2025 Q1,2025,Q1,QNU1006,"Trade, catering and accommodation",229558.20
+2025 Q1,2025,Q1,QNU1007,"Transport, storage and communication",120571.38
+2025 Q1,2025,Q1,QNU1008,"Finance, real estate and business services",381028.28
+2025 Q1,2025,Q1,QNU1009,General government services,145428.39
+2025 Q1,2025,Q1,QNU1010,Personal services,265789.13
+2024 Q4,2024,Q4,QNU1000,GDP at market prices,1900170.50
+2024 Q4,2024,Q4,QNU1001,"Agriculture, forestry and fishing",26606.70
+2024 Q4,2024,Q4,QNU1002,Mining and quarrying,124403.29
+2024 Q4,2024,Q4,QNU1003,Manufacturing,245879.44
+2024 Q4,2024,Q4,QNU1004,"Electricity, gas and water",55946.43
+2024 Q4,2024,Q4,QNU1005,Construction,39498.67
+2024 Q4,2024,Q4,QNU1006,"Trade, catering and accommodation",245545.53
+2024 Q4,2024,Q4,QNU1007,"Transport, storage and communication",139721.34
+2024 Q4,2024,Q4,QNU1008,"Finance, real estate and business services",411314.45
+2024 Q4,2024,Q4,QNU1009,General government services,146872.79
+2024 Q4,2024,Q4,QNU1010,Personal services,273988.86
+2024 Q3,2024,Q3,QNU1000,GDP at market prices,1847045.69
+2024 Q3,2024,Q3,QNU1001,"Agriculture, forestry and fishing",34249.01
+2024 Q3,2024,Q3,QNU1002,Mining and quarrying,112853.57
+2024 Q3,2024,Q3,QNU1003,Manufacturing,240139.54
+2024 Q3,2024,Q3,QNU1004,"Electricity, gas and water",68186.21
+2024 Q3,2024,Q3,QNU1005,Construction,38875.97
+2024 Q3,2024,Q3,QNU1006,"Trade, catering and accommodation",229251.27
+2024 Q3,2024,Q3,QNU1007,"Transport, storage and communication",130910.78
+2024 Q3,2024,Q3,QNU1008,"Finance, real estate and business services",401583.00
+2024 Q3,2024,Q3,QNU1009,General government services,143555.25
+2024 Q3,2024,Q3,QNU1010,Personal services,268545.11
+2024 Q2,2024,Q2,QNU1000,GDP at market prices,1849720.61
+2024 Q2,2024,Q2,QNU1001,"Agriculture, forestry and fishing",85599.65
+2024 Q2,2024,Q2,QNU1002,Mining and quarrying,106532.61
+2024 Q2,2024,Q2,QNU1003,Manufacturing,236923.45
+2024 Q2,2024,Q2,QNU1004,"Electricity, gas and water",66937.67
+2024 Q2,2024,Q2,QNU1005,Construction,42334.14
+2024 Q2,2024,Q2,QNU1006,"Trade, catering and accommodation",222395.15
+2024 Q2,2024,Q2,QNU1007,"Transport, storage and communication",130517.42
+2024 Q2,2024,Q2,QNU1008,"Finance, real estate and business services",376878.01
+2024 Q2,2024,Q2,QNU1009,General government services,141677.82
+2024 Q2,2024,Q2,QNU1010,Personal services,267046.70
+2024 Q1,2024,Q1,QNU1000,GDP at market prices,1755512.68
+2024 Q1,2024,Q1,QNU1001,"Agriculture, forestry and fishing",60236.35
+2024 Q1,2024,Q1,QNU1002,Mining and quarrying,98943.52
+2024 Q1,2024,Q1,QNU1003,Manufacturing,217972.66
+2024 Q1,2024,Q1,QNU1004,"Electricity, gas and water",53301.77
+2024 Q1,2024,Q1,QNU1005,Construction,38690.58
+2024 Q1,2024,Q1,QNU1006,"Trade, catering and accommodation",218134.50
+2024 Q1,2024,Q1,QNU1007,"Transport, storage and communication",117209.85
+2024 Q1,2024,Q1,QNU1008,"Finance, real estate and business services",365737.35
+2024 Q1,2024,Q1,QNU1009,General government services,143658.15
+2024 Q1,2024,Q1,QNU1010,Personal services,256924.96
+2023 Q4,2023,Q4,QNU1000,GDP at market prices,1822220.24
+2023 Q4,2023,Q4,QNU1001,"Agriculture, forestry and fishing",21013.76
+2023 Q4,2023,Q4,QNU1002,Mining and quarrying,123612.47
+2023 Q4,2023,Q4,QNU1003,Manufacturing,244148.97
+2023 Q4,2023,Q4,QNU1004,"Electricity, gas and water",52573.03
+2023 Q4,2023,Q4,QNU1005,Construction,38346.86
+2023 Q4,2023,Q4,QNU1006,"Trade, catering and accommodation",235235.30
+2023 Q4,2023,Q4,QNU1007,"Transport, storage and communication",132687.04
+2023 Q4,2023,Q4,QNU1008,"Finance, real estate and business services",385470.21
+2023 Q4,2023,Q4,QNU1009,General government services,139804.16
+2023 Q4,2023,Q4,QNU1010,Personal services,261915.44
+2023 Q3,2023,Q3,QNU1000,GDP at market prices,1775888.91
+2023 Q3,2023,Q3,QNU1001,"Agriculture, forestry and fishing",33204.76
+2023 Q3,2023,Q3,QNU1002,Mining and quarrying,106054.45
+2023 Q3,2023,Q3,QNU1003,Manufacturing,236631.76
+2023 Q3,2023,Q3,QNU1004,"Electricity, gas and water",61576.71
+2023 Q3,2023,Q3,QNU1005,Construction,37859.19
+2023 Q3,2023,Q3,QNU1006,"Trade, catering and accommodation",225054.86
+2023 Q3,2023,Q3,QNU1007,"Transport, storage and communication",124495.71
+2023 Q3,2023,Q3,QNU1008,"Finance, real estate and business services",379902.36
+2023 Q3,2023,Q3,QNU1009,General government services,138542.98
+2023 Q3,2023,Q3,QNU1010,Personal services,256037.13
+2023 Q2,2023,Q2,QNU1000,GDP at market prices,1760747.17
+2023 Q2,2023,Q2,QNU1001,"Agriculture, forestry and fishing",79493.87
+2023 Q2,2023,Q2,QNU1002,Mining and quarrying,104612.03
+2023 Q2,2023,Q2,QNU1003,Manufacturing,224185.05
+2023 Q2,2023,Q2,QNU1004,"Electricity, gas and water",59106.74
+2023 Q2,2023,Q2,QNU1005,Construction,41858.54
+2023 Q2,2023,Q2,QNU1006,"Trade, catering and accommodation",215392.72
+2023 Q2,2023,Q2,QNU1007,"Transport, storage and communication",126062.50
+2023 Q2,2023,Q2,QNU1008,"Finance, real estate and business services",358402.98
+2023 Q2,2023,Q2,QNU1009,General government services,131954.99
+2023 Q2,2023,Q2,QNU1010,Personal services,250028.74
+2023 Q1,2023,Q1,QNU1000,GDP at market prices,1678818.11
+2023 Q1,2023,Q1,QNU1001,"Agriculture, forestry and fishing",44704.70
+2023 Q1,2023,Q1,QNU1002,Mining and quarrying,104325.94
+2023 Q1,2023,Q1,QNU1003,Manufacturing,208524.75
+2023 Q1,2023,Q1,QNU1004,"Electricity, gas and water",46180.68
+2023 Q1,2023,Q1,QNU1005,Construction,39134.76
+2023 Q1,2023,Q1,QNU1006,"Trade, catering and accommodation",212275.56
+2023 Q1,2023,Q1,QNU1007,"Transport, storage and communication",113801.75
+2023 Q1,2023,Q1,QNU1008,"Finance, real estate and business services",354047.84
+2023 Q1,2023,Q1,QNU1009,General government services,127345.41
+2023 Q1,2023,Q1,QNU1010,Personal services,245611.73
+2022 Q4,2022,Q4,QNU1000,GDP at market prices,1706727.84
+2022 Q4,2022,Q4,QNU1001,"Agriculture, forestry and fishing",22870.25
+2022 Q4,2022,Q4,QNU1002,Mining and quarrying,117352.99
+2022 Q4,2022,Q4,QNU1003,Manufacturing,220398.31
+2022 Q4,2022,Q4,QNU1004,"Electricity, gas and water",44823.55
+2022 Q4,2022,Q4,QNU1005,Construction,38133.62
+2022 Q4,2022,Q4,QNU1006,"Trade, catering and accommodation",222367.68
+2022 Q4,2022,Q4,QNU1007,"Transport, storage and communication",124237.10
+2022 Q4,2022,Q4,QNU1008,"Finance, real estate and business services",358526.12
+2022 Q4,2022,Q4,QNU1009,General government services,126336.05
+2022 Q4,2022,Q4,QNU1010,Personal services,249505.17
+2022 Q3,2022,Q3,QNU1000,GDP at market prices,1704360.94
+2022 Q3,2022,Q3,QNU1001,"Agriculture, forestry and fishing",41728.50
+2022 Q3,2022,Q3,QNU1002,Mining and quarrying,134628.83
+2022 Q3,2022,Q3,QNU1003,Manufacturing,216004.29
+2022 Q3,2022,Q3,QNU1004,"Electricity, gas and water",54608.38
+2022 Q3,2022,Q3,QNU1005,Construction,37695.71
+2022 Q3,2022,Q3,QNU1006,"Trade, catering and accommodation",210801.31
+2022 Q3,2022,Q3,QNU1007,"Transport, storage and communication",119497.99
+2022 Q3,2022,Q3,QNU1008,"Finance, real estate and business services",358213.98
+2022 Q3,2022,Q3,QNU1009,General government services,122172.15
+2022 Q3,2022,Q3,QNU1010,Personal services,242592.80
+2022 Q2,2022,Q2,QNU1000,GDP at market prices,1678282.48
+2022 Q2,2022,Q2,QNU1001,"Agriculture, forestry and fishing",71819.61
+2022 Q2,2022,Q2,QNU1002,Mining and quarrying,126870.29
+2022 Q2,2022,Q2,QNU1003,Manufacturing,203748.81
+2022 Q2,2022,Q2,QNU1004,"Electricity, gas and water",53931.73
+2022 Q2,2022,Q2,QNU1005,Construction,38560.58
+2022 Q2,2022,Q2,QNU1006,"Trade, catering and accommodation",198361.32
+2022 Q2,2022,Q2,QNU1007,"Transport, storage and communication",114464.33
+2022 Q2,2022,Q2,QNU1008,"Finance, real estate and business services",344764.37
+2022 Q2,2022,Q2,QNU1009,General government services,128183.05
+2022 Q2,2022,Q2,QNU1010,Personal services,241563.39
+2022 Q1,2022,Q1,QNU1000,GDP at market prices,1577209.70
+2022 Q1,2022,Q1,QNU1001,"Agriculture, forestry and fishing",37297.73
+2022 Q1,2022,Q1,QNU1002,Mining and quarrying,109732.67
+2022 Q1,2022,Q1,QNU1003,Manufacturing,189531.63
+2022 Q1,2022,Q1,QNU1004,"Electricity, gas and water",43516.35
+2022 Q1,2022,Q1,QNU1005,Construction,35909.44
+2022 Q1,2022,Q1,QNU1006,"Trade, catering and accommodation",189217.14
+2022 Q1,2022,Q1,QNU1007,"Transport, storage and communication",101182.58
+2022 Q1,2022,Q1,QNU1008,"Finance, real estate and business services",335949.12
+2022 Q1,2022,Q1,QNU1009,General government services,122888.90
+2022 Q1,2022,Q1,QNU1010,Personal services,240586.14
+2021 Q4,2021,Q4,QNU1000,GDP at market prices,1604400.36
+2021 Q4,2021,Q4,QNU1001,"Agriculture, forestry and fishing",18117.98
+2021 Q4,2021,Q4,QNU1002,Mining and quarrying,123482.49
+2021 Q4,2021,Q4,QNU1003,Manufacturing,198241.44
+2021 Q4,2021,Q4,QNU1004,"Electricity, gas and water",41246.46
+2021 Q4,2021,Q4,QNU1005,Construction,35513.22
+2021 Q4,2021,Q4,QNU1006,"Trade, catering and accommodation",201169.06
+2021 Q4,2021,Q4,QNU1007,"Transport, storage and communication",108761.08
+2021 Q4,2021,Q4,QNU1008,"Finance, real estate and business services",339127.12
+2021 Q4,2021,Q4,QNU1009,General government services,121726.76
+2021 Q4,2021,Q4,QNU1010,Personal services,245515.75
+2021 Q3,2021,Q3,QNU1000,GDP at market prices,1556563.82
+2021 Q3,2021,Q3,QNU1001,"Agriculture, forestry and fishing",22792.03
+2021 Q3,2021,Q3,QNU1002,Mining and quarrying,125221.72
+2021 Q3,2021,Q3,QNU1003,Manufacturing,192634.52
+2021 Q3,2021,Q3,QNU1004,"Electricity, gas and water",48160.79
+2021 Q3,2021,Q3,QNU1005,Construction,35428.24
+2021 Q3,2021,Q3,QNU1006,"Trade, catering and accommodation",190912.97
+2021 Q3,2021,Q3,QNU1007,"Transport, storage and communication",100199.47
+2021 Q3,2021,Q3,QNU1008,"Finance, real estate and business services",336013.14
+2021 Q3,2021,Q3,QNU1009,General government services,117543.39
+2021 Q3,2021,Q3,QNU1010,Personal services,240052.56
+2021 Q2,2021,Q2,QNU1000,GDP at market prices,1580526.47
+2021 Q2,2021,Q2,QNU1001,"Agriculture, forestry and fishing",74808.75
+2021 Q2,2021,Q2,QNU1002,Mining and quarrying,122916.06
+2021 Q2,2021,Q2,QNU1003,Manufacturing,185846.43
+2021 Q2,2021,Q2,QNU1004,"Electricity, gas and water",47849.32
+2021 Q2,2021,Q2,QNU1005,Construction,36551.50
+2021 Q2,2021,Q2,QNU1006,"Trade, catering and accommodation",188999.29
+2021 Q2,2021,Q2,QNU1007,"Transport, storage and communication",104529.96
+2021 Q2,2021,Q2,QNU1008,"Finance, real estate and business services",324016.67
+2021 Q2,2021,Q2,QNU1009,General government services,116670.76
+2021 Q2,2021,Q2,QNU1010,Personal services,229310.73
+2021 Q1,2021,Q1,QNU1000,GDP at market prices,1465351.41
+2021 Q1,2021,Q1,QNU1001,"Agriculture, forestry and fishing",36837.47
+2021 Q1,2021,Q1,QNU1002,Mining and quarrying,105830.54
+2021 Q1,2021,Q1,QNU1003,Manufacturing,172912.30
+2021 Q1,2021,Q1,QNU1004,"Electricity, gas and water",39081.36
+2021 Q1,2021,Q1,QNU1005,Construction,34624.63
+2021 Q1,2021,Q1,QNU1006,"Trade, catering and accommodation",176601.03
+2021 Q1,2021,Q1,QNU1007,"Transport, storage and communication",94081.94
+2021 Q1,2021,Q1,QNU1008,"Finance, real estate and business services",314730.57
+2021 Q1,2021,Q1,QNU1009,General government services,112591.78
+2021 Q1,2021,Q1,QNU1010,Personal services,231899.79
+2020 Q4,2020,Q4,QNU1000,GDP at market prices,1507541.93
+2020 Q4,2020,Q4,QNU1001,"Agriculture, forestry and fishing",18257.52
+2020 Q4,2020,Q4,QNU1002,Mining and quarrying,107991.33
+2020 Q4,2020,Q4,QNU1003,Manufacturing,185530.01
+2020 Q4,2020,Q4,QNU1004,"Electricity, gas and water",35090.00
+2020 Q4,2020,Q4,QNU1005,Construction,34097.00
+2020 Q4,2020,Q4,QNU1006,"Trade, catering and accommodation",193760.60
+2020 Q4,2020,Q4,QNU1007,"Transport, storage and communication",103344.62
+2020 Q4,2020,Q4,QNU1008,"Finance, real estate and business services",329188.78
+2020 Q4,2020,Q4,QNU1009,General government services,118339.30
+2020 Q4,2020,Q4,QNU1010,Personal services,227231.77
+2020 Q3,2020,Q3,QNU1000,GDP at market prices,1418376.77
+2020 Q3,2020,Q3,QNU1001,"Agriculture, forestry and fishing",41472.72
+2020 Q3,2020,Q3,QNU1002,Mining and quarrying,98033.16
+2020 Q3,2020,Q3,QNU1003,Manufacturing,177212.76
+2020 Q3,2020,Q3,QNU1004,"Electricity, gas and water",41040.60
+2020 Q3,2020,Q3,QNU1005,Construction,32745.97
+2020 Q3,2020,Q3,QNU1006,"Trade, catering and accommodation",167459.85
+2020 Q3,2020,Q3,QNU1007,"Transport, storage and communication",94298.07
+2020 Q3,2020,Q3,QNU1008,"Finance, real estate and business services",301254.19
+2020 Q3,2020,Q3,QNU1009,General government services,116976.38
+2020 Q3,2020,Q3,QNU1010,Personal services,218996.06
+2020 Q2,2020,Q2,QNU1000,GDP at market prices,1222428.18
+2020 Q2,2020,Q2,QNU1001,"Agriculture, forestry and fishing",49812.57
+2020 Q2,2020,Q2,QNU1002,Mining and quarrying,66793.93
+2020 Q2,2020,Q2,QNU1003,Manufacturing,126942.80
+2020 Q2,2020,Q2,QNU1004,"Electricity, gas and water",42262.33
+2020 Q2,2020,Q2,QNU1005,Construction,31682.80
+2020 Q2,2020,Q2,QNU1006,"Trade, catering and accommodation",128038.34
+2020 Q2,2020,Q2,QNU1007,"Transport, storage and communication",76728.15
+2020 Q2,2020,Q2,QNU1008,"Finance, real estate and business services",281265.20
+2020 Q2,2020,Q2,QNU1009,General government services,115215.94
+2020 Q2,2020,Q2,QNU1010,Personal services,208016.11
+2020 Q1,2020,Q1,QNU1000,GDP at market prices,1414413.46
+2020 Q1,2020,Q1,QNU1001,"Agriculture, forestry and fishing",33901.94
+2020 Q1,2020,Q1,QNU1002,Mining and quarrying,78610.79
+2020 Q1,2020,Q1,QNU1003,Manufacturing,162550.68
+2020 Q1,2020,Q1,QNU1004,"Electricity, gas and water",38141.83
+2020 Q1,2020,Q1,QNU1005,Construction,39591.03
+2020 Q1,2020,Q1,QNU1006,"Trade, catering and accommodation",169634.77
+2020 Q1,2020,Q1,QNU1007,"Transport, storage and communication",99766.06
+2020 Q1,2020,Q1,QNU1008,"Finance, real estate and business services",313060.09
+2020 Q1,2020,Q1,QNU1009,General government services,117100.35
+2020 Q1,2020,Q1,QNU1010,Personal services,214438.93
+2019 Q4,2019,Q4,QNU1000,GDP at market prices,1460370.36
+2019 Q4,2019,Q4,QNU1001,"Agriculture, forestry and fishing",13595.53
+2019 Q4,2019,Q4,QNU1002,Mining and quarrying,91084.05
+2019 Q4,2019,Q4,QNU1003,Manufacturing,183784.58
+2019 Q4,2019,Q4,QNU1004,"Electricity, gas and water",32034.78
+2019 Q4,2019,Q4,QNU1005,Construction,39421.60
+2019 Q4,2019,Q4,QNU1006,"Trade, catering and accommodation",195497.72
+2019 Q4,2019,Q4,QNU1007,"Transport, storage and communication",110593.86
+2019 Q4,2019,Q4,QNU1008,"Finance, real estate and business services",312313.75
+2019 Q4,2019,Q4,QNU1009,General government services,116194.43
+2019 Q4,2019,Q4,QNU1010,Personal services,214611.05
+2019 Q3,2019,Q3,QNU1000,GDP at market prices,1429799.56
+2019 Q3,2019,Q3,QNU1001,"Agriculture, forestry and fishing",33199.70
+2019 Q3,2019,Q3,QNU1002,Mining and quarrying,83997.58
+2019 Q3,2019,Q3,QNU1003,Manufacturing,180822.25
+2019 Q3,2019,Q3,QNU1004,"Electricity, gas and water",39581.66
+2019 Q3,2019,Q3,QNU1005,Construction,40256.06
+2019 Q3,2019,Q3,QNU1006,"Trade, catering and accommodation",171888.09
+2019 Q3,2019,Q3,QNU1007,"Transport, storage and communication",106142.48
+2019 Q3,2019,Q3,QNU1008,"Finance, real estate and business services",304837.56
+2019 Q3,2019,Q3,QNU1009,General government services,114176.73
+2019 Q3,2019,Q3,QNU1010,Personal services,214773.43
+2019 Q2,2019,Q2,QNU1000,GDP at market prices,1404657.51
+2019 Q2,2019,Q2,QNU1001,"Agriculture, forestry and fishing",40753.50
+2019 Q2,2019,Q2,QNU1002,Mining and quarrying,73249.70
+2019 Q2,2019,Q2,QNU1003,Manufacturing,170268.22
+2019 Q2,2019,Q2,QNU1004,"Electricity, gas and water",44741.92
+2019 Q2,2019,Q2,QNU1005,Construction,45619.15
+2019 Q2,2019,Q2,QNU1006,"Trade, catering and accommodation",169231.62
+2019 Q2,2019,Q2,QNU1007,"Transport, storage and communication",102199.49
+2019 Q2,2019,Q2,QNU1008,"Finance, real estate and business services",298544.10
+2019 Q2,2019,Q2,QNU1009,General government services,112737.95
+2019 Q2,2019,Q2,QNU1010,Personal services,212248.87
+2019 Q1,2019,Q1,QNU1000,GDP at market prices,1330379.12
+2019 Q1,2019,Q1,QNU1001,"Agriculture, forestry and fishing",22160.86
+2019 Q1,2019,Q1,QNU1002,Mining and quarrying,66258.34
+2019 Q1,2019,Q1,QNU1003,Manufacturing,162700.70
+2019 Q1,2019,Q1,QNU1004,"Electricity, gas and water",34581.13
+2019 Q1,2019,Q1,QNU1005,Construction,40385.42
+2019 Q1,2019,Q1,QNU1006,"Trade, catering and accommodation",164467.18
+2019 Q1,2019,Q1,QNU1007,"Transport, storage and communication",98606.48
+2019 Q1,2019,Q1,QNU1008,"Finance, real estate and business services",290441.62
+2019 Q1,2019,Q1,QNU1009,General government services,108441.56
+2019 Q1,2019,Q1,QNU1010,Personal services,201720.82
+2018 Q3,2018,Q3,QNU1000,GDP at market prices,1365582.79
+2018 Q3,2018,Q3,QNU1000,GDP at market prices,1395360.24
+2018 Q3,2018,Q3,QNU1001,"Agriculture, forestry and fishing",33880.91
+2018 Q3,2018,Q3,QNU1001,"Agriculture, forestry and fishing",13866.60
+2018 Q3,2018,Q3,QNU1002,Mining and quarrying,76659.42
+2018 Q3,2018,Q3,QNU1002,Mining and quarrying,82404.39
+2018 Q3,2018,Q3,QNU1003,Manufacturing,174274.85
+2018 Q3,2018,Q3,QNU1003,Manufacturing,179624.27
+2018 Q3,2018,Q3,QNU1004,"Electricity, gas and water",37151.69
+2018 Q3,2018,Q3,QNU1004,"Electricity, gas and water",29794.67
+2018 Q3,2018,Q3,QNU1005,Construction,40067.87
+2018 Q3,2018,Q3,QNU1005,Construction,39573.11
+2018 Q3,2018,Q3,QNU1006,"Trade, catering and accommodation",165010.52
+2018 Q3,2018,Q3,QNU1006,"Trade, catering and accommodation",189190.94
+2018 Q3,2018,Q3,QNU1007,"Transport, storage and communication",103790.29
+2018 Q3,2018,Q3,QNU1007,"Transport, storage and communication",108897.82
+2018 Q3,2018,Q3,QNU1008,"Finance, real estate and business services",288368.87
+2018 Q3,2018,Q3,QNU1008,"Finance, real estate and business services",293788.24
+2018 Q3,2018,Q3,QNU1009,General government services,108891.77
+2018 Q3,2018,Q3,QNU1009,General government services,111315.25
+2018 Q3,2018,Q3,QNU1010,Personal services,203648.59
+2018 Q3,2018,Q3,QNU1010,Personal services,203904.94
+2018 Q2,2018,Q2,QNU1000,GDP at market prices,1334114.43
+2018 Q2,2018,Q2,QNU1001,"Agriculture, forestry and fishing",43129.08
+2018 Q2,2018,Q2,QNU1002,Mining and quarrying,68323.23
+2018 Q2,2018,Q2,QNU1003,Manufacturing,159973.44
+2018 Q2,2018,Q2,QNU1004,"Electricity, gas and water",42773.98
+2018 Q2,2018,Q2,QNU1005,Construction,44428.34
+2018 Q2,2018,Q2,QNU1006,"Trade, catering and accommodation",160367.47
+2018 Q2,2018,Q2,QNU1007,"Transport, storage and communication",98110.74
+2018 Q2,2018,Q2,QNU1008,"Finance, real estate and business services",281684.94
+2018 Q2,2018,Q2,QNU1009,General government services,106409.96
+2018 Q2,2018,Q2,QNU1010,Personal services,202128.26
+2018 Q1,2018,Q1,QNU1000,GDP at market prices,1268132.96
+2018 Q1,2018,Q1,QNU1001,"Agriculture, forestry and fishing",30369.26
+2018 Q1,2018,Q1,QNU1002,Mining and quarrying,60200.95
+2018 Q1,2018,Q1,QNU1003,Manufacturing,154221.85
+2018 Q1,2018,Q1,QNU1004,"Electricity, gas and water",33549.52
+2018 Q1,2018,Q1,QNU1005,Construction,39315.79
+2018 Q1,2018,Q1,QNU1006,"Trade, catering and accommodation",155437.76
+2018 Q1,2018,Q1,QNU1007,"Transport, storage and communication",95216.13
+2018 Q1,2018,Q1,QNU1008,"Finance, real estate and business services",275267.79
+2018 Q1,2018,Q1,QNU1009,General government services,101996.13
+2018 Q1,2018,Q1,QNU1010,Personal services,192593.78
+2017 Q4,2017,Q4,QNU1000,GDP at market prices,1314865.54
+2017 Q4,2017,Q4,QNU1001,"Agriculture, forestry and fishing",16485.60
+2017 Q4,2017,Q4,QNU1002,Mining and quarrying,73851.55
+2017 Q4,2017,Q4,QNU1003,Manufacturing,169647.66
+2017 Q4,2017,Q4,QNU1004,"Electricity, gas and water",28303.67
+2017 Q4,2017,Q4,QNU1005,Construction,38640.47
+2017 Q4,2017,Q4,QNU1006,"Trade, catering and accommodation",176491.11
+2017 Q4,2017,Q4,QNU1007,"Transport, storage and communication",105947.11
+2017 Q4,2017,Q4,QNU1008,"Finance, real estate and business services",275838.87
+2017 Q4,2017,Q4,QNU1009,General government services,104041.74
+2017 Q4,2017,Q4,QNU1010,Personal services,194836.75
+2017 Q3,2017,Q3,QNU1000,GDP at market prices,1288602.92
+2017 Q3,2017,Q3,QNU1001,"Agriculture, forestry and fishing",32414.32
+2017 Q3,2017,Q3,QNU1002,Mining and quarrying,74322.75
+2017 Q3,2017,Q3,QNU1003,Manufacturing,164430.70
+2017 Q3,2017,Q3,QNU1004,"Electricity, gas and water",34924.53
+2017 Q3,2017,Q3,QNU1005,Construction,38994.78
+2017 Q3,2017,Q3,QNU1006,"Trade, catering and accommodation",154884.35
+2017 Q3,2017,Q3,QNU1007,"Transport, storage and communication",102105.23
+2017 Q3,2017,Q3,QNU1008,"Finance, real estate and business services",269472.55
+2017 Q3,2017,Q3,QNU1009,General government services,101231.86
+2017 Q3,2017,Q3,QNU1010,Personal services,196364.85
+2017 Q2,2017,Q2,QNU1000,GDP at market prices,1266805.71
+2017 Q2,2017,Q2,QNU1001,"Agriculture, forestry and fishing",50384.45
+2017 Q2,2017,Q2,QNU1002,Mining and quarrying,60516.22
+2017 Q2,2017,Q2,QNU1003,Manufacturing,152304.34
+2017 Q2,2017,Q2,QNU1004,"Electricity, gas and water",40461.48
+2017 Q2,2017,Q2,QNU1005,Construction,43087.99
+2017 Q2,2017,Q2,QNU1006,"Trade, catering and accommodation",152003.19
+2017 Q2,2017,Q2,QNU1007,"Transport, storage and communication",97222.03
+2017 Q2,2017,Q2,QNU1008,"Finance, real estate and business services",262496.16
+2017 Q2,2017,Q2,QNU1009,General government services,100336.50
+2017 Q2,2017,Q2,QNU1010,Personal services,192854.35
+2017 Q1,2017,Q1,QNU1000,GDP at market prices,1207915.75
+2017 Q1,2017,Q1,QNU1001,"Agriculture, forestry and fishing",27355.46
+2017 Q1,2017,Q1,QNU1002,Mining and quarrying,59615.38
+2017 Q1,2017,Q1,QNU1003,Manufacturing,149036.20
+2017 Q1,2017,Q1,QNU1004,"Electricity, gas and water",31844.20
+2017 Q1,2017,Q1,QNU1005,Construction,39006.98
+2017 Q1,2017,Q1,QNU1006,"Trade, catering and accommodation",148410.09
+2017 Q1,2017,Q1,QNU1007,"Transport, storage and communication",92505.14
+2017 Q1,2017,Q1,QNU1008,"Finance, real estate and business services",260412.91
+2017 Q1,2017,Q1,QNU1009,General government services,96158.69
+2017 Q1,2017,Q1,QNU1010,Personal services,183207.70
+2016 Q4,2016,Q4,QNU1000,GDP at market prices,1218706.01
+2016 Q4,2016,Q4,QNU1001,"Agriculture, forestry and fishing",14871.32
+2016 Q4,2016,Q4,QNU1002,Mining and quarrying,67947.15
+2016 Q4,2016,Q4,QNU1003,Manufacturing,152338.93
+2016 Q4,2016,Q4,QNU1004,"Electricity, gas and water",26298.34
+2016 Q4,2016,Q4,QNU1005,Construction,38795.32
+2016 Q4,2016,Q4,QNU1006,"Trade, catering and accommodation",164315.82
+2016 Q4,2016,Q4,QNU1007,"Transport, storage and communication",101197.58
+2016 Q4,2016,Q4,QNU1008,"Finance, real estate and business services",253140.03
+2016 Q4,2016,Q4,QNU1009,General government services,96817.90
+2016 Q4,2016,Q4,QNU1010,Personal services,179813.64
+2016 Q3,2016,Q3,QNU1000,GDP at market prices,1204502.58
+2016 Q3,2016,Q3,QNU1001,"Agriculture, forestry and fishing",28108.07
+2016 Q3,2016,Q3,QNU1002,Mining and quarrying,69092.37
+2016 Q3,2016,Q3,QNU1003,Manufacturing,153970.92
+2016 Q3,2016,Q3,QNU1004,"Electricity, gas and water",32839.05
+2016 Q3,2016,Q3,QNU1005,Construction,39691.54
+2016 Q3,2016,Q3,QNU1006,"Trade, catering and accommodation",145952.04
+2016 Q3,2016,Q3,QNU1007,"Transport, storage and communication",96107.92
+2016 Q3,2016,Q3,QNU1008,"Finance, real estate and business services",249083.07
+2016 Q3,2016,Q3,QNU1009,General government services,94265.68
+2016 Q3,2016,Q3,QNU1010,Personal services,180160.92
+2016 Q2,2016,Q2,QNU1000,GDP at market prices,1200075.53
+2016 Q2,2016,Q2,QNU1001,"Agriculture, forestry and fishing",44292.50
+2016 Q2,2016,Q2,QNU1002,Mining and quarrying,62300.20
+2016 Q2,2016,Q2,QNU1003,Manufacturing,147492.00
+2016 Q2,2016,Q2,QNU1004,"Electricity, gas and water",37647.55
+2016 Q2,2016,Q2,QNU1005,Construction,43506.57
+2016 Q2,2016,Q2,QNU1006,"Trade, catering and accommodation",146014.61
+2016 Q2,2016,Q2,QNU1007,"Transport, storage and communication",91819.26
+2016 Q2,2016,Q2,QNU1008,"Finance, real estate and business services",243497.00
+2016 Q2,2016,Q2,QNU1009,General government services,93619.67
+2016 Q2,2016,Q2,QNU1010,Personal services,176685.19
+2016 Q1,2016,Q1,QNU1000,GDP at market prices,1136270.42
+2016 Q1,2016,Q1,QNU1001,"Agriculture, forestry and fishing",27632.61
+2016 Q1,2016,Q1,QNU1002,Mining and quarrying,52291.29
+2016 Q1,2016,Q1,QNU1003,Manufacturing,140364.02
+2016 Q1,2016,Q1,QNU1004,"Electricity, gas and water",28937.58
+2016 Q1,2016,Q1,QNU1005,Construction,38430.03
+2016 Q1,2016,Q1,QNU1006,"Trade, catering and accommodation",138203.18
+2016 Q1,2016,Q1,QNU1007,"Transport, storage and communication",86841.16
+2016 Q1,2016,Q1,QNU1008,"Finance, real estate and business services",246578.99
+2016 Q1,2016,Q1,QNU1009,General government services,90995.16
+2016 Q1,2016,Q1,QNU1010,Personal services,166884.39
+2015 Q4,2015,Q4,QNU1000,GDP at market prices,1141163.87
+2015 Q4,2015,Q4,QNU1001,"Agriculture, forestry and fishing",13000.86
+2015 Q4,2015,Q4,QNU1002,Mining and quarrying,59354.19
+2015 Q4,2015,Q4,QNU1003,Manufacturing,144228.02
+2015 Q4,2015,Q4,QNU1004,"Electricity, gas and water",23947.26
+2015 Q4,2015,Q4,QNU1005,Construction,37827.89
+2015 Q4,2015,Q4,QNU1006,"Trade, catering and accommodation",154122.93
+2015 Q4,2015,Q4,QNU1007,"Transport, storage and communication",96929.21
+2015 Q4,2015,Q4,QNU1008,"Finance, real estate and business services",234920.92
+2015 Q4,2015,Q4,QNU1009,General government services,89952.13
+2015 Q4,2015,Q4,QNU1010,Personal services,167271.46
+2015 Q3,2015,Q3,QNU1000,GDP at market prices,1115422.58
+2015 Q3,2015,Q3,QNU1001,"Agriculture, forestry and fishing",23232.06
+2015 Q3,2015,Q3,QNU1002,Mining and quarrying,59270.27
+2015 Q3,2015,Q3,QNU1003,Manufacturing,142910.86
+2015 Q3,2015,Q3,QNU1004,"Electricity, gas and water",29539.44
+2015 Q3,2015,Q3,QNU1005,Construction,38211.03
+2015 Q3,2015,Q3,QNU1006,"Trade, catering and accommodation",136235.59
+2015 Q3,2015,Q3,QNU1007,"Transport, storage and communication",91073.94
+2015 Q3,2015,Q3,QNU1008,"Finance, real estate and business services",231604.70
+2015 Q3,2015,Q3,QNU1009,General government services,87637.48
+2015 Q3,2015,Q3,QNU1010,Personal services,167819.21
+2015 Q2,2015,Q2,QNU1000,GDP at market prices,1106056.47
+2015 Q2,2015,Q2,QNU1001,"Agriculture, forestry and fishing",40624.53
+2015 Q2,2015,Q2,QNU1002,Mining and quarrying,55609.14
+2015 Q2,2015,Q2,QNU1003,Manufacturing,134326.76
+2015 Q2,2015,Q2,QNU1004,"Electricity, gas and water",33937.92
+2015 Q2,2015,Q2,QNU1005,Construction,41268.19
+2015 Q2,2015,Q2,QNU1006,"Trade, catering and accommodation",135302.23
+2015 Q2,2015,Q2,QNU1007,"Transport, storage and communication",88745.84
+2015 Q2,2015,Q2,QNU1008,"Finance, real estate and business services",225397.82
+2015 Q2,2015,Q2,QNU1009,General government services,84523.46
+2015 Q2,2015,Q2,QNU1010,Personal services,162030.59
+2015 Q1,2015,Q1,QNU1000,GDP at market prices,1058149.61
+2015 Q1,2015,Q1,QNU1001,"Agriculture, forestry and fishing",21902.10
+2015 Q1,2015,Q1,QNU1002,Mining and quarrying,53641.46
+2015 Q1,2015,Q1,QNU1003,Manufacturing,131926.71
+2015 Q1,2015,Q1,QNU1004,"Electricity, gas and water",26633.12
+2015 Q1,2015,Q1,QNU1005,Construction,36523.84
+2015 Q1,2015,Q1,QNU1006,"Trade, catering and accommodation",129875.52
+2015 Q1,2015,Q1,QNU1007,"Transport, storage and communication",83576.60
+2015 Q1,2015,Q1,QNU1008,"Finance, real estate and business services",229944.80
+2015 Q1,2015,Q1,QNU1009,General government services,82426.71
+2015 Q1,2015,Q1,QNU1010,Personal services,154450.74
+2014 Q4,2014,Q4,QNU1000,GDP at market prices,1065146.18
+2014 Q4,2014,Q4,QNU1001,"Agriculture, forestry and fishing",10955.02
+2014 Q4,2014,Q4,QNU1002,Mining and quarrying,62015.58
+2014 Q4,2014,Q4,QNU1003,Manufacturing,136086.62
+2014 Q4,2014,Q4,QNU1004,"Electricity, gas and water",21573.32
+2014 Q4,2014,Q4,QNU1005,Construction,35231.84
+2014 Q4,2014,Q4,QNU1006,"Trade, catering and accommodation",144784.06
+2014 Q4,2014,Q4,QNU1007,"Transport, storage and communication",90939.24
+2014 Q4,2014,Q4,QNU1008,"Finance, real estate and business services",222745.42
+2014 Q4,2014,Q4,QNU1009,General government services,81520.42
+2014 Q4,2014,Q4,QNU1010,Personal services,152496.66
+2014 Q3,2014,Q3,QNU1000,GDP at market prices,1046828.39
+2014 Q3,2014,Q3,QNU1001,"Agriculture, forestry and fishing",23425.39
+2014 Q3,2014,Q3,QNU1002,Mining and quarrying,64140.13
+2014 Q3,2014,Q3,QNU1003,Manufacturing,131048.66
+2014 Q3,2014,Q3,QNU1004,"Electricity, gas and water",27165.86
+2014 Q3,2014,Q3,QNU1005,Construction,36033.22
+2014 Q3,2014,Q3,QNU1006,"Trade, catering and accommodation",129905.14
+2014 Q3,2014,Q3,QNU1007,"Transport, storage and communication",86639.61
+2014 Q3,2014,Q3,QNU1008,"Finance, real estate and business services",215284.44
+2014 Q3,2014,Q3,QNU1009,General government services,80255.61
+2014 Q3,2014,Q3,QNU1010,Personal services,154075.34
+2014 Q2,2014,Q2,QNU1000,GDP at market prices,1030616.70
+2014 Q2,2014,Q2,QNU1001,"Agriculture, forestry and fishing",37104.50
+2014 Q2,2014,Q2,QNU1002,Mining and quarrying,56342.07
+2014 Q2,2014,Q2,QNU1003,Manufacturing,124959.05
+2014 Q2,2014,Q2,QNU1004,"Electricity, gas and water",31463.76
+2014 Q2,2014,Q2,QNU1005,Construction,38811.13
+2014 Q2,2014,Q2,QNU1006,"Trade, catering and accommodation",128329.89
+2014 Q2,2014,Q2,QNU1007,"Transport, storage and communication",83410.82
+2014 Q2,2014,Q2,QNU1008,"Finance, real estate and business services",208496.53
+2014 Q2,2014,Q2,QNU1009,General government services,78255.69
+2014 Q2,2014,Q2,QNU1010,Personal services,151296.26
+2014 Q1,2014,Q1,QNU1000,GDP at market prices,991281.75
+2014 Q1,2014,Q1,QNU1001,"Agriculture, forestry and fishing",16390.84
+2014 Q1,2014,Q1,QNU1002,Mining and quarrying,56710.95
+2014 Q1,2014,Q1,QNU1003,Manufacturing,123842.42
+2014 Q1,2014,Q1,QNU1004,"Electricity, gas and water",23965.49
+2014 Q1,2014,Q1,QNU1005,Construction,35359.38
+2014 Q1,2014,Q1,QNU1006,"Trade, catering and accommodation",124501.40
+2014 Q1,2014,Q1,QNU1007,"Transport, storage and communication",77294.17
+2014 Q1,2014,Q1,QNU1008,"Finance, real estate and business services",214674.61
+2014 Q1,2014,Q1,QNU1009,General government services,76280.60
+2014 Q1,2014,Q1,QNU1010,Personal services,144979.89
+2013 Q4,2013,Q4,QNU1000,GDP at market prices,1004828.97
+2013 Q4,2013,Q4,QNU1001,"Agriculture, forestry and fishing",9174.76
+2013 Q4,2013,Q4,QNU1002,Mining and quarrying,61852.28
+2013 Q4,2013,Q4,QNU1003,Manufacturing,127258.73
+2013 Q4,2013,Q4,QNU1004,"Electricity, gas and water",20208.00
+2013 Q4,2013,Q4,QNU1005,Construction,34948.64
+2013 Q4,2013,Q4,QNU1006,"Trade, catering and accommodation",138509.65
+2013 Q4,2013,Q4,QNU1007,"Transport, storage and communication",84772.95
+2013 Q4,2013,Q4,QNU1008,"Finance, real estate and business services",206279.08
+2013 Q4,2013,Q4,QNU1009,General government services,75296.84
+2013 Q4,2013,Q4,QNU1010,Personal services,146423.04
+2013 Q3,2013,Q3,QNU1000,GDP at market prices,980870.51
+2013 Q3,2013,Q3,QNU1001,"Agriculture, forestry and fishing",17805.57
+2013 Q3,2013,Q3,QNU1002,Mining and quarrying,64145.47
+2013 Q3,2013,Q3,QNU1003,Manufacturing,123092.09
+2013 Q3,2013,Q3,QNU1004,"Electricity, gas and water",25361.60
+2013 Q3,2013,Q3,QNU1005,Construction,35540.88
+2013 Q3,2013,Q3,QNU1006,"Trade, catering and accommodation",121843.75
+2013 Q3,2013,Q3,QNU1007,"Transport, storage and communication",81635.05
+2013 Q3,2013,Q3,QNU1008,"Finance, real estate and business services",202060.34
+2013 Q3,2013,Q3,QNU1009,General government services,72502.12
+2013 Q3,2013,Q3,QNU1010,Personal services,146340.64
+2013 Q2,2013,Q2,QNU1000,GDP at market prices,968387.66
+2013 Q2,2013,Q2,QNU1001,"Agriculture, forestry and fishing",33124.31
+2013 Q2,2013,Q2,QNU1002,Mining and quarrying,57044.03
+2013 Q2,2013,Q2,QNU1003,Manufacturing,115377.57
+2013 Q2,2013,Q2,QNU1004,"Electricity, gas and water",28449.19
+2013 Q2,2013,Q2,QNU1005,Construction,36187.69
+2013 Q2,2013,Q2,QNU1006,"Trade, catering and accommodation",118596.09
+2013 Q2,2013,Q2,QNU1007,"Transport, storage and communication",78045.83
+2013 Q2,2013,Q2,QNU1008,"Finance, real estate and business services",204193.82
+2013 Q2,2013,Q2,QNU1009,General government services,70993.48
+2013 Q2,2013,Q2,QNU1010,Personal services,140704.65
+2013 Q1,2013,Q1,QNU1000,GDP at market prices,914543.07
+2013 Q1,2013,Q1,QNU1001,"Agriculture, forestry and fishing",14438.03
+2013 Q1,2013,Q1,QNU1002,Mining and quarrying,55241.33
+2013 Q1,2013,Q1,QNU1003,Manufacturing,112696.43
+2013 Q1,2013,Q1,QNU1004,"Electricity, gas and water",21550.93
+2013 Q1,2013,Q1,QNU1005,Construction,30861.24
+2013 Q1,2013,Q1,QNU1006,"Trade, catering and accommodation",113506.36
+2013 Q1,2013,Q1,QNU1007,"Transport, storage and communication",73384.61
+2013 Q1,2013,Q1,QNU1008,"Finance, real estate and business services",199892.01
+2013 Q1,2013,Q1,QNU1009,General government services,67283.39
+2013 Q1,2013,Q1,QNU1010,Personal services,135738.73
+2012 Q4,2012,Q4,QNU1000,GDP at market prices,923353.13
+2012 Q4,2012,Q4,QNU1001,"Agriculture, forestry and fishing",9322.17
+2012 Q4,2012,Q4,QNU1002,Mining and quarrying,54788.54
+2012 Q4,2012,Q4,QNU1003,Manufacturing,114958.46
+2012 Q4,2012,Q4,QNU1004,"Electricity, gas and water",18224.10
+2012 Q4,2012,Q4,QNU1005,Construction,30687.74
+2012 Q4,2012,Q4,QNU1006,"Trade, catering and accommodation",129447.20
+2012 Q4,2012,Q4,QNU1007,"Transport, storage and communication",75654.19
+2012 Q4,2012,Q4,QNU1008,"Finance, real estate and business services",196117.76
+2012 Q4,2012,Q4,QNU1009,General government services,67323.95
+2012 Q4,2012,Q4,QNU1010,Personal services,136961.02
+2012 Q3,2012,Q3,QNU1000,GDP at market prices,903428.42
+2012 Q3,2012,Q3,QNU1001,"Agriculture, forestry and fishing",17940.66
+2012 Q3,2012,Q3,QNU1002,Mining and quarrying,58579.38
+2012 Q3,2012,Q3,QNU1003,Manufacturing,112445.95
+2012 Q3,2012,Q3,QNU1004,"Electricity, gas and water",23183.01
+2012 Q3,2012,Q3,QNU1005,Construction,30815.06
+2012 Q3,2012,Q3,QNU1006,"Trade, catering and accommodation",111872.82
+2012 Q3,2012,Q3,QNU1007,"Transport, storage and communication",73248.51
+2012 Q3,2012,Q3,QNU1008,"Finance, real estate and business services",188862.81
+2012 Q3,2012,Q3,QNU1009,General government services,65199.16
+2012 Q3,2012,Q3,QNU1010,Personal services,138434.05
+2012 Q2,2012,Q2,QNU1000,GDP at market prices,892323.66
+2012 Q2,2012,Q2,QNU1001,"Agriculture, forestry and fishing",29992.19
+2012 Q2,2012,Q2,QNU1002,Mining and quarrying,55164.88
+2012 Q2,2012,Q2,QNU1003,Manufacturing,107170.17
+2012 Q2,2012,Q2,QNU1004,"Electricity, gas and water",25744.51
+2012 Q2,2012,Q2,QNU1005,Construction,32089.70
+2012 Q2,2012,Q2,QNU1006,"Trade, catering and accommodation",110299.66
+2012 Q2,2012,Q2,QNU1007,"Transport, storage and communication",70688.16
+2012 Q2,2012,Q2,QNU1008,"Finance, real estate and business services",188717.75
+2012 Q2,2012,Q2,QNU1009,General government services,63235.01
+2012 Q2,2012,Q2,QNU1010,Personal services,132695.63
+2012 Q1,2012,Q1,QNU1000,GDP at market prices,847279.82
+2012 Q1,2012,Q1,QNU1001,"Agriculture, forestry and fishing",13242.06
+2012 Q1,2012,Q1,QNU1002,Mining and quarrying,50452.08
+2012 Q1,2012,Q1,QNU1003,Manufacturing,110602.71
+2012 Q1,2012,Q1,QNU1004,"Electricity, gas and water",19604.53
+2012 Q1,2012,Q1,QNU1005,Construction,28133.67
+2012 Q1,2012,Q1,QNU1006,"Trade, catering and accommodation",103399.74
+2012 Q1,2012,Q1,QNU1007,"Transport, storage and communication",64861.18
+2012 Q1,2012,Q1,QNU1008,"Finance, real estate and business services",189381.93
+2012 Q1,2012,Q1,QNU1009,General government services,61533.31
+2012 Q1,2012,Q1,QNU1010,Personal services,125412.62
+2011 Q4,2011,Q4,QNU1000,GDP at market prices,869309.77
+2011 Q4,2011,Q4,QNU1001,"Agriculture, forestry and fishing",9540.01
+2011 Q4,2011,Q4,QNU1002,Mining and quarrying,57791.62
+2011 Q4,2011,Q4,QNU1003,Manufacturing,110388.17
+2011 Q4,2011,Q4,QNU1004,"Electricity, gas and water",14964.47
+2011 Q4,2011,Q4,QNU1005,Construction,28362.42
+2011 Q4,2011,Q4,QNU1006,"Trade, catering and accommodation",121327.70
+2011 Q4,2011,Q4,QNU1007,"Transport, storage and communication",69216.29
+2011 Q4,2011,Q4,QNU1008,"Finance, real estate and business services",185940.82
+2011 Q4,2011,Q4,QNU1009,General government services,62391.90
+2011 Q4,2011,Q4,QNU1010,Personal services,128976.36
+2011 Q3,2011,Q3,QNU1000,GDP at market prices,848167.27
+2011 Q3,2011,Q3,QNU1001,"Agriculture, forestry and fishing",19185.86
+2011 Q3,2011,Q3,QNU1002,Mining and quarrying,58072.73
+2011 Q3,2011,Q3,QNU1003,Manufacturing,109579.37
+2011 Q3,2011,Q3,QNU1004,"Electricity, gas and water",19299.84
+2011 Q3,2011,Q3,QNU1005,Construction,28731.86
+2011 Q3,2011,Q3,QNU1006,"Trade, catering and accommodation",103030.40
+2011 Q3,2011,Q3,QNU1007,"Transport, storage and communication",66575.09
+2011 Q3,2011,Q3,QNU1008,"Finance, real estate and business services",183022.45
+2011 Q3,2011,Q3,QNU1009,General government services,60138.73
+2011 Q3,2011,Q3,QNU1010,Personal services,128457.93
+2011 Q2,2011,Q2,QNU1000,GDP at market prices,826404.96
+2011 Q2,2011,Q2,QNU1001,"Agriculture, forestry and fishing",26014.31
+2011 Q2,2011,Q2,QNU1002,Mining and quarrying,52668.91
+2011 Q2,2011,Q2,QNU1003,Manufacturing,102926.62
+2011 Q2,2011,Q2,QNU1004,"Electricity, gas and water",20971.97
+2011 Q2,2011,Q2,QNU1005,Construction,28863.01
+2011 Q2,2011,Q2,QNU1006,"Trade, catering and accommodation",101220.84
+2011 Q2,2011,Q2,QNU1007,"Transport, storage and communication",64209.53
+2011 Q2,2011,Q2,QNU1008,"Finance, real estate and business services",180715.20
+2011 Q2,2011,Q2,QNU1009,General government services,58009.08
+2011 Q2,2011,Q2,QNU1010,Personal services,122948.48
+2011 Q1,2011,Q1,QNU1000,GDP at market prices,783165.02
+2011 Q1,2011,Q1,QNU1001,"Agriculture, forestry and fishing",13261.10
+2011 Q1,2011,Q1,QNU1002,Mining and quarrying,47908.32
+2011 Q1,2011,Q1,QNU1003,Manufacturing,105022.96
+2011 Q1,2011,Q1,QNU1004,"Electricity, gas and water",15779.18
+2011 Q1,2011,Q1,QNU1005,Construction,25090.08
+2011 Q1,2011,Q1,QNU1006,"Trade, catering and accommodation",94382.14
+2011 Q1,2011,Q1,QNU1007,"Transport, storage and communication",57914.62
+2011 Q1,2011,Q1,QNU1008,"Finance, real estate and business services",182104.32
+2011 Q1,2011,Q1,QNU1009,General government services,56261.69
+2011 Q1,2011,Q1,QNU1010,Personal services,113851.60
+2010 Q4,2010,Q4,QNU1000,GDP at market prices,797467.95
+2010 Q4,2010,Q4,QNU1001,"Agriculture, forestry and fishing",7131.15
+2010 Q4,2010,Q4,QNU1002,Mining and quarrying,51332.32
+2010 Q4,2010,Q4,QNU1003,Manufacturing,109610.07
+2010 Q4,2010,Q4,QNU1004,"Electricity, gas and water",11771.99
+2010 Q4,2010,Q4,QNU1005,Construction,25126.88
+2010 Q4,2010,Q4,QNU1006,"Trade, catering and accommodation",111088.85
+2010 Q4,2010,Q4,QNU1007,"Transport, storage and communication",65122.03
+2010 Q4,2010,Q4,QNU1008,"Finance, real estate and business services",174747.75
+2010 Q4,2010,Q4,QNU1009,General government services,57370.18
+2010 Q4,2010,Q4,QNU1010,Personal services,113695.72
+2010 Q3,2010,Q3,QNU1000,GDP at market prices,777733.02
+2010 Q3,2010,Q3,QNU1001,"Agriculture, forestry and fishing",15276.20
+2010 Q3,2010,Q3,QNU1002,Mining and quarrying,53173.47
+2010 Q3,2010,Q3,QNU1003,Manufacturing,108460.15
+2010 Q3,2010,Q3,QNU1004,"Electricity, gas and water",14875.81
+2010 Q3,2010,Q3,QNU1005,Construction,26269.22
+2010 Q3,2010,Q3,QNU1006,"Trade, catering and accommodation",94227.35
+2010 Q3,2010,Q3,QNU1007,"Transport, storage and communication",60185.12
+2010 Q3,2010,Q3,QNU1008,"Finance, real estate and business services",170510.26
+2010 Q3,2010,Q3,QNU1009,General government services,54528.41
+2010 Q3,2010,Q3,QNU1010,Personal services,114855.03
+2010 Q2,2010,Q2,QNU1000,GDP at market prices,764970.15
+2010 Q2,2010,Q2,QNU1001,"Agriculture, forestry and fishing",27833.13
+2010 Q2,2010,Q2,QNU1002,Mining and quarrying,48603.51
+2010 Q2,2010,Q2,QNU1003,Manufacturing,102149.96
+2010 Q2,2010,Q2,QNU1004,"Electricity, gas and water",15388.29
+2010 Q2,2010,Q2,QNU1005,Construction,26708.51
+2010 Q2,2010,Q2,QNU1006,"Trade, catering and accommodation",94236.02
+2010 Q2,2010,Q2,QNU1007,"Transport, storage and communication",57504.80
+2010 Q2,2010,Q2,QNU1008,"Finance, real estate and business services",168177.81
+2010 Q2,2010,Q2,QNU1009,General government services,52282.74
+2010 Q2,2010,Q2,QNU1010,Personal services,111871.40
+2010 Q1,2010,Q1,QNU1000,GDP at market prices,715442.08
+2010 Q1,2010,Q1,QNU1001,"Agriculture, forestry and fishing",14165.35
+2010 Q1,2010,Q1,QNU1002,Mining and quarrying,38734.88
+2010 Q1,2010,Q1,QNU1003,Manufacturing,103274.78
+2010 Q1,2010,Q1,QNU1004,"Electricity, gas and water",13717.99
+2010 Q1,2010,Q1,QNU1005,Construction,23978.13
+2010 Q1,2010,Q1,QNU1006,"Trade, catering and accommodation",86814.83
+2010 Q1,2010,Q1,QNU1007,"Transport, storage and communication",51959.78
+2010 Q1,2010,Q1,QNU1008,"Finance, real estate and business services",171221.64
+2010 Q1,2010,Q1,QNU1009,General government services,51893.84
+2010 Q1,2010,Q1,QNU1010,Personal services,101709.86

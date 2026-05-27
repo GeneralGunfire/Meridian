@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T20:54:45.906Z",
+  "generatedAt": "2026-05-27T21:03:49.883Z",
   "datasets": {
     "crime_stats": {
       "success": true,
@@ -26,10 +26,10 @@
       "skipped": true
     },
     "unemployment": {
-      "success": false,
-      "last_updated": null,
-      "error": "Scraper not yet implemented",
-      "skipped": true
+      "success": true,
+      "last_updated": "2026-05-27",
+      "error": null,
+      "skipped": false
     },
     "sarb_monetary": {
       "success": true,
@@ -38,10 +38,10 @@
       "skipped": true
     },
     "gdp_macro": {
-      "success": false,
-      "last_updated": null,
-      "error": "Scraper not yet implemented",
-      "skipped": true
+      "success": true,
+      "last_updated": "2026-05-27",
+      "error": null,
+      "skipped": false
     },
     "tax_revenue": {
       "success": true,

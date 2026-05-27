@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T20:54:45.904Z",
+  "generatedAt": "2026-05-27T21:03:49.881Z",
   "datasets": {
     "crime_stats": {
       "files": [
@@ -56,7 +56,14 @@
           "rows": 4,
           "csv": "social/unemployment/unemployment_2026-q1.csv"
         }
-      ]
+      ],
+      "history": {
+        "period": "history",
+        "date": "2026-05-27",
+        "rows": 511,
+        "csv": "social/unemployment/unemployment_history.csv"
+      },
+      "lastUpdated": "2026-05-27"
     },
     "sarb_monetary": {
       "files": [],
@@ -76,7 +83,14 @@
           "rows": 4,
           "csv": "economy/gdp_macro/gdp_macro_2026-q1.csv"
         }
-      ]
+      ],
+      "history": {
+        "period": "history",
+        "date": "2026-05-27",
+        "rows": 704,
+        "csv": "economy/gdp_macro/gdp_macro_history.csv"
+      },
+      "lastUpdated": "2026-05-27"
     },
     "budget_spending": {
       "files": [
