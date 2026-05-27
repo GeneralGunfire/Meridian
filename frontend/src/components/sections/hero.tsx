@@ -28,9 +28,9 @@ export default function Hero() {
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: "easeOut", delay: 0.16 }}
-          className="mx-auto mb-10 max-w-xl text-lg text-neutral-500 leading-relaxed"
+          className="mx-auto mb-10 max-w-xl text-xl text-neutral-500 leading-relaxed tracking-[-0.01em]"
         >
-          South Africa&apos;s data,{" "}
+          South Africa&apos;s data,<br />
           <span className="text-neutral-400">clean and ready.</span>
         </motion.p>
 

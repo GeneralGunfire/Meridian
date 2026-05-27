@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T14:01:40.800Z",
+  "generatedAt": "2026-05-27T16:14:13.334Z",
   "datasets": {
     "crime_stats": {
       "files": [
@@ -52,14 +52,14 @@
       ]
     },
     "sarb_monetary": {
-      "files": [
-        {
-          "period": "2026-05",
-          "date": "2026-05-27",
-          "rows": 3,
-          "csv": "economy/sarb_monetary/sarb_monetary_2026-05.csv"
-        }
-      ]
+      "files": [],
+      "history": {
+        "period": "history",
+        "date": "2026-05-27",
+        "rows": 1,
+        "csv": "economy/sarb_monetary/sarb_monetary_history.csv"
+      },
+      "lastUpdated": "2026-05-27"
     },
     "gdp_macro": {
       "files": [
@@ -92,14 +92,14 @@
       ]
     },
     "municipal_finance": {
-      "files": [
-        {
-          "period": "2025",
-          "date": "2026-05-27",
-          "rows": 3,
-          "csv": "economy/municipal_finance/municipal_finance_2025.csv"
-        }
-      ]
+      "files": [],
+      "history": {
+        "period": "history",
+        "date": "2026-05-27",
+        "rows": 2680,
+        "csv": "economy/municipal_finance/municipal_finance_history.csv"
+      },
+      "lastUpdated": "2026-05-27"
     },
     "eskom_infrastructure": {
       "files": [

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T14:01:40.803Z",
+  "generatedAt": "2026-05-27T16:14:13.336Z",
   "datasets": {
     "crime_stats": {
       "success": false,
@@ -32,9 +32,9 @@
       "skipped": true
     },
     "sarb_monetary": {
-      "success": false,
-      "last_updated": null,
-      "error": "SARB API scraper not yet implemented — will be built in Phase 4",
+      "success": true,
+      "last_updated": "2026-05-27",
+      "error": null,
       "skipped": false
     },
     "gdp_macro": {
@@ -56,10 +56,10 @@
       "skipped": true
     },
     "municipal_finance": {
-      "success": false,
-      "last_updated": null,
-      "error": "Scraper not yet implemented",
-      "skipped": true
+      "success": true,
+      "last_updated": "2026-05-27",
+      "error": null,
+      "skipped": false
     },
     "eskom_infrastructure": {
       "success": false,

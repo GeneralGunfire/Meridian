@@ -19,7 +19,9 @@
         |-- gdp_macro
             |-- gdp_macro_2026-q1.csv
         |-- municipal_finance
+            |-- municipal_finance_history.csv
         |-- sarb_monetary
+            |-- sarb_monetary_history.csv
         |-- tax_revenue
             |-- tax_revenue_2025.csv
     |-- energy
