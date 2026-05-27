@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T16:29:35.290Z",
+  "generatedAt": "2026-05-27T20:54:45.904Z",
   "datasets": {
     "crime_stats": {
       "files": [
@@ -78,16 +78,6 @@
         }
       ]
     },
-    "tax_revenue": {
-      "files": [
-        {
-          "period": "2025",
-          "date": "2026-05-27",
-          "rows": 5,
-          "csv": "economy/tax_revenue/tax_revenue_2025.csv"
-        }
-      ]
-    },
     "budget_spending": {
       "files": [
         {
@@ -117,6 +107,16 @@
           "csv": "energy/eskom_infrastructure/eskom_infrastructure_2026-w22.csv"
         }
       ]
+    },
+    "tax_revenue": {
+      "files": [],
+      "history": {
+        "period": "history",
+        "date": "2026-05-27",
+        "rows": 91,
+        "csv": "economy/tax_revenue/tax_revenue_history.csv"
+      },
+      "lastUpdated": "2026-05-27"
     }
   }
 }

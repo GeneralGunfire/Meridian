@@ -1,0 +1,92 @@
+Fiscal_Year,Tax_Type,Amount_ZAR_Millions,YoY_Change_Pct,Share_of_Total_Pct
+2024/25,Domestic taxes on goods and services,627973.09,1.87,33.85
+2024/25,State miscellaneous revenue,2.12,0.00,-0.00
+2024/25,Taxes on income and profits,1100529.91,9.12,59.32
+2024/25,Taxes on international trade and transactions,79825.69,8.09,4.30
+2024/25,Taxes on payroll and workforce,24447.99,8.16,1.32
+2024/25,Taxes on property,22505.09,16.01,1.21
+2024/25,Total tax revenue,1855283.89,6.57,100.00
+2023/24,Domestic taxes on goods and services,616458.87,6.29,35.41
+2023/24,State miscellaneous revenue,2.12,-48.23,-0.00
+2023/24,Taxes on income and profits,1008555.80,2.03,57.93
+2023/24,Taxes on international trade and transactions,73848.83,-2.92,4.24
+2023/24,Taxes on payroll and workforce,22604.35,8.19,1.30
+2023/24,Taxes on property,19399.92,-8.65,1.11
+2023/24,Total tax revenue,1740869.88,3.21,100.00
+2022/23,Domestic taxes on goods and services,579990.06,5.49,34.39
+2022/23,State miscellaneous revenue,4.09,-140.70,-0.00
+2022/23,Taxes on income and profits,988505.25,8.29,58.61
+2022/23,Taxes on international trade and transactions,76067.77,27.38,4.51
+2022/23,Taxes on payroll and workforce,20892.49,8.05,1.24
+2022/23,Taxes on property,21237.71,-3.61,1.26
+2022/23,Total tax revenue,1686697.38,7.86,100.00
+2021/22,Domestic taxes on goods and services,549806.29,20.61,35.16
+2021/22,State miscellaneous revenue,-10.06,-184.66,0.00
+2021/22,Taxes on income and profits,912870.03,27.11,58.38
+2021/22,Taxes on international trade and transactions,59719.26,25.84,3.82
+2021/22,Taxes on payroll and workforce,19335.92,57.84,1.24
+2021/22,Taxes on property,22032.79,38.17,1.41
+2021/22,Total tax revenue,1563754.24,25.13,100.00
+2020/21,Domestic taxes on goods and services,455866.61,-7.40,36.48
+2020/21,State miscellaneous revenue,11.88,18.36,-0.00
+2020/21,Taxes on income and profits,718180.50,-7.05,57.47
+2020/21,Taxes on international trade and transactions,47455.39,-15.74,3.80
+2020/21,Taxes on payroll and workforce,12250.23,-33.73,0.98
+2020/21,Taxes on property,15946.62,-0.21,1.28
+2020/21,Total tax revenue,1249711.23,-7.82,100.00
+2019/20,Domestic taxes on goods and services,492282.79,6.89,36.31
+2019/20,State miscellaneous revenue,10.04,-216.67,-0.00
+2019/20,Taxes on income and profits,772684.81,4.59,56.99
+2019/20,Taxes on international trade and transactions,56322.41,1.08,4.15
+2019/20,Taxes on payroll and workforce,18486.28,6.01,1.36
+2019/20,Taxes on property,15979.94,4.77,1.18
+2019/20,Total tax revenue,1355766.26,5.29,100.00
+2018/19,Domestic taxes on goods and services,460544.57,9.07,35.77
+2018/19,State miscellaneous revenue,-8.60,-63.92,0.00
+2018/19,Taxes on income and profits,738740.60,3.80,57.37
+2018/19,Taxes on international trade and transactions,55722.91,11.58,4.33
+2018/19,Taxes on payroll and workforce,17438.99,8.91,1.35
+2018/19,Taxes on property,15251.78,-8.04,1.18
+2018/19,Total tax revenue,1287690.24,5.86,100.00
+2017/18,Domestic taxes on goods and services,422248.28,4.92,34.71
+2017/18,State miscellaneous revenue,-23.85,-297.30,0.00
+2017/18,Taxes on income and profits,711703.02,7.10,58.51
+2017/18,Taxes on international trade and transactions,49939.41,8.32,4.11
+2017/18,Taxes on payroll and workforce,16012.41,4.56,1.32
+2017/18,Taxes on property,16584.61,5.90,1.36
+2017/18,Total tax revenue,1216463.87,6.33,100.00
+2016/17,Domestic taxes on goods and services,402463.95,4.28,35.18
+2016/17,State miscellaneous revenue,12.09,-3084.43,0.00
+2016/17,Taxes on income and profits,664526.45,9.51,58.08
+2016/17,Taxes on international trade and transactions,46102.50,-1.79,4.03
+2016/17,Taxes on payroll and workforce,15314.76,0.62,1.34
+2016/17,Taxes on property,15661.25,4.10,1.37
+2016/17,Total tax revenue,1144080.99,6.93,100.00
+2015/16,Domestic taxes on goods and services,385955.94,8.25,36.07
+2015/16,State miscellaneous revenue,-0.40,-97.43,-0.00
+2015/16,Taxes on income and profits,606820.53,8.02,56.71
+2015/16,Taxes on international trade and transactions,46942.27,13.22,4.39
+2015/16,Taxes on payroll and workforce,15220.16,8.47,1.42
+2015/16,Taxes on property,15044.07,20.63,1.41
+2015/16,Total tax revenue,1069982.57,8.49,100.00
+2014/15,Domestic taxes on goods and services,356554.42,9.86,36.15
+2014/15,State miscellaneous revenue,-15.77,-225.55,-0.00
+2014/15,Taxes on income and profits,561789.78,10.64,56.96
+2014/15,Taxes on international trade and transactions,41462.94,-7.31,4.20
+2014/15,Taxes on payroll and workforce,14032.12,12.48,1.42
+2014/15,Taxes on property,12471.53,18.92,1.26
+2014/15,Total tax revenue,986295.02,9.59,100.00
+2013/14,Domestic taxes on goods and services,324548.18,9.30,36.06
+2013/14,State miscellaneous revenue,12.56,-29.03,0.00
+2013/14,Taxes on income and profits,507759.15,11.03,56.42
+2013/14,Taxes on international trade and transactions,44732.17,13.11,4.97
+2013/14,Taxes on payroll and workforce,12475.60,9.64,1.39
+2013/14,Taxes on property,10487.06,21.30,1.17
+2013/14,Total tax revenue,900014.72,10.59,100.00
+2012/13,Domestic taxes on goods and services,296921.47,12.49,36.48
+2012/13,State miscellaneous revenue,17.70,292.45,0.00
+2012/13,Taxes on income and profits,457313.84,7.20,56.19
+2012/13,Taxes on international trade and transactions,39549.12,15.91,4.86
+2012/13,Taxes on payroll and workforce,11378.48,11.85,1.40
+2012/13,Taxes on property,8645.21,10.59,1.06
+2012/13,Total tax revenue,813825.81,9.58,100.00

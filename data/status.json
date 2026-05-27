@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T16:29:35.292Z",
+  "generatedAt": "2026-05-27T20:54:45.906Z",
   "datasets": {
     "crime_stats": {
       "success": true,
@@ -44,10 +44,10 @@
       "skipped": true
     },
     "tax_revenue": {
-      "success": false,
-      "last_updated": null,
-      "error": "Scraper not yet implemented",
-      "skipped": true
+      "success": true,
+      "last_updated": "2026-05-27",
+      "error": null,
+      "skipped": false
     },
     "budget_spending": {
       "success": false,
