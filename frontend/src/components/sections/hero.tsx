@@ -28,10 +28,18 @@ export default function Hero() {
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: "easeOut", delay: 0.16 }}
-          className="mx-auto mb-10 max-w-xl text-xl text-neutral-500 leading-relaxed tracking-[-0.01em]"
+          className="mb-3 max-w-xl text-xl text-neutral-500 leading-relaxed tracking-[-0.01em]"
         >
-          South Africa&apos;s data,<br />
-          <span className="text-neutral-400">clean and ready.</span>
+          South Africa&apos;s data, <span className="text-neutral-400">clean and ready.</span>
+        </motion.p>
+
+        <motion.p
+          initial={{ opacity: 0, y: 16 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: "easeOut", delay: 0.22 }}
+          className="mx-auto mb-10 max-w-2xl text-base text-neutral-400 leading-relaxed"
+        >
+          Crime statistics, Eskom load-shedding, water access, and housing data — scraped weekly from official government sources and served as clean CSVs ready for Power BI.
         </motion.p>
 
         <motion.div
