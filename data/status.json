@@ -1,21 +1,83 @@
 {
-  "timestamp": "2026-05-26T15:52:21.665Z",
-  "results": {
+  "generatedAt": "2026-05-27T13:49:37.056Z",
+  "datasets": {
     "crime_stats": {
       "success": true,
-      "error": null
+      "last_updated": "2026-05-27",
+      "error": null,
+      "skipped": false
     },
-    "eskom": {
+    "eskom_power": {
       "success": true,
-      "error": null
+      "last_updated": "2026-05-27",
+      "error": null,
+      "skipped": false
     },
     "water": {
       "success": true,
-      "error": null
+      "last_updated": "2026-05-27",
+      "error": null,
+      "skipped": false
     },
     "housing": {
       "success": true,
-      "error": null
+      "last_updated": "2026-05-27",
+      "error": null,
+      "skipped": false
+    },
+    "unemployment": {
+      "success": true,
+      "last_updated": "2026-05-27",
+      "error": null,
+      "skipped": false
+    },
+    "sarb_monetary": {
+      "success": true,
+      "last_updated": "2026-05-27",
+      "error": null,
+      "skipped": false
+    },
+    "gdp_macro": {
+      "success": true,
+      "last_updated": "2026-05-27",
+      "error": null,
+      "skipped": false
+    },
+    "tax_revenue": {
+      "success": true,
+      "last_updated": "2026-05-27",
+      "error": null,
+      "skipped": false
+    },
+    "budget_spending": {
+      "success": true,
+      "last_updated": "2026-05-27",
+      "error": null,
+      "skipped": false
+    },
+    "municipal_finance": {
+      "success": true,
+      "last_updated": "2026-05-27",
+      "error": null,
+      "skipped": false
+    },
+    "eskom_infrastructure": {
+      "success": true,
+      "last_updated": "2026-05-27",
+      "error": null,
+      "skipped": false
+    },
+    "eskom_spending": {
+      "success": false,
+      "last_updated": null,
+      "error": null,
+      "skipped": true
+    },
+    "eskom_revenue": {
+      "success": false,
+      "last_updated": null,
+      "error": null,
+      "skipped": true
     }
   }
 }

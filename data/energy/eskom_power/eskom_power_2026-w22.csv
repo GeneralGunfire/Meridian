@@ -1,0 +1,4 @@
+Date,Hour,MW_Demand,MW_Available,Stage,Outage_MW,Province
+2026-05-27,08,34500,28200,0,0,National
+2026-05-27,09,36100,30000,0,0,National
+2026-05-27,18,38500,28000,2,2000,National

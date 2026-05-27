@@ -1,0 +1,5 @@
+Date,Plant_Name,Capacity_MW,EAF_Pct,UCLF_MW,PCLF_MW,OCLF_MW,Fuel_Type
+2026-05-27,Koeberg,1940,65.8,8.2,12.4,5.1,Nuclear
+2026-05-27,Medupi,4764,72.1,10.5,8.8,4.2,Coal
+2026-05-27,Kusile,4800,68.4,11.2,9.6,3.8,Coal
+2026-05-27,Kendal,4116,71.2,9.8,10.1,4.5,Coal

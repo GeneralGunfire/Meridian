@@ -1,0 +1,115 @@
+{
+  "generatedAt": "2026-05-27T13:49:37.056Z",
+  "datasets": {
+    "crime_stats": {
+      "files": [
+        {
+          "period": "2026-q1",
+          "date": "2026-05-27",
+          "rows": 6,
+          "csv": "safety/crime_stats/crime_stats_2026-q1.csv"
+        }
+      ]
+    },
+    "eskom_power": {
+      "files": [
+        {
+          "period": "2026-w22",
+          "date": "2026-05-27",
+          "rows": 3,
+          "csv": "energy/eskom_power/eskom_power_2026-w22.csv"
+        }
+      ]
+    },
+    "water": {
+      "files": [
+        {
+          "period": "2024",
+          "date": "2026-05-27",
+          "rows": 4,
+          "csv": "social/water/water_2024.csv"
+        }
+      ]
+    },
+    "housing": {
+      "files": [
+        {
+          "period": "2024",
+          "date": "2026-05-27",
+          "rows": 5,
+          "csv": "social/housing/housing_2024.csv"
+        }
+      ]
+    },
+    "unemployment": {
+      "files": [
+        {
+          "period": "2026-q1",
+          "date": "2026-05-27",
+          "rows": 4,
+          "csv": "social/unemployment/unemployment_2026-q1.csv"
+        }
+      ]
+    },
+    "sarb_monetary": {
+      "files": [
+        {
+          "period": "2026-05",
+          "date": "2026-05-27",
+          "rows": 3,
+          "csv": "economy/sarb_monetary/sarb_monetary_2026-05.csv"
+        }
+      ]
+    },
+    "gdp_macro": {
+      "files": [
+        {
+          "period": "2026-q1",
+          "date": "2026-05-27",
+          "rows": 4,
+          "csv": "economy/gdp_macro/gdp_macro_2026-q1.csv"
+        }
+      ]
+    },
+    "tax_revenue": {
+      "files": [
+        {
+          "period": "2025",
+          "date": "2026-05-27",
+          "rows": 5,
+          "csv": "economy/tax_revenue/tax_revenue_2025.csv"
+        }
+      ]
+    },
+    "budget_spending": {
+      "files": [
+        {
+          "period": "2026",
+          "date": "2026-05-27",
+          "rows": 4,
+          "csv": "economy/budget_spending/budget_spending_2026.csv"
+        }
+      ]
+    },
+    "municipal_finance": {
+      "files": [
+        {
+          "period": "2025",
+          "date": "2026-05-27",
+          "rows": 3,
+          "csv": "economy/municipal_finance/municipal_finance_2025.csv"
+        }
+      ]
+    },
+    "eskom_infrastructure": {
+      "files": [
+        {
+          "period": "2026-w22",
+          "date": "2026-05-27",
+          "rows": 4,
+          "csv": "energy/eskom_infrastructure/eskom_infrastructure_2026-w22.csv"
+        }
+      ]
+    }
+  }
+}
