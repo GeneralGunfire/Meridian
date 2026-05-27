@@ -4,19 +4,40 @@ import { cn } from "@/lib/utils";
 import { motion, AnimatePresence } from "motion/react";
 
 const navLinks = [
-  { label: "Datasets", href: "#datasets" },
-  { label: "Dashboards", href: "#dashboards" },
-  { label: "How It Works", href: "#" },
-  { label: "About", href: "#about" },
+  { label: "Datasets",     href: "#datasets" },
+  { label: "Dashboards",   href: "#dashboards" },
+  { label: "How It Works", href: "#how-it-works" },
+  { label: "About",        href: "#about" },
 ];
+
+function smoothScrollTo(href: string) {
+  // External page — navigate normally
+  if (!href.startsWith("#")) {
+    window.location.href = href;
+    return;
+  }
+  const id = href.slice(1);
+  const el = document.getElementById(id);
+  if (!el) return;
+  el.scrollIntoView({ behavior: "smooth", block: "start" });
+}
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
+
+  const handleNav = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    if (href.startsWith("#")) {
+      e.preventDefault();
+      smoothScrollTo(href);
+      setMobileOpen(false);
+    }
+  };
 
   return (
     <nav className="sticky top-0 z-50 border-b border-black/10 bg-[#f5f0e8]/95 backdrop-blur-md">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
+
           {/* Logo */}
           <a href="/" className="flex items-center gap-2.5 shrink-0">
             <span className="flex h-8 w-8 items-center justify-center rounded-md bg-[#0a0a0a]">
@@ -32,14 +53,15 @@ export default function Navbar() {
           <ul className="hidden items-center gap-0.5 md:flex">
             {navLinks.map((link) => (
               <li key={link.label}>
-                <a href={link.href} className="relative inline-block group px-0.5">
-                  {/* Text */}
+                <a
+                  href={link.href}
+                  onClick={(e) => handleNav(e, link.href)}
+                  className="relative inline-block group px-0.5"
+                >
                   <span className="relative z-10 block px-3 py-2 text-sm font-medium text-neutral-500 transition-colors duration-200 group-hover:text-white">
                     {link.label}
                   </span>
-                  {/* Top + bottom border */}
                   <span className="absolute inset-0 border-t-[1.5px] border-b-[1.5px] border-[#0a0a0a] origin-center scale-y-[2] opacity-0 transition-all duration-250 group-hover:scale-y-100 group-hover:opacity-100 rounded-[1px]" />
-                  {/* Fill */}
                   <span className="absolute top-[1.5px] left-0 w-full h-[calc(100%-3px)] bg-[#0a0a0a] origin-top scale-y-0 opacity-0 transition-all duration-250 group-hover:scale-y-100 group-hover:opacity-100" />
                 </a>
               </li>
@@ -49,7 +71,7 @@ export default function Navbar() {
           {/* Right side */}
           <div className="flex items-center gap-3">
             <a
-              href="#datasets"
+              href="/download"
               className="hidden rounded-md bg-[#0a0a0a] px-4 py-2 text-sm font-semibold text-[#f5f0e8] transition-all hover:bg-neutral-800 active:scale-[0.98] md:block"
             >
               Get Datasets
@@ -84,14 +106,14 @@ export default function Navbar() {
                 <a
                   key={link.label}
                   href={link.href}
+                  onClick={(e) => handleNav(e, link.href)}
                   className="block rounded-md px-3 py-2.5 text-sm font-medium text-neutral-500 transition-colors hover:bg-black/5 hover:text-[#0a0a0a]"
-                  onClick={() => setMobileOpen(false)}
                 >
                   {link.label}
                 </a>
               ))}
               <a
-                href="#datasets"
+                href="/download"
                 className="mt-2 block rounded-md bg-[#0a0a0a] px-3 py-2.5 text-center text-sm font-semibold text-[#f5f0e8]"
                 onClick={() => setMobileOpen(false)}
               >

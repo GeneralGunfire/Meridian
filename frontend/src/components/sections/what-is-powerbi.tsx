@@ -19,7 +19,7 @@ const bullets = [
 
 export default function WhatIsPowerBI() {
   return (
-    <section className="px-4 py-28 bg-[#f5f0e8]">
+    <section id="dashboards" className="px-4 py-28 bg-[#f5f0e8]">
       <div className="mx-auto max-w-6xl">
 
         {/* Section label + heading */}
