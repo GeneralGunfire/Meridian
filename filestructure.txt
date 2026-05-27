@@ -83,6 +83,8 @@
     |-- README.md
     |-- src
         |-- app
+            |-- download
+                |-- page.tsx
             |-- favicon.ico
             |-- globals.css
             |-- layout.tsx
@@ -101,6 +103,8 @@
                 |-- vertical-cut-reveal.tsx
             |-- sections
                 |-- data-ticker.tsx
+                |-- dataset-grid.tsx
+                |-- download-hero.tsx
                 |-- features.tsx
                 |-- footer.tsx
                 |-- hero.tsx

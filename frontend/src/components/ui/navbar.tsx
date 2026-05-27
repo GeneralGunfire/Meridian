@@ -4,10 +4,10 @@ import { cn } from "@/lib/utils";
 import { motion, AnimatePresence } from "motion/react";
 
 const navLinks = [
-  { label: "Datasets",     href: "#datasets" },
-  { label: "Dashboards",   href: "#dashboards" },
-  { label: "How It Works", href: "#how-it-works" },
   { label: "About",        href: "#about" },
+  { label: "Dashboards",   href: "#dashboards" },
+  { label: "Datasets",     href: "#datasets" },
+  { label: "How It Works", href: "#how-it-works" },
 ];
 
 function smoothScrollTo(href: string) {
