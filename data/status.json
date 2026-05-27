@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T21:03:49.883Z",
+  "generatedAt": "2026-05-27T21:11:27.537Z",
   "datasets": {
     "crime_stats": {
       "success": true,
@@ -14,16 +14,16 @@
       "skipped": true
     },
     "water": {
-      "success": false,
-      "last_updated": null,
-      "error": "Scraper not yet implemented",
-      "skipped": true
+      "success": true,
+      "last_updated": "2026-05-27",
+      "error": null,
+      "skipped": false
     },
     "housing": {
-      "success": false,
-      "last_updated": null,
-      "error": "Scraper not yet implemented",
-      "skipped": true
+      "success": true,
+      "last_updated": "2026-05-27",
+      "error": null,
+      "skipped": false
     },
     "unemployment": {
       "success": true,

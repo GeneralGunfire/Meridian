@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T21:03:49.881Z",
+  "generatedAt": "2026-05-27T21:11:27.535Z",
   "datasets": {
     "crime_stats": {
       "files": [
@@ -25,26 +25,6 @@
           "date": "2026-05-27",
           "rows": 3,
           "csv": "energy/eskom_power/eskom_power_2026-w22.csv"
-        }
-      ]
-    },
-    "water": {
-      "files": [
-        {
-          "period": "2024",
-          "date": "2026-05-27",
-          "rows": 4,
-          "csv": "social/water/water_2024.csv"
-        }
-      ]
-    },
-    "housing": {
-      "files": [
-        {
-          "period": "2024",
-          "date": "2026-05-27",
-          "rows": 5,
-          "csv": "social/housing/housing_2024.csv"
         }
       ]
     },
@@ -129,6 +109,26 @@
         "date": "2026-05-27",
         "rows": 91,
         "csv": "economy/tax_revenue/tax_revenue_history.csv"
+      },
+      "lastUpdated": "2026-05-27"
+    },
+    "water": {
+      "files": [],
+      "history": {
+        "period": "history",
+        "date": "2026-05-27",
+        "rows": 1034,
+        "csv": "social/water/water_history.csv"
+      },
+      "lastUpdated": "2026-05-27"
+    },
+    "housing": {
+      "files": [],
+      "history": {
+        "period": "history",
+        "date": "2026-05-27",
+        "rows": 384,
+        "csv": "social/housing/housing_history.csv"
       },
       "lastUpdated": "2026-05-27"
     }

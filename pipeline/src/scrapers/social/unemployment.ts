@@ -22,7 +22,7 @@
 
 import path from "path";
 import ExcelJS from "exceljs";
-import "../../lib/http.js";
+import { downloadBuffer } from "../../lib/http.js";
 import { writeCsv, countCsvRows } from "../../lib/csv.js";
 import { relPath } from "../../lib/paths.js";
 import { today } from "../../lib/week.js";
@@ -78,12 +78,7 @@ export async function run(ctx: ScraperContext): Promise<ScraperResult> {
 
   try {
     log.info(`Downloading QLFS Trends from StatsSA…`);
-    const res = await fetch(SOURCE_URL, {
-      headers: { "User-Agent": "Meridian-Pipeline/1.0" },
-      signal: AbortSignal.timeout(120000),
-    });
-    if (!res.ok) throw new Error(`HTTP ${res.status} from StatsSA`);
-    const buffer = Buffer.from(await res.arrayBuffer());
+    const buffer = await downloadBuffer(SOURCE_URL, 120000);
     log.info(`Downloaded ${(buffer.length / 1e6).toFixed(1)}MB — parsing`);
 
     const wb = new ExcelJS.Workbook();
