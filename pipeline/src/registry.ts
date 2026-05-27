@@ -8,11 +8,13 @@ import type { DatasetSpec, CategoryId } from "./types.js";
 
 export const DATASETS: DatasetSpec[] = [
   // ── ECONOMY ─────────────────────────────────────────────────────────────────
-  { id: "tax_revenue",       category: "economy", label: "Tax Revenue",             source: "SARS",                      method: "parse",  cadence: "annual"    },
-  { id: "budget_spending",   category: "economy", label: "Budget & Spending",       source: "Treasury Vulekamali",       method: "api",    cadence: "annual"    },
-  { id: "gdp_macro",         category: "economy", label: "GDP & Macro",             source: "StatsSA P0441",             method: "parse",  cadence: "quarterly" },
-  { id: "sarb_monetary",     category: "economy", label: "Monetary & Banking",      source: "SARB",                      method: "api",    cadence: "monthly"   },
-  { id: "municipal_finance", category: "economy", label: "Municipal Finance",       source: "Treasury Municipal API",    method: "api",    cadence: "annual"    },
+  { id: "tax_revenue",       category: "economy", label: "Tax Revenue (Summary)",    source: "SARS Ch.1",                 method: "parse",  cadence: "annual"    },
+  { id: "sars_pit",          category: "economy", label: "Personal Income Tax",      source: "SARS Ch.2",                 method: "parse",  cadence: "annual"    },
+  { id: "sars_vat",          category: "economy", label: "Company Tax & VAT",        source: "SARS Ch.3+4",               method: "parse",  cadence: "annual"    },
+  { id: "budget_spending",   category: "economy", label: "Budget & Spending",        source: "Treasury Vulekamali",       method: "api",    cadence: "annual"    },
+  { id: "gdp_macro",         category: "economy", label: "GDP & Macro",              source: "StatsSA P0441",             method: "parse",  cadence: "quarterly" },
+  { id: "sarb_monetary",     category: "economy", label: "Monetary & Banking",       source: "SARB",                      method: "api",    cadence: "monthly"   },
+  { id: "municipal_finance", category: "economy", label: "Municipal Finance",        source: "Treasury Municipal API",    method: "api",    cadence: "annual"    },
   // ── ENERGY ───────────────────────────────────────────────────────────────────
   { id: "eskom_power",          category: "energy", label: "Power Supply & Demand",    source: "Eskom Data Portal", method: "scrape", cadence: "weekly"  },
   { id: "eskom_infrastructure", category: "energy", label: "Generation Infrastructure", source: "Eskom Data Portal", method: "scrape", cadence: "weekly"  },

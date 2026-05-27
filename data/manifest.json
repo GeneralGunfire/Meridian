@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T21:44:47.744Z",
+  "generatedAt": "2026-05-27T22:01:06.882Z",
   "datasets": {
     "crime_stats": {
       "files": [
@@ -129,6 +129,26 @@
         "date": "2026-05-27",
         "rows": 130,
         "csv": "energy/eskom_infrastructure/eskom_infrastructure_history.csv"
+      },
+      "lastUpdated": "2026-05-27"
+    },
+    "sars_pit": {
+      "files": [],
+      "history": {
+        "period": "history",
+        "date": "2026-05-27",
+        "rows": 12,
+        "csv": "economy/sars_pit/sars_pit_history.csv"
+      },
+      "lastUpdated": "2026-05-27"
+    },
+    "sars_vat": {
+      "files": [],
+      "history": {
+        "period": "history",
+        "date": "2026-05-27",
+        "rows": 33,
+        "csv": "economy/sars_vat/sars_vat_history.csv"
       },
       "lastUpdated": "2026-05-27"
     }

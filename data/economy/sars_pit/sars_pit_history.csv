@@ -1,0 +1,13 @@
+Tax_Year,Category,Sub_Category,Metric,Value,Unit
+2024,Summary,All_Taxpayers,Tax_Assessed_ZAR_Millions,563325.53,ZAR_millions
+2024,Summary,All_Taxpayers,Taxable_Income_ZAR_Millions,2707974.86,ZAR_millions
+2024,Summary,All_Taxpayers,Taxpayer_Count,7712217,count
+2023,Summary,All_Taxpayers,Tax_Assessed_ZAR_Millions,521174.33,ZAR_millions
+2023,Summary,All_Taxpayers,Taxable_Income_ZAR_Millions,2464402.16,ZAR_millions
+2023,Summary,All_Taxpayers,Taxpayer_Count,7077689,count
+2022,Summary,All_Taxpayers,Tax_Assessed_ZAR_Millions,476062.03,ZAR_millions
+2022,Summary,All_Taxpayers,Taxable_Income_ZAR_Millions,2219394.19,ZAR_millions
+2022,Summary,All_Taxpayers,Taxpayer_Count,6635030,count
+2021,Summary,All_Taxpayers,Tax_Assessed_ZAR_Millions,429378.90,ZAR_millions
+2021,Summary,All_Taxpayers,Taxable_Income_ZAR_Millions,2025688.12,ZAR_millions
+2021,Summary,All_Taxpayers,Taxpayer_Count,6447984,count
