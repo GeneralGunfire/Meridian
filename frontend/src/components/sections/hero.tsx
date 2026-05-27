@@ -19,10 +19,20 @@ export default function Hero() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: "easeOut", delay: 0.08 }}
-          className="mb-10 text-5xl font-semibold tracking-[-0.035em] leading-[1.05] text-[#0a0a0a] sm:text-6xl lg:text-7xl xl:text-[5.5rem]"
+          className="mb-6 text-5xl font-semibold tracking-[-0.035em] leading-[1.05] text-[#0a0a0a] sm:text-6xl lg:text-7xl xl:text-[5.5rem]"
         >
           Meridian
         </motion.h1>
+
+        <motion.p
+          initial={{ opacity: 0, y: 16 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: "easeOut", delay: 0.16 }}
+          className="mx-auto mb-10 max-w-xl text-lg text-neutral-500 leading-relaxed"
+        >
+          South Africa&apos;s data,{" "}
+          <span className="text-neutral-400">clean and ready.</span>
+        </motion.p>
 
         <motion.div
           initial={{ opacity: 0, y: 12 }}

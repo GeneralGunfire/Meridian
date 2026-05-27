@@ -1,26 +1,33 @@
 /**
  * sarb_monetary.ts — SARB monetary & banking data scraper
  *
- * Data source: South African Reserve Bank Online Statistical Query
- * API: https://custom.resbank.co.za/SarbWebApi/
- * Data: Repo rate, prime rate, CPI, M3, credit extension, ZAR/USD/EUR/GBP
+ * Source: SARB Web API (https://custom.resbank.co.za/SarbWebApi/)
+ * Confirmed live endpoints (recon 2026-05):
+ *   - WebIndicators/HomePageRates         → CPI (CPI1000F), repo (MMRD002A), prime (MMRD000A)
+ *   - WebIndicators/HistoricalExchangeRatesDaily → ZAR/USD (EXCX135D), ZAR/GBP (EXCZ001D), ZAR/EUR (EXCZ002D)
  *
- * History: ~15yr monthly series from SARB Quarterly Bulletin time-series
- * Incremental: latest month's figures
- *
- * NOTE: The SARB Web API requires exploration of available series codes.
- * Until the API contract is confirmed, this scraper returns representative
- * data derived from the SARB Quarterly Bulletin CSV export facility.
- * The structure here proves the scraper contract runs end-to-end.
+ * NOTE: The public API returns CURRENT snapshots, not deep history. We use a
+ * snapshot-and-accumulate model: each run captures the latest values as one
+ * dated row appended to <id>_history.csv. Depth builds over time.
  */
 
 import path from "path";
-import { writeCsv, countCsvRows } from "../../lib/csv.js";
+import fs from "fs";
+import { fetchJson } from "../../lib/http.js";
+import { readCsv, writeCsv, countCsvRows } from "../../lib/csv.js";
 import { relPath } from "../../lib/paths.js";
-import { today, getMonthString } from "../../lib/week.js";
+import { today } from "../../lib/week.js";
 import type { ScraperContext, ScraperResult } from "../../types.js";
 
-// ── column definitions ────────────────────────────────────────────────────────
+const BASE = "https://custom.resbank.co.za/SarbWebApi/WebIndicators";
+
+interface SarbRate {
+  Name: string;
+  TimeseriesCode: string;
+  Date: string;
+  Value: number;
+}
+
 interface SarbRow {
   Date: string;
   Repo_Rate_Pct: number | string;
@@ -33,65 +40,71 @@ interface SarbRow {
   ZAR_GBP: number | string;
 }
 
-// ── fetch from SARB ───────────────────────────────────────────────────────────
-async function fetchSarbData(_mode: "history" | "incremental"): Promise<SarbRow[]> {
-  /**
-   * TODO (Phase 4): Implement real SARB Web API calls.
-   * The SARB API is at: https://custom.resbank.co.za/SarbWebApi/
-   * Series codes needed:
-   *   - KBP1400M (repo rate)
-   *   - KBP2003M (prime rate)
-   *   - KBP7032M (CPI all items)
-   *   - KBP1374M (M3 money supply)
-   *   - KBP2010M (total private sector credit)
-   *   - KBP5339M (ZAR/USD mid rate)
-   *
-   * For now throw so the orchestrator records this as "not yet implemented"
-   * and falls back to keeping any existing data from seed.
-   */
-  throw new Error("SARB API scraper not yet implemented — will be built in Phase 4");
+async function fetchSnapshot(): Promise<SarbRow> {
+  const [homeRates, exchangeRates] = await Promise.all([
+    fetchJson<SarbRate[]>(`${BASE}/HomePageRates`),
+    fetchJson<SarbRate[]>(`${BASE}/HistoricalExchangeRatesDaily`),
+  ]);
+
+  const byCode = new Map<string, SarbRate>();
+  for (const r of [...homeRates, ...exchangeRates]) byCode.set(r.TimeseriesCode, r);
+
+  const val = (code: string): number | string => byCode.get(code)?.Value ?? "";
+  const rowDate = byCode.get("MMRD002A")?.Date ?? today();
+
+  return {
+    Date: rowDate,
+    Repo_Rate_Pct: val("MMRD002A"),
+    Prime_Rate_Pct: val("MMRD000A"),
+    CPI_Pct: val("CPI1000F"),
+    M3_ZAR_Millions: "",
+    Credit_Extension_ZAR_Millions: "",
+    ZAR_USD: val("EXCX135D"),
+    ZAR_EUR: val("EXCZ002D"),
+    ZAR_GBP: val("EXCZ001D"),
+  };
 }
 
-// ── run ───────────────────────────────────────────────────────────────────────
 export async function run(ctx: ScraperContext): Promise<ScraperResult> {
-  const { spec, dataDir, dataRoot, period, mode, log } = ctx;
+  const { spec, dataDir, dataRoot, log } = ctx;
 
   try {
-    log.info(`Fetching SARB monetary data (mode=${mode})`);
-    const rows = await fetchSarbData(mode);
+    log.info("Fetching SARB snapshot (HomePageRates + exchange rates)");
+    const snapshot = await fetchSnapshot();
+    log.info(`Snapshot ${snapshot.Date}: repo=${snapshot.Repo_Rate_Pct} prime=${snapshot.Prime_Rate_Pct} usd=${snapshot.ZAR_USD}`);
 
-    const filename = mode === "history"
-      ? `${spec.id}_history.csv`
-      : `${spec.id}_${period}.csv`;
+    const historyPath = path.join(dataDir, `${spec.id}_history.csv`);
+    let rows: SarbRow[] = [];
+    if (fs.existsSync(historyPath)) {
+      rows = readCsv(historyPath) as unknown as SarbRow[];
+    }
 
-    const filePath = path.join(dataDir, filename);
-    writeCsv(filePath, rows as unknown as Record<string, unknown>[]);
+    if (rows.some((r) => r.Date === snapshot.Date)) {
+      log.info(`Date ${snapshot.Date} already in history — no new data`);
+      return {
+        id: spec.id, success: true, rowsWritten: countCsvRows(historyPath),
+        filesWritten: [], skipped: true, error: null, lastUpdated: today(),
+      };
+    }
 
-    const rowCount = countCsvRows(filePath);
-    const rel = relPath(dataRoot, filePath);
+    rows.push(snapshot);
+    rows.sort((a, b) => String(a.Date).localeCompare(String(b.Date)));
+    writeCsv(historyPath, rows as unknown as Record<string, unknown>[]);
 
-    log.info(`Wrote ${rowCount} rows → ${rel}`);
+    const rowCount = countCsvRows(historyPath);
+    const rel = relPath(dataRoot, historyPath);
+    log.info(`Appended snapshot → ${rel} (${rowCount} total rows)`);
 
     return {
-      id: spec.id,
-      success: true,
-      rowsWritten: rowCount,
-      filesWritten: [rel],
-      skipped: false,
-      error: null,
-      lastUpdated: today(),
+      id: spec.id, success: true, rowsWritten: rowCount,
+      filesWritten: [rel], skipped: false, error: null, lastUpdated: today(),
     };
   } catch (err) {
     const msg = err instanceof Error ? err.message : String(err);
     log.error(`Failed: ${msg}`);
     return {
-      id: spec.id,
-      success: false,
-      rowsWritten: 0,
-      filesWritten: [],
-      skipped: false,
-      error: msg,
-      lastUpdated: null,
+      id: spec.id, success: false, rowsWritten: 0,
+      filesWritten: [], skipped: false, error: msg, lastUpdated: null,
     };
   }
 }

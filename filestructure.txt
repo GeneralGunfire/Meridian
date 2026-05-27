@@ -19,9 +19,7 @@
         |-- gdp_macro
             |-- gdp_macro_2026-q1.csv
         |-- municipal_finance
-            |-- municipal_finance_2025.csv
         |-- sarb_monetary
-            |-- sarb_monetary_2026-05.csv
         |-- tax_revenue
             |-- tax_revenue_2025.csv
     |-- energy
@@ -130,6 +128,7 @@
     |-- src
         |-- lib
             |-- csv.ts
+            |-- http.ts
             |-- logger.ts
             |-- manifest.ts
             |-- paths.ts
@@ -142,6 +141,7 @@
         |-- scrapers
             |-- economy
                 |-- budget_spending.ts
+                |-- municipal_finance.ts
                 |-- sarb_monetary.ts
             |-- energy
             |-- safety
