@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T16:14:13.336Z",
+  "generatedAt": "2026-05-27T16:16:14.712Z",
   "datasets": {
     "crime_stats": {
       "success": false,
@@ -35,7 +35,7 @@
       "success": true,
       "last_updated": "2026-05-27",
       "error": null,
-      "skipped": false
+      "skipped": true
     },
     "gdp_macro": {
       "success": false,
@@ -52,7 +52,7 @@
     "budget_spending": {
       "success": false,
       "last_updated": null,
-      "error": "Scraper not yet implemented",
+      "error": "Vulekamali/OpenSpending API endpoint not yet confirmed",
       "skipped": true
     },
     "municipal_finance": {
