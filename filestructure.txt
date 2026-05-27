@@ -141,6 +141,7 @@
         |-- scrape-all.ts
         |-- scrapers
             |-- economy
+                |-- budget_spending.ts
                 |-- sarb_monetary.ts
             |-- energy
             |-- safety
