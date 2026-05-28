@@ -21,9 +21,10 @@ export const DATASETS: DatasetSpec[] = [
   { id: "eskom_spending",       category: "energy", label: "Eskom Spending",            source: "Eskom Annual Report", method: "manual", cadence: "annual" },
   { id: "eskom_revenue",        category: "energy", label: "Eskom Revenue",             source: "Eskom Annual Report", method: "manual", cadence: "annual" },
   // ── SOCIAL ───────────────────────────────────────────────────────────────────
-  { id: "water",        category: "social", label: "Water & Sanitation",  source: "StatsSA GHS",     method: "parse", cadence: "annual"    },
-  { id: "housing",      category: "social", label: "Housing",             source: "StatsSA GHS",     method: "parse", cadence: "annual"    },
-  { id: "unemployment", category: "social", label: "Unemployment (QLFS)", source: "StatsSA P0211",   method: "parse", cadence: "quarterly" },
+  { id: "sassa_grants",  category: "social", label: "Social Grants (SASSA)", source: "SASSA Annual Report", method: "parse", cadence: "annual" },
+  { id: "water",         category: "social", label: "Water & Sanitation",    source: "StatsSA GHS",         method: "parse", cadence: "annual"    },
+  { id: "housing",       category: "social", label: "Housing",               source: "StatsSA GHS",         method: "parse", cadence: "annual"    },
+  { id: "unemployment",  category: "social", label: "Unemployment (QLFS)",   source: "StatsSA P0211",       method: "parse", cadence: "quarterly" },
   // ── SAFETY ───────────────────────────────────────────────────────────────────
   { id: "crime_stats", category: "safety", label: "Crime Statistics", source: "SAPS", method: "parse", cadence: "quarterly" },
 ];

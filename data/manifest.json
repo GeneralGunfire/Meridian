@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-27T22:01:06.882Z",
+  "generatedAt": "2026-05-28T07:02:38.270Z",
   "datasets": {
     "crime_stats": {
       "files": [
@@ -39,11 +39,11 @@
       "files": [],
       "history": {
         "period": "history",
-        "date": "2026-05-27",
-        "rows": 1,
+        "date": "2026-05-28",
+        "rows": 35,
         "csv": "economy/sarb_monetary/sarb_monetary_history.csv"
       },
-      "lastUpdated": "2026-05-27"
+      "lastUpdated": "2026-05-28"
     },
     "gdp_macro": {
       "files": [
@@ -63,14 +63,14 @@
       "lastUpdated": "2026-05-27"
     },
     "budget_spending": {
-      "files": [
-        {
-          "period": "2026",
-          "date": "2026-05-27",
-          "rows": 4,
-          "csv": "economy/budget_spending/budget_spending_2026.csv"
-        }
-      ]
+      "files": [],
+      "history": {
+        "period": "history",
+        "date": "2026-05-28",
+        "rows": 486,
+        "csv": "economy/budget_spending/budget_spending_history.csv"
+      },
+      "lastUpdated": "2026-05-28"
     },
     "municipal_finance": {
       "files": [],
@@ -151,6 +151,16 @@
         "csv": "economy/sars_vat/sars_vat_history.csv"
       },
       "lastUpdated": "2026-05-27"
+    },
+    "sassa_grants": {
+      "files": [],
+      "history": {
+        "period": "history",
+        "date": "2026-05-28",
+        "rows": 108,
+        "csv": "social/sassa_grants/sassa_grants_history.csv"
+      },
+      "lastUpdated": "2026-05-28"
     }
   }
 }

@@ -15,33 +15,46 @@
 |-- data
     |-- economy
         |-- budget_spending
-            |-- budget_spending_2026.csv
+            |-- budget_spending_history.csv
         |-- gdp_macro
             |-- gdp_macro_2026-q1.csv
+            |-- gdp_macro_history.csv
         |-- municipal_finance
             |-- municipal_finance_history.csv
         |-- sarb_monetary
             |-- sarb_monetary_history.csv
+        |-- sars_pit
+            |-- sars_pit_history.csv
+        |-- sars_vat
+            |-- sars_vat_history.csv
         |-- tax_revenue
             |-- tax_revenue_2025.csv
+            |-- tax_revenue_history.csv
     |-- energy
         |-- eskom_infrastructure
             |-- eskom_infrastructure_2026-w22.csv
+            |-- eskom_infrastructure_history.csv
         |-- eskom_power
             |-- eskom_power_2026-w22.csv
+            |-- eskom_power_history.csv
         |-- eskom_revenue
         |-- eskom_spending
     |-- manifest.json
     |-- safety
         |-- crime_stats
-            |-- crime_stats_2026-q1.csv
+            |-- crime_stats_history.csv
     |-- social
         |-- housing
             |-- housing_2024.csv
+            |-- housing_history.csv
+        |-- sassa_grants
+            |-- sassa_grants_history.csv
         |-- unemployment
             |-- unemployment_2026-q1.csv
+            |-- unemployment_history.csv
         |-- water
             |-- water_2024.csv
+            |-- water_history.csv
     |-- status.json
 |-- frontend
     |-- .gitignore
@@ -105,15 +118,26 @@
                 |-- stats-bar.tsx
                 |-- what-is-powerbi.tsx
             |-- ui
+                |-- animated-card-chart.tsx
+                |-- avatar.tsx
                 |-- badge.tsx
                 |-- button.tsx
+                |-- card-7.tsx
+                |-- card-stack.tsx
                 |-- card.tsx
+                |-- dataset-detail-card.tsx
+                |-- download-hover-button.tsx
+                |-- expandable-card.tsx
+                |-- folder-3d.tsx
                 |-- liquid-metal-bg.tsx
                 |-- logo-cloud.tsx
                 |-- macbook-scroll.tsx
+                |-- morphing-square.tsx
+                |-- moving-dot-card.tsx
                 |-- navbar.tsx
                 |-- particle-field.tsx
                 |-- scroll-reveal-3d.tsx
+                |-- tooltip.tsx
         |-- hooks
         |-- lib
             |-- datasets.ts
@@ -143,11 +167,22 @@
         |-- scrapers
             |-- economy
                 |-- budget_spending.ts
+                |-- gdp_macro.ts
                 |-- municipal_finance.ts
                 |-- sarb_monetary.ts
+                |-- sars_pit.ts
+                |-- sars_vat.ts
+                |-- tax_revenue.ts
             |-- energy
+                |-- eskom_infrastructure.ts
+                |-- eskom_power.ts
             |-- safety
+                |-- crime_stats.ts
             |-- social
+                |-- housing.ts
+                |-- sassa_grants.ts
+                |-- unemployment.ts
+                |-- water.ts
         |-- types.ts
     |-- tsconfig.json
 |-- README.md

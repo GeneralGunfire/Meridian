@@ -1,34 +1,93 @@
 "use client";
-import { motion } from "motion/react";
 
-const steps = [
+import { cn } from "@/lib/utils";
+import { GitBranch, Database, BarChart2, Share2 } from "lucide-react";
+import { motion } from "motion/react";
+import type React from "react";
+
+interface StepCardProps {
+  icon: React.ReactNode;
+  number: string;
+  title: string;
+  description: string;
+  benefits: string[];
+}
+
+const StepCard: React.FC<StepCardProps> = ({ icon, title, description, benefits }) => (
+  <div
+    className={cn(
+      "relative rounded-2xl border border-black/10 bg-white/80 p-6 text-[#0a0a0a] backdrop-blur-sm",
+      "transition-all duration-300 ease-in-out",
+      "hover:scale-[1.03] hover:shadow-[0_8px_32px_rgba(0,0,0,0.10)] hover:border-black/20 hover:bg-white"
+    )}
+  >
+    {/* Icon */}
+    <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl border border-black/10 bg-black/6 text-[#0a0a0a]">
+      {icon}
+    </div>
+    <h3 className="mb-2 text-lg font-bold">{title}</h3>
+    <p className="mb-5 text-sm text-neutral-600 leading-relaxed">{description}</p>
+    <ul className="space-y-2.5">
+      {benefits.map((benefit, index) => (
+        <li key={index} className="flex items-start gap-2.5">
+          <div className="mt-1 flex h-3.5 w-3.5 shrink-0 items-center justify-center rounded-full bg-[#0a0a0a]/10">
+            <div className="h-1.5 w-1.5 rounded-full bg-[#0a0a0a]" />
+          </div>
+          <span className="text-xs text-neutral-600 leading-relaxed">{benefit}</span>
+        </li>
+      ))}
+    </ul>
+  </div>
+);
+
+const stepsData = [
   {
     number: "01",
+    icon: <GitBranch className="h-5 w-5" />,
     title: "Scrape",
-    summary: "Automated. Every week.",
-    body: "GitHub Actions fires weekly scrapers against SAPS, Eskom and StatsSA. No manual intervention — if the source is up, the data lands.",
-    detail: "Crime stats, load-shedding stages, water access rates, housing survey figures.",
+    description:
+      "GitHub Actions fires weekly scrapers against SAPS, Eskom and StatsSA. No manual intervention — if the source is up, the data lands.",
+    benefits: [
+      "Automated weekly cadence via GitHub Actions",
+      "Handles PDFs, Excel, JSON APIs and web scraping",
+      "Failures logged to status.json — never crashes the batch",
+    ],
   },
   {
     number: "02",
+    icon: <Database className="h-5 w-5" />,
     title: "Store",
-    summary: "Git-versioned raw files.",
-    body: "Every run appends a new dated CSV. Nothing is overwritten. Pull last week's numbers or the full two-year history — it's all there.",
-    detail: "ISO week naming: crime_stats_2026-W21.csv — consistent, sortable, predictable.",
+    description:
+      "Every run appends a new dated CSV. Nothing is overwritten. Pull last week's numbers or the full 15-year history — it's all there.",
+    benefits: [
+      "ISO week naming: crime_stats_2026-W21.csv",
+      "Consistent, sortable, predictable schema",
+      "Git-versioned — full audit trail",
+    ],
   },
   {
     number: "03",
+    icon: <BarChart2 className="h-5 w-5" />,
     title: "Connect",
-    summary: "Power BI in minutes.",
-    body: "Point Power BI at the CSV URL. Column names stay stable between runs — your DAX measures and relationships don't break on refresh.",
-    detail: "Same schema every week. Province, category, count, date. No surprises.",
+    description:
+      "Point Power BI at the CSV URL. Column names stay stable between runs — your DAX measures and relationships don't break on refresh.",
+    benefits: [
+      "Same schema every week — no surprises",
+      "Province, category, count, date in every file",
+      "Excel auto-generated on download",
+    ],
   },
   {
     number: "04",
+    icon: <Share2 className="h-5 w-5" />,
     title: "Publish",
-    summary: "Tell the story.",
-    body: "Embed your dashboard or export a Remotion video explainer. The data is credible — official sources, cited and versioned.",
-    detail: "Share a link, embed in a report, or render an animated trend summary.",
+    description:
+      "Embed your dashboard or export a video explainer. The data is credible — official sources, cited and versioned.",
+    benefits: [
+      "Share a link or embed in a report",
+      "Official sources — credible for portfolio use",
+      "Render animated trend summaries",
+    ],
   },
 ];
 
@@ -43,7 +102,7 @@ export default function HowItWorks() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, ease: "easeOut" }}
-          className="mb-20 grid grid-cols-1 gap-6 md:grid-cols-2 md:items-end"
+          className="mb-16 grid grid-cols-1 gap-6 md:grid-cols-2 md:items-end"
         >
           <div>
             <p className="mb-3 text-xs font-semibold uppercase tracking-widest text-neutral-400">Process</p>
@@ -56,48 +115,45 @@ export default function HowItWorks() {
           </p>
         </motion.div>
 
-        {/* Steps */}
-        <div className="space-y-0">
-          {steps.map((step, i) => (
+        {/* Step indicators with connecting line */}
+        <div className="relative mx-auto mb-8 w-full">
+          <div
+            aria-hidden="true"
+            className="absolute left-[12.5%] top-4 h-0.5 w-[75%] bg-black/10"
+          />
+          <div className="relative grid grid-cols-4">
+            {stepsData.map((step, index) => (
+              <div key={index} className="flex flex-col items-center gap-2">
+                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-[#0a0a0a] font-bold text-xs text-[#f5f0e8] ring-4 ring-[#f5f0e8] z-10">
+                  {index + 1}
+                </div>
+                <span className="hidden text-[10px] font-bold uppercase tracking-widest text-neutral-400 sm:block">
+                  {step.title}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Cards grid */}
+        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          {stepsData.map((step, i) => (
             <motion.div
               key={step.number}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-40px" }}
-              transition={{ duration: 0.45, ease: "easeOut", delay: i * 0.06 }}
-              className="group grid grid-cols-1 gap-6 border-t border-black/8 py-10 md:grid-cols-[80px_1fr_1fr] md:gap-12 md:items-start hover:bg-white/20 transition-colors duration-300 rounded-xl px-2 md:px-4"
+              transition={{ duration: 0.45, ease: "easeOut", delay: i * 0.08 }}
             >
-              {/* Number */}
-              <div className="flex items-center gap-4 md:block">
-                <span className="text-4xl font-bold tracking-tighter text-black/20 select-none leading-none">
-                  {step.number}
-                </span>
-                <span className="text-lg font-bold tracking-tight text-[#0a0a0a] md:hidden">
-                  {step.title}
-                </span>
-              </div>
-
-              {/* Left col */}
-              <div>
-                <p className="hidden text-xl font-bold tracking-tight text-[#0a0a0a] md:block mb-2">
-                  {step.title}
-                </p>
-                <p className="text-sm font-semibold text-neutral-600 mb-3">{step.summary}</p>
-                <p className="text-sm leading-relaxed text-neutral-700">{step.body}</p>
-              </div>
-
-              {/* Right col — detail chip */}
-              <div className="flex items-start md:justify-end">
-                <div className="inline-block rounded-lg border border-black/8 bg-white/60 px-4 py-3 text-xs leading-relaxed text-neutral-700 backdrop-blur-sm max-w-xs">
-                  <span className="block font-semibold text-[#0a0a0a] mb-1 uppercase tracking-wide text-[10px]">Example</span>
-                  {step.detail}
-                </div>
-              </div>
+              <StepCard
+                number={step.number}
+                icon={step.icon}
+                title={step.title}
+                description={step.description}
+                benefits={step.benefits}
+              />
             </motion.div>
           ))}
-
-          {/* Closing border */}
-          <div className="border-t border-black/8" />
         </div>
 
       </div>

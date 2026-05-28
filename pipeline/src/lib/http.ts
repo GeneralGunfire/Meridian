@@ -8,6 +8,7 @@
  */
 
 import https from "https";
+import http from "http";
 import { Agent, setGlobalDispatcher } from "undici";
 
 if (process.env.MERIDIAN_INSECURE_TLS === "1") {
@@ -27,11 +28,13 @@ export function downloadBuffer(url: string, timeoutMs = 120000): Promise<Buffer>
 
     function get(target: string) {
       if (hops++ > 5) return reject(new Error(`Too many redirects for ${url}`));
+      const isHttps = target.startsWith("https:");
+      const transport = isHttps ? https : http;
       const opts = {
         headers: { "User-Agent": "Meridian-Pipeline/1.0" },
-        rejectUnauthorized: !insecure,
+        ...(isHttps ? { rejectUnauthorized: !insecure } : {}),
       };
-      const req = https.get(target, opts, (res) => {
+      const req = transport.get(target, opts, (res) => {
         if (res.statusCode && res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
           res.destroy();
           return get(new URL(res.headers.location, target).href);
