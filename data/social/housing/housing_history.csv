@@ -1,385 +1,743 @@
-Year,Topic,Geography,Category,Value,Unit
-2025,Dwelling_Type,South Africa,Formal dwelling,16932330,count
-2025,Dwelling_Type,South Africa,Formal dwelling,84.2,%
-2025,Dwelling_Type,South Africa,Informal dwelling,2442140,count
-2025,Dwelling_Type,South Africa,Informal dwelling,12.1,%
-2025,Dwelling_Type,South Africa,Other,53482,count
-2025,Dwelling_Type,South Africa,Other,0.3,%
-2025,Dwelling_Type,South Africa,Traditional dwelling,686244,count
-2025,Dwelling_Type,South Africa,Traditional dwelling,3.4,%
-2025,Tenure_Status,South Africa,Occupied rent-free,2990704,count
-2025,Tenure_Status,South Africa,Occupied rent-free,15.0,%
-2025,Tenure_Status,South Africa,Owned and fully paid off,10574064,count
-2025,Tenure_Status,South Africa,Owned and fully paid off,52.9,%
-2025,Tenure_Status,South Africa,Owned but not yet paid off,1249865,count
-2025,Tenure_Status,South Africa,Owned but not yet paid off,6.3,%
-2025,Tenure_Status,South Africa,Rented,5161676,count
-2025,Tenure_Status,South Africa,Rented,25.8,%
-2024,Dwelling_Type,South Africa,Formal dwelling,16434964,count
-2024,Dwelling_Type,South Africa,Formal dwelling,84.1,%
-2024,Dwelling_Type,South Africa,Informal dwelling,2288647,count
-2024,Dwelling_Type,South Africa,Informal dwelling,11.7,%
-2024,Dwelling_Type,South Africa,Other,61208,count
-2024,Dwelling_Type,South Africa,Other,0.3,%
-2024,Dwelling_Type,South Africa,Traditional dwelling,766465,count
-2024,Dwelling_Type,South Africa,Traditional dwelling,3.9,%
-2024,Tenure_Status,South Africa,Occupied rent-free,2882368,count
-2024,Tenure_Status,South Africa,Occupied rent-free,14.8,%
-2024,Tenure_Status,South Africa,Owned and fully paid off,10445188,count
-2024,Tenure_Status,South Africa,Owned and fully paid off,53.8,%
-2024,Tenure_Status,South Africa,Owned but not yet paid off,1223753,count
-2024,Tenure_Status,South Africa,Owned but not yet paid off,6.3,%
-2024,Tenure_Status,South Africa,Rented,4876088,count
-2024,Tenure_Status,South Africa,Rented,25.1,%
-2023,Dwelling_Type,South Africa,Formal dwelling,15872347,count
-2023,Dwelling_Type,South Africa,Formal dwelling,83.5,%
-2023,Dwelling_Type,South Africa,Informal dwelling,2320975,count
-2023,Dwelling_Type,South Africa,Informal dwelling,12.2,%
-2023,Dwelling_Type,South Africa,Other,72511,count
-2023,Dwelling_Type,South Africa,Other,0.4,%
-2023,Dwelling_Type,South Africa,Traditional dwelling,739415,count
-2023,Dwelling_Type,South Africa,Traditional dwelling,3.9,%
-2023,Tenure_Status,South Africa,Occupied rent-free,2494883,count
-2023,Tenure_Status,South Africa,Occupied rent-free,13.2,%
-2023,Tenure_Status,South Africa,Owned and fully paid off,10663199,count
-2023,Tenure_Status,South Africa,Owned and fully paid off,56.5,%
-2023,Tenure_Status,South Africa,Owned but not yet paid off,1201766,count
-2023,Tenure_Status,South Africa,Owned but not yet paid off,6.4,%
-2023,Tenure_Status,South Africa,Rented,4511839,count
-2023,Tenure_Status,South Africa,Rented,23.9,%
-2022,Dwelling_Type,South Africa,Formal dwelling,15372151,count
-2022,Dwelling_Type,South Africa,Formal dwelling,83.2,%
-2022,Dwelling_Type,South Africa,Informal dwelling,2267476,count
-2022,Dwelling_Type,South Africa,Informal dwelling,12.3,%
-2022,Dwelling_Type,South Africa,Other,48797,count
-2022,Dwelling_Type,South Africa,Other,0.3,%
-2022,Dwelling_Type,South Africa,Traditional dwelling,788834,count
-2022,Dwelling_Type,South Africa,Traditional dwelling,4.3,%
-2022,Tenure_Status,South Africa,Occupied rent-free,2407580,count
-2022,Tenure_Status,South Africa,Occupied rent-free,13.1,%
-2022,Tenure_Status,South Africa,Owned and fully paid off,10401373,count
-2022,Tenure_Status,South Africa,Owned and fully paid off,56.8,%
-2022,Tenure_Status,South Africa,Owned but not yet paid off,1382265,count
-2022,Tenure_Status,South Africa,Owned but not yet paid off,7.5,%
-2022,Tenure_Status,South Africa,Rented,4118878,count
-2022,Tenure_Status,South Africa,Rented,22.5,%
-2021,Dwelling_Type,South Africa,Formal dwelling,14999481,count
-2021,Dwelling_Type,South Africa,Formal dwelling,83.6,%
-2021,Dwelling_Type,South Africa,Informal dwelling,2104278,count
-2021,Dwelling_Type,South Africa,Informal dwelling,11.7,%
-2021,Dwelling_Type,South Africa,Other,94827,count
-2021,Dwelling_Type,South Africa,Other,0.5,%
-2021,Dwelling_Type,South Africa,Traditional dwelling,747985,count
-2021,Dwelling_Type,South Africa,Traditional dwelling,4.2,%
-2021,Tenure_Status,South Africa,Occupied rent-free,2055737,count
-2021,Tenure_Status,South Africa,Occupied rent-free,11.6,%
-2021,Tenure_Status,South Africa,Owned and fully paid off,11021467,count
-2021,Tenure_Status,South Africa,Owned and fully paid off,62.0,%
-2021,Tenure_Status,South Africa,Owned but not yet paid off,1374193,count
-2021,Tenure_Status,South Africa,Owned but not yet paid off,7.7,%
-2021,Tenure_Status,South Africa,Rented,3324339,count
-2021,Tenure_Status,South Africa,Rented,18.7,%
-2020,Dwelling_Type,South Africa,Formal dwelling,14622062,count
-2020,Dwelling_Type,South Africa,Formal dwelling,83.9,%
-2020,Dwelling_Type,South Africa,Informal dwelling,1979045,count
-2020,Dwelling_Type,South Africa,Informal dwelling,11.4,%
-2020,Dwelling_Type,South Africa,Other,76960,count
-2020,Dwelling_Type,South Africa,Other,0.4,%
-2020,Dwelling_Type,South Africa,Traditional dwelling,740165,count
-2020,Dwelling_Type,South Africa,Traditional dwelling,4.2,%
-2020,Tenure_Status,South Africa,Occupied rent-free,1911614,count
-2020,Tenure_Status,South Africa,Occupied rent-free,11.1,%
-2020,Tenure_Status,South Africa,Owned and fully paid off,10963557,count
-2020,Tenure_Status,South Africa,Owned and fully paid off,63.5,%
-2020,Tenure_Status,South Africa,Owned but not yet paid off,1337004,count
-2020,Tenure_Status,South Africa,Owned but not yet paid off,7.7,%
-2020,Tenure_Status,South Africa,Rented,3061044,count
-2020,Tenure_Status,South Africa,Rented,17.7,%
-2019,Dwelling_Type,South Africa,Formal dwelling,14064082,count
-2019,Dwelling_Type,South Africa,Formal dwelling,81.9,%
-2019,Dwelling_Type,South Africa,Informal dwelling,2170293,count
-2019,Dwelling_Type,South Africa,Informal dwelling,12.6,%
-2019,Dwelling_Type,South Africa,Other,53476,count
-2019,Dwelling_Type,South Africa,Other,0.3,%
-2019,Dwelling_Type,South Africa,Traditional dwelling,875133,count
-2019,Dwelling_Type,South Africa,Traditional dwelling,5.1,%
-2019,Tenure_Status,South Africa,Occupied rent-free,2303092,count
-2019,Tenure_Status,South Africa,Occupied rent-free,13.5,%
-2019,Tenure_Status,South Africa,Owned and fully paid off,9712243,count
-2019,Tenure_Status,South Africa,Owned and fully paid off,57.1,%
-2019,Tenure_Status,South Africa,Owned but not yet paid off,1282688,count
-2019,Tenure_Status,South Africa,Owned but not yet paid off,7.5,%
-2019,Tenure_Status,South Africa,Rented,3719372,count
-2019,Tenure_Status,South Africa,Rented,21.9,%
-2018,Dwelling_Type,South Africa,Formal dwelling,13521739,count
-2018,Dwelling_Type,South Africa,Formal dwelling,81.1,%
-2018,Dwelling_Type,South Africa,Informal dwelling,2183621,count
-2018,Dwelling_Type,South Africa,Informal dwelling,13.1,%
-2018,Dwelling_Type,South Africa,Other,134640,count
-2018,Dwelling_Type,South Africa,Other,0.8,%
-2018,Dwelling_Type,South Africa,Traditional dwelling,830855,count
-2018,Dwelling_Type,South Africa,Traditional dwelling,5.0,%
-2018,Tenure_Status,South Africa,Occupied rent-free,2340149,count
-2018,Tenure_Status,South Africa,Occupied rent-free,14.2,%
-2018,Tenure_Status,South Africa,Owned and fully paid off,8644649,count
-2018,Tenure_Status,South Africa,Owned and fully paid off,52.5,%
-2018,Tenure_Status,South Africa,Owned but not yet paid off,1117628,count
-2018,Tenure_Status,South Africa,Owned but not yet paid off,6.8,%
-2018,Tenure_Status,South Africa,Rented,4357060,count
-2018,Tenure_Status,South Africa,Rented,26.5,%
-2017,Dwelling_Type,South Africa,Formal dwelling,12968417,count
-2017,Dwelling_Type,South Africa,Formal dwelling,80.1,%
-2017,Dwelling_Type,South Africa,Informal dwelling,2203827,count
-2017,Dwelling_Type,South Africa,Informal dwelling,13.6,%
-2017,Dwelling_Type,South Africa,Other,129271,count
-2017,Dwelling_Type,South Africa,Other,0.8,%
-2017,Dwelling_Type,South Africa,Traditional dwelling,897592,count
-2017,Dwelling_Type,South Africa,Traditional dwelling,5.5,%
-2017,Tenure_Status,South Africa,Occupied rent-free,2300753,count
-2017,Tenure_Status,South Africa,Occupied rent-free,14.4,%
-2017,Tenure_Status,South Africa,Owned and fully paid off,8350916,count
-2017,Tenure_Status,South Africa,Owned and fully paid off,52.2,%
-2017,Tenure_Status,South Africa,Owned but not yet paid off,1143321,count
-2017,Tenure_Status,South Africa,Owned but not yet paid off,7.1,%
-2017,Tenure_Status,South Africa,Rented,4200532,count
-2017,Tenure_Status,South Africa,Rented,26.3,%
-2016,Dwelling_Type,South Africa,Formal dwelling,12470883,count
-2016,Dwelling_Type,South Africa,Formal dwelling,79.2,%
-2016,Dwelling_Type,South Africa,Informal dwelling,2222021,count
-2016,Dwelling_Type,South Africa,Informal dwelling,14.1,%
-2016,Dwelling_Type,South Africa,Other,145430,count
-2016,Dwelling_Type,South Africa,Other,0.9,%
-2016,Dwelling_Type,South Africa,Traditional dwelling,905344,count
-2016,Dwelling_Type,South Africa,Traditional dwelling,5.8,%
-2016,Tenure_Status,South Africa,Occupied rent-free,2264548,count
-2016,Tenure_Status,South Africa,Occupied rent-free,14.6,%
-2016,Tenure_Status,South Africa,Owned and fully paid off,8135797,count
-2016,Tenure_Status,South Africa,Owned and fully paid off,52.3,%
-2016,Tenure_Status,South Africa,Owned but not yet paid off,1124555,count
-2016,Tenure_Status,South Africa,Owned but not yet paid off,7.2,%
-2016,Tenure_Status,South Africa,Rented,4016385,count
-2016,Tenure_Status,South Africa,Rented,25.8,%
-2015,Dwelling_Type,South Africa,Formal dwelling,11946882,count
-2015,Dwelling_Type,South Africa,Formal dwelling,78.0,%
-2015,Dwelling_Type,South Africa,Informal dwelling,2198138,count
-2015,Dwelling_Type,South Africa,Informal dwelling,14.4,%
-2015,Dwelling_Type,South Africa,Other,136594,count
-2015,Dwelling_Type,South Africa,Other,0.9,%
-2015,Dwelling_Type,South Africa,Traditional dwelling,1025869,count
-2015,Dwelling_Type,South Africa,Traditional dwelling,6.7,%
-2015,Tenure_Status,South Africa,Occupied rent-free,2083704,count
-2015,Tenure_Status,South Africa,Occupied rent-free,13.9,%
-2015,Tenure_Status,South Africa,Owned and fully paid off,7966144,count
-2015,Tenure_Status,South Africa,Owned and fully paid off,53.0,%
-2015,Tenure_Status,South Africa,Owned but not yet paid off,1186006,count
-2015,Tenure_Status,South Africa,Owned but not yet paid off,7.9,%
-2015,Tenure_Status,South Africa,Rented,3793744,count
-2015,Tenure_Status,South Africa,Rented,25.2,%
-2014,Dwelling_Type,South Africa,Formal dwelling,11817439,count
-2014,Dwelling_Type,South Africa,Formal dwelling,79.3,%
-2014,Dwelling_Type,South Africa,Informal dwelling,1937964,count
-2014,Dwelling_Type,South Africa,Informal dwelling,13.0,%
-2014,Dwelling_Type,South Africa,Other,144054,count
-2014,Dwelling_Type,South Africa,Other,1.0,%
-2014,Dwelling_Type,South Africa,Traditional dwelling,1004276,count
-2014,Dwelling_Type,South Africa,Traditional dwelling,6.7,%
-2014,Tenure_Status,South Africa,Occupied rent-free,2026965,count
-2014,Tenure_Status,South Africa,Occupied rent-free,13.8,%
-2014,Tenure_Status,South Africa,Owned and fully paid off,7947694,count
-2014,Tenure_Status,South Africa,Owned and fully paid off,54.0,%
-2014,Tenure_Status,South Africa,Owned but not yet paid off,1275561,count
-2014,Tenure_Status,South Africa,Owned but not yet paid off,8.7,%
-2014,Tenure_Status,South Africa,Rented,3463944,count
-2014,Tenure_Status,South Africa,Rented,23.5,%
-2013,Dwelling_Type,South Africa,Formal dwelling,11275787,count
-2013,Dwelling_Type,South Africa,Formal dwelling,77.7,%
-2013,Dwelling_Type,South Africa,Informal dwelling,1988504,count
-2013,Dwelling_Type,South Africa,Informal dwelling,13.7,%
-2013,Dwelling_Type,South Africa,Other,131514,count
-2013,Dwelling_Type,South Africa,Other,0.9,%
-2013,Dwelling_Type,South Africa,Traditional dwelling,1125380,count
-2013,Dwelling_Type,South Africa,Traditional dwelling,7.7,%
-2013,Tenure_Status,South Africa,Occupied rent-free,1870987,count
-2013,Tenure_Status,South Africa,Occupied rent-free,13.0,%
-2013,Tenure_Status,South Africa,Owned and fully paid off,7898549,count
-2013,Tenure_Status,South Africa,Owned and fully paid off,55.0,%
-2013,Tenure_Status,South Africa,Owned but not yet paid off,1321121,count
-2013,Tenure_Status,South Africa,Owned but not yet paid off,9.2,%
-2013,Tenure_Status,South Africa,Rented,3271642,count
-2013,Tenure_Status,South Africa,Rented,22.8,%
-2012,Dwelling_Type,South Africa,Formal dwelling,10751995,count
-2012,Dwelling_Type,South Africa,Formal dwelling,76.8,%
-2012,Dwelling_Type,South Africa,Informal dwelling,1985250,count
-2012,Dwelling_Type,South Africa,Informal dwelling,14.2,%
-2012,Dwelling_Type,South Africa,Other,136420,count
-2012,Dwelling_Type,South Africa,Other,1.0,%
-2012,Dwelling_Type,South Africa,Traditional dwelling,1134473,count
-2012,Dwelling_Type,South Africa,Traditional dwelling,8.1,%
-2012,Tenure_Status,South Africa,Occupied rent-free,2100810,count
-2012,Tenure_Status,South Africa,Occupied rent-free,15.0,%
-2012,Tenure_Status,South Africa,Owned and fully paid off,7564566,count
-2012,Tenure_Status,South Africa,Owned and fully paid off,53.9,%
-2012,Tenure_Status,South Africa,Owned but not yet paid off,1213526,count
-2012,Tenure_Status,South Africa,Owned but not yet paid off,8.6,%
-2012,Tenure_Status,South Africa,Rented,3158280,count
-2012,Tenure_Status,South Africa,Rented,22.5,%
-2011,Dwelling_Type,South Africa,Formal dwelling,10703012,count
-2011,Dwelling_Type,South Africa,Formal dwelling,78.4,%
-2011,Dwelling_Type,South Africa,Informal dwelling,1652115,count
-2011,Dwelling_Type,South Africa,Informal dwelling,12.1,%
-2011,Dwelling_Type,South Africa,Other,37319,count
-2011,Dwelling_Type,South Africa,Other,0.3,%
-2011,Dwelling_Type,South Africa,Traditional dwelling,1267343,count
-2011,Dwelling_Type,South Africa,Traditional dwelling,9.3,%
-2011,Tenure_Status,South Africa,Occupied rent-free,2256155,count
-2011,Tenure_Status,South Africa,Occupied rent-free,16.5,%
-2011,Tenure_Status,South Africa,Owned and fully paid off,7275717,count
-2011,Tenure_Status,South Africa,Owned and fully paid off,53.2,%
-2011,Tenure_Status,South Africa,Owned but not yet paid off,1136079,count
-2011,Tenure_Status,South Africa,Owned but not yet paid off,8.3,%
-2011,Tenure_Status,South Africa,Rented,2999439,count
-2011,Tenure_Status,South Africa,Rented,21.9,%
-2010,Dwelling_Type,South Africa,Formal dwelling,10400960,count
-2010,Dwelling_Type,South Africa,Formal dwelling,77.3,%
-2010,Dwelling_Type,South Africa,Informal dwelling,1771349,count
-2010,Dwelling_Type,South Africa,Informal dwelling,13.2,%
-2010,Dwelling_Type,South Africa,Other,77716,count
-2010,Dwelling_Type,South Africa,Other,0.6,%
-2010,Dwelling_Type,South Africa,Traditional dwelling,1205634,count
-2010,Dwelling_Type,South Africa,Traditional dwelling,9.0,%
-2010,Tenure_Status,South Africa,Occupied rent-free,1510628,count
-2010,Tenure_Status,South Africa,Occupied rent-free,11.3,%
-2010,Tenure_Status,South Africa,Owned and fully paid off,7741956,count
-2010,Tenure_Status,South Africa,Owned and fully paid off,58.0,%
-2010,Tenure_Status,South Africa,Owned but not yet paid off,1200959,count
-2010,Tenure_Status,South Africa,Owned but not yet paid off,9.0,%
-2010,Tenure_Status,South Africa,Rented,2905635,count
-2010,Tenure_Status,South Africa,Rented,21.8,%
-2009,Dwelling_Type,South Africa,Formal dwelling,9903887,count
-2009,Dwelling_Type,South Africa,Formal dwelling,75.4,%
-2009,Dwelling_Type,South Africa,Informal dwelling,1818271,count
-2009,Dwelling_Type,South Africa,Informal dwelling,13.8,%
-2009,Dwelling_Type,South Africa,Other,117354,count
-2009,Dwelling_Type,South Africa,Other,0.9,%
-2009,Dwelling_Type,South Africa,Traditional dwelling,1288884,count
-2009,Dwelling_Type,South Africa,Traditional dwelling,9.8,%
-2009,Tenure_Status,South Africa,Occupied rent-free,1883969,count
-2009,Tenure_Status,South Africa,Occupied rent-free,14.5,%
-2009,Tenure_Status,South Africa,Owned and fully paid off,7264604,count
-2009,Tenure_Status,South Africa,Owned and fully paid off,55.8,%
-2009,Tenure_Status,South Africa,Owned but not yet paid off,1116893,count
-2009,Tenure_Status,South Africa,Owned but not yet paid off,8.6,%
-2009,Tenure_Status,South Africa,Rented,2758092,count
-2009,Tenure_Status,South Africa,Rented,21.2,%
-2008,Dwelling_Type,South Africa,Formal dwelling,9532349,count
-2008,Dwelling_Type,South Africa,Formal dwelling,74.6,%
-2008,Dwelling_Type,South Africa,Informal dwelling,1854749,count
-2008,Dwelling_Type,South Africa,Informal dwelling,14.5,%
-2008,Dwelling_Type,South Africa,Other,114055,count
-2008,Dwelling_Type,South Africa,Other,0.9,%
-2008,Dwelling_Type,South Africa,Traditional dwelling,1278422,count
-2008,Dwelling_Type,South Africa,Traditional dwelling,10.0,%
-2008,Tenure_Status,South Africa,Occupied rent-free,987666,count
-2008,Tenure_Status,South Africa,Occupied rent-free,7.7,%
-2008,Tenure_Status,South Africa,Owned and fully paid off,8153237,count
-2008,Tenure_Status,South Africa,Owned and fully paid off,63.7,%
-2008,Tenure_Status,South Africa,Owned but not yet paid off,1180089,count
-2008,Tenure_Status,South Africa,Owned but not yet paid off,9.2,%
-2008,Tenure_Status,South Africa,Rented,2470087,count
-2008,Tenure_Status,South Africa,Rented,19.3,%
-2007,Dwelling_Type,South Africa,Formal dwelling,9112122,count
-2007,Dwelling_Type,South Africa,Formal dwelling,73.3,%
-2007,Dwelling_Type,South Africa,Informal dwelling,1901891,count
-2007,Dwelling_Type,South Africa,Informal dwelling,15.3,%
-2007,Dwelling_Type,South Africa,Other,246861,count
-2007,Dwelling_Type,South Africa,Other,2.0,%
-2007,Dwelling_Type,South Africa,Traditional dwelling,1169556,count
-2007,Dwelling_Type,South Africa,Traditional dwelling,9.4,%
-2007,Tenure_Status,South Africa,Occupied rent-free,1242473,count
-2007,Tenure_Status,South Africa,Occupied rent-free,9.9,%
-2007,Tenure_Status,South Africa,Owned and fully paid off,7500940,count
-2007,Tenure_Status,South Africa,Owned and fully paid off,60.0,%
-2007,Tenure_Status,South Africa,Owned but not yet paid off,899068,count
-2007,Tenure_Status,South Africa,Owned but not yet paid off,7.2,%
-2007,Tenure_Status,South Africa,Rented,2860860,count
-2007,Tenure_Status,South Africa,Rented,22.9,%
-2006,Dwelling_Type,South Africa,Formal dwelling,8985918,count
-2006,Dwelling_Type,South Africa,Formal dwelling,73.5,%
-2006,Dwelling_Type,South Africa,Informal dwelling,1809387,count
-2006,Dwelling_Type,South Africa,Informal dwelling,14.8,%
-2006,Dwelling_Type,South Africa,Other,251493,count
-2006,Dwelling_Type,South Africa,Other,2.1,%
-2006,Dwelling_Type,South Africa,Traditional dwelling,1171200,count
-2006,Dwelling_Type,South Africa,Traditional dwelling,9.6,%
-2006,Tenure_Status,South Africa,Occupied rent-free,1253238,count
-2006,Tenure_Status,South Africa,Occupied rent-free,10.3,%
-2006,Tenure_Status,South Africa,Owned and fully paid off,7581546,count
-2006,Tenure_Status,South Africa,Owned and fully paid off,62.0,%
-2006,Tenure_Status,South Africa,Owned but not yet paid off,927659,count
-2006,Tenure_Status,South Africa,Owned but not yet paid off,7.6,%
-2006,Tenure_Status,South Africa,Rented,2459371,count
-2006,Tenure_Status,South Africa,Rented,20.1,%
-2005,Dwelling_Type,South Africa,Formal dwelling,8491079,count
-2005,Dwelling_Type,South Africa,Formal dwelling,71.0,%
-2005,Dwelling_Type,South Africa,Informal dwelling,1887589,count
-2005,Dwelling_Type,South Africa,Informal dwelling,15.8,%
-2005,Dwelling_Type,South Africa,Other,285675,count
-2005,Dwelling_Type,South Africa,Other,2.4,%
-2005,Dwelling_Type,South Africa,Traditional dwelling,1299656,count
-2005,Dwelling_Type,South Africa,Traditional dwelling,10.9,%
-2005,Tenure_Status,South Africa,Occupied rent-free,1194653,count
-2005,Tenure_Status,South Africa,Occupied rent-free,10.0,%
-2005,Tenure_Status,South Africa,Owned and fully paid off,7377640,count
-2005,Tenure_Status,South Africa,Owned and fully paid off,62.0,%
-2005,Tenure_Status,South Africa,Owned but not yet paid off,1020610,count
-2005,Tenure_Status,South Africa,Owned but not yet paid off,8.6,%
-2005,Tenure_Status,South Africa,Rented,2313530,count
-2005,Tenure_Status,South Africa,Rented,19.4,%
-2004,Dwelling_Type,South Africa,Formal dwelling,8689158,count
-2004,Dwelling_Type,South Africa,Formal dwelling,74.2,%
-2004,Dwelling_Type,South Africa,Informal dwelling,1407379,count
-2004,Dwelling_Type,South Africa,Informal dwelling,12.0,%
-2004,Dwelling_Type,South Africa,Other,252545,count
-2004,Dwelling_Type,South Africa,Other,2.2,%
-2004,Dwelling_Type,South Africa,Traditional dwelling,1362968,count
-2004,Dwelling_Type,South Africa,Traditional dwelling,11.6,%
-2004,Tenure_Status,South Africa,Occupied rent-free,1426002,count
-2004,Tenure_Status,South Africa,Occupied rent-free,12.2,%
-2004,Tenure_Status,South Africa,Owned and fully paid off,7033220,count
-2004,Tenure_Status,South Africa,Owned and fully paid off,60.1,%
-2004,Tenure_Status,South Africa,Owned but not yet paid off,1011035,count
-2004,Tenure_Status,South Africa,Owned but not yet paid off,8.6,%
-2004,Tenure_Status,South Africa,Rented,2241226,count
-2004,Tenure_Status,South Africa,Rented,19.1,%
-2003,Dwelling_Type,South Africa,Formal dwelling,8494224,count
-2003,Dwelling_Type,South Africa,Formal dwelling,74.2,%
-2003,Dwelling_Type,South Africa,Informal dwelling,1474567,count
-2003,Dwelling_Type,South Africa,Informal dwelling,12.9,%
-2003,Dwelling_Type,South Africa,Other,253600,count
-2003,Dwelling_Type,South Africa,Other,2.2,%
-2003,Dwelling_Type,South Africa,Traditional dwelling,1231503,count
-2003,Dwelling_Type,South Africa,Traditional dwelling,10.8,%
-2003,Tenure_Status,South Africa,Occupied rent-free,999557,count
-2003,Tenure_Status,South Africa,Occupied rent-free,8.9,%
-2003,Tenure_Status,South Africa,Owned and fully paid off,7030791,count
-2003,Tenure_Status,South Africa,Owned and fully paid off,62.6,%
-2003,Tenure_Status,South Africa,Owned but not yet paid off,1142020,count
-2003,Tenure_Status,South Africa,Owned but not yet paid off,10.2,%
-2003,Tenure_Status,South Africa,Rented,2063233,count
-2003,Tenure_Status,South Africa,Rented,18.4,%
-2002,Dwelling_Type,South Africa,Formal dwelling,8218776,count
-2002,Dwelling_Type,South Africa,Formal dwelling,73.5,%
-2002,Dwelling_Type,South Africa,Informal dwelling,1458836,count
-2002,Dwelling_Type,South Africa,Informal dwelling,13.0,%
-2002,Dwelling_Type,South Africa,Other,293169,count
-2002,Dwelling_Type,South Africa,Other,2.6,%
-2002,Dwelling_Type,South Africa,Traditional dwelling,1213515,count
-2002,Dwelling_Type,South Africa,Traditional dwelling,10.9,%
-2002,Tenure_Status,South Africa,Occupied rent-free,1331798,count
-2002,Tenure_Status,South Africa,Occupied rent-free,12.0,%
-2002,Tenure_Status,South Africa,Owned and fully paid off,6448085,count
-2002,Tenure_Status,South Africa,Owned and fully paid off,58.1,%
-2002,Tenure_Status,South Africa,Owned but not yet paid off,1269019,count
-2002,Tenure_Status,South Africa,Owned but not yet paid off,11.4,%
-2002,Tenure_Status,South Africa,Rented,2046656,count
-2002,Tenure_Status,South Africa,Rented,18.4,%
+Year,Topic,Geography,Province,Category,Value,Unit
+2025,Dwelling_Type,South Africa,South Africa,Formal dwelling,16932330,count
+2025,Dwelling_Type,South Africa,South Africa,Formal dwelling,84.2,%
+2025,Dwelling_Type,South Africa,South Africa,Informal dwelling,2442140,count
+2025,Dwelling_Type,South Africa,South Africa,Informal dwelling,12.1,%
+2025,Dwelling_Type,South Africa,South Africa,Other,53482,count
+2025,Dwelling_Type,South Africa,South Africa,Other,0.3,%
+2025,Dwelling_Type,South Africa,South Africa,Traditional dwelling,686244,count
+2025,Dwelling_Type,South Africa,South Africa,Traditional dwelling,3.4,%
+2025,Food_Security,South Africa,South Africa,Did not report hunger,54453214,count
+2025,Food_Security,South Africa,South Africa,Did not report hunger,85.3,%
+2025,Food_Security,South Africa,South Africa,Reported hunger,9381079,count
+2025,Food_Security,South Africa,South Africa,Reported hunger,14.7,%
+2025,Household_Income,South Africa,South Africa,Grants,4636551,count
+2025,Household_Income,South Africa,South Africa,Grants,23.4,%
+2025,Household_Income,South Africa,South Africa,Other sources,2175121,count
+2025,Household_Income,South Africa,South Africa,Other sources,11.0,%
+2025,Household_Income,South Africa,South Africa,Pensions,545209,count
+2025,Household_Income,South Africa,South Africa,Pensions,2.8,%
+2025,Household_Income,South Africa,South Africa,Remittances,1695341,count
+2025,Household_Income,South Africa,South Africa,Remittances,8.6,%
+2025,Household_Income,South Africa,South Africa,Salaries,10766601,count
+2025,Household_Income,South Africa,South Africa,Salaries,54.3,%
+2025,Medical_Aid,South Africa,South Africa,No,9959699,count
+2025,Medical_Aid,South Africa,South Africa,No,15.5,%
+2025,Medical_Aid,South Africa,South Africa,Yes,54111164,count
+2025,Medical_Aid,South Africa,South Africa,Yes,84.5,%
+2025,Tenure_Status,South Africa,South Africa,Occupied rent-free,2990704,count
+2025,Tenure_Status,South Africa,South Africa,Occupied rent-free,15.0,%
+2025,Tenure_Status,South Africa,South Africa,Owned and fully paid off,10574064,count
+2025,Tenure_Status,South Africa,South Africa,Owned and fully paid off,52.9,%
+2025,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,1249865,count
+2025,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,6.3,%
+2025,Tenure_Status,South Africa,South Africa,Rented,5161676,count
+2025,Tenure_Status,South Africa,South Africa,Rented,25.8,%
+2024,Dwelling_Type,South Africa,South Africa,Formal dwelling,16434964,count
+2024,Dwelling_Type,South Africa,South Africa,Formal dwelling,84.1,%
+2024,Dwelling_Type,South Africa,South Africa,Informal dwelling,2288647,count
+2024,Dwelling_Type,South Africa,South Africa,Informal dwelling,11.7,%
+2024,Dwelling_Type,South Africa,South Africa,Other,61208,count
+2024,Dwelling_Type,South Africa,South Africa,Other,0.3,%
+2024,Dwelling_Type,South Africa,South Africa,Traditional dwelling,766465,count
+2024,Dwelling_Type,South Africa,South Africa,Traditional dwelling,3.9,%
+2024,Food_Security,South Africa,South Africa,Did not report hunger,53781172,count
+2024,Food_Security,South Africa,South Africa,Did not report hunger,85.3,%
+2024,Food_Security,South Africa,South Africa,Reported hunger,9247191,count
+2024,Food_Security,South Africa,South Africa,Reported hunger,14.7,%
+2024,Household_Income,South Africa,South Africa,Grants,4582584,count
+2024,Household_Income,South Africa,South Africa,Grants,23.8,%
+2024,Household_Income,South Africa,South Africa,Other sources,1953458,count
+2024,Household_Income,South Africa,South Africa,Other sources,10.1,%
+2024,Household_Income,South Africa,South Africa,Pensions,560356,count
+2024,Household_Income,South Africa,South Africa,Pensions,2.9,%
+2024,Household_Income,South Africa,South Africa,Remittances,1674450,count
+2024,Household_Income,South Africa,South Africa,Remittances,8.7,%
+2024,Household_Income,South Africa,South Africa,Salaries,10524122,count
+2024,Household_Income,South Africa,South Africa,Salaries,54.5,%
+2024,Medical_Aid,South Africa,South Africa,No,9782929,count
+2024,Medical_Aid,South Africa,South Africa,No,15.5,%
+2024,Medical_Aid,South Africa,South Africa,Yes,53396336,count
+2024,Medical_Aid,South Africa,South Africa,Yes,84.5,%
+2024,Tenure_Status,South Africa,South Africa,Occupied rent-free,2882368,count
+2024,Tenure_Status,South Africa,South Africa,Occupied rent-free,14.8,%
+2024,Tenure_Status,South Africa,South Africa,Owned and fully paid off,10445188,count
+2024,Tenure_Status,South Africa,South Africa,Owned and fully paid off,53.8,%
+2024,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,1223753,count
+2024,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,6.3,%
+2024,Tenure_Status,South Africa,South Africa,Rented,4876088,count
+2024,Tenure_Status,South Africa,South Africa,Rented,25.1,%
+2023,Dwelling_Type,South Africa,South Africa,Formal dwelling,15872347,count
+2023,Dwelling_Type,South Africa,South Africa,Formal dwelling,83.5,%
+2023,Dwelling_Type,South Africa,South Africa,Informal dwelling,2320975,count
+2023,Dwelling_Type,South Africa,South Africa,Informal dwelling,12.2,%
+2023,Dwelling_Type,South Africa,South Africa,Other,72511,count
+2023,Dwelling_Type,South Africa,South Africa,Other,0.4,%
+2023,Dwelling_Type,South Africa,South Africa,Traditional dwelling,739415,count
+2023,Dwelling_Type,South Africa,South Africa,Traditional dwelling,3.9,%
+2023,Food_Security,South Africa,South Africa,Did not report hunger,52845483,count
+2023,Food_Security,South Africa,South Africa,Did not report hunger,85.0,%
+2023,Food_Security,South Africa,South Africa,Reported hunger,9325740,count
+2023,Food_Security,South Africa,South Africa,Reported hunger,15.0,%
+2023,Household_Income,South Africa,South Africa,Grants,4311483,count
+2023,Household_Income,South Africa,South Africa,Grants,23.0,%
+2023,Household_Income,South Africa,South Africa,Other sources,1938966,count
+2023,Household_Income,South Africa,South Africa,Other sources,10.4,%
+2023,Household_Income,South Africa,South Africa,Pensions,560266,count
+2023,Household_Income,South Africa,South Africa,Pensions,3.0,%
+2023,Household_Income,South Africa,South Africa,Remittances,1653956,count
+2023,Household_Income,South Africa,South Africa,Remittances,8.8,%
+2023,Household_Income,South Africa,South Africa,Salaries,10244801,count
+2023,Household_Income,South Africa,South Africa,Salaries,54.8,%
+2023,Medical_Aid,South Africa,South Africa,No,9791773,count
+2023,Medical_Aid,South Africa,South Africa,No,15.7,%
+2023,Medical_Aid,South Africa,South Africa,Yes,52491486,count
+2023,Medical_Aid,South Africa,South Africa,Yes,84.3,%
+2023,Tenure_Status,South Africa,South Africa,Occupied rent-free,2494883,count
+2023,Tenure_Status,South Africa,South Africa,Occupied rent-free,13.2,%
+2023,Tenure_Status,South Africa,South Africa,Owned and fully paid off,10663199,count
+2023,Tenure_Status,South Africa,South Africa,Owned and fully paid off,56.5,%
+2023,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,1201766,count
+2023,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,6.4,%
+2023,Tenure_Status,South Africa,South Africa,Rented,4511839,count
+2023,Tenure_Status,South Africa,South Africa,Rented,23.9,%
+2022,Dwelling_Type,South Africa,South Africa,Formal dwelling,15372151,count
+2022,Dwelling_Type,South Africa,South Africa,Formal dwelling,83.2,%
+2022,Dwelling_Type,South Africa,South Africa,Informal dwelling,2267476,count
+2022,Dwelling_Type,South Africa,South Africa,Informal dwelling,12.3,%
+2022,Dwelling_Type,South Africa,South Africa,Other,48797,count
+2022,Dwelling_Type,South Africa,South Africa,Other,0.3,%
+2022,Dwelling_Type,South Africa,South Africa,Traditional dwelling,788834,count
+2022,Dwelling_Type,South Africa,South Africa,Traditional dwelling,4.3,%
+2022,Food_Security,South Africa,South Africa,Did not report hunger,53405597,count
+2022,Food_Security,South Africa,South Africa,Did not report hunger,87.1,%
+2022,Food_Security,South Africa,South Africa,Reported hunger,7877071,count
+2022,Food_Security,South Africa,South Africa,Reported hunger,12.9,%
+2022,Household_Income,South Africa,South Africa,Grants,4267099,count
+2022,Household_Income,South Africa,South Africa,Grants,23.5,%
+2022,Household_Income,South Africa,South Africa,Other sources,1966043,count
+2022,Household_Income,South Africa,South Africa,Other sources,10.8,%
+2022,Household_Income,South Africa,South Africa,Pensions,542366,count
+2022,Household_Income,South Africa,South Africa,Pensions,3.0,%
+2022,Household_Income,South Africa,South Africa,Remittances,1743583,count
+2022,Household_Income,South Africa,South Africa,Remittances,9.6,%
+2022,Household_Income,South Africa,South Africa,Salaries,9613262,count
+2022,Household_Income,South Africa,South Africa,Salaries,53.0,%
+2022,Medical_Aid,South Africa,South Africa,No,9699315,count
+2022,Medical_Aid,South Africa,South Africa,No,15.8,%
+2022,Medical_Aid,South Africa,South Africa,Yes,51684853,count
+2022,Medical_Aid,South Africa,South Africa,Yes,84.2,%
+2022,Tenure_Status,South Africa,South Africa,Occupied rent-free,2407580,count
+2022,Tenure_Status,South Africa,South Africa,Occupied rent-free,13.1,%
+2022,Tenure_Status,South Africa,South Africa,Owned and fully paid off,10401373,count
+2022,Tenure_Status,South Africa,South Africa,Owned and fully paid off,56.8,%
+2022,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,1382265,count
+2022,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,7.5,%
+2022,Tenure_Status,South Africa,South Africa,Rented,4118878,count
+2022,Tenure_Status,South Africa,South Africa,Rented,22.5,%
+2021,Dwelling_Type,South Africa,South Africa,Formal dwelling,14999481,count
+2021,Dwelling_Type,South Africa,South Africa,Formal dwelling,83.6,%
+2021,Dwelling_Type,South Africa,South Africa,Informal dwelling,2104278,count
+2021,Dwelling_Type,South Africa,South Africa,Informal dwelling,11.7,%
+2021,Dwelling_Type,South Africa,South Africa,Other,94827,count
+2021,Dwelling_Type,South Africa,South Africa,Other,0.5,%
+2021,Dwelling_Type,South Africa,South Africa,Traditional dwelling,747985,count
+2021,Dwelling_Type,South Africa,South Africa,Traditional dwelling,4.2,%
+2021,Food_Security,South Africa,South Africa,Did not report hunger,52949212,count
+2021,Food_Security,South Africa,South Africa,Did not report hunger,87.8,%
+2021,Food_Security,South Africa,South Africa,Reported hunger,7367299,count
+2021,Food_Security,South Africa,South Africa,Reported hunger,12.2,%
+2021,Household_Income,South Africa,South Africa,Grants,4317562,count
+2021,Household_Income,South Africa,South Africa,Grants,24.4,%
+2021,Household_Income,South Africa,South Africa,Other sources,1824450,count
+2021,Household_Income,South Africa,South Africa,Other sources,10.3,%
+2021,Household_Income,South Africa,South Africa,Pensions,512020,count
+2021,Household_Income,South Africa,South Africa,Pensions,2.9,%
+2021,Household_Income,South Africa,South Africa,Remittances,1770358,count
+2021,Household_Income,South Africa,South Africa,Remittances,10.0,%
+2021,Household_Income,South Africa,South Africa,Salaries,9258905,count
+2021,Household_Income,South Africa,South Africa,Salaries,52.4,%
+2021,Medical_Aid,South Africa,South Africa,No,9706359,count
+2021,Medical_Aid,South Africa,South Africa,No,16.1,%
+2021,Medical_Aid,South Africa,South Africa,Yes,50729092,count
+2021,Medical_Aid,South Africa,South Africa,Yes,83.9,%
+2021,Tenure_Status,South Africa,South Africa,Occupied rent-free,2055737,count
+2021,Tenure_Status,South Africa,South Africa,Occupied rent-free,11.6,%
+2021,Tenure_Status,South Africa,South Africa,Owned and fully paid off,11021467,count
+2021,Tenure_Status,South Africa,South Africa,Owned and fully paid off,62.0,%
+2021,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,1374193,count
+2021,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,7.7,%
+2021,Tenure_Status,South Africa,South Africa,Rented,3324339,count
+2021,Tenure_Status,South Africa,South Africa,Rented,18.7,%
+2020,Dwelling_Type,South Africa,South Africa,Formal dwelling,14622062,count
+2020,Dwelling_Type,South Africa,South Africa,Formal dwelling,83.9,%
+2020,Dwelling_Type,South Africa,South Africa,Informal dwelling,1979045,count
+2020,Dwelling_Type,South Africa,South Africa,Informal dwelling,11.4,%
+2020,Dwelling_Type,South Africa,South Africa,Other,76960,count
+2020,Dwelling_Type,South Africa,South Africa,Other,0.4,%
+2020,Dwelling_Type,South Africa,South Africa,Traditional dwelling,740165,count
+2020,Dwelling_Type,South Africa,South Africa,Traditional dwelling,4.2,%
+2020,Food_Security,South Africa,South Africa,Did not report hunger,52393380,count
+2020,Food_Security,South Africa,South Africa,Did not report hunger,88.4,%
+2020,Food_Security,South Africa,South Africa,Reported hunger,6868467,count
+2020,Food_Security,South Africa,South Africa,Reported hunger,11.6,%
+2020,Household_Income,South Africa,South Africa,Grants,4472438,count
+2020,Household_Income,South Africa,South Africa,Grants,28.8,%
+2020,Household_Income,South Africa,South Africa,Other sources,1443908,count
+2020,Household_Income,South Africa,South Africa,Other sources,9.3,%
+2020,Household_Income,South Africa,South Africa,Pensions,366191,count
+2020,Household_Income,South Africa,South Africa,Pensions,2.4,%
+2020,Household_Income,South Africa,South Africa,Remittances,1362300,count
+2020,Household_Income,South Africa,South Africa,Remittances,8.8,%
+2020,Household_Income,South Africa,South Africa,Salaries,7898619,count
+2020,Household_Income,South Africa,South Africa,Salaries,50.8,%
+2020,Medical_Aid,South Africa,South Africa,No,9017489,count
+2020,Medical_Aid,South Africa,South Africa,No,15.2,%
+2020,Medical_Aid,South Africa,South Africa,Yes,50391697,count
+2020,Medical_Aid,South Africa,South Africa,Yes,84.8,%
+2020,Tenure_Status,South Africa,South Africa,Occupied rent-free,1911614,count
+2020,Tenure_Status,South Africa,South Africa,Occupied rent-free,11.1,%
+2020,Tenure_Status,South Africa,South Africa,Owned and fully paid off,10963557,count
+2020,Tenure_Status,South Africa,South Africa,Owned and fully paid off,63.5,%
+2020,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,1337004,count
+2020,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,7.7,%
+2020,Tenure_Status,South Africa,South Africa,Rented,3061044,count
+2020,Tenure_Status,South Africa,South Africa,Rented,17.7,%
+2019,Dwelling_Type,South Africa,South Africa,Formal dwelling,14064082,count
+2019,Dwelling_Type,South Africa,South Africa,Formal dwelling,81.9,%
+2019,Dwelling_Type,South Africa,South Africa,Informal dwelling,2170293,count
+2019,Dwelling_Type,South Africa,South Africa,Informal dwelling,12.6,%
+2019,Dwelling_Type,South Africa,South Africa,Other,53476,count
+2019,Dwelling_Type,South Africa,South Africa,Other,0.3,%
+2019,Dwelling_Type,South Africa,South Africa,Traditional dwelling,875133,count
+2019,Dwelling_Type,South Africa,South Africa,Traditional dwelling,5.1,%
+2019,Food_Security,South Africa,South Africa,Did not report hunger,51697192,count
+2019,Food_Security,South Africa,South Africa,Did not report hunger,88.9,%
+2019,Food_Security,South Africa,South Africa,Reported hunger,6475363,count
+2019,Food_Security,South Africa,South Africa,Reported hunger,11.1,%
+2019,Household_Income,South Africa,South Africa,Grants,3429348,count
+2019,Household_Income,South Africa,South Africa,Grants,20.4,%
+2019,Household_Income,South Africa,South Africa,Other sources,1819530,count
+2019,Household_Income,South Africa,South Africa,Other sources,10.8,%
+2019,Household_Income,South Africa,South Africa,Pensions,510712,count
+2019,Household_Income,South Africa,South Africa,Pensions,3.0,%
+2019,Household_Income,South Africa,South Africa,Remittances,1840789,count
+2019,Household_Income,South Africa,South Africa,Remittances,11.0,%
+2019,Household_Income,South Africa,South Africa,Salaries,9207112,count
+2019,Household_Income,South Africa,South Africa,Salaries,54.8,%
+2019,Medical_Aid,South Africa,South Africa,No,10068485,count
+2019,Medical_Aid,South Africa,South Africa,No,17.2,%
+2019,Medical_Aid,South Africa,South Africa,Yes,48360406,count
+2019,Medical_Aid,South Africa,South Africa,Yes,82.8,%
+2019,Tenure_Status,South Africa,South Africa,Occupied rent-free,2303092,count
+2019,Tenure_Status,South Africa,South Africa,Occupied rent-free,13.5,%
+2019,Tenure_Status,South Africa,South Africa,Owned and fully paid off,9712243,count
+2019,Tenure_Status,South Africa,South Africa,Owned and fully paid off,57.1,%
+2019,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,1282688,count
+2019,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,7.5,%
+2019,Tenure_Status,South Africa,South Africa,Rented,3719372,count
+2019,Tenure_Status,South Africa,South Africa,Rented,21.9,%
+2018,Dwelling_Type,South Africa,South Africa,Formal dwelling,13521739,count
+2018,Dwelling_Type,South Africa,South Africa,Formal dwelling,81.1,%
+2018,Dwelling_Type,South Africa,South Africa,Informal dwelling,2183621,count
+2018,Dwelling_Type,South Africa,South Africa,Informal dwelling,13.1,%
+2018,Dwelling_Type,South Africa,South Africa,Other,134640,count
+2018,Dwelling_Type,South Africa,South Africa,Other,0.8,%
+2018,Dwelling_Type,South Africa,South Africa,Traditional dwelling,830855,count
+2018,Dwelling_Type,South Africa,South Africa,Traditional dwelling,5.0,%
+2018,Food_Security,South Africa,South Africa,Did not report hunger,50532265,count
+2018,Food_Security,South Africa,South Africa,Did not report hunger,88.7,%
+2018,Food_Security,South Africa,South Africa,Reported hunger,6449444,count
+2018,Food_Security,South Africa,South Africa,Reported hunger,11.3,%
+2018,Household_Income,South Africa,South Africa,Grants,3171966,count
+2018,Household_Income,South Africa,South Africa,Grants,19.9,%
+2018,Household_Income,South Africa,South Africa,Other sources,1583338,count
+2018,Household_Income,South Africa,South Africa,Other sources,9.9,%
+2018,Household_Income,South Africa,South Africa,Pensions,348516,count
+2018,Household_Income,South Africa,South Africa,Pensions,2.2,%
+2018,Household_Income,South Africa,South Africa,Remittances,1501046,count
+2018,Household_Income,South Africa,South Africa,Remittances,9.4,%
+2018,Household_Income,South Africa,South Africa,Salaries,9362545,count
+2018,Household_Income,South Africa,South Africa,Salaries,58.6,%
+2018,Medical_Aid,South Africa,South Africa,No,9379813,count
+2018,Medical_Aid,South Africa,South Africa,No,16.4,%
+2018,Medical_Aid,South Africa,South Africa,Yes,47670128,count
+2018,Medical_Aid,South Africa,South Africa,Yes,83.6,%
+2018,Tenure_Status,South Africa,South Africa,Occupied rent-free,2340149,count
+2018,Tenure_Status,South Africa,South Africa,Occupied rent-free,14.2,%
+2018,Tenure_Status,South Africa,South Africa,Owned and fully paid off,8644649,count
+2018,Tenure_Status,South Africa,South Africa,Owned and fully paid off,52.5,%
+2018,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,1117628,count
+2018,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,6.8,%
+2018,Tenure_Status,South Africa,South Africa,Rented,4357060,count
+2018,Tenure_Status,South Africa,South Africa,Rented,26.5,%
+2017,Dwelling_Type,South Africa,South Africa,Formal dwelling,12968417,count
+2017,Dwelling_Type,South Africa,South Africa,Formal dwelling,80.1,%
+2017,Dwelling_Type,South Africa,South Africa,Informal dwelling,2203827,count
+2017,Dwelling_Type,South Africa,South Africa,Informal dwelling,13.6,%
+2017,Dwelling_Type,South Africa,South Africa,Other,129271,count
+2017,Dwelling_Type,South Africa,South Africa,Other,0.8,%
+2017,Dwelling_Type,South Africa,South Africa,Traditional dwelling,897592,count
+2017,Dwelling_Type,South Africa,South Africa,Traditional dwelling,5.5,%
+2017,Food_Security,South Africa,South Africa,Did not report hunger,49369816,count
+2017,Food_Security,South Africa,South Africa,Did not report hunger,87.9,%
+2017,Food_Security,South Africa,South Africa,Reported hunger,6802592,count
+2017,Food_Security,South Africa,South Africa,Reported hunger,12.1,%
+2017,Household_Income,South Africa,South Africa,Grants,3107558,count
+2017,Household_Income,South Africa,South Africa,Grants,20.1,%
+2017,Household_Income,South Africa,South Africa,Other sources,1530694,count
+2017,Household_Income,South Africa,South Africa,Other sources,9.9,%
+2017,Household_Income,South Africa,South Africa,Pensions,345620,count
+2017,Household_Income,South Africa,South Africa,Pensions,2.2,%
+2017,Household_Income,South Africa,South Africa,Remittances,1386031,count
+2017,Household_Income,South Africa,South Africa,Remittances,9.0,%
+2017,Household_Income,South Africa,South Africa,Salaries,9090948,count
+2017,Household_Income,South Africa,South Africa,Salaries,58.8,%
+2017,Medical_Aid,South Africa,South Africa,No,9474969,count
+2017,Medical_Aid,South Africa,South Africa,No,16.9,%
+2017,Medical_Aid,South Africa,South Africa,Yes,46677746,count
+2017,Medical_Aid,South Africa,South Africa,Yes,83.1,%
+2017,Tenure_Status,South Africa,South Africa,Occupied rent-free,2300753,count
+2017,Tenure_Status,South Africa,South Africa,Occupied rent-free,14.4,%
+2017,Tenure_Status,South Africa,South Africa,Owned and fully paid off,8350916,count
+2017,Tenure_Status,South Africa,South Africa,Owned and fully paid off,52.2,%
+2017,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,1143321,count
+2017,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,7.1,%
+2017,Tenure_Status,South Africa,South Africa,Rented,4200532,count
+2017,Tenure_Status,South Africa,South Africa,Rented,26.3,%
+2016,Dwelling_Type,South Africa,South Africa,Formal dwelling,12470883,count
+2016,Dwelling_Type,South Africa,South Africa,Formal dwelling,79.2,%
+2016,Dwelling_Type,South Africa,South Africa,Informal dwelling,2222021,count
+2016,Dwelling_Type,South Africa,South Africa,Informal dwelling,14.1,%
+2016,Dwelling_Type,South Africa,South Africa,Other,145430,count
+2016,Dwelling_Type,South Africa,South Africa,Other,0.9,%
+2016,Dwelling_Type,South Africa,South Africa,Traditional dwelling,905344,count
+2016,Dwelling_Type,South Africa,South Africa,Traditional dwelling,5.8,%
+2016,Food_Security,South Africa,South Africa,Did not report hunger,47594418,count
+2016,Food_Security,South Africa,South Africa,Did not report hunger,86.3,%
+2016,Food_Security,South Africa,South Africa,Reported hunger,7537423,count
+2016,Food_Security,South Africa,South Africa,Reported hunger,13.7,%
+2016,Household_Income,South Africa,South Africa,Grants,3104059,count
+2016,Household_Income,South Africa,South Africa,Grants,20.7,%
+2016,Household_Income,South Africa,South Africa,Other sources,1444494,count
+2016,Household_Income,South Africa,South Africa,Other sources,9.6,%
+2016,Household_Income,South Africa,South Africa,Pensions,304318,count
+2016,Household_Income,South Africa,South Africa,Pensions,2.0,%
+2016,Household_Income,South Africa,South Africa,Remittances,1312077,count
+2016,Household_Income,South Africa,South Africa,Remittances,8.7,%
+2016,Household_Income,South Africa,South Africa,Salaries,8838666,count
+2016,Household_Income,South Africa,South Africa,Salaries,58.9,%
+2016,Medical_Aid,South Africa,South Africa,No,9446761,count
+2016,Medical_Aid,South Africa,South Africa,No,17.1,%
+2016,Medical_Aid,South Africa,South Africa,Yes,45698815,count
+2016,Medical_Aid,South Africa,South Africa,Yes,82.9,%
+2016,Tenure_Status,South Africa,South Africa,Occupied rent-free,2264548,count
+2016,Tenure_Status,South Africa,South Africa,Occupied rent-free,14.6,%
+2016,Tenure_Status,South Africa,South Africa,Owned and fully paid off,8135797,count
+2016,Tenure_Status,South Africa,South Africa,Owned and fully paid off,52.3,%
+2016,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,1124555,count
+2016,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,7.2,%
+2016,Tenure_Status,South Africa,South Africa,Rented,4016385,count
+2016,Tenure_Status,South Africa,South Africa,Rented,25.8,%
+2015,Dwelling_Type,South Africa,South Africa,Formal dwelling,11946882,count
+2015,Dwelling_Type,South Africa,South Africa,Formal dwelling,78.0,%
+2015,Dwelling_Type,South Africa,South Africa,Informal dwelling,2198138,count
+2015,Dwelling_Type,South Africa,South Africa,Informal dwelling,14.4,%
+2015,Dwelling_Type,South Africa,South Africa,Other,136594,count
+2015,Dwelling_Type,South Africa,South Africa,Other,0.9,%
+2015,Dwelling_Type,South Africa,South Africa,Traditional dwelling,1025869,count
+2015,Dwelling_Type,South Africa,South Africa,Traditional dwelling,6.7,%
+2015,Food_Security,South Africa,South Africa,Did not report hunger,47264024,count
+2015,Food_Security,South Africa,South Africa,Did not report hunger,86.8,%
+2015,Food_Security,South Africa,South Africa,Reported hunger,7161800,count
+2015,Food_Security,South Africa,South Africa,Reported hunger,13.2,%
+2015,Household_Income,South Africa,South Africa,Grants,3074032,count
+2015,Household_Income,South Africa,South Africa,Grants,21.1,%
+2015,Household_Income,South Africa,South Africa,Other sources,1404484,count
+2015,Household_Income,South Africa,South Africa,Other sources,9.7,%
+2015,Household_Income,South Africa,South Africa,Pensions,292071,count
+2015,Household_Income,South Africa,South Africa,Pensions,2.0,%
+2015,Household_Income,South Africa,South Africa,Remittances,1200883,count
+2015,Household_Income,South Africa,South Africa,Remittances,8.3,%
+2015,Household_Income,South Africa,South Africa,Salaries,8570984,count
+2015,Household_Income,South Africa,South Africa,Salaries,58.9,%
+2015,Medical_Aid,South Africa,South Africa,No,9306739,count
+2015,Medical_Aid,South Africa,South Africa,No,17.1,%
+2015,Medical_Aid,South Africa,South Africa,Yes,45136066,count
+2015,Medical_Aid,South Africa,South Africa,Yes,82.9,%
+2015,Tenure_Status,South Africa,South Africa,Occupied rent-free,2083704,count
+2015,Tenure_Status,South Africa,South Africa,Occupied rent-free,13.9,%
+2015,Tenure_Status,South Africa,South Africa,Owned and fully paid off,7966144,count
+2015,Tenure_Status,South Africa,South Africa,Owned and fully paid off,53.0,%
+2015,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,1186006,count
+2015,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,7.9,%
+2015,Tenure_Status,South Africa,South Africa,Rented,3793744,count
+2015,Tenure_Status,South Africa,South Africa,Rented,25.2,%
+2014,Dwelling_Type,South Africa,South Africa,Formal dwelling,11817439,count
+2014,Dwelling_Type,South Africa,South Africa,Formal dwelling,79.3,%
+2014,Dwelling_Type,South Africa,South Africa,Informal dwelling,1937964,count
+2014,Dwelling_Type,South Africa,South Africa,Informal dwelling,13.0,%
+2014,Dwelling_Type,South Africa,South Africa,Other,144054,count
+2014,Dwelling_Type,South Africa,South Africa,Other,1.0,%
+2014,Dwelling_Type,South Africa,South Africa,Traditional dwelling,1004276,count
+2014,Dwelling_Type,South Africa,South Africa,Traditional dwelling,6.7,%
+2014,Food_Security,South Africa,South Africa,Did not report hunger,46496576,count
+2014,Food_Security,South Africa,South Africa,Did not report hunger,86.8,%
+2014,Food_Security,South Africa,South Africa,Reported hunger,7061108,count
+2014,Food_Security,South Africa,South Africa,Reported hunger,13.2,%
+2014,Household_Income,South Africa,South Africa,Grants,3011162,count
+2014,Household_Income,South Africa,South Africa,Grants,21.2,%
+2014,Household_Income,South Africa,South Africa,Other sources,1380985,count
+2014,Household_Income,South Africa,South Africa,Other sources,9.7,%
+2014,Household_Income,South Africa,South Africa,Pensions,281111,count
+2014,Household_Income,South Africa,South Africa,Pensions,2.0,%
+2014,Household_Income,South Africa,South Africa,Remittances,1258386,count
+2014,Household_Income,South Africa,South Africa,Remittances,8.8,%
+2014,Household_Income,South Africa,South Africa,Salaries,8288489,count
+2014,Household_Income,South Africa,South Africa,Salaries,58.3,%
+2014,Medical_Aid,South Africa,South Africa,No,9470114,count
+2014,Medical_Aid,South Africa,South Africa,No,17.7,%
+2014,Medical_Aid,South Africa,South Africa,Yes,43991081,count
+2014,Medical_Aid,South Africa,South Africa,Yes,82.3,%
+2014,Tenure_Status,South Africa,South Africa,Occupied rent-free,2026965,count
+2014,Tenure_Status,South Africa,South Africa,Occupied rent-free,13.8,%
+2014,Tenure_Status,South Africa,South Africa,Owned and fully paid off,7947694,count
+2014,Tenure_Status,South Africa,South Africa,Owned and fully paid off,54.0,%
+2014,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,1275561,count
+2014,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,8.7,%
+2014,Tenure_Status,South Africa,South Africa,Rented,3463944,count
+2014,Tenure_Status,South Africa,South Africa,Rented,23.5,%
+2013,Dwelling_Type,South Africa,South Africa,Formal dwelling,11275787,count
+2013,Dwelling_Type,South Africa,South Africa,Formal dwelling,77.7,%
+2013,Dwelling_Type,South Africa,South Africa,Informal dwelling,1988504,count
+2013,Dwelling_Type,South Africa,South Africa,Informal dwelling,13.7,%
+2013,Dwelling_Type,South Africa,South Africa,Other,131514,count
+2013,Dwelling_Type,South Africa,South Africa,Other,0.9,%
+2013,Dwelling_Type,South Africa,South Africa,Traditional dwelling,1125380,count
+2013,Dwelling_Type,South Africa,South Africa,Traditional dwelling,7.7,%
+2013,Food_Security,South Africa,South Africa,Did not report hunger,45659314,count
+2013,Food_Security,South Africa,South Africa,Did not report hunger,86.5,%
+2013,Food_Security,South Africa,South Africa,Reported hunger,7115479,count
+2013,Food_Security,South Africa,South Africa,Reported hunger,13.5,%
+2013,Household_Income,South Africa,South Africa,Grants,2903842,count
+2013,Household_Income,South Africa,South Africa,Grants,21.2,%
+2013,Household_Income,South Africa,South Africa,Other sources,1250153,count
+2013,Household_Income,South Africa,South Africa,Other sources,9.1,%
+2013,Household_Income,South Africa,South Africa,Pensions,199076,count
+2013,Household_Income,South Africa,South Africa,Pensions,1.5,%
+2013,Household_Income,South Africa,South Africa,Remittances,1236357,count
+2013,Household_Income,South Africa,South Africa,Remittances,9.0,%
+2013,Household_Income,South Africa,South Africa,Salaries,8094871,count
+2013,Household_Income,South Africa,South Africa,Salaries,59.2,%
+2013,Medical_Aid,South Africa,South Africa,No,9608037,count
+2013,Medical_Aid,South Africa,South Africa,No,18.1,%
+2013,Medical_Aid,South Africa,South Africa,Yes,43335214,count
+2013,Medical_Aid,South Africa,South Africa,Yes,81.9,%
+2013,Tenure_Status,South Africa,South Africa,Occupied rent-free,1870987,count
+2013,Tenure_Status,South Africa,South Africa,Occupied rent-free,13.0,%
+2013,Tenure_Status,South Africa,South Africa,Owned and fully paid off,7898549,count
+2013,Tenure_Status,South Africa,South Africa,Owned and fully paid off,55.0,%
+2013,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,1321121,count
+2013,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,9.2,%
+2013,Tenure_Status,South Africa,South Africa,Rented,3271642,count
+2013,Tenure_Status,South Africa,South Africa,Rented,22.8,%
+2012,Dwelling_Type,South Africa,South Africa,Formal dwelling,10751995,count
+2012,Dwelling_Type,South Africa,South Africa,Formal dwelling,76.8,%
+2012,Dwelling_Type,South Africa,South Africa,Informal dwelling,1985250,count
+2012,Dwelling_Type,South Africa,South Africa,Informal dwelling,14.2,%
+2012,Dwelling_Type,South Africa,South Africa,Other,136420,count
+2012,Dwelling_Type,South Africa,South Africa,Other,1.0,%
+2012,Dwelling_Type,South Africa,South Africa,Traditional dwelling,1134473,count
+2012,Dwelling_Type,South Africa,South Africa,Traditional dwelling,8.1,%
+2012,Food_Security,South Africa,South Africa,Did not report hunger,44390344,count
+2012,Food_Security,South Africa,South Africa,Did not report hunger,86.8,%
+2012,Food_Security,South Africa,South Africa,Reported hunger,6742716,count
+2012,Food_Security,South Africa,South Africa,Reported hunger,13.2,%
+2012,Household_Income,South Africa,South Africa,Grants,2809646,count
+2012,Household_Income,South Africa,South Africa,Grants,21.1,%
+2012,Household_Income,South Africa,South Africa,Other sources,1204751,count
+2012,Household_Income,South Africa,South Africa,Other sources,9.0,%
+2012,Household_Income,South Africa,South Africa,Pensions,220593,count
+2012,Household_Income,South Africa,South Africa,Pensions,1.7,%
+2012,Household_Income,South Africa,South Africa,Remittances,1115161,count
+2012,Household_Income,South Africa,South Africa,Remittances,8.4,%
+2012,Household_Income,South Africa,South Africa,Salaries,7968847,count
+2012,Household_Income,South Africa,South Africa,Salaries,59.8,%
+2012,Medical_Aid,South Africa,South Africa,No,9156794,count
+2012,Medical_Aid,South Africa,South Africa,No,17.6,%
+2012,Medical_Aid,South Africa,South Africa,Yes,42877433,count
+2012,Medical_Aid,South Africa,South Africa,Yes,82.4,%
+2012,Tenure_Status,South Africa,South Africa,Occupied rent-free,2100810,count
+2012,Tenure_Status,South Africa,South Africa,Occupied rent-free,15.0,%
+2012,Tenure_Status,South Africa,South Africa,Owned and fully paid off,7564566,count
+2012,Tenure_Status,South Africa,South Africa,Owned and fully paid off,53.9,%
+2012,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,1213526,count
+2012,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,8.6,%
+2012,Tenure_Status,South Africa,South Africa,Rented,3158280,count
+2012,Tenure_Status,South Africa,South Africa,Rented,22.5,%
+2011,Dwelling_Type,South Africa,South Africa,Formal dwelling,10703012,count
+2011,Dwelling_Type,South Africa,South Africa,Formal dwelling,78.4,%
+2011,Dwelling_Type,South Africa,South Africa,Informal dwelling,1652115,count
+2011,Dwelling_Type,South Africa,South Africa,Informal dwelling,12.1,%
+2011,Dwelling_Type,South Africa,South Africa,Other,37319,count
+2011,Dwelling_Type,South Africa,South Africa,Other,0.3,%
+2011,Dwelling_Type,South Africa,South Africa,Traditional dwelling,1267343,count
+2011,Dwelling_Type,South Africa,South Africa,Traditional dwelling,9.3,%
+2011,Food_Security,South Africa,South Africa,Did not report hunger,43714791,count
+2011,Food_Security,South Africa,South Africa,Did not report hunger,86.6,%
+2011,Food_Security,South Africa,South Africa,Reported hunger,6747089,count
+2011,Food_Security,South Africa,South Africa,Reported hunger,13.4,%
+2011,Household_Income,South Africa,South Africa,Grants,2836207,count
+2011,Household_Income,South Africa,South Africa,Grants,21.6,%
+2011,Household_Income,South Africa,South Africa,Other sources,1142557,count
+2011,Household_Income,South Africa,South Africa,Other sources,8.7,%
+2011,Household_Income,South Africa,South Africa,Pensions,241043,count
+2011,Household_Income,South Africa,South Africa,Pensions,1.8,%
+2011,Household_Income,South Africa,South Africa,Remittances,1317069,count
+2011,Household_Income,South Africa,South Africa,Remittances,10.0,%
+2011,Household_Income,South Africa,South Africa,Salaries,7616743,count
+2011,Household_Income,South Africa,South Africa,Salaries,57.9,%
+2011,Medical_Aid,South Africa,South Africa,No,8311769,count
+2011,Medical_Aid,South Africa,South Africa,No,16.2,%
+2011,Medical_Aid,South Africa,South Africa,Yes,43031606,count
+2011,Medical_Aid,South Africa,South Africa,Yes,83.8,%
+2011,Tenure_Status,South Africa,South Africa,Occupied rent-free,2256155,count
+2011,Tenure_Status,South Africa,South Africa,Occupied rent-free,16.5,%
+2011,Tenure_Status,South Africa,South Africa,Owned and fully paid off,7275717,count
+2011,Tenure_Status,South Africa,South Africa,Owned and fully paid off,53.2,%
+2011,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,1136079,count
+2011,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,8.3,%
+2011,Tenure_Status,South Africa,South Africa,Rented,2999439,count
+2011,Tenure_Status,South Africa,South Africa,Rented,21.9,%
+2010,Dwelling_Type,South Africa,South Africa,Formal dwelling,10400960,count
+2010,Dwelling_Type,South Africa,South Africa,Formal dwelling,77.3,%
+2010,Dwelling_Type,South Africa,South Africa,Informal dwelling,1771349,count
+2010,Dwelling_Type,South Africa,South Africa,Informal dwelling,13.2,%
+2010,Dwelling_Type,South Africa,South Africa,Other,77716,count
+2010,Dwelling_Type,South Africa,South Africa,Other,0.6,%
+2010,Dwelling_Type,South Africa,South Africa,Traditional dwelling,1205634,count
+2010,Dwelling_Type,South Africa,South Africa,Traditional dwelling,9.0,%
+2010,Food_Security,South Africa,South Africa,Did not report hunger,41674567,count
+2010,Food_Security,South Africa,South Africa,Did not report hunger,83.9,%
+2010,Food_Security,South Africa,South Africa,Reported hunger,8001795,count
+2010,Food_Security,South Africa,South Africa,Reported hunger,16.1,%
+2010,Household_Income,South Africa,South Africa,Grants,2727669,count
+2010,Household_Income,South Africa,South Africa,Grants,21.3,%
+2010,Household_Income,South Africa,South Africa,Other sources,1044711,count
+2010,Household_Income,South Africa,South Africa,Other sources,8.2,%
+2010,Household_Income,South Africa,South Africa,Pensions,208149,count
+2010,Household_Income,South Africa,South Africa,Pensions,1.6,%
+2010,Household_Income,South Africa,South Africa,Remittances,1328446,count
+2010,Household_Income,South Africa,South Africa,Remittances,10.4,%
+2010,Household_Income,South Africa,South Africa,Salaries,7481833,count
+2010,Household_Income,South Africa,South Africa,Salaries,58.5,%
+2010,Medical_Aid,South Africa,South Africa,No,8966979,count
+2010,Medical_Aid,South Africa,South Africa,No,17.7,%
+2010,Medical_Aid,South Africa,South Africa,Yes,41629179,count
+2010,Medical_Aid,South Africa,South Africa,Yes,82.3,%
+2010,Tenure_Status,South Africa,South Africa,Occupied rent-free,1510628,count
+2010,Tenure_Status,South Africa,South Africa,Occupied rent-free,11.3,%
+2010,Tenure_Status,South Africa,South Africa,Owned and fully paid off,7741956,count
+2010,Tenure_Status,South Africa,South Africa,Owned and fully paid off,58.0,%
+2010,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,1200959,count
+2010,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,9.0,%
+2010,Tenure_Status,South Africa,South Africa,Rented,2905635,count
+2010,Tenure_Status,South Africa,South Africa,Rented,21.8,%
+2009,Dwelling_Type,South Africa,South Africa,Formal dwelling,9903887,count
+2009,Dwelling_Type,South Africa,South Africa,Formal dwelling,75.4,%
+2009,Dwelling_Type,South Africa,South Africa,Informal dwelling,1818271,count
+2009,Dwelling_Type,South Africa,South Africa,Informal dwelling,13.8,%
+2009,Dwelling_Type,South Africa,South Africa,Other,117354,count
+2009,Dwelling_Type,South Africa,South Africa,Other,0.9,%
+2009,Dwelling_Type,South Africa,South Africa,Traditional dwelling,1288884,count
+2009,Dwelling_Type,South Africa,South Africa,Traditional dwelling,9.8,%
+2009,Household_Income,South Africa,South Africa,Grants,1884073,count
+2009,Household_Income,South Africa,South Africa,Grants,14.9,%
+2009,Household_Income,South Africa,South Africa,Other sources,1016577,count
+2009,Household_Income,South Africa,South Africa,Other sources,8.1,%
+2009,Household_Income,South Africa,South Africa,Pensions,1041498,count
+2009,Household_Income,South Africa,South Africa,Pensions,8.3,%
+2009,Household_Income,South Africa,South Africa,Remittances,1190388,count
+2009,Household_Income,South Africa,South Africa,Remittances,9.4,%
+2009,Household_Income,South Africa,South Africa,Salaries,7490495,count
+2009,Household_Income,South Africa,South Africa,Salaries,59.3,%
+2009,Medical_Aid,South Africa,South Africa,No,8502191,count
+2009,Medical_Aid,South Africa,South Africa,No,17.1,%
+2009,Medical_Aid,South Africa,South Africa,Yes,41303488,count
+2009,Medical_Aid,South Africa,South Africa,Yes,82.9,%
+2009,Tenure_Status,South Africa,South Africa,Occupied rent-free,1883969,count
+2009,Tenure_Status,South Africa,South Africa,Occupied rent-free,14.5,%
+2009,Tenure_Status,South Africa,South Africa,Owned and fully paid off,7264604,count
+2009,Tenure_Status,South Africa,South Africa,Owned and fully paid off,55.8,%
+2009,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,1116893,count
+2009,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,8.6,%
+2009,Tenure_Status,South Africa,South Africa,Rented,2758092,count
+2009,Tenure_Status,South Africa,South Africa,Rented,21.2,%
+2008,Dwelling_Type,South Africa,South Africa,Formal dwelling,9532349,count
+2008,Dwelling_Type,South Africa,South Africa,Formal dwelling,74.6,%
+2008,Dwelling_Type,South Africa,South Africa,Informal dwelling,1854749,count
+2008,Dwelling_Type,South Africa,South Africa,Informal dwelling,14.5,%
+2008,Dwelling_Type,South Africa,South Africa,Other,114055,count
+2008,Dwelling_Type,South Africa,South Africa,Other,0.9,%
+2008,Dwelling_Type,South Africa,South Africa,Traditional dwelling,1278422,count
+2008,Dwelling_Type,South Africa,South Africa,Traditional dwelling,10.0,%
+2008,Food_Security,South Africa,South Africa,Did not report hunger,41207304,count
+2008,Food_Security,South Africa,South Africa,Did not report hunger,84.0,%
+2008,Food_Security,South Africa,South Africa,Reported hunger,7833841,count
+2008,Food_Security,South Africa,South Africa,Reported hunger,16.0,%
+2008,Medical_Aid,South Africa,South Africa,No,8056513,count
+2008,Medical_Aid,South Africa,South Africa,No,16.3,%
+2008,Medical_Aid,South Africa,South Africa,Yes,41366835,count
+2008,Medical_Aid,South Africa,South Africa,Yes,83.7,%
+2008,Tenure_Status,South Africa,South Africa,Occupied rent-free,987666,count
+2008,Tenure_Status,South Africa,South Africa,Occupied rent-free,7.7,%
+2008,Tenure_Status,South Africa,South Africa,Owned and fully paid off,8153237,count
+2008,Tenure_Status,South Africa,South Africa,Owned and fully paid off,63.7,%
+2008,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,1180089,count
+2008,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,9.2,%
+2008,Tenure_Status,South Africa,South Africa,Rented,2470087,count
+2008,Tenure_Status,South Africa,South Africa,Rented,19.3,%
+2007,Dwelling_Type,South Africa,South Africa,Formal dwelling,9112122,count
+2007,Dwelling_Type,South Africa,South Africa,Formal dwelling,73.3,%
+2007,Dwelling_Type,South Africa,South Africa,Informal dwelling,1901891,count
+2007,Dwelling_Type,South Africa,South Africa,Informal dwelling,15.3,%
+2007,Dwelling_Type,South Africa,South Africa,Other,246861,count
+2007,Dwelling_Type,South Africa,South Africa,Other,2.0,%
+2007,Dwelling_Type,South Africa,South Africa,Traditional dwelling,1169556,count
+2007,Dwelling_Type,South Africa,South Africa,Traditional dwelling,9.4,%
+2007,Food_Security,South Africa,South Africa,Did not report hunger,41643957,count
+2007,Food_Security,South Africa,South Africa,Did not report hunger,86.2,%
+2007,Food_Security,South Africa,South Africa,Reported hunger,6657442,count
+2007,Food_Security,South Africa,South Africa,Reported hunger,13.8,%
+2007,Medical_Aid,South Africa,South Africa,No,7147386,count
+2007,Medical_Aid,South Africa,South Africa,No,14.7,%
+2007,Medical_Aid,South Africa,South Africa,Yes,41616934,count
+2007,Medical_Aid,South Africa,South Africa,Yes,85.3,%
+2007,Tenure_Status,South Africa,South Africa,Occupied rent-free,1242473,count
+2007,Tenure_Status,South Africa,South Africa,Occupied rent-free,9.9,%
+2007,Tenure_Status,South Africa,South Africa,Owned and fully paid off,7500940,count
+2007,Tenure_Status,South Africa,South Africa,Owned and fully paid off,60.0,%
+2007,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,899068,count
+2007,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,7.2,%
+2007,Tenure_Status,South Africa,South Africa,Rented,2860860,count
+2007,Tenure_Status,South Africa,South Africa,Rented,22.9,%
+2006,Dwelling_Type,South Africa,South Africa,Formal dwelling,8985918,count
+2006,Dwelling_Type,South Africa,South Africa,Formal dwelling,73.5,%
+2006,Dwelling_Type,South Africa,South Africa,Informal dwelling,1809387,count
+2006,Dwelling_Type,South Africa,South Africa,Informal dwelling,14.8,%
+2006,Dwelling_Type,South Africa,South Africa,Other,251493,count
+2006,Dwelling_Type,South Africa,South Africa,Other,2.1,%
+2006,Dwelling_Type,South Africa,South Africa,Traditional dwelling,1171200,count
+2006,Dwelling_Type,South Africa,South Africa,Traditional dwelling,9.6,%
+2006,Food_Security,South Africa,South Africa,Did not report hunger,40800114,count
+2006,Food_Security,South Africa,South Africa,Did not report hunger,85.5,%
+2006,Food_Security,South Africa,South Africa,Reported hunger,6901877,count
+2006,Food_Security,South Africa,South Africa,Reported hunger,14.5,%
+2006,Medical_Aid,South Africa,South Africa,No,6811229,count
+2006,Medical_Aid,South Africa,South Africa,No,14.1,%
+2006,Medical_Aid,South Africa,South Africa,Yes,41369043,count
+2006,Medical_Aid,South Africa,South Africa,Yes,85.9,%
+2006,Tenure_Status,South Africa,South Africa,Occupied rent-free,1253238,count
+2006,Tenure_Status,South Africa,South Africa,Occupied rent-free,10.3,%
+2006,Tenure_Status,South Africa,South Africa,Owned and fully paid off,7581546,count
+2006,Tenure_Status,South Africa,South Africa,Owned and fully paid off,62.0,%
+2006,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,927659,count
+2006,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,7.6,%
+2006,Tenure_Status,South Africa,South Africa,Rented,2459371,count
+2006,Tenure_Status,South Africa,South Africa,Rented,20.1,%
+2005,Dwelling_Type,South Africa,South Africa,Formal dwelling,8491079,count
+2005,Dwelling_Type,South Africa,South Africa,Formal dwelling,71.0,%
+2005,Dwelling_Type,South Africa,South Africa,Informal dwelling,1887589,count
+2005,Dwelling_Type,South Africa,South Africa,Informal dwelling,15.8,%
+2005,Dwelling_Type,South Africa,South Africa,Other,285675,count
+2005,Dwelling_Type,South Africa,South Africa,Other,2.4,%
+2005,Dwelling_Type,South Africa,South Africa,Traditional dwelling,1299656,count
+2005,Dwelling_Type,South Africa,South Africa,Traditional dwelling,10.9,%
+2005,Food_Security,South Africa,South Africa,Did not report hunger,37848029,count
+2005,Food_Security,South Africa,South Africa,Did not report hunger,79.9,%
+2005,Food_Security,South Africa,South Africa,Reported hunger,9491890,count
+2005,Food_Security,South Africa,South Africa,Reported hunger,20.1,%
+2005,Medical_Aid,South Africa,South Africa,No,6812321,count
+2005,Medical_Aid,South Africa,South Africa,No,14.3,%
+2005,Medical_Aid,South Africa,South Africa,Yes,40746687,count
+2005,Medical_Aid,South Africa,South Africa,Yes,85.7,%
+2005,Tenure_Status,South Africa,South Africa,Occupied rent-free,1194653,count
+2005,Tenure_Status,South Africa,South Africa,Occupied rent-free,10.0,%
+2005,Tenure_Status,South Africa,South Africa,Owned and fully paid off,7377640,count
+2005,Tenure_Status,South Africa,South Africa,Owned and fully paid off,62.0,%
+2005,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,1020610,count
+2005,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,8.6,%
+2005,Tenure_Status,South Africa,South Africa,Rented,2313530,count
+2005,Tenure_Status,South Africa,South Africa,Rented,19.4,%
+2004,Dwelling_Type,South Africa,South Africa,Formal dwelling,8689158,count
+2004,Dwelling_Type,South Africa,South Africa,Formal dwelling,74.2,%
+2004,Dwelling_Type,South Africa,South Africa,Informal dwelling,1407379,count
+2004,Dwelling_Type,South Africa,South Africa,Informal dwelling,12.0,%
+2004,Dwelling_Type,South Africa,South Africa,Other,252545,count
+2004,Dwelling_Type,South Africa,South Africa,Other,2.2,%
+2004,Dwelling_Type,South Africa,South Africa,Traditional dwelling,1362968,count
+2004,Dwelling_Type,South Africa,South Africa,Traditional dwelling,11.6,%
+2004,Food_Security,South Africa,South Africa,Did not report hunger,36000337,count
+2004,Food_Security,South Africa,South Africa,Did not report hunger,76.9,%
+2004,Food_Security,South Africa,South Africa,Reported hunger,10799734,count
+2004,Food_Security,South Africa,South Africa,Reported hunger,23.1,%
+2004,Medical_Aid,South Africa,South Africa,No,7267886,count
+2004,Medical_Aid,South Africa,South Africa,No,15.5,%
+2004,Medical_Aid,South Africa,South Africa,Yes,39723764,count
+2004,Medical_Aid,South Africa,South Africa,Yes,84.5,%
+2004,Tenure_Status,South Africa,South Africa,Occupied rent-free,1426002,count
+2004,Tenure_Status,South Africa,South Africa,Occupied rent-free,12.2,%
+2004,Tenure_Status,South Africa,South Africa,Owned and fully paid off,7033220,count
+2004,Tenure_Status,South Africa,South Africa,Owned and fully paid off,60.1,%
+2004,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,1011035,count
+2004,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,8.6,%
+2004,Tenure_Status,South Africa,South Africa,Rented,2241226,count
+2004,Tenure_Status,South Africa,South Africa,Rented,19.1,%
+2003,Dwelling_Type,South Africa,South Africa,Formal dwelling,8494224,count
+2003,Dwelling_Type,South Africa,South Africa,Formal dwelling,74.2,%
+2003,Dwelling_Type,South Africa,South Africa,Informal dwelling,1474567,count
+2003,Dwelling_Type,South Africa,South Africa,Informal dwelling,12.9,%
+2003,Dwelling_Type,South Africa,South Africa,Other,253600,count
+2003,Dwelling_Type,South Africa,South Africa,Other,2.2,%
+2003,Dwelling_Type,South Africa,South Africa,Traditional dwelling,1231503,count
+2003,Dwelling_Type,South Africa,South Africa,Traditional dwelling,10.8,%
+2003,Food_Security,South Africa,South Africa,Did not report hunger,33492473,count
+2003,Food_Security,South Africa,South Africa,Did not report hunger,72.3,%
+2003,Food_Security,South Africa,South Africa,Reported hunger,12842178,count
+2003,Food_Security,South Africa,South Africa,Reported hunger,27.7,%
+2003,Medical_Aid,South Africa,South Africa,No,7161253,count
+2003,Medical_Aid,South Africa,South Africa,No,15.4,%
+2003,Medical_Aid,South Africa,South Africa,Yes,39291721,count
+2003,Medical_Aid,South Africa,South Africa,Yes,84.6,%
+2003,Tenure_Status,South Africa,South Africa,Occupied rent-free,999557,count
+2003,Tenure_Status,South Africa,South Africa,Occupied rent-free,8.9,%
+2003,Tenure_Status,South Africa,South Africa,Owned and fully paid off,7030791,count
+2003,Tenure_Status,South Africa,South Africa,Owned and fully paid off,62.6,%
+2003,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,1142020,count
+2003,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,10.2,%
+2003,Tenure_Status,South Africa,South Africa,Rented,2063233,count
+2003,Tenure_Status,South Africa,South Africa,Rented,18.4,%
+2002,Dwelling_Type,South Africa,South Africa,Formal dwelling,8218776,count
+2002,Dwelling_Type,South Africa,South Africa,Formal dwelling,73.5,%
+2002,Dwelling_Type,South Africa,South Africa,Informal dwelling,1458836,count
+2002,Dwelling_Type,South Africa,South Africa,Informal dwelling,13.0,%
+2002,Dwelling_Type,South Africa,South Africa,Other,293169,count
+2002,Dwelling_Type,South Africa,South Africa,Other,2.6,%
+2002,Dwelling_Type,South Africa,South Africa,Traditional dwelling,1213515,count
+2002,Dwelling_Type,South Africa,South Africa,Traditional dwelling,10.9,%
+2002,Food_Security,South Africa,South Africa,Did not report hunger,32426379,count
+2002,Food_Security,South Africa,South Africa,Did not report hunger,70.7,%
+2002,Food_Security,South Africa,South Africa,Reported hunger,13462392,count
+2002,Food_Security,South Africa,South Africa,Reported hunger,29.3,%
+2002,Medical_Aid,South Africa,South Africa,No,7283653,count
+2002,Medical_Aid,South Africa,South Africa,No,15.9,%
+2002,Medical_Aid,South Africa,South Africa,Yes,38584062,count
+2002,Medical_Aid,South Africa,South Africa,Yes,84.1,%
+2002,Tenure_Status,South Africa,South Africa,Occupied rent-free,1331798,count
+2002,Tenure_Status,South Africa,South Africa,Occupied rent-free,12.0,%
+2002,Tenure_Status,South Africa,South Africa,Owned and fully paid off,6448085,count
+2002,Tenure_Status,South Africa,South Africa,Owned and fully paid off,58.1,%
+2002,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,1269019,count
+2002,Tenure_Status,South Africa,South Africa,Owned but not yet paid off,11.4,%
+2002,Tenure_Status,South Africa,South Africa,Rented,2046656,count
+2002,Tenure_Status,South Africa,South Africa,Rented,18.4,%

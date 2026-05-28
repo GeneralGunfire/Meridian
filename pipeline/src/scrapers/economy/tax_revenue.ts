@@ -45,19 +45,48 @@ const CHAPTER1_URLS: { year: number; url: string }[] = [
 // Tax category columns in A1.3.1 (confirmed from 2025 & 2020 peeks)
 // col3=fiscal_year label, col4=income&profits, col5=payroll, col6=property,
 // col7=domestic goods/services, col8=international trade, col9=misc, col10=total
-const TAX_CATEGORIES: { col: number; label: string }[] = [
-  { col: 4,  label: "Taxes on income and profits" },
-  { col: 5,  label: "Taxes on payroll and workforce" },
-  { col: 6,  label: "Taxes on property" },
-  { col: 7,  label: "Domestic taxes on goods and services" },
-  { col: 8,  label: "Taxes on international trade and transactions" },
-  { col: 9,  label: "State miscellaneous revenue" },
-  { col: 10, label: "Total tax revenue" },
+const TAX_CATEGORIES: { col: number; label: string; description: string }[] = [
+  {
+    col: 4,
+    label: "Taxes on income and profits",
+    description: "Personal income tax (PAYE + provisional tax), Corporate income tax (CIT), Withholding taxes on dividends and royalties. Largest component of SARS revenue — typically ~60% of total.",
+  },
+  {
+    col: 5,
+    label: "Taxes on payroll and workforce",
+    description: "Skills Development Levy (SDL) paid by employers on wages, and Unemployment Insurance Fund (UIF) contributions. SDL rate is 1% of payroll.",
+  },
+  {
+    col: 6,
+    label: "Taxes on property",
+    description: "Securities Transfer Tax (STT) on share transactions, Transfer Duty on property sales, and Estate Duty. Excludes municipal property rates (not collected by SARS).",
+  },
+  {
+    col: 7,
+    label: "Domestic taxes on goods and services",
+    description: "VAT (largest component at ~27% of total revenue), Fuel levy, Customs and excise duties, Environmental levies (carbon tax, plastic bag levy), and sin taxes (alcohol, tobacco).",
+  },
+  {
+    col: 8,
+    label: "Taxes on international trade and transactions",
+    description: "Import duties, Export duties, and other customs-related levies on cross-border trade. Administered through the SARS Customs division.",
+  },
+  {
+    col: 9,
+    label: "State miscellaneous revenue",
+    description: "Administrative fees, fines, penalties, interest on overdue taxes, and other non-tax revenue collected by SARS on behalf of the state.",
+  },
+  {
+    col: 10,
+    label: "Total tax revenue",
+    description: "Sum of all tax categories above. Represents SARS gross tax revenue for the fiscal year before any refunds or transfers to SACU member states.",
+  },
 ];
 
 interface TaxRow {
   Fiscal_Year: string;
   Tax_Type: string;
+  Description: string;
   Amount_ZAR_Millions: string;
   YoY_Change_Pct: string;
   Share_of_Total_Pct: string;
@@ -146,7 +175,7 @@ async function parseYearZip(
   const row = ws.getRow(dataRowIdx);
   const rows: TaxRow[] = [];
 
-  for (const { col, label } of TAX_CATEGORIES) {
+  for (const { col, label, description } of TAX_CATEGORIES) {
     const amount = cellNum(row.getCell(col).value);
     if (amount === null) continue;
 
@@ -156,6 +185,7 @@ async function parseYearZip(
     rows.push({
       Fiscal_Year: fiscalYear,
       Tax_Type: label,
+      Description: description,
       Amount_ZAR_Millions: amount.toFixed(2),
       YoY_Change_Pct: yoy !== null ? (yoy * 100).toFixed(2) : "",
       Share_of_Total_Pct: share !== null ? (share * 100).toFixed(2) : "",

@@ -1,14 +1,16 @@
 /**
- * housing.ts — StatsSA GHS housing scraper
+ * housing.ts — StatsSA GHS housing & household services scraper
  *
  * Source: StatsSA General Household Survey Time Series 2002-2025 Excel
  * URL: same file as water.ts (GHS Time Series)
  *
  * Sheets used:
- *   "23. Type of main dwelling" — formal/informal/traditional (N and %)
- *   "24. Tenure status"         — owned/rented/rent-free (N and %)
+ *   "23. Type of main dwelling"  — formal/informal/traditional
+ *   "24. Tenure status"          — owned/rented/rent-free
+ *   "20. Household income"       — income brackets
+ *   "21. Food security"          — food access indicators
  *
- * Output (long format): Year, Topic, Geography, Category, Value, Unit
+ * Output (long format): Year, Topic, Geography, Province, Category, Value, Unit
  */
 
 import path from "path";
@@ -22,24 +24,49 @@ import type { ScraperContext, ScraperResult } from "../../types.js";
 const SOURCE_URL =
   "https://www.statssa.gov.za/publications/P0318/GHS%202025%20Time%20Series%20Of%20Selected%20Variables%2C%202002%20-%202025.xlsx";
 
+// Sheet names confirmed from GHS 2025 Time Series workbook
+// Note: "42. Sources of income" uses a 3-column layout (source / yes-no / value) — incompatible
+// with the standard 2-column layout; using "43. Main source of income" instead which follows
+// the standard pattern. "19. Medical aid cover" added for household welfare context.
 const TARGET_SHEETS: { sheetName: string; topic: string }[] = [
   { sheetName: "23. Type of main dwelling", topic: "Dwelling_Type" },
   { sheetName: "24. Tenure status",         topic: "Tenure_Status" },
+  { sheetName: "43. Main source of income", topic: "Household_Income" },
+  { sheetName: "19. Medical aid cover",     topic: "Medical_Aid" },
+  { sheetName: "44. Hunger - persons",      topic: "Food_Security" },
 ];
 
 interface HousingRow {
-  Year: string;
-  Topic: string;
+  Year:      string;
+  Topic:     string;
   Geography: string;
-  Category: string;
-  Value: string;
-  Unit: string;
+  Province:  string;
+  Category:  string;
+  Value:     string;
+  Unit:      string;
 }
 
 function cellVal(v: ExcelJS.CellValue): string | number | null {
   if (v === null || v === undefined) return null;
   if (typeof v === "object" && "result" in v) return (v as { result: string | number }).result ?? null;
   return v as string | number;
+}
+
+/**
+ * Extract a province name from a geography block label.
+ * Labels look like: "South Africa (%)", "Eastern Cape ('000)", "KwaZulu-Natal (N)"
+ * Returns the part before " (" — trimmed.
+ */
+function parseGeoLabel(label: string): { geography: string; province: string; unit: string | null } {
+  const nameMatch = label.match(/^(.+?)\s*\(/);
+  const geography = nameMatch ? nameMatch[1].trim() : label.trim();
+  const province = geography;
+
+  const unit = label.includes("%")     ? "%" :
+               label.includes("'000")  ? "thousands" :
+               label.includes("(N)")   ? "count" : null;
+
+  return { geography, province, unit };
 }
 
 function extractSheet(ws: ExcelJS.Worksheet, topic: string): HousingRow[] {
@@ -59,19 +86,25 @@ function extractSheet(ws: ExcelJS.Worksheet, topic: string): HousingRow[] {
   if (yearCols.length === 0) return rows;
 
   let currentGeo = "";
+  let currentUnit: string | null = null;
+  let currentProvince = "";
+
   for (let r = 5; r <= ws.rowCount; r++) {
     const row = ws.getRow(r);
     const col2 = String(cellVal(row.getCell(2).value) ?? "").trim();
     const col3 = String(cellVal(row.getCell(3).value) ?? "").trim();
 
     if (!col2 && !col3) continue;
-    if (col2) currentGeo = col2;
-    if (!currentGeo.toLowerCase().startsWith("south africa")) continue;
-    if (!col3 || col3.toLowerCase() === "total" || col3.toLowerCase() === "year") continue;
 
-    const unit = currentGeo.includes("%") ? "%" :
-                 currentGeo.includes("(N)") ? "count" : null;
-    if (unit === null) continue; // skip unlabelled blocks
+    if (col2) {
+      const parsed = parseGeoLabel(col2);
+      currentGeo = parsed.geography;
+      currentProvince = parsed.province;
+      currentUnit = parsed.unit;
+    }
+
+    if (currentUnit === null) continue;
+    if (!col3 || col3.toLowerCase() === "total" || col3.toLowerCase() === "year") continue;
 
     for (const { col, year } of yearCols) {
       const v = cellVal(row.getCell(col).value);
@@ -80,12 +113,13 @@ function extractSheet(ws: ExcelJS.Worksheet, topic: string): HousingRow[] {
       if (isNaN(num)) continue;
 
       rows.push({
-        Year: year,
-        Topic: topic,
-        Geography: "South Africa",
-        Category: col3,
-        Value: unit === "%" ? num.toFixed(1) : num.toFixed(0),
-        Unit: unit,
+        Year:      year,
+        Topic:     topic,
+        Geography: currentGeo,
+        Province:  currentProvince,
+        Category:  col3,
+        Value:     currentUnit === "%" ? num.toFixed(1) : num.toFixed(0),
+        Unit:      currentUnit,
       });
     }
   }
@@ -120,6 +154,7 @@ export async function run(ctx: ScraperContext): Promise<ScraperResult> {
     allRows.sort((a, b) =>
       b.Year.localeCompare(a.Year) ||
       a.Topic.localeCompare(b.Topic) ||
+      a.Province.localeCompare(b.Province) ||
       a.Category.localeCompare(b.Category)
     );
 

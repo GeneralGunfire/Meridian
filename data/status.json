@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T07:19:21.057Z",
+  "generatedAt": "2026-05-28T08:02:12.174Z",
   "datasets": {
     "crime_stats": {
       "success": true,
@@ -15,13 +15,13 @@
     },
     "water": {
       "success": true,
-      "last_updated": "2026-05-27",
+      "last_updated": "2026-05-28",
       "error": null,
       "skipped": false
     },
     "housing": {
       "success": true,
-      "last_updated": "2026-05-27",
+      "last_updated": "2026-05-28",
       "error": null,
       "skipped": false
     },

@@ -1,20 +1,23 @@
 /**
- * water.ts — StatsSA GHS water & sanitation scraper
+ * water.ts — StatsSA GHS water, sanitation & household services scraper
  *
  * Source: StatsSA General Household Survey Time Series 2002-2025 Excel
  * URL: https://www.statssa.gov.za/publications/P0318/GHS 2025 Time Series Of Selected Variables, 2002 - 2025.xlsx
  *
  * Sheets used:
- *   "25. Access to drinking water" — households by water source type (national %, thousands)
- *   "30. Toilet facility"          — households by sanitation type (national %)
+ *   "25. Access to drinking water" — water source type
+ *   "30. Toilet facility"          — sanitation type
+ *   "26. Source of energy for lighting" — electricity access
+ *   "27. Source of energy for cooking"  — cooking energy
+ *   "28. Refuse removal"                — waste removal
  *
- * Layout (both sheets):
+ * Layout (all sheets):
  *   Row 4:  col4=2002, col5=2003, ... col27=2025 (year labels)
- *   Rows 5+: col2=geography, col3=category_name, col4..=values
- *   Two blocks: "South Africa (N)" = thousands, "South Africa (%)" = percentage
+ *   Rows 5+: col2=geography block label, col3=category name, col4..=values
+ *   Geography blocks: "South Africa (N)", "South Africa (%)",
+ *                     "Eastern Cape (%)", "Western Cape ('000)", etc.
  *
- * Output (long format): Year, Sheet, Geography, Category, Value, Unit
- * One row per year per category — 2002-2025 = 24 years
+ * Output (long format): Year, Topic, Geography, Province, Category, Value, Unit
  */
 
 import path from "path";
@@ -29,24 +32,50 @@ const SOURCE_URL =
   "https://www.statssa.gov.za/publications/P0318/GHS%202025%20Time%20Series%20Of%20Selected%20Variables%2C%202002%20-%202025.xlsx";
 
 // Sheets to extract from — name → topic label
+// Sheet names confirmed from GHS 2025 Time Series workbook
 const TARGET_SHEETS: { sheetName: string; topic: string }[] = [
   { sheetName: "25. Access to drinking water", topic: "Water_Source" },
   { sheetName: "30. Toilet facility",          topic: "Sanitation" },
+  { sheetName: "31. Electricity access",       topic: "Electricity_Access" },
+  { sheetName: "34. Main source of cooking",   topic: "Energy_Cooking" },
+  { sheetName: "36. Refuse removal",           topic: "Refuse_Removal" },
 ];
 
 interface WaterRow {
-  Year: string;
-  Topic: string;
+  Year:      string;
+  Topic:     string;
   Geography: string;
-  Category: string;
-  Value: string;
-  Unit: string;
+  Province:  string;
+  Category:  string;
+  Value:     string;
+  Unit:      string;
 }
 
 function cellVal(v: ExcelJS.CellValue): string | number | null {
   if (v === null || v === undefined) return null;
   if (typeof v === "object" && "result" in v) return (v as { result: string | number }).result ?? null;
   return v as string | number;
+}
+
+/**
+ * Extract a province name from a geography block label.
+ * Labels look like: "South Africa (%)", "Eastern Cape ('000)", "KwaZulu-Natal (N)"
+ * Returns the part before " (" — trimmed.
+ */
+function parseGeoLabel(label: string): { geography: string; province: string; unit: string | null } {
+  // Strip everything from " (" onward to get the geography name
+  const nameMatch = label.match(/^(.+?)\s*\(/);
+  const geography = nameMatch ? nameMatch[1].trim() : label.trim();
+
+  // Province: use geography value; for South Africa rows province = "South Africa"
+  const province = geography;
+
+  // Unit
+  const unit = label.includes("%")     ? "%" :
+               label.includes("'000")  ? "thousands" :
+               label.includes("(N)")   ? "count" : null;
+
+  return { geography, province, unit };
 }
 
 function extractSheet(ws: ExcelJS.Worksheet, topic: string): WaterRow[] {
@@ -66,9 +95,10 @@ function extractSheet(ws: ExcelJS.Worksheet, topic: string): WaterRow[] {
   if (yearCols.length === 0) return rows;
 
   // Data rows: col2=geography block, col3=category name
-  // Geography block changes every ~15 rows (SA then provinces)
-  // We only want "South Africa" rows
   let currentGeo = "";
+  let currentUnit: string | null = null;
+  let currentProvince = "";
+
   for (let r = 5; r <= ws.rowCount; r++) {
     const row = ws.getRow(r);
     const col2 = String(cellVal(row.getCell(2).value) ?? "").trim();
@@ -76,21 +106,19 @@ function extractSheet(ws: ExcelJS.Worksheet, topic: string): WaterRow[] {
 
     if (!col2 && !col3) continue;
 
-    // col2 carries the geography+unit label (e.g. "South Africa (%)", "South Africa ('000)")
-    if (col2) currentGeo = col2;
+    // col2 carries the geography+unit label whenever it changes
+    if (col2) {
+      const parsed = parseGeoLabel(col2);
+      currentGeo = parsed.geography;
+      currentProvince = parsed.province;
+      currentUnit = parsed.unit;
+    }
 
-    // Only national level — skip provincial breakdown
-    if (!currentGeo.toLowerCase().startsWith("south africa")) continue;
+    // Skip unlabelled unit blocks
+    if (currentUnit === null) continue;
 
-    // Skip total/header rows
+    // Skip header/total rows
     if (!col3 || col3.toLowerCase() === "total" || col3.toLowerCase() === "year") continue;
-
-    // Determine unit from currentGeo label
-    // Only extract rows where the unit is clear (% or thousands/'000 or count N)
-    const unit = currentGeo.includes("%") ? "%" :
-                 currentGeo.includes("'000") ? "thousands" :
-                 currentGeo.includes("(N)") ? "count" : null;
-    if (unit === null) continue; // skip unlabelled blocks
 
     for (const { col, year } of yearCols) {
       const v = cellVal(row.getCell(col).value);
@@ -99,12 +127,13 @@ function extractSheet(ws: ExcelJS.Worksheet, topic: string): WaterRow[] {
       if (isNaN(num)) continue;
 
       rows.push({
-        Year: year,
-        Topic: topic,
-        Geography: "South Africa",
-        Category: col3,
-        Value: unit === "%" ? num.toFixed(1) : num.toFixed(0),
-        Unit: unit,
+        Year:      year,
+        Topic:     topic,
+        Geography: currentGeo,
+        Province:  currentProvince,
+        Category:  col3,
+        Value:     currentUnit === "%" ? num.toFixed(1) : num.toFixed(0),
+        Unit:      currentUnit,
       });
     }
   }
@@ -136,10 +165,11 @@ export async function run(ctx: ScraperContext): Promise<ScraperResult> {
 
     if (allRows.length === 0) throw new Error("Parsed 0 rows — layout mismatch");
 
-    // Sort: most recent year first, then by topic then category
+    // Sort: most recent year first, then topic, province, category
     allRows.sort((a, b) =>
       b.Year.localeCompare(a.Year) ||
       a.Topic.localeCompare(b.Topic) ||
+      a.Province.localeCompare(b.Province) ||
       a.Category.localeCompare(b.Category)
     );
 

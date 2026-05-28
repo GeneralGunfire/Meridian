@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T07:19:21.055Z",
+  "generatedAt": "2026-05-28T08:02:12.172Z",
   "datasets": {
     "crime_stats": {
       "files": [
@@ -96,21 +96,21 @@
       "files": [],
       "history": {
         "period": "history",
-        "date": "2026-05-27",
-        "rows": 1034,
+        "date": "2026-05-28",
+        "rows": 4738,
         "csv": "social/water/water_history.csv"
       },
-      "lastUpdated": "2026-05-27"
+      "lastUpdated": "2026-05-28"
     },
     "housing": {
       "files": [],
       "history": {
         "period": "history",
-        "date": "2026-05-27",
-        "rows": 384,
+        "date": "2026-05-28",
+        "rows": 742,
         "csv": "social/housing/housing_history.csv"
       },
-      "lastUpdated": "2026-05-27"
+      "lastUpdated": "2026-05-28"
     },
     "eskom_power": {
       "files": [],
@@ -157,7 +157,7 @@
       "history": {
         "period": "history",
         "date": "2026-05-28",
-        "rows": 108,
+        "rows": 173,
         "csv": "social/sassa_grants/sassa_grants_history.csv"
       },
       "lastUpdated": "2026-05-28"
