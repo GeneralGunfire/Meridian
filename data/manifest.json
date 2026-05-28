@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T07:02:38.270Z",
+  "generatedAt": "2026-05-28T07:19:21.055Z",
   "datasets": {
     "crime_stats": {
       "files": [
@@ -136,11 +136,11 @@
       "files": [],
       "history": {
         "period": "history",
-        "date": "2026-05-27",
-        "rows": 12,
+        "date": "2026-05-28",
+        "rows": 66,
         "csv": "economy/sars_pit/sars_pit_history.csv"
       },
-      "lastUpdated": "2026-05-27"
+      "lastUpdated": "2026-05-28"
     },
     "sars_vat": {
       "files": [],

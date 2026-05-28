@@ -83,21 +83,19 @@ function parse25(ws: ExcelJS.Worksheet): PitRow[] {
  */
 function parse210(ws: ExcelJS.Worksheet): PitRow[] {
   const rows: PitRow[] = [];
+  // Layout: col1=_, col2=_, col3=Province, col4+=data grouped by year (4 cols each)
+  // Row 2 has tax year labels (e.g. 2023, 2024) in the first col of each group
   const yearRow = ws.getRow(2);
-  const years: string[] = [];
-  for (let c = 3; c <= 20; c++) {
-    const v = cellStr(yearRow.getCell(c).value);
-    if (v.match(/^\d{4}$/)) { if (!years.includes(v)) years.push(v); }
-  }
   const yearCols: { year: string; countCol: number }[] = [];
-  let colCursor = 3;
-  for (const year of years) {
-    yearCols.push({ year, countCol: colCursor });
-    colCursor += 4;
+  for (let c = 4; c <= 25; c++) {
+    const v = cellStr(yearRow.getCell(c).value);
+    if (v.match(/^\d{4}$/)) {
+      yearCols.push({ year: v, countCol: c });
+    }
   }
   for (let r = 7; r <= ws.rowCount; r++) {
     const row = ws.getRow(r);
-    const province = cellStr(row.getCell(2).value);
+    const province = cellStr(row.getCell(3).value);
     if (!province || province.toLowerCase().includes("total") || province.toLowerCase().includes("unknown") || !province.match(/[A-Za-z]/)) continue;
     for (const { year, countCol } of yearCols) {
       const count  = cellNum(row.getCell(countCol).value);

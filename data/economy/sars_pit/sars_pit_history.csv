@@ -1,7 +1,61 @@
 Tax_Year,Category,Sub_Category,Metric,Value,Unit
+2024,By_Province,Eastern Cape,Tax_Assessed_ZAR_Millions,31028.99,ZAR_millions
+2024,By_Province,Eastern Cape,Taxable_Income_ZAR_Millions,178340.40,ZAR_millions
+2024,By_Province,Eastern Cape,Taxpayer_Count,610627,count
+2024,By_Province,Free State,Tax_Assessed_ZAR_Millions,18231.17,ZAR_millions
+2024,By_Province,Free State,Taxable_Income_ZAR_Millions,103753.55,ZAR_millions
+2024,By_Province,Free State,Taxpayer_Count,349857,count
+2024,By_Province,Gauteng,Tax_Assessed_ZAR_Millions,257546.48,ZAR_millions
+2024,By_Province,Gauteng,Taxable_Income_ZAR_Millions,1115275.72,ZAR_millions
+2024,By_Province,Gauteng,Taxpayer_Count,2695777,count
+2024,By_Province,KwaZulu-Natal,Tax_Assessed_ZAR_Millions,68220.17,ZAR_millions
+2024,By_Province,KwaZulu-Natal,Taxable_Income_ZAR_Millions,368170.55,ZAR_millions
+2024,By_Province,KwaZulu-Natal,Taxpayer_Count,1215726,count
+2024,By_Province,Limpopo,Tax_Assessed_ZAR_Millions,23528.09,ZAR_millions
+2024,By_Province,Limpopo,Taxable_Income_ZAR_Millions,131424.15,ZAR_millions
+2024,By_Province,Limpopo,Taxpayer_Count,415571,count
+2024,By_Province,Mpumalanga,Tax_Assessed_ZAR_Millions,29086.41,ZAR_millions
+2024,By_Province,Mpumalanga,Taxable_Income_ZAR_Millions,150835.10,ZAR_millions
+2024,By_Province,Mpumalanga,Taxpayer_Count,479384,count
+2024,By_Province,North West,Tax_Assessed_ZAR_Millions,22128.82,ZAR_millions
+2024,By_Province,North West,Taxable_Income_ZAR_Millions,118425.25,ZAR_millions
+2024,By_Province,North West,Taxpayer_Count,367729,count
+2024,By_Province,Northern Cape,Tax_Assessed_ZAR_Millions,9636.38,ZAR_millions
+2024,By_Province,Northern Cape,Taxable_Income_ZAR_Millions,51666.84,ZAR_millions
+2024,By_Province,Northern Cape,Taxpayer_Count,167920,count
+2024,By_Province,Western Cape,Tax_Assessed_ZAR_Millions,103918.98,ZAR_millions
+2024,By_Province,Western Cape,Taxable_Income_ZAR_Millions,490083.30,ZAR_millions
+2024,By_Province,Western Cape,Taxpayer_Count,1409626,count
 2024,Summary,All_Taxpayers,Tax_Assessed_ZAR_Millions,563325.53,ZAR_millions
 2024,Summary,All_Taxpayers,Taxable_Income_ZAR_Millions,2707974.86,ZAR_millions
 2024,Summary,All_Taxpayers,Taxpayer_Count,7712217,count
+2023,By_Province,Eastern Cape,Tax_Assessed_ZAR_Millions,29311.68,ZAR_millions
+2023,By_Province,Eastern Cape,Taxable_Income_ZAR_Millions,165327.17,ZAR_millions
+2023,By_Province,Eastern Cape,Taxpayer_Count,564184,count
+2023,By_Province,Free State,Tax_Assessed_ZAR_Millions,16973.48,ZAR_millions
+2023,By_Province,Free State,Taxable_Income_ZAR_Millions,94419.82,ZAR_millions
+2023,By_Province,Free State,Taxpayer_Count,324009,count
+2023,By_Province,Gauteng,Tax_Assessed_ZAR_Millions,239931.72,ZAR_millions
+2023,By_Province,Gauteng,Taxable_Income_ZAR_Millions,1025843.60,ZAR_millions
+2023,By_Province,Gauteng,Taxpayer_Count,2517249,count
+2023,By_Province,KwaZulu-Natal,Tax_Assessed_ZAR_Millions,63067.82,ZAR_millions
+2023,By_Province,KwaZulu-Natal,Taxable_Income_ZAR_Millions,333406.57,ZAR_millions
+2023,By_Province,KwaZulu-Natal,Taxpayer_Count,1090535,count
+2023,By_Province,Limpopo,Tax_Assessed_ZAR_Millions,21326.07,ZAR_millions
+2023,By_Province,Limpopo,Taxable_Income_ZAR_Millions,115245.21,ZAR_millions
+2023,By_Province,Limpopo,Taxpayer_Count,363882,count
+2023,By_Province,Mpumalanga,Tax_Assessed_ZAR_Millions,26957.99,ZAR_millions
+2023,By_Province,Mpumalanga,Taxable_Income_ZAR_Millions,135604.84,ZAR_millions
+2023,By_Province,Mpumalanga,Taxpayer_Count,435923,count
+2023,By_Province,North West,Tax_Assessed_ZAR_Millions,19871.34,ZAR_millions
+2023,By_Province,North West,Taxable_Income_ZAR_Millions,102723.00,ZAR_millions
+2023,By_Province,North West,Taxpayer_Count,325579,count
+2023,By_Province,Northern Cape,Tax_Assessed_ZAR_Millions,9039.99,ZAR_millions
+2023,By_Province,Northern Cape,Taxable_Income_ZAR_Millions,46968.46,ZAR_millions
+2023,By_Province,Northern Cape,Taxpayer_Count,148898,count
+2023,By_Province,Western Cape,Tax_Assessed_ZAR_Millions,94694.20,ZAR_millions
+2023,By_Province,Western Cape,Taxable_Income_ZAR_Millions,444863.50,ZAR_millions
+2023,By_Province,Western Cape,Taxpayer_Count,1307430,count
 2023,Summary,All_Taxpayers,Tax_Assessed_ZAR_Millions,521174.33,ZAR_millions
 2023,Summary,All_Taxpayers,Taxable_Income_ZAR_Millions,2464402.16,ZAR_millions
 2023,Summary,All_Taxpayers,Taxpayer_Count,7077689,count

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T07:02:38.273Z",
+  "generatedAt": "2026-05-28T07:19:21.057Z",
   "datasets": {
     "crime_stats": {
       "success": true,
@@ -81,7 +81,7 @@
     },
     "sars_pit": {
       "success": true,
-      "last_updated": "2026-05-27",
+      "last_updated": "2026-05-28",
       "error": null,
       "skipped": false
     },
