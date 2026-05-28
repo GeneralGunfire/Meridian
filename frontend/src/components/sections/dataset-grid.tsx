@@ -13,27 +13,51 @@ import type { DatasetDetailCardProps } from "@/components/ui/dataset-detail-card
 import { Search, SlidersHorizontal } from "lucide-react";
 
 // ── Image maps ─────────────────────────────────────────────────────────────────
+// Category fallbacks — used when a dataset has no specific image
 const CATEGORY_IMAGES: Record<string, string> = {
-  economy: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-  energy:  "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=800&auto=format&fit=crop",
-  social:  "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?q=80&w=800&auto=format&fit=crop",
-  safety:  "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=800&auto=format&fit=crop",
+  // Johannesburg Stock Exchange trading floor — finance & economy
+  economy: "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?q=80&w=800&auto=format&fit=crop",
+  // High-voltage power lines at sunset — energy infrastructure
+  energy:  "https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=800&auto=format&fit=crop",
+  // Cape Town housing & community — social context
+  social:  "https://images.unsplash.com/photo-1580060839134-75a5edca2e99?q=80&w=800&auto=format&fit=crop",
+  // Police / law enforcement vehicle — safety
+  safety:  "https://images.unsplash.com/photo-1453873531674-2151bcd01707?q=80&w=800&auto=format&fit=crop",
 };
 
 const DATASET_IMAGES: Record<string, string> = {
-  tax_revenue:          "https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=800&auto=format&fit=crop",
-  budget_spending:      "https://images.unsplash.com/photo-1520697830682-bbb6e85e2b0b?q=80&w=800&auto=format&fit=crop",
-  gdp_macro:            "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
-  sarb_monetary:        "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?q=80&w=800&auto=format&fit=crop",
+  // SARS office building / tax documents — revenue collection
+  tax_revenue:          "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=800&auto=format&fit=crop",
+  // National Treasury / Parliament Cape Town — government budget
+  budget_spending:      "https://images.unsplash.com/photo-1541726260-e6b6a6a08b27?q=80&w=800&auto=format&fit=crop",
+  // Financial chart / market data on screen — macro indicators
+  gdp_macro:            "https://images.unsplash.com/photo-1642543492481-44e81e3914a7?q=80&w=800&auto=format&fit=crop",
+  // SA Reserve Bank Pretoria headquarters — monetary policy
+  sarb_monetary:        "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=800&auto=format&fit=crop",
+  // City hall / municipality building — local government finance
   municipal_finance:    "https://images.unsplash.com/photo-1486325212027-8081e485255e?q=80&w=800&auto=format&fit=crop",
-  eskom_power:          "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=800&auto=format&fit=crop",
-  eskom_infrastructure: "https://images.unsplash.com/photo-1548345680-f5475ea5df84?q=80&w=800&auto=format&fit=crop",
-  eskom_spending:       "https://images.unsplash.com/photo-1565514020179-026b92b84bb6?q=80&w=800&auto=format&fit=crop",
-  eskom_revenue:        "https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?q=80&w=800&auto=format&fit=crop",
+  // Personal tax / salary slips — income tax
+  sars_pit:             "https://images.unsplash.com/photo-1554224154-26032ffc0d07?q=80&w=800&auto=format&fit=crop",
+  // Shopping / VAT receipts / commerce — VAT & company tax
+  sars_vat:             "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=800&auto=format&fit=crop",
+  // Power station / Medupi coal plant — Eskom demand & supply
+  eskom_power:          "https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=800&auto=format&fit=crop",
+  // Industrial turbines / generator hall — generation infrastructure
+  eskom_infrastructure: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=800&auto=format&fit=crop",
+  // Construction crane / capital expenditure — Eskom spend
+  eskom_spending:       "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800&auto=format&fit=crop",
+  // Electricity meter / billing — Eskom revenue & tariffs
+  eskom_revenue:        "https://images.unsplash.com/photo-1548345680-f5475ea5df84?q=80&w=800&auto=format&fit=crop",
+  // Water tap / clean water access — water & sanitation
   water:                "https://images.unsplash.com/photo-1559825481-12a05cc00344?q=80&w=800&auto=format&fit=crop",
-  housing:              "https://images.unsplash.com/photo-1570129477492-45c003edd2be?q=80&w=800&auto=format&fit=crop",
+  // Township / RDP housing South Africa — housing delivery
+  housing:              "https://images.unsplash.com/photo-1580060839134-75a5edca2e99?q=80&w=800&auto=format&fit=crop",
+  // Job seekers queue / labour market — unemployment
   unemployment:         "https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=800&auto=format&fit=crop",
-  crime_stats:          "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?q=80&w=800&auto=format&fit=crop",
+  // Grant recipients / social welfare queue — SASSA grants
+  sassa_grants:         "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=800&auto=format&fit=crop",
+  // Police station / SAPS — crime statistics
+  crime_stats:          "https://images.unsplash.com/photo-1453873531674-2151bcd01707?q=80&w=800&auto=format&fit=crop",
 };
 
 // Folder gradients — glassy monochrome, subtle depth differences per category
@@ -53,7 +77,7 @@ const METHOD_LABELS: Record<string, string> = {
 };
 
 const CADENCE_ORDER = ["weekly", "monthly", "quarterly", "annual"] as const;
-const POPULAR_IDS = ["crime_stats", "unemployment", "gdp_macro", "eskom_power", "tax_revenue"];
+const POPULAR_IDS = ["crime_stats", "unemployment", "gdp_macro", "eskom_power", "sars_pit", "sassa_grants", "tax_revenue"];
 
 // ── Skeleton ──────────────────────────────────────────────────────────────────
 function SkeletonFolder() {
