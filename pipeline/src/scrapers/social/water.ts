@@ -17,7 +17,7 @@
  *   Geography blocks: "South Africa (N)", "South Africa (%)",
  *                     "Eastern Cape (%)", "Western Cape ('000)", etc.
  *
- * Output (long format): Year, Topic, Geography, Province, Category, Value, Unit
+ * Output (long format): Year, Topic, Province, Category, Value, Unit
  */
 
 import path from "path";
@@ -44,7 +44,6 @@ const TARGET_SHEETS: { sheetName: string; topic: string }[] = [
 interface WaterRow {
   Year:      string;
   Topic:     string;
-  Geography: string;
   Province:  string;
   Category:  string;
   Value:     string;
@@ -62,20 +61,17 @@ function cellVal(v: ExcelJS.CellValue): string | number | null {
  * Labels look like: "South Africa (%)", "Eastern Cape ('000)", "KwaZulu-Natal (N)"
  * Returns the part before " (" — trimmed.
  */
-function parseGeoLabel(label: string): { geography: string; province: string; unit: string | null } {
-  // Strip everything from " (" onward to get the geography name
+function parseGeoLabel(label: string): { province: string; unit: string | null } {
+  // Strip everything from " (" onward to get the province name
   const nameMatch = label.match(/^(.+?)\s*\(/);
-  const geography = nameMatch ? nameMatch[1].trim() : label.trim();
-
-  // Province: use geography value; for South Africa rows province = "South Africa"
-  const province = geography;
+  const province = nameMatch ? nameMatch[1].trim() : label.trim();
 
   // Unit
   const unit = label.includes("%")     ? "%" :
                label.includes("'000")  ? "thousands" :
                label.includes("(N)")   ? "count" : null;
 
-  return { geography, province, unit };
+  return { province, unit };
 }
 
 function extractSheet(ws: ExcelJS.Worksheet, topic: string): WaterRow[] {
@@ -94,10 +90,9 @@ function extractSheet(ws: ExcelJS.Worksheet, topic: string): WaterRow[] {
   }
   if (yearCols.length === 0) return rows;
 
-  // Data rows: col2=geography block, col3=category name
-  let currentGeo = "";
-  let currentUnit: string | null = null;
+  // Data rows: col2=geography block label, col3=category name
   let currentProvince = "";
+  let currentUnit: string | null = null;
 
   for (let r = 5; r <= ws.rowCount; r++) {
     const row = ws.getRow(r);
@@ -109,7 +104,6 @@ function extractSheet(ws: ExcelJS.Worksheet, topic: string): WaterRow[] {
     // col2 carries the geography+unit label whenever it changes
     if (col2) {
       const parsed = parseGeoLabel(col2);
-      currentGeo = parsed.geography;
       currentProvince = parsed.province;
       currentUnit = parsed.unit;
     }
@@ -129,7 +123,6 @@ function extractSheet(ws: ExcelJS.Worksheet, topic: string): WaterRow[] {
       rows.push({
         Year:      year,
         Topic:     topic,
-        Geography: currentGeo,
         Province:  currentProvince,
         Category:  col3,
         Value:     currentUnit === "%" ? num.toFixed(1) : num.toFixed(0),

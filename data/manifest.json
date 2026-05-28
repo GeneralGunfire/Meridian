@@ -40,7 +40,7 @@
       "history": {
         "period": "history",
         "date": "2026-05-28",
-        "rows": 35,
+        "rows": 34,
         "csv": "economy/sarb_monetary/sarb_monetary_history.csv"
       },
       "lastUpdated": "2026-05-28"
@@ -67,7 +67,7 @@
       "history": {
         "period": "history",
         "date": "2026-05-28",
-        "rows": 486,
+        "rows": 477,
         "csv": "economy/budget_spending/budget_spending_history.csv"
       },
       "lastUpdated": "2026-05-28"

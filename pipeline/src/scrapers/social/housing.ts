@@ -10,7 +10,7 @@
  *   "20. Household income"       — income brackets
  *   "21. Food security"          — food access indicators
  *
- * Output (long format): Year, Topic, Geography, Province, Category, Value, Unit
+ * Output (long format): Year, Topic, Province, Category, Value, Unit
  */
 
 import path from "path";
@@ -39,7 +39,6 @@ const TARGET_SHEETS: { sheetName: string; topic: string }[] = [
 interface HousingRow {
   Year:      string;
   Topic:     string;
-  Geography: string;
   Province:  string;
   Category:  string;
   Value:     string;
@@ -57,16 +56,15 @@ function cellVal(v: ExcelJS.CellValue): string | number | null {
  * Labels look like: "South Africa (%)", "Eastern Cape ('000)", "KwaZulu-Natal (N)"
  * Returns the part before " (" — trimmed.
  */
-function parseGeoLabel(label: string): { geography: string; province: string; unit: string | null } {
+function parseGeoLabel(label: string): { province: string; unit: string | null } {
   const nameMatch = label.match(/^(.+?)\s*\(/);
-  const geography = nameMatch ? nameMatch[1].trim() : label.trim();
-  const province = geography;
+  const province = nameMatch ? nameMatch[1].trim() : label.trim();
 
   const unit = label.includes("%")     ? "%" :
                label.includes("'000")  ? "thousands" :
                label.includes("(N)")   ? "count" : null;
 
-  return { geography, province, unit };
+  return { province, unit };
 }
 
 function extractSheet(ws: ExcelJS.Worksheet, topic: string): HousingRow[] {
@@ -85,9 +83,8 @@ function extractSheet(ws: ExcelJS.Worksheet, topic: string): HousingRow[] {
   }
   if (yearCols.length === 0) return rows;
 
-  let currentGeo = "";
-  let currentUnit: string | null = null;
   let currentProvince = "";
+  let currentUnit: string | null = null;
 
   for (let r = 5; r <= ws.rowCount; r++) {
     const row = ws.getRow(r);
@@ -98,7 +95,6 @@ function extractSheet(ws: ExcelJS.Worksheet, topic: string): HousingRow[] {
 
     if (col2) {
       const parsed = parseGeoLabel(col2);
-      currentGeo = parsed.geography;
       currentProvince = parsed.province;
       currentUnit = parsed.unit;
     }
@@ -115,7 +111,6 @@ function extractSheet(ws: ExcelJS.Worksheet, topic: string): HousingRow[] {
       rows.push({
         Year:      year,
         Topic:     topic,
-        Geography: currentGeo,
         Province:  currentProvince,
         Category:  col3,
         Value:     currentUnit === "%" ? num.toFixed(1) : num.toFixed(0),
