@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T08:02:12.174Z",
+  "generatedAt": "2026-05-28T08:07:31.706Z",
   "datasets": {
     "crime_stats": {
       "success": true,
@@ -45,7 +45,7 @@
     },
     "tax_revenue": {
       "success": true,
-      "last_updated": "2026-05-27",
+      "last_updated": "2026-05-28",
       "error": null,
       "skipped": false
     },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T08:02:12.172Z",
+  "generatedAt": "2026-05-28T08:07:31.701Z",
   "datasets": {
     "crime_stats": {
       "files": [
@@ -86,11 +86,11 @@
       "files": [],
       "history": {
         "period": "history",
-        "date": "2026-05-27",
+        "date": "2026-05-28",
         "rows": 91,
         "csv": "economy/tax_revenue/tax_revenue_history.csv"
       },
-      "lastUpdated": "2026-05-27"
+      "lastUpdated": "2026-05-28"
     },
     "water": {
       "files": [],
