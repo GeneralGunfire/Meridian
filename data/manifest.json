@@ -137,7 +137,7 @@
       "history": {
         "period": "history",
         "date": "2026-05-28",
-        "rows": 66,
+        "rows": 132,
         "csv": "economy/sars_pit/sars_pit_history.csv"
       },
       "lastUpdated": "2026-05-28"

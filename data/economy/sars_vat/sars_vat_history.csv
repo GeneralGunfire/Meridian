@@ -1,34 +1,34 @@
-Fiscal_Year,Tax_Type,Category,Metric,Value,Unit
-2024/25,VAT,Vendors,Active_Vendors_Count,496858,count
-2024/25,VAT,Import_VAT,Collections_ZAR_Millions,261878.36,ZAR_millions
-2024/25,VAT,Vendors,Registered_Vendors_Count,900285,count
-2024,CIT,Provisional_Payments,First_Period_ZAR_Millions,129881.03,ZAR_millions
-2024,CIT,Company_Income_Tax,Provisional_Tax_Payments_ZAR_Millions,306462.87,ZAR_millions
-2024,CIT,Provisional_Payments,Second_Period_ZAR_Millions,167802.41,ZAR_millions
-2024,CIT,Company_Income_Tax,Tax_Assessed_ZAR_Millions,195590.20,ZAR_millions
-2024,CIT,Provisional_Payments,Third_Period_ZAR_Millions,8779.42,ZAR_millions
-2023/24,VAT,Vendors,Active_Vendors_Count,488124,count
-2023/24,VAT,Import_VAT,Collections_ZAR_Millions,265043.20,ZAR_millions
-2023/24,VAT,Vendors,Registered_Vendors_Count,959000,count
-2023,CIT,Provisional_Payments,First_Period_ZAR_Millions,133522.42,ZAR_millions
-2023,CIT,Company_Income_Tax,Provisional_Tax_Payments_ZAR_Millions,313607.56,ZAR_millions
-2023,CIT,Provisional_Payments,Second_Period_ZAR_Millions,172597.58,ZAR_millions
-2023,CIT,Company_Income_Tax,Tax_Assessed_ZAR_Millions,308864.23,ZAR_millions
-2023,CIT,Provisional_Payments,Third_Period_ZAR_Millions,7487.55,ZAR_millions
-2022/23,VAT,Vendors,Active_Vendors_Count,477775,count
-2022/23,VAT,Import_VAT,Collections_ZAR_Millions,254984.02,ZAR_millions
-2022/23,VAT,Vendors,Registered_Vendors_Count,953665,count
-2022,CIT,Provisional_Payments,First_Period_ZAR_Millions,137835.68,ZAR_millions
-2022,CIT,Company_Income_Tax,Provisional_Tax_Payments_ZAR_Millions,334877.53,ZAR_millions
-2022,CIT,Provisional_Payments,Second_Period_ZAR_Millions,189092.91,ZAR_millions
-2022,CIT,Company_Income_Tax,Tax_Assessed_ZAR_Millions,337415.83,ZAR_millions
-2022,CIT,Provisional_Payments,Third_Period_ZAR_Millions,7948.94,ZAR_millions
-2021/22,VAT,Vendors,Active_Vendors_Count,470239,count
-2021/22,VAT,Import_VAT,Collections_ZAR_Millions,204551.81,ZAR_millions
-2021/22,VAT,Vendors,Registered_Vendors_Count,941406,count
-2021,CIT,Provisional_Payments,First_Period_ZAR_Millions,112759.96,ZAR_millions
-2021,CIT,Company_Income_Tax,Provisional_Tax_Payments_ZAR_Millions,291848.03,ZAR_millions
-2021,CIT,Provisional_Payments,Second_Period_ZAR_Millions,171359.14,ZAR_millions
-2021,CIT,Company_Income_Tax,Tax_Assessed_ZAR_Millions,294131.07,ZAR_millions
-2021,CIT,Provisional_Payments,Third_Period_ZAR_Millions,7728.93,ZAR_millions
-2020/21,VAT,Vendors,Registered_Vendors_Count,880553,count
+Fiscal_Year,Tax_Type,Category,Metric,Value,Unit,YoY_Change_Pct,Context
+2024/25,VAT,Vendors,Active_Vendors_Count,496858,count,,Vendors that filed at least one VAT return in the period. Active rate = Active/Registered x 100. Non-filers may be under audit or dormant.
+2024/25,VAT,Import_VAT,Collections_ZAR_Millions,261878.36,ZAR_millions,-1.19,VAT collected at point of import by SARS Customs. Typically ~42% of total VAT revenue. Reflects volume of imported goods.
+2024/25,VAT,Vendors,Registered_Vendors_Count,900285,count,,Total registered VAT vendors (threshold: R1 million annual turnover). Includes dormant and non-filing vendors.
+2024,CIT,Provisional_Payments,First_Period_ZAR_Millions,129881.03,ZAR_millions,,1st provisional CIT payment — due 6 months before year-end. Based on estimated taxable income.
+2024,CIT,Company_Income_Tax,Provisional_Tax_Payments_ZAR_Millions,306462.87,ZAR_millions,,Total CIT paid via provisional tax (1st + 2nd + 3rd period payments). Differs from assessed tax due to timing and refunds.
+2024,CIT,Provisional_Payments,Second_Period_ZAR_Millions,167802.41,ZAR_millions,,2nd provisional CIT payment — due at financial year-end. Revised estimate of full-year taxable income.
+2024,CIT,Company_Income_Tax,Tax_Assessed_ZAR_Millions,195590.20,ZAR_millions,,Corporate Income Tax assessed by SARS for the tax year after assessed losses set off. CIT rate: 27% since 2022 (was 28%).
+2024,CIT,Provisional_Payments,Third_Period_ZAR_Millions,8779.42,ZAR_millions,,Optional 3rd provisional CIT payment — due 6 months after year-end to avoid interest on underpayments.
+2023/24,VAT,Vendors,Active_Vendors_Count,488124,count,,Vendors that filed at least one VAT return in the period. Active rate = Active/Registered x 100. Non-filers may be under audit or dormant.
+2023/24,VAT,Import_VAT,Collections_ZAR_Millions,265043.20,ZAR_millions,3.95,VAT collected at point of import by SARS Customs. Typically ~42% of total VAT revenue. Reflects volume of imported goods.
+2023/24,VAT,Vendors,Registered_Vendors_Count,959000,count,,Total registered VAT vendors (threshold: R1 million annual turnover). Includes dormant and non-filing vendors.
+2023,CIT,Provisional_Payments,First_Period_ZAR_Millions,133522.42,ZAR_millions,,1st provisional CIT payment — due 6 months before year-end. Based on estimated taxable income.
+2023,CIT,Company_Income_Tax,Provisional_Tax_Payments_ZAR_Millions,313607.56,ZAR_millions,,Total CIT paid via provisional tax (1st + 2nd + 3rd period payments). Differs from assessed tax due to timing and refunds.
+2023,CIT,Provisional_Payments,Second_Period_ZAR_Millions,172597.58,ZAR_millions,,2nd provisional CIT payment — due at financial year-end. Revised estimate of full-year taxable income.
+2023,CIT,Company_Income_Tax,Tax_Assessed_ZAR_Millions,308864.23,ZAR_millions,,Corporate Income Tax assessed by SARS for the tax year after assessed losses set off. CIT rate: 27% since 2022 (was 28%).
+2023,CIT,Provisional_Payments,Third_Period_ZAR_Millions,7487.55,ZAR_millions,,Optional 3rd provisional CIT payment — due 6 months after year-end to avoid interest on underpayments.
+2022/23,VAT,Vendors,Active_Vendors_Count,477775,count,,Vendors that filed at least one VAT return in the period. Active rate = Active/Registered x 100. Non-filers may be under audit or dormant.
+2022/23,VAT,Import_VAT,Collections_ZAR_Millions,254984.02,ZAR_millions,24.65,VAT collected at point of import by SARS Customs. Typically ~42% of total VAT revenue. Reflects volume of imported goods.
+2022/23,VAT,Vendors,Registered_Vendors_Count,953665,count,,Total registered VAT vendors (threshold: R1 million annual turnover). Includes dormant and non-filing vendors.
+2022,CIT,Provisional_Payments,First_Period_ZAR_Millions,137835.68,ZAR_millions,,1st provisional CIT payment — due 6 months before year-end. Based on estimated taxable income.
+2022,CIT,Company_Income_Tax,Provisional_Tax_Payments_ZAR_Millions,334877.53,ZAR_millions,,Total CIT paid via provisional tax (1st + 2nd + 3rd period payments). Differs from assessed tax due to timing and refunds.
+2022,CIT,Provisional_Payments,Second_Period_ZAR_Millions,189092.91,ZAR_millions,,2nd provisional CIT payment — due at financial year-end. Revised estimate of full-year taxable income.
+2022,CIT,Company_Income_Tax,Tax_Assessed_ZAR_Millions,337415.83,ZAR_millions,,Corporate Income Tax assessed by SARS for the tax year after assessed losses set off. CIT rate: 27% since 2022 (was 28%).
+2022,CIT,Provisional_Payments,Third_Period_ZAR_Millions,7948.94,ZAR_millions,,Optional 3rd provisional CIT payment — due 6 months after year-end to avoid interest on underpayments.
+2021/22,VAT,Vendors,Active_Vendors_Count,470239,count,,Vendors that filed at least one VAT return in the period. Active rate = Active/Registered x 100. Non-filers may be under audit or dormant.
+2021/22,VAT,Import_VAT,Collections_ZAR_Millions,204551.81,ZAR_millions,,VAT collected at point of import by SARS Customs. Typically ~42% of total VAT revenue. Reflects volume of imported goods.
+2021/22,VAT,Vendors,Registered_Vendors_Count,941406,count,,Total registered VAT vendors (threshold: R1 million annual turnover). Includes dormant and non-filing vendors.
+2021,CIT,Provisional_Payments,First_Period_ZAR_Millions,112759.96,ZAR_millions,,1st provisional CIT payment — due 6 months before year-end. Based on estimated taxable income.
+2021,CIT,Company_Income_Tax,Provisional_Tax_Payments_ZAR_Millions,291848.03,ZAR_millions,,Total CIT paid via provisional tax (1st + 2nd + 3rd period payments). Differs from assessed tax due to timing and refunds.
+2021,CIT,Provisional_Payments,Second_Period_ZAR_Millions,171359.14,ZAR_millions,,2nd provisional CIT payment — due at financial year-end. Revised estimate of full-year taxable income.
+2021,CIT,Company_Income_Tax,Tax_Assessed_ZAR_Millions,294131.07,ZAR_millions,,Corporate Income Tax assessed by SARS for the tax year after assessed losses set off. CIT rate: 27% since 2022 (was 28%).
+2021,CIT,Provisional_Payments,Third_Period_ZAR_Millions,7728.93,ZAR_millions,,Optional 3rd provisional CIT payment — due 6 months after year-end to avoid interest on underpayments.
+2020/21,VAT,Vendors,Registered_Vendors_Count,880553,count,,Total registered VAT vendors (threshold: R1 million annual turnover). Includes dormant and non-filing vendors.

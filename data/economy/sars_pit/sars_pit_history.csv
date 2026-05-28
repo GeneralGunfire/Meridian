@@ -65,3 +65,69 @@ Tax_Year,Category,Sub_Category,Metric,Value,Unit
 2021,Summary,All_Taxpayers,Tax_Assessed_ZAR_Millions,429378.90,ZAR_millions
 2021,Summary,All_Taxpayers,Taxable_Income_ZAR_Millions,2025688.12,ZAR_millions
 2021,Summary,All_Taxpayers,Taxpayer_Count,6447984,count
+2021,Summary,All_Taxpayers,Avg_Tax_Per_Taxpayer_ZAR,66591.19,ZAR
+2021,Summary,All_Taxpayers,Avg_Income_Per_Taxpayer_ZAR,314158.37,ZAR
+2021,Summary,All_Taxpayers,Avg_Effective_Rate_Pct,21.2,%
+2022,Summary,All_Taxpayers,Avg_Tax_Per_Taxpayer_ZAR,71749.79,ZAR
+2022,Summary,All_Taxpayers,Avg_Income_Per_Taxpayer_ZAR,334496.48,ZAR
+2022,Summary,All_Taxpayers,Avg_Effective_Rate_Pct,21.45,%
+2023,Summary,All_Taxpayers,Avg_Tax_Per_Taxpayer_ZAR,73636.23,ZAR
+2023,Summary,All_Taxpayers,Avg_Income_Per_Taxpayer_ZAR,348193.06,ZAR
+2023,Summary,All_Taxpayers,Avg_Effective_Rate_Pct,21.15,%
+2024,Summary,All_Taxpayers,Avg_Tax_Per_Taxpayer_ZAR,73043.27,ZAR
+2024,Summary,All_Taxpayers,Avg_Income_Per_Taxpayer_ZAR,351127.94,ZAR
+2024,Summary,All_Taxpayers,Avg_Effective_Rate_Pct,20.8,%
+2023,By_Province,Eastern Cape,Tax_Per_Taxpayer_ZAR,51954.11,ZAR
+2023,By_Province,Eastern Cape,Avg_Income_ZAR,293037.68,ZAR
+2023,By_Province,Eastern Cape,Effective_Rate_Pct,17.73,%
+2023,By_Province,Free State,Tax_Per_Taxpayer_ZAR,52385.83,ZAR
+2023,By_Province,Free State,Avg_Income_ZAR,291411.1,ZAR
+2023,By_Province,Free State,Effective_Rate_Pct,17.98,%
+2023,By_Province,Gauteng,Tax_Per_Taxpayer_ZAR,95315.05,ZAR
+2023,By_Province,Gauteng,Avg_Income_ZAR,407525.68,ZAR
+2023,By_Province,Gauteng,Effective_Rate_Pct,23.39,%
+2023,By_Province,KwaZulu-Natal,Tax_Per_Taxpayer_ZAR,57832.0,ZAR
+2023,By_Province,KwaZulu-Natal,Avg_Income_ZAR,305727.53,ZAR
+2023,By_Province,KwaZulu-Natal,Effective_Rate_Pct,18.92,%
+2023,By_Province,Limpopo,Tax_Per_Taxpayer_ZAR,58607.1,ZAR
+2023,By_Province,Limpopo,Avg_Income_ZAR,316710.39,ZAR
+2023,By_Province,Limpopo,Effective_Rate_Pct,18.5,%
+2023,By_Province,Mpumalanga,Tax_Per_Taxpayer_ZAR,61841.17,ZAR
+2023,By_Province,Mpumalanga,Avg_Income_ZAR,311075.21,ZAR
+2023,By_Province,Mpumalanga,Effective_Rate_Pct,19.88,%
+2023,By_Province,North West,Tax_Per_Taxpayer_ZAR,61033.85,ZAR
+2023,By_Province,North West,Avg_Income_ZAR,315508.68,ZAR
+2023,By_Province,North West,Effective_Rate_Pct,19.34,%
+2023,By_Province,Northern Cape,Tax_Per_Taxpayer_ZAR,60712.64,ZAR
+2023,By_Province,Northern Cape,Avg_Income_ZAR,315440.5,ZAR
+2023,By_Province,Northern Cape,Effective_Rate_Pct,19.25,%
+2023,By_Province,Western Cape,Tax_Per_Taxpayer_ZAR,72427.74,ZAR
+2023,By_Province,Western Cape,Avg_Income_ZAR,340257.99,ZAR
+2023,By_Province,Western Cape,Effective_Rate_Pct,21.29,%
+2024,By_Province,Eastern Cape,Tax_Per_Taxpayer_ZAR,50814.97,ZAR
+2024,By_Province,Eastern Cape,Avg_Income_ZAR,292061.11,ZAR
+2024,By_Province,Eastern Cape,Effective_Rate_Pct,17.4,%
+2024,By_Province,Free State,Tax_Per_Taxpayer_ZAR,52110.35,ZAR
+2024,By_Province,Free State,Avg_Income_ZAR,296559.88,ZAR
+2024,By_Province,Free State,Effective_Rate_Pct,17.57,%
+2024,By_Province,Gauteng,Tax_Per_Taxpayer_ZAR,95537.01,ZAR
+2024,By_Province,Gauteng,Avg_Income_ZAR,413712.16,ZAR
+2024,By_Province,Gauteng,Effective_Rate_Pct,23.09,%
+2024,By_Province,KwaZulu-Natal,Tax_Per_Taxpayer_ZAR,56114.76,ZAR
+2024,By_Province,KwaZulu-Natal,Avg_Income_ZAR,302840.07,ZAR
+2024,By_Province,KwaZulu-Natal,Effective_Rate_Pct,18.53,%
+2024,By_Province,Limpopo,Tax_Per_Taxpayer_ZAR,56616.29,ZAR
+2024,By_Province,Limpopo,Avg_Income_ZAR,316249.57,ZAR
+2024,By_Province,Limpopo,Effective_Rate_Pct,17.9,%
+2024,By_Province,Mpumalanga,Tax_Per_Taxpayer_ZAR,60674.55,ZAR
+2024,By_Province,Mpumalanga,Avg_Income_ZAR,314643.58,ZAR
+2024,By_Province,Mpumalanga,Effective_Rate_Pct,19.28,%
+2024,By_Province,North West,Tax_Per_Taxpayer_ZAR,60176.98,ZAR
+2024,By_Province,North West,Avg_Income_ZAR,322044.9,ZAR
+2024,By_Province,North West,Effective_Rate_Pct,18.69,%
+2024,By_Province,Northern Cape,Tax_Per_Taxpayer_ZAR,57386.73,ZAR
+2024,By_Province,Northern Cape,Avg_Income_ZAR,307687.23,ZAR
+2024,By_Province,Northern Cape,Effective_Rate_Pct,18.65,%
+2024,By_Province,Western Cape,Tax_Per_Taxpayer_ZAR,73720.96,ZAR
+2024,By_Province,Western Cape,Avg_Income_ZAR,347669.03,ZAR
+2024,By_Province,Western Cape,Effective_Rate_Pct,21.2,%
