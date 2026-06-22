@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-15T15:00:55.867Z",
+  "generatedAt": "2026-06-22T14:31:28.568Z",
   "datasets": {
     "crime_stats": {
       "files": [
@@ -29,21 +29,21 @@
       ],
       "history": {
         "period": "history",
-        "date": "2026-06-15",
+        "date": "2026-06-22",
         "rows": 511,
         "csv": "social/unemployment/unemployment_history.csv"
       },
-      "lastUpdated": "2026-06-15"
+      "lastUpdated": "2026-06-22"
     },
     "sarb_monetary": {
       "files": [],
       "history": {
         "period": "history",
-        "date": "2026-06-15",
-        "rows": 37,
+        "date": "2026-06-22",
+        "rows": 38,
         "csv": "economy/sarb_monetary/sarb_monetary_history.csv"
       },
-      "lastUpdated": "2026-06-15"
+      "lastUpdated": "2026-06-22"
     },
     "gdp_macro": {
       "files": [
@@ -66,31 +66,31 @@
       "files": [],
       "history": {
         "period": "history",
-        "date": "2026-06-15",
+        "date": "2026-06-22",
         "rows": 486,
         "csv": "economy/budget_spending/budget_spending_history.csv"
       },
-      "lastUpdated": "2026-06-15"
+      "lastUpdated": "2026-06-22"
     },
     "municipal_finance": {
       "files": [],
       "history": {
         "period": "history",
-        "date": "2026-06-15",
+        "date": "2026-06-22",
         "rows": 2680,
         "csv": "economy/municipal_finance/municipal_finance_history.csv"
       },
-      "lastUpdated": "2026-06-15"
+      "lastUpdated": "2026-06-22"
     },
     "tax_revenue": {
       "files": [],
       "history": {
         "period": "history",
-        "date": "2026-06-15",
+        "date": "2026-06-22",
         "rows": 91,
         "csv": "economy/tax_revenue/tax_revenue_history.csv"
       },
-      "lastUpdated": "2026-06-15"
+      "lastUpdated": "2026-06-22"
     },
     "water": {
       "files": [],
@@ -106,61 +106,61 @@
       "files": [],
       "history": {
         "period": "history",
-        "date": "2026-06-15",
+        "date": "2026-06-22",
         "rows": 742,
         "csv": "social/housing/housing_history.csv"
       },
-      "lastUpdated": "2026-06-15"
+      "lastUpdated": "2026-06-22"
     },
     "eskom_power": {
       "files": [],
       "history": {
         "period": "history",
-        "date": "2026-06-15",
-        "rows": 430,
+        "date": "2026-06-22",
+        "rows": 435,
         "csv": "energy/eskom_power/eskom_power_history.csv"
       },
-      "lastUpdated": "2026-06-15"
+      "lastUpdated": "2026-06-22"
     },
     "eskom_infrastructure": {
       "files": [],
       "history": {
         "period": "history",
-        "date": "2026-06-15",
+        "date": "2026-06-22",
         "rows": 128,
         "csv": "energy/eskom_infrastructure/eskom_infrastructure_history.csv"
       },
-      "lastUpdated": "2026-06-15"
+      "lastUpdated": "2026-06-22"
     },
     "sars_pit": {
       "files": [],
       "history": {
         "period": "history",
-        "date": "2026-06-15",
+        "date": "2026-06-22",
         "rows": 66,
         "csv": "economy/sars_pit/sars_pit_history.csv"
       },
-      "lastUpdated": "2026-06-15"
+      "lastUpdated": "2026-06-22"
     },
     "sars_vat": {
       "files": [],
       "history": {
         "period": "history",
-        "date": "2026-06-15",
+        "date": "2026-06-22",
         "rows": 33,
         "csv": "economy/sars_vat/sars_vat_history.csv"
       },
-      "lastUpdated": "2026-06-15"
+      "lastUpdated": "2026-06-22"
     },
     "sassa_grants": {
       "files": [],
       "history": {
         "period": "history",
-        "date": "2026-06-15",
+        "date": "2026-06-22",
         "rows": 173,
         "csv": "social/sassa_grants/sassa_grants_history.csv"
       },
-      "lastUpdated": "2026-06-15"
+      "lastUpdated": "2026-06-22"
     }
   }
 }
