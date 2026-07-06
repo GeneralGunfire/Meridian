@@ -8,52 +8,36 @@ AllTime,PV,Max_Contribution_MW,2475,MW,Renewables_Statistics
 AllTime,Wind(Eskom+IPP),Max_Contribution_MW,3584,MW,Renewables_Statistics
 AllTime,Total RE,Max_Contribution_MW,5830,MW,Renewables_Statistics
 AllTime,All_RE,Max_Peak_Difference_MW,2617,MW,Renewables_Statistics
-2026-27,CSP,Annual_Total_Energy_MWh,195124,MWh,Renewables_Statistics
-2026-27,PV,Annual_Total_Energy_MWh,881225,MWh,Renewables_Statistics
-2026-27,Wind(Eskom+IPP),Annual_Total_Energy_MWh,2468764,MWh,Renewables_Statistics
-2026-27,Total RE,Annual_Total_Energy_MWh,3622706,MWh,Renewables_Statistics
+2026-27,CSP,Annual_Total_Energy_MWh,201717,MWh,Renewables_Statistics
+2026-27,PV,Annual_Total_Energy_MWh,920011,MWh,Renewables_Statistics
+2026-27,Wind(Eskom+IPP),Annual_Total_Energy_MWh,2551701,MWh,Renewables_Statistics
+2026-27,Total RE,Annual_Total_Energy_MWh,3755540,MWh,Renewables_Statistics
 2026-27,Total RE,Max_Contribution_MW,5078,MW,Renewables_Statistics
 2026-27,CSP,Max_Contribution_MW,551,MW,Renewables_Statistics
 2026-27,Wind(Eskom+IPP),Max_Contribution_MW,3584,MW,Renewables_Statistics
 2026-27,PV,Max_Contribution_MW,2081,MW,Renewables_Statistics
 2026-27,All_RE,Max_Peak_Difference_MW,1922,MW,Renewables_Statistics
-2026-06-26,CSP,Installed_Capacity_MW,600,MW,Renewables_Statistics
-2026-06-26,PV,Installed_Capacity_MW,2780,MW,Renewables_Statistics
-2026-06-26,Total (Incl other REs),Installed_Capacity_MW,7573,MW,Renewables_Statistics
-2026-06-26,Wind (Eskom+IPP),Installed_Capacity_MW,4143,MW,Renewables_Statistics
-2026-06-26,National,International_MW,856,MW,Station_Build_Up
-2026-06-26,National,Nuclear_MW,652,MW,Station_Build_Up
-2026-06-26,National,PV_MW,456,MW,Station_Build_Up
-2026-06-26,National,Thermal_Gen_MW,20040,MW,Station_Build_Up
-2026-06-26,National,Wind_MW,1076,MW,Station_Build_Up
-2026-06-25,National,International_MW,838,MW,Station_Build_Up
-2026-06-25,National,Nuclear_MW,651,MW,Station_Build_Up
-2026-06-25,National,PV_MW,324,MW,Station_Build_Up
-2026-06-25,National,Thermal_Gen_MW,20596,MW,Station_Build_Up
-2026-06-25,National,Wind_MW,1344,MW,Station_Build_Up
-2026-06-24,National,International_MW,1040,MW,Station_Build_Up
-2026-06-24,National,Nuclear_MW,651,MW,Station_Build_Up
-2026-06-24,National,PV_MW,494,MW,Station_Build_Up
-2026-06-24,National,Thermal_Gen_MW,20422,MW,Station_Build_Up
-2026-06-24,National,Wind_MW,1018,MW,Station_Build_Up
-2026-06-23,National,International_MW,1010,MW,Station_Build_Up
-2026-06-23,National,Nuclear_MW,651,MW,Station_Build_Up
-2026-06-23,National,PV_MW,382,MW,Station_Build_Up
-2026-06-23,National,Thermal_Gen_MW,19936,MW,Station_Build_Up
-2026-06-23,National,Wind_MW,1850,MW,Station_Build_Up
-2026-06-22,National,International_MW,1054,MW,Station_Build_Up
-2026-06-22,National,Nuclear_MW,651,MW,Station_Build_Up
-2026-06-22,National,PV_MW,245,MW,Station_Build_Up
-2026-06-22,National,Thermal_Gen_MW,20227,MW,Station_Build_Up
-2026-06-22,National,Wind_MW,1652,MW,Station_Build_Up
-2026-06-21,National,International_MW,879,MW,Station_Build_Up
-2026-06-21,National,Nuclear_MW,651,MW,Station_Build_Up
-2026-06-21,National,PV_MW,200,MW,Station_Build_Up
-2026-06-21,National,Thermal_Gen_MW,20382,MW,Station_Build_Up
-2026-06-21,National,Wind_MW,826,MW,Station_Build_Up
+2026-07,National,OCLF_Pct,0.10,%,Monthly_Unavailability
+2026-07,National,PCLF_Pct,8.50,%,Monthly_Unavailability
+2026-07,National,UCLF_Pct,21.10,%,Monthly_Unavailability
+2026-06-30,National,International_MW,1063,MW,Station_Build_Up
+2026-06-30,National,Nuclear_MW,652,MW,Station_Build_Up
+2026-06-30,National,PV_MW,530,MW,Station_Build_Up
+2026-06-30,National,Thermal_Gen_MW,19599,MW,Station_Build_Up
+2026-06-30,National,Wind_MW,680,MW,Station_Build_Up
+2026-06-29,National,International_MW,921,MW,Station_Build_Up
+2026-06-29,National,Nuclear_MW,651,MW,Station_Build_Up
+2026-06-29,National,PV_MW,320,MW,Station_Build_Up
+2026-06-29,National,Thermal_Gen_MW,19677,MW,Station_Build_Up
+2026-06-29,National,Wind_MW,610,MW,Station_Build_Up
+2026-06-28,National,International_MW,789,MW,Station_Build_Up
+2026-06-28,National,Nuclear_MW,651,MW,Station_Build_Up
+2026-06-28,National,PV_MW,299,MW,Station_Build_Up
+2026-06-28,National,Thermal_Gen_MW,18469,MW,Station_Build_Up
+2026-06-28,National,Wind_MW,1292,MW,Station_Build_Up
 2026-06,National,OCLF_Pct,0.20,%,Monthly_Unavailability
-2026-06,National,PCLF_Pct,11.20,%,Monthly_Unavailability
-2026-06,National,UCLF_Pct,22.10,%,Monthly_Unavailability
+2026-06,National,PCLF_Pct,10.90,%,Monthly_Unavailability
+2026-06,National,UCLF_Pct,21.80,%,Monthly_Unavailability
 2026-05,National,OCLF_Pct,0.20,%,Monthly_Unavailability
 2026-05,National,PCLF_Pct,12.70,%,Monthly_Unavailability
 2026-05,National,UCLF_Pct,21.60,%,Monthly_Unavailability
@@ -115,7 +99,7 @@ AllTime,All_RE,Max_Peak_Difference_MW,2617,MW,Renewables_Statistics
 2025-07,National,PCLF_Pct,9.90,%,Monthly_Unavailability
 2025-07,National,UCLF_Pct,25.90,%,Monthly_Unavailability
 2025-06,OCGT,OCGT_Energy_GWh_2025_26_Total__Eskom_IPP_,284.20,GWh,OCGT_Utilisation
-2025-06,OCGT,OCGT_Energy_GWh_2026_27_Total__Eskom_IPP_,87.40,GWh,OCGT_Utilisation
+2025-06,OCGT,OCGT_Energy_GWh_2026_27_Total__Eskom_IPP_,96.00,GWh,OCGT_Utilisation
 2025-06,National,OCLF_Pct,0.50,%,Monthly_Unavailability
 2025-06,National,PCLF_Pct,8.10,%,Monthly_Unavailability
 2025-06,National,UCLF_Pct,31.20,%,Monthly_Unavailability
