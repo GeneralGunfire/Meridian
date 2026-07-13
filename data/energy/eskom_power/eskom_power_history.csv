@@ -225,70 +225,71 @@ Date,Metric,Value,Unit,Source_File
 2026-07-06,2025-26-Residual Peak Demand,31153.00,MW,Weekly_Peak_Demand
 2026-07-06,2025-26-RSA Contracted Energy Demand,4321.67,GWh,Weekly_Energy_Demand
 2026-07-06,2025-26-RSA Contracted Peak Demand,31902.00,MW,Weekly_Peak_Demand
-2026-07-06,2026-27-Residual Energy Forecast,3554.97,GWh,Weekly_Energy_Demand
-2026-07-06,2026-27-Residual Peak Forecast,27399.00,MW,Weekly_Peak_Demand
-2026-07,EAF_Pct,70.30,%,Monthly_Capacity_Breakdown
-2026-07,OCLF_Pct,0.10,%,Monthly_Capacity_Breakdown
-2026-07,PCLF_Pct,8.50,%,Monthly_Capacity_Breakdown
-2026-07,UCLF_Pct,21.10,%,Monthly_Capacity_Breakdown
+2026-07-06,2026-27-Residual Energy Forecast,3541.46,GWh,Weekly_Energy_Demand
+2026-07-06,2026-27-Residual Peak Forecast,27561.00,MW,Weekly_Peak_Demand
+2026-07,EAF_Pct,71.90,%,Monthly_Capacity_Breakdown
+2026-07,OCLF_Pct,0.30,%,Monthly_Capacity_Breakdown
+2026-07,PCLF_Pct,8.60,%,Monthly_Capacity_Breakdown
+2026-07,UCLF_Pct,19.20,%,Monthly_Capacity_Breakdown
 2026-06-29,2025-26-Residual Energy Demand,3909.82,GWh,Weekly_Energy_Demand
 2026-06-29,2025-26-Residual Peak Demand,29838.00,MW,Weekly_Peak_Demand
 2026-06-29,2025-26-RSA Contracted Energy Demand,4318.25,GWh,Weekly_Energy_Demand
 2026-06-29,2025-26-RSA Contracted Peak Demand,31183.00,MW,Weekly_Peak_Demand
-2026-06-29,2026-27-Residual Energy Forecast,3578.63,GWh,Weekly_Energy_Demand
+2026-06-29,2026-27-Residual Energy Demand,3085.89,GWh,Weekly_Energy_Demand
 2026-06-29,2026-27-Residual Peak Demand,27377.00,MW,Weekly_Peak_Demand
-2026-06-29,2026-27-RSA Contracted Peak Demand,28488.00,MW,Weekly_Peak_Demand
-2026-06-29,Unplanned_Outages_Avg_MW,9923,MW,Weekly_Unplanned_Outages
-2026-06-29,Unplanned_Outages_Max_MW,11782,MW,Weekly_Unplanned_Outages
-2026-06-29,Unplanned_Outages_Min_MW,8243,MW,Weekly_Unplanned_Outages
+2026-06-29,2026-27-RSA Contracted Energy Demand,3322.98,GWh,Weekly_Energy_Demand
+2026-06-29,2026-27-RSA Contracted Peak Demand,29255.00,MW,Weekly_Peak_Demand
+2026-06-29,Unplanned_Outages_Avg_MW,9980,MW,Weekly_Unplanned_Outages
+2026-06-29,Unplanned_Outages_Max_MW,12603,MW,Weekly_Unplanned_Outages
+2026-06-29,Unplanned_Outages_Min_MW,8238,MW,Weekly_Unplanned_Outages
 2026-06-22,2025-26-Residual Energy Demand,3983.61,GWh,Weekly_Energy_Demand
 2026-06-22,2025-26-Residual Peak Demand,29873.00,MW,Weekly_Peak_Demand
 2026-06-22,2025-26-RSA Contracted Energy Demand,4384.24,GWh,Weekly_Energy_Demand
 2026-06-22,2025-26-RSA Contracted Peak Demand,31786.00,MW,Weekly_Peak_Demand
-2026-06-22,2026-27-Residual Energy Demand,3661.77,GWh,Weekly_Energy_Demand
+2026-06-22,2026-27-Residual Energy Demand,3661.78,GWh,Weekly_Energy_Demand
 2026-06-22,2026-27-Residual Peak Demand,28322.00,MW,Weekly_Peak_Demand
-2026-06-22,2026-27-RSA Contracted Energy Demand,3955.32,GWh,Weekly_Energy_Demand
-2026-06-22,2026-27-RSA Contracted Peak Demand,29805.00,MW,Weekly_Peak_Demand
-2026-06-22,Unplanned_Outages_Avg_MW,10856,MW,Weekly_Unplanned_Outages
-2026-06-22,Unplanned_Outages_Max_MW,13433,MW,Weekly_Unplanned_Outages
-2026-06-22,Unplanned_Outages_Min_MW,8023,MW,Weekly_Unplanned_Outages
+2026-06-22,2026-27-RSA Contracted Energy Demand,3954.51,GWh,Weekly_Energy_Demand
+2026-06-22,2026-27-RSA Contracted Peak Demand,29802.00,MW,Weekly_Peak_Demand
+2026-06-22,Unplanned_Outages_Avg_MW,10831,MW,Weekly_Unplanned_Outages
+2026-06-22,Unplanned_Outages_Max_MW,13451,MW,Weekly_Unplanned_Outages
+2026-06-22,Unplanned_Outages_Min_MW,8017,MW,Weekly_Unplanned_Outages
 2026-06-15,2025-26-Residual Energy Demand,3953.86,GWh,Weekly_Energy_Demand
 2026-06-15,2025-26-Residual Peak Demand,29892.00,MW,Weekly_Peak_Demand
 2026-06-15,2025-26-RSA Contracted Energy Demand,4329.39,GWh,Weekly_Energy_Demand
 2026-06-15,2025-26-RSA Contracted Peak Demand,31657.00,MW,Weekly_Peak_Demand
 2026-06-15,2026-27-Residual Energy Demand,3721.47,GWh,Weekly_Energy_Demand
 2026-06-15,2026-27-Residual Peak Demand,28984.00,MW,Weekly_Peak_Demand
-2026-06-15,2026-27-RSA Contracted Energy Demand,4012.55,GWh,Weekly_Energy_Demand
-2026-06-15,2026-27-RSA Contracted Peak Demand,29874.00,MW,Weekly_Peak_Demand
-2026-06-15,Unplanned_Outages_Avg_MW,10415,MW,Weekly_Unplanned_Outages
-2026-06-15,Unplanned_Outages_Max_MW,11436,MW,Weekly_Unplanned_Outages
-2026-06-15,Unplanned_Outages_Min_MW,8814,MW,Weekly_Unplanned_Outages
+2026-06-15,2026-27-RSA Contracted Energy Demand,4012.25,GWh,Weekly_Energy_Demand
+2026-06-15,2026-27-RSA Contracted Peak Demand,29881.00,MW,Weekly_Peak_Demand
+2026-06-15,Unplanned_Outages_Avg_MW,10426,MW,Weekly_Unplanned_Outages
+2026-06-15,Unplanned_Outages_Max_MW,11449,MW,Weekly_Unplanned_Outages
+2026-06-15,Unplanned_Outages_Min_MW,8819,MW,Weekly_Unplanned_Outages
 2026-06-08,2025-26-Residual Energy Demand,4054.92,GWh,Weekly_Energy_Demand
 2026-06-08,2025-26-Residual Peak Demand,30797.00,MW,Weekly_Peak_Demand
 2026-06-08,2025-26-RSA Contracted Energy Demand,4379.36,GWh,Weekly_Energy_Demand
 2026-06-08,2025-26-RSA Contracted Peak Demand,31752.00,MW,Weekly_Peak_Demand
-2026-06-08,2026-27-Residual Energy Demand,3656.10,GWh,Weekly_Energy_Demand
+2026-06-08,2026-27-Residual Energy Demand,3658.14,GWh,Weekly_Energy_Demand
 2026-06-08,2026-27-Residual Peak Demand,29156.00,MW,Weekly_Peak_Demand
-2026-06-08,2026-27-RSA Contracted Energy Demand,3961.19,GWh,Weekly_Energy_Demand
-2026-06-08,2026-27-RSA Contracted Peak Demand,30081.00,MW,Weekly_Peak_Demand
-2026-06-08,Unplanned_Outages_Avg_MW,10457,MW,Weekly_Unplanned_Outages
-2026-06-08,Unplanned_Outages_Max_MW,11843,MW,Weekly_Unplanned_Outages
-2026-06-08,Unplanned_Outages_Min_MW,8529,MW,Weekly_Unplanned_Outages
+2026-06-08,2026-27-RSA Contracted Energy Demand,3962.57,GWh,Weekly_Energy_Demand
+2026-06-08,2026-27-RSA Contracted Peak Demand,30075.00,MW,Weekly_Peak_Demand
+2026-06-08,Unplanned_Outages_Avg_MW,10448,MW,Weekly_Unplanned_Outages
+2026-06-08,Unplanned_Outages_Max_MW,11840,MW,Weekly_Unplanned_Outages
+2026-06-08,Unplanned_Outages_Min_MW,8510,MW,Weekly_Unplanned_Outages
 2026-06-01,2025-26-Residual Energy Demand,3922.75,GWh,Weekly_Energy_Demand
 2026-06-01,2025-26-Residual Peak Demand,29858.00,MW,Weekly_Peak_Demand
 2026-06-01,2025-26-RSA Contracted Energy Demand,4250.69,GWh,Weekly_Energy_Demand
 2026-06-01,2025-26-RSA Contracted Peak Demand,31192.00,MW,Weekly_Peak_Demand
-2026-06-01,2026-27-Residual Energy Demand,3613.12,GWh,Weekly_Energy_Demand
+2026-06-01,2026-27-Residual Energy Demand,3612.59,GWh,Weekly_Energy_Demand
 2026-06-01,2026-27-Residual Peak Demand,27900.00,MW,Weekly_Peak_Demand
-2026-06-01,2026-27-RSA Contracted Energy Demand,3898.75,GWh,Weekly_Energy_Demand
-2026-06-01,2026-27-RSA Contracted Peak Demand,29539.00,MW,Weekly_Peak_Demand
-2026-06-01,Unplanned_Outages_Avg_MW,10048,MW,Weekly_Unplanned_Outages
-2026-06-01,Unplanned_Outages_Max_MW,12490,MW,Weekly_Unplanned_Outages
-2026-06-01,Unplanned_Outages_Min_MW,7943,MW,Weekly_Unplanned_Outages
-2026-06,EAF_Pct,67.10,%,Monthly_Capacity_Breakdown
+2026-06-01,2026-27-RSA Contracted Energy Demand,3898.18,GWh,Weekly_Energy_Demand
+2026-06-01,2026-27-RSA Contracted Peak Demand,29541.00,MW,Weekly_Peak_Demand
+2026-06-01,Unplanned_Outages_Avg_MW,10046,MW,Weekly_Unplanned_Outages
+2026-06-01,Unplanned_Outages_Max_MW,12485,MW,Weekly_Unplanned_Outages
+2026-06-01,Unplanned_Outages_Min_MW,7931,MW,Weekly_Unplanned_Outages
+2026-06,EAF_Pct,66.80,%,Monthly_Capacity_Breakdown
 2026-06,OCLF_Pct,0.20,%,Monthly_Capacity_Breakdown
-2026-06,PCLF_Pct,10.90,%,Monthly_Capacity_Breakdown
-2026-06,UCLF_Pct,21.80,%,Monthly_Capacity_Breakdown
+2026-06,PCLF_Pct,11.00,%,Monthly_Capacity_Breakdown
+2026-06,UCLF_Pct,22.00,%,Monthly_Capacity_Breakdown
 2026-05-25,2025-26-Residual Energy Demand,3894.77,GWh,Weekly_Energy_Demand
 2026-05-25,2025-26-Residual Peak Demand,29797.00,MW,Weekly_Peak_Demand
 2026-05-25,2025-26-RSA Contracted Energy Demand,4264.80,GWh,Weekly_Energy_Demand
