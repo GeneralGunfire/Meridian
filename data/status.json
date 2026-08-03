@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-27T12:15:28.044Z",
+  "generatedAt": "2026-08-03T12:17:12.961Z",
   "datasets": {
     "crime_stats": {
       "success": false,
@@ -8,63 +8,63 @@
       "skipped": false
     },
     "eskom_power": {
-      "success": true,
-      "last_updated": "2026-07-27",
-      "error": null,
+      "success": false,
+      "last_updated": null,
+      "error": "HTTP 404 downloading https://www.eskom.co.za/dataportal/wp-content/uploads/2026/07/Weekly_Energy_Demand_Financial_Year.csv",
       "skipped": false
     },
     "water": {
       "success": true,
-      "last_updated": "2026-07-27",
+      "last_updated": "2026-08-03",
       "error": null,
       "skipped": false
     },
     "housing": {
       "success": true,
-      "last_updated": "2026-07-27",
+      "last_updated": "2026-08-03",
       "error": null,
       "skipped": false
     },
     "unemployment": {
       "success": true,
-      "last_updated": "2026-07-27",
+      "last_updated": "2026-08-03",
       "error": null,
       "skipped": false
     },
     "sarb_monetary": {
       "success": true,
-      "last_updated": "2026-07-27",
+      "last_updated": "2026-08-03",
       "error": null,
       "skipped": false
     },
     "gdp_macro": {
       "success": true,
-      "last_updated": "2026-07-27",
+      "last_updated": "2026-08-03",
       "error": null,
       "skipped": false
     },
     "tax_revenue": {
       "success": true,
-      "last_updated": "2026-07-27",
+      "last_updated": "2026-08-03",
       "error": null,
       "skipped": false
     },
     "budget_spending": {
       "success": true,
-      "last_updated": "2026-07-27",
+      "last_updated": "2026-08-03",
       "error": null,
       "skipped": false
     },
     "municipal_finance": {
       "success": true,
-      "last_updated": "2026-07-27",
+      "last_updated": "2026-08-03",
       "error": null,
       "skipped": false
     },
     "eskom_infrastructure": {
-      "success": true,
-      "last_updated": "2026-07-27",
-      "error": null,
+      "success": false,
+      "last_updated": null,
+      "error": "Parsed 0 rows — all Eskom infrastructure pages failed",
       "skipped": false
     },
     "eskom_spending": {
@@ -81,19 +81,19 @@
     },
     "sars_pit": {
       "success": true,
-      "last_updated": "2026-07-27",
+      "last_updated": "2026-08-03",
       "error": null,
       "skipped": false
     },
     "sars_vat": {
       "success": true,
-      "last_updated": "2026-07-27",
+      "last_updated": "2026-08-03",
       "error": null,
       "skipped": false
     },
     "sassa_grants": {
       "success": true,
-      "last_updated": "2026-07-27",
+      "last_updated": "2026-08-03",
       "error": null,
       "skipped": false
     }
